@@ -34,6 +34,14 @@ end
 function tomcat_stop
     /Library/Tomcat/bin/shutdown.sh
 end
+#get tomcat port
+function tomcat_port
+    set grepval (cat /Library/Tomcat/conf/server.xml\
+     | grep 'Connector' \
+     | grep 'protocol=\"HTTP/1.1\"')
+    
+    echo $grepval | awk '{print $2}'
+end
 
 #web servers
 function webserv_start
