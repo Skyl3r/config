@@ -1,12 +1,23 @@
+#----------------------
+#fish start-up script |
+#----------------------
+
+#add typesafe activator to path
+set -gx PATH ~/activator $PATH
+
+#-----FUNCTIONS-----------------
+#"school alias" function
+#navigates to current semester
 function sa
     cd ~kevinholland/Documents/School/Current-Year4/Current-Semester1/
 end
 
+#starts pharos print authorization
+#this must be running when printing using the Popup server
+#this is a hack... something is wrong with how pharos installed
 function print_auth
     /Library/Application\ Support/Pharos/Popup.app/Contents/MacOS/Popup
 end
-
-set -gx PATH ~/activator $PATH
 
 #mysql functions
 function mysql_start
@@ -42,3 +53,4 @@ function ipbc
     echo "IP Broadcast:"
     ifconfig | grep "broadcast"
 end
+
