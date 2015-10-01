@@ -1,4 +1,4 @@
-"set shell to bash rather than fish (for plugins that use bash)
+"set shell to bash rather than fish (for vim plugins that use bash)
 if &shell =~# 'fish$'
     set shell=sh
 endif
