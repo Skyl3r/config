@@ -1,19 +1,35 @@
 #----------------------
-#fish start-up script |
+#fish start- script |
 #----------------------
+
+# Path to Oh My Fish install.
+set -gx OMF_PATH /Users/kevinholland/.local/share/omf
+
+# Customize Oh My Fish configuration path.
+set -gx OMF_CONFIG /Users/kevinholland/.config/omf
+
+# Load oh-my-fish configuration.
+source $OMF_PATH/init.fish
 
 #add typesafe activator to path
 set -gx PATH ~/activator $PATH
+
+#set default bd option to case insensitive (-i) implies seems mode (-s)
+set -gx BD_OPT 'insensitive'
 
 #-----FUNCTIONS-----------------
 #"school alias" function
 #navigates to current semester
 function sa -d "Navigates to current semester directory"
-    cd ~kevinholland/Documents/School/Current-Year4/Current-Semester1/
+    cd ~kevinholland/Documents/School/Current-Year4/Current-Semester2/
 end
 
-function cl -d "Change directory and list"
+function cl -d "Change to directory and do ls"
     cd $argv; ls
+end
+
+function gpmdp -d "opens google play music desktop player"
+    open "/Applications/Google Play Music Desktop Player.app" 
 end
 
 #mysql functions
@@ -86,4 +102,9 @@ function gacp -d "git add commit push"
         echo "Expected a commit message argument"
     end
 end
+
+echo "Here is a fortune for the hard times: "
+echo ""
+cowsay (fortune)
+echo ""
 

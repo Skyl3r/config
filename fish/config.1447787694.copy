@@ -12,10 +12,6 @@ function sa -d "Navigates to current semester directory"
     cd ~kevinholland/Documents/School/Current-Year4/Current-Semester1/
 end
 
-function cl -d "Change directory and list"
-    cd $argv; ls
-end
-
 #mysql functions
 function mysql_start -d "Starts mysql server"
     /Library/MySQL/bin/mysql.server start
@@ -86,4 +82,9 @@ function gacp -d "git add commit push"
         echo "Expected a commit message argument"
     end
 end
+
+echo "Here is a fortune for the hard times: "
+echo ""
+cowsay (fortune)
+echo ""
 
