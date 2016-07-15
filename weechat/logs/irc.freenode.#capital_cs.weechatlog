@@ -1,0 +1,765 @@
+2015-11-17 22:48:43	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-11-17 22:48:43	--	Nicks #capital_cs: [bskcx frappuccino]
+2015-11-17 22:48:43	--	Channel #capital_cs: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2015-11-17 22:48:45	--	Mode #capital_cs [+]
+2015-11-17 22:48:45	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-11-17 22:48:56	frappuccino	okay cool
+2015-11-17 22:51:20	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-11-17 22:51:20	--	Nicks #capital_cs: [bskcx frappuccino]
+2015-11-17 22:51:20	--	Channel #capital_cs: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2015-11-17 22:51:22	--	Mode #capital_cs [+]
+2015-11-17 22:51:22	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-11-17 22:51:32	frappuccino	i am the real persistant frappi
+2015-11-17 22:55:47	<--	bskcx (~frappucci@205.133.194.252) has quit (Quit: WeeChat 1.2)
+2015-11-18 11:45:21	--	You are now known as persistantfrappi
+2015-11-18 11:48:32	--	You are now known as persifrappi
+2015-11-18 12:31:33	--	You are now known as persifrapson
+2015-11-18 14:24:18	--	You are now known as StefanonzioLefra
+2015-11-18 14:24:36	--	You are now known as StefanzonioIV
+2015-11-18 14:47:30	--	You are now known as frappuccino
+2015-11-18 16:36:34	--	frappuccino has changed topic for #capital_cs to "where is mario"
+2015-11-18 16:39:21	-->	mtraina (~mtraina@205.133.110.243) has joined #capital_cs
+2015-11-18 16:41:38	frappuccino	its a thing called activator
+2015-11-18 16:41:45	frappuccino	its a web dev build tool
+2015-11-18 16:41:58	frappuccino	for java and scala
+2015-11-18 16:42:08	mtraina	cool cool. that's what you want to do after graduation
+2015-11-18 16:42:10	mtraina	?
+2015-11-18 16:42:20	frappuccino	web dev? probs
+2015-11-18 16:42:24	frappuccino	i have a lot of experience in ti
+2015-11-18 16:42:48	frappuccino	this % sign tells me theres a process running in the background
+2015-11-18 16:42:50	frappuccino	tis cool
+2015-11-18 16:43:25	frappuccino	i may have killed activator
+2015-11-18 16:43:27	frappuccino	lol
+2015-11-18 16:43:33	mtraina	ahhhh it runs on terminal
+2015-11-18 16:43:49	frappuccino	i use terminal to kick off the process
+2015-11-18 16:43:52	frappuccino	the process has a web app
+2015-11-18 16:43:57	frappuccino	that i go to on localhost:8888
+2015-11-18 16:44:08	mtraina	that's localhost:9000
+2015-11-18 16:44:11	frappuccino	nope
+2015-11-18 16:44:33	frappuccino	wtf it cant run in the background 
+2015-11-18 16:44:36	frappuccino	thats obnoxious
+2015-11-18 16:44:52	frappuccino	here we go
+2015-11-18 16:44:55	frappuccino	its a snippet sharing thing
+2015-11-18 16:44:59	frappuccino	that kind of like half works
+2015-11-18 16:45:33	mtraina	Cool!
+2015-11-18 16:46:59	frappuccino	yo peep
+2015-11-18 16:47:52	frappuccino	i have to fix a bunch of shit but ya
+2015-11-18 16:47:55	frappuccino	i cant even search yet
+2015-11-18 16:47:56	frappuccino	tags dont work
+2015-11-18 16:48:03	frappuccino	in general just like half done
+2015-11-18 16:48:03	frappuccino	woops
+2015-11-18 16:48:13	mtraina	you got a long way to go, but it looks really cool so far
+2015-11-18 16:48:14	frappuccino	peep this dope css though
+2015-11-18 16:48:38	frappuccino	this should not be a link over here lolol
+2015-11-18 16:49:22	frappuccino	shit i always forget that I shouldn't kill vim
+2015-11-18 16:49:31	frappuccino	because it makes a stupid recovery file
+2015-11-18 16:49:53	mtraina	You can make it so they all go into a folder together and delete regularly
+2015-11-18 16:49:58	mtraina	that's what i have set up in emacs
+2015-11-18 16:51:14	frappuccino	mmy arm is getting misted
+2015-11-18 16:51:22	frappuccino	do you like emacs
+2015-11-18 16:51:30	mtraina	I do. and yes my face is
+2015-11-18 16:51:38	frappuccino	i might eventually switch, i dont want do relearn all of my bindings and such
+2015-11-18 16:52:14	frappuccino	k its cold angle it up ll
+2015-11-18 16:52:18	frappuccino	lol
+2015-11-18 16:52:25	mtraina	oke hold on
+2015-11-18 16:52:28	frappuccino	v cold
+2015-11-18 16:52:33	frappuccino	dying
+2015-11-18 16:52:35	mtraina	yeah idk. you don't have to it's not too big of a deal
+2015-11-18 16:52:38	mtraina	lolz
+2015-11-18 16:52:47	frappuccino	nice
+2015-11-18 16:52:49	frappuccino	good amount
+2015-11-18 16:52:56	frappuccino	silence that shit
+2015-11-18 16:53:35	frappuccino	1500 - 20
+2015-11-18 16:53:36	frappuccino	move on
+2015-11-18 16:53:51	frappuccino	who are these hot babes on my timeline
+2015-11-18 16:53:52	mtraina	haha
+2015-11-18 16:54:07	frappuccino	who is shelby vincken
+2015-11-18 16:54:30	frappuccino	its hitting my face
+2015-11-18 16:54:32	frappuccino	dunn ohow
+2015-11-18 16:54:41	mtraina	mmmmmm fab
+2015-11-18 16:54:43	mtraina	iloveit
+2015-11-18 16:54:47	mtraina	shelby??
+2015-11-18 16:54:56	frappuccino	woah fb chat got round messages
+2015-11-18 16:55:35	frappuccino	math is hrd
+2015-11-18 16:55:45	mtraina	where are those round messages?
+2015-11-18 16:56:01	frappuccino	fb chat
+2015-11-18 16:56:43	mtraina	is there a shortcut that you automatically pull up terminal?
+2015-11-18 16:56:57	frappuccino	cmd+\
+2015-11-18 16:57:00	frappuccino	its a hotkey terminal
+2015-11-18 16:57:04	frappuccino	its an iTerm thing
+2015-11-18 16:57:10	frappuccino	its p nice
+2015-11-18 16:57:11	mtraina	oh.
+2015-11-18 16:57:19	frappuccino	i just switched over yesterday
+2015-11-18 16:57:54	mtraina	where u get
+2015-11-18 16:57:57	frappuccino	omg i hate him
+2015-11-18 16:58:00	frappuccino	dont use app store
+2015-11-18 16:58:08	frappuccino	https://www.iterm2.com/
+2015-11-18 16:58:23	mtraina	hmmm skeptical
+2015-11-18 16:59:29	frappuccino	its amazing
+2015-11-18 16:59:34	frappuccino	look at the feature liist
+2015-11-18 17:01:16	mtraina	why would a comp have more than one network card
+2015-11-18 17:02:21	-->	brosfelder (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has joined #capital_cs
+2015-11-18 17:02:27	-->	akotc (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has joined #capital_cs
+2015-11-18 17:02:40	akotc	Hey
+2015-11-18 17:02:43	mtraina	ow hey
+2015-11-18 17:02:50	mtraina	lol typo
+2015-11-18 17:03:00	frappuccino	YES
+2015-11-18 17:03:19	frappuccino	DOTTED DECIMAL
+2015-11-18 17:03:36	mtraina	@frappuccino whats the answer to my question
+2015-11-18 17:03:47	frappuccino	what question
+2015-11-18 17:03:49	frappuccino	yo guys btw
+2015-11-18 17:03:57	frappuccino	mtraina: btw you just type frappuccino 
+2015-11-18 17:04:02	frappuccino	or f[tab]
+2015-11-18 17:04:06	akotc	lol
+2015-11-18 17:04:11	brosfelder	frappuccino:
+2015-11-18 17:04:15	frappuccino	brosfelder: hi
+2015-11-18 17:04:22	brosfelder	frappuccino:
+2015-11-18 17:04:28	mtraina	frappuccino: i gotchu]
+2015-11-18 17:04:32	akotc	brosfelder: frappuccino: mtraina:
+2015-11-18 17:04:40	--	frappuccino has changed topic for #capital_cs from "where is mario" to "its a party now"
+2015-11-18 17:04:48	brosfelder	#FapCam
+2015-11-18 17:04:52	brosfelder	#CapFam*
+2015-11-18 17:04:55	frappuccino	lolol wtf
+2015-11-18 17:04:59	akotc	lololol
+2015-11-18 17:05:02	brosfelder	oops
+2015-11-18 17:05:14	brosfelder	guvurnmint
+2015-11-18 17:05:27	frappuccino	andy is fucking unbearable
+2015-11-18 17:05:36	akotc	yup
+2015-11-18 17:05:41	brosfelder	So
+2015-11-18 17:05:42	frappuccino	everytime he talks lol
+2015-11-18 17:05:47	brosfelder	I don't know if this is just me
+2015-11-18 17:05:59	brosfelder	but I don't think this well established algorithm works
+2015-11-18 17:06:04	frappuccino	lolol
+2015-11-18 17:06:27	brosfelder	And that sequence of numbers and dots are definitely the doo-E decimal system
+2015-11-18 17:06:34	akotc	Question Everything (Except Myself) ~ Andy
+2015-11-18 17:06:41	frappuccino	dewey? lol
+2015-11-18 17:06:54	brosfelder	nope, I'm Andy. It's spelled doo-E
+2015-11-18 17:07:00	brosfelder	Don't question me
+2015-11-18 17:07:16	frappuccino	lol okay
+2015-11-18 17:07:24	frappuccino	oclc owns it :P
+2015-11-18 17:07:33	frappuccino	that bought the rights to it when he died
+2015-11-18 17:07:35	akotc	Que?
+2015-11-18 17:07:39	brosfelder	The whole Dewey Decimal System?
+2015-11-18 17:07:43	frappuccino	yeah
+2015-11-18 17:07:47	frappuccino	we own the rights to it
+2015-11-18 17:08:06	brosfelder	wow
+2015-11-18 17:08:16	frappuccino	https://en.wikipedia.org/wiki/Dewey_Decimal_Classification
+2015-11-18 17:08:49	brosfelder	I'm genuinely impressed.
+2015-11-18 17:08:59	frappuccino	OCLC is coo mayne
+2015-11-18 17:09:12	akotc	mtraina: stop paying attention
+2015-11-18 17:09:19	frappuccino	yeah fuck you mtraina 
+2015-11-18 17:09:20	brosfelder	mtraina:real
+2015-11-18 17:09:33	akotc	yeah
+2015-11-18 17:09:48	akotc	i see you
+2015-11-18 17:10:09	brosfelder	o.o
+2015-11-18 17:10:23	mtraina	was I paying attention in class? dang sorry
+2015-11-18 17:10:40	brosfelder	Stop the bullshit (╯°□°）╯︵ ┻━┻
+2015-11-18 17:11:53	mtraina	akotc: nice hair today
+2015-11-18 17:12:07	frappuccino	mtraina: +1
+2015-11-18 17:12:23	frappuccino	omg
+2015-11-18 17:12:23	frappuccino	yes
+2015-11-18 17:12:27	frappuccino	jeeeeezzziiiiis
+2015-11-18 17:12:28	mtraina	yes everyone sees the subnets
+2015-11-18 17:13:56	-->	PAM_2 (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has joined #capital_cs
+2015-11-18 17:14:04	PAM_2	who's frapp?
+2015-11-18 17:14:17	akotc	kevin
+2015-11-18 17:14:21	akotc	he's an idiot
+2015-11-18 17:14:45	frappuccino	i am frap
+2015-11-18 17:14:47	frappuccino	who is pam
+2015-11-18 17:14:47	PAM_2	WHERE U AT DOE
+2015-11-18 17:14:49	frappuccino	oh like
+2015-11-18 17:14:49	frappuccino	sam
+2015-11-18 17:14:50	frappuccino	omg
+2015-11-18 17:14:53	frappuccino	bringin back pam
+2015-11-18 17:14:53	brosfelder	PAM!
+2015-11-18 17:15:00	PAM_2	i couldn't even use pam, it said already taken. so I'm pam 2
+2015-11-18 17:15:01	akotc	Pamela
+2015-11-18 17:15:10	frappuccino	i'd imagine pam is taken loll
+2015-11-18 17:15:13	akotc	I searched pam on Facebook lol
+2015-11-18 17:15:28	PAM_2	lmfao
+2015-11-18 17:15:44	mtraina	omg yes hey pam
+2015-11-18 17:15:50	PAM_2	I can't focus for shit in this class
+2015-11-18 17:15:50	frappuccino	#pamsBack
+2015-11-18 17:15:55	--	frappuccino has changed topic for #capital_cs from "its a party now" to "pam is back"
+2015-11-18 17:16:03	PAM_2	BRUH I've been pam for 2 years now.
+2015-11-18 17:16:13	frappuccino	whats the subnet mask? EIGHT ITS EIGHT
+2015-11-18 17:16:24	akotc	28
+2015-11-18 17:16:45	akotc	.23
+2015-11-18 17:16:49	PAM_2	y are we using this
+2015-11-18 17:16:53	brosfelder	8675309
+2015-11-18 17:16:54	PAM_2	y not facebook
+2015-11-18 17:16:55	akotc	cuz kevin
+2015-11-18 17:16:56	frappuccino	using what
+2015-11-18 17:16:59	akotc	I agree
+2015-11-18 17:16:59	frappuccino	i dont like fb
+2015-11-18 17:17:01	akotc	fuck this
+2015-11-18 17:17:04	brosfelder	Because Facebook is too mainstream
+2015-11-18 17:17:10	akotc	hipster chat
+2015-11-18 17:17:14	frappuccino	no lol this is just easier for me
+2015-11-18 17:17:20	PAM_2	super underground yo
+2015-11-18 17:17:22	akotc	really?
+2015-11-18 17:17:24	PAM_2	#hipster
+2015-11-18 17:17:27	akotc	explain
+2015-11-18 17:17:29	frappuccino	akotc: was that really to me
+2015-11-18 17:17:35	brosfelder	You got some cool plugin er something
+2015-11-18 17:17:37	PAM_2	he's using fish for it i think
+2015-11-18 17:17:51	frappuccino	i have a server in chicago always connected to weechat
+2015-11-18 17:18:00	akotc	oh yeah
+2015-11-18 17:18:03	frappuccino	i am always moshed to that server
+2015-11-18 17:18:09	akotc	mosh lol
+2015-11-18 17:18:15	PAM_2	underground moshing
+2015-11-18 17:18:24	frappuccino	and its in my hotkey terminal using iTerm2
+2015-11-18 17:18:25	brosfelder	https://en.wikipedia.org/wiki/Moshing
+2015-11-18 17:18:32	akotc	brian and I both googled mosh
+2015-11-18 17:18:33	frappuccino	so i literally do cmd+\ and weechat pops up
+2015-11-18 17:18:40	PAM_2	slam dance
+2015-11-18 17:18:47	mtraina	basically he lives in weechat
+2015-11-18 17:18:50	brosfelder	Slam dance? Kappa
+2015-11-18 17:18:51	frappuccino	lol
+2015-11-18 17:18:57	frappuccino	interns at oclc all use it so thats why i use it
+2015-11-18 17:19:04	<--	mtraina (~mtraina@205.133.110.243) has quit (Quit: WeeChat 1.3)
+2015-11-18 17:19:10	brosfelder	Ohhh, so it is mainstream
+2015-11-18 17:19:12	frappuccino	its really good for open source community too
+2015-11-18 17:19:14	akotc	yay mario left
+2015-11-18 17:19:21	brosfelder	awww.
+2015-11-18 17:19:22	frappuccino	there are channels for tons of open source projects here, including huge ones
+2015-11-18 17:19:24	akotc	lol
+2015-11-18 17:19:26	frappuccino	idk what hes doing
+2015-11-18 17:19:34	frappuccino	trying to pay attention or something
+2015-11-18 17:19:35	frappuccino	nerd
+2015-11-18 17:19:36	akotc	learning or something
+2015-11-18 17:19:41	frappuccino	he couldnt take the heat
+2015-11-18 17:19:46	frappuccino	the class was too hard for him
+2015-11-18 17:19:48	PAM_2	we made him go pee
+2015-11-18 17:19:52	PAM_2	with our moshing
+2015-11-18 17:20:03	akotc	guys he's about to touch his penis
+2015-11-18 17:20:05	brosfelder	PAM_2: dont be weird
+2015-11-18 17:20:09	akotc	lol
+2015-11-18 17:20:09	frappuccino	akotc: wtf
+2015-11-18 17:20:11	akotc	too late
+2015-11-18 17:20:22	PAM_2	IM WEIRD? look what alex just said
+2015-11-18 17:20:26	akotc	who
+2015-11-18 17:20:30	frappuccino	yeah who
+2015-11-18 17:20:38	PAM_2	akotc
+2015-11-18 17:20:39	brosfelder	I'm accustomed to his dumb shit
+2015-11-18 17:20:46	akotc	XD
+2015-11-18 17:20:51	akotc	ew
+2015-11-18 17:20:54	PAM_2	Also, y'all already knew I'm like this. TAKE IT OR LEAVE IT
+2015-11-18 17:21:07	brosfelder	I'll take it. Prepare to never see sunlight again.
+2015-11-18 17:21:15	brosfelder	xD
+2015-11-18 17:21:32	PAM_2	your basement has windows, don't frot
+2015-11-18 17:21:33	frappuccino	wat
+2015-11-18 17:21:33	PAM_2	front*
+2015-11-18 17:21:46	frappuccino	penis man is back
+2015-11-18 17:22:08	PAM_2	we are literally 8th graders with just an updated way to pass notes in class.
+2015-11-18 17:22:09	brosfelder	You think you'd get to enjoy the luxury of the basement?
+2015-11-18 17:22:09	--	You are now known as mariosp3nis
+2015-11-18 17:22:14	akotc	Yo mario, How's your dick
+2015-11-18 17:22:23	PAM_2	so uncalled 4
+2015-11-18 17:22:23	mariosp3nis	it wouldnt let me do penis
+2015-11-18 17:22:25	-->	mtraina (~mtraina@205.133.110.243) has joined #capital_cs
+2015-11-18 17:22:28	brosfelder	xD
+2015-11-18 17:22:29	mariosp3nis	hey mtraina 
+2015-11-18 17:22:30	mariosp3nis	nice pee
+2015-11-18 17:22:41	mtraina	u guys wow
+2015-11-18 17:22:52	brosfelder	"u guys wow" -penis toucher
+2015-11-18 17:22:58	akotc	Yo mario, How's your dick
+2015-11-18 17:23:04	PAM_2	cryiiiiing
+2015-11-18 17:23:26	brosfelder	PAM_2: This is what I spend class doing. Just trying to force Alex to bust out laughing.
+2015-11-18 17:23:37	mtraina	kevin is really breaking down
+2015-11-18 17:23:46	PAM_2	Kev had to wipe tears
+2015-11-18 17:23:54	PAM_2	pooor poor mario
+2015-11-18 17:24:10	mariosp3nis	this is so dangerous
+2015-11-18 17:24:12	mariosp3nis	we have to disbnad
+2015-11-18 17:24:20	PAM_2	Y
+2015-11-18 17:24:22	akotc	fuck no
+2015-11-18 17:24:22	brosfelder	Now we know why passing notes is frowned upon.
+2015-11-18 17:24:25	PAM_2	we were almost discovered
+2015-11-18 17:24:58	brosfelder	What's he going to do? Take the server down?
+2015-11-18 17:25:08	PAM_2	tell us to get off the com pooter
+2015-11-18 17:25:21	brosfelder	This is how I take notes.
+2015-11-18 17:25:36	brosfelder	About the dumb things Shareef says.....
+2015-11-18 17:25:40	PAM_2	notes on locking me away in your not basement
+2015-11-18 17:25:48	PAM_2	and mario touching penis
+2015-11-18 17:26:02	brosfelder	I DIDN'T START THAT, ALEX DID
+2015-11-18 17:26:12	brosfelder	And I told you, you don't get the luxury of the basement
+2015-11-18 17:26:13	akotc	Dick talk with alex
+2015-11-18 17:26:24	PAM_2	THATS WHY I SAID NOT basement
+2015-11-18 17:26:29	akotc	Abduction talk with brian
+2015-11-18 17:26:30	brosfelder	oh
+2015-11-18 17:26:31	PAM_2	dick talk.
+2015-11-18 17:26:34	brosfelder	Reading is hard
+2015-11-18 17:26:43	PAM_2	dick abduction
+2015-11-18 17:26:48	PAM_2	sniffing mario
+2015-11-18 17:26:52	brosfelder	>.>
+2015-11-18 17:26:58	akotc	sniff mario's fick
+2015-11-18 17:27:00	brosfelder	Guys, why is pam being weird?
+2015-11-18 17:27:00	akotc	dick
+2015-11-18 17:27:03	mtraina	hmmmmmm
+2015-11-18 17:27:08	akotc	hi mario
+2015-11-18 17:27:13	PAM_2	fick
+2015-11-18 17:27:17	akotc	does it smell
+2015-11-18 17:27:22	mtraina	hey buddy wanna smell my weener?
+2015-11-18 17:27:23	mariosp3nis	yes
+2015-11-18 17:27:25	brosfelder	how..... FICKle
+2015-11-18 17:27:26	akotc	kinda
+2015-11-18 17:27:29	mariosp3nis	smell me
+2015-11-18 17:27:36	PAM_2	WAT stop guiz
+2015-11-18 17:27:38	PAM_2	PLZZZ
+2015-11-18 17:27:39	brosfelder	*big whiff*
+2015-11-18 17:27:39	PAM_2	T_T
+2015-11-18 17:27:43	mariosp3nis	howd it smell
+2015-11-18 17:27:45	akotc	stop jazz!
+2015-11-18 17:27:51	mariosp3nis	mtraina doesn't wash me very often
+2015-11-18 17:27:56	akotc	hahahaha
+2015-11-18 17:28:18	PAM_2	Guys be nice. mario smells beautiful
+2015-11-18 17:28:40	--	You are now known as frappi
+2015-11-18 17:28:45	akotc	Does he touch you at night when you're both alone?
+2015-11-18 17:28:49	akotc	noooo
+2015-11-18 17:28:57	akotc	change it back
+2015-11-18 17:29:01	mtraina	thx pam
+2015-11-18 17:29:12	frappi	mtraina: wtf you unplugged my charger
+2015-11-18 17:29:16	frappi	rude
+2015-11-18 17:29:21	PAM_2	wait, touch who? his ween or a frappe?
+2015-11-18 17:29:23	mtraina	haha like at betginning of class
+2015-11-18 17:30:30	brosfelder	PAM_2: ( ͡° ͜ʖ ͡°)
+2015-11-18 17:30:42	PAM_2	...
+2015-11-18 17:31:07	brosfelder	PAM_2: ᶠᶸᶜᵏ♥ᵧₒᵤ
+2015-11-18 17:31:21	PAM_2	fuck boi
+2015-11-18 17:31:28	brosfelder	You're not mad
+2015-11-18 17:31:42	PAM_2	nah, I'm used to this behavior from bri bri
+2015-11-18 17:31:49	akotc	brie
+2015-11-18 17:31:57	PAM_2	bry
+2015-11-18 17:31:58	brosfelder	PAM_2: ( ͜。 ͡ʖ ͜。)
+2015-11-18 17:32:21	brosfelder	Ỏ̷͖͈̞̩͎̻̫̫̜͉̠̫͕̭̭̫̫̹̗̹͈̼̠̖͍͚̥͈̮̼͕̠̤̯̻̥̬̗̼̳̤̳̬̪̹͚̞̼̠͕̼̠̦͚̫͔̯̹͉͉̘͎͕̼̣̝͙̱̟̹̩̟̳̦̭͉̮̖̭̣̣̞̙̗̜̺̭̻̥͚͙̝̦̲̱͉͖͉̰̦͎̫̣̼͎͍̠̮͓̹̹͉̤̰̗̙͕͇͔̱͕̭͈̳̗̭͔̘̖̺̮̜̠͖̘͓̳͕̟̠̱̫̤͓͔̘̰̲͙͍͇̙͎̣̼̗̖͙̯͉̠̟͈͍͕̪͓̝̩̦̖̹̼̠̘̮͚̟͉̺̜͍͓̯̳̱̻͕̣̳͉̻̭̭̱͍̪̩̭̺͕̺̼̥̪͖
+2015-11-18 17:32:21	brosfelder	̘͓̳͕̟̠̱̫̤͓͔̘̰̲͙͍͇̙͎̣̼̗̖͙̯͉̠̟͈͍͕̪͓̝̩̦̖̹̼̠̘̮͚̟͉̺̜͍͓̯̳̱̻͕̣̳͉̻̭̭̱͍̪̩̭̺͕̺̼̥̪͖̦̟͎̻̰
+2015-11-18 17:32:35	PAM_2	"i want that, yeah yeah I'll take it"
+2015-11-18 17:32:40	PAM_2	STOPP
+2015-11-18 17:32:52	brosfelder	did i do dat
+2015-11-18 17:33:31	brosfelder	Pam, you know I wouldn't abduct you. Or at least I wouldn't tell you first.
+2015-11-18 17:34:08	PAM_2	.... *scuttles away*
+2015-11-18 17:34:47	brosfelder	Scuttle bug?
+2015-11-18 17:35:35	mtraina	yo does it smell weird?
+2015-11-18 17:35:44	brosfelder	always
+2015-11-18 17:36:05	akotc	welcome to battelle
+2015-11-18 17:36:41	PAM_2	anyone wanna tell me what I just missed with the 30 mins we've spent on this slide
+2015-11-18 17:36:53	PAM_2	BRIAN MAKE THE LINE THINGY ON MY SCREEN GO AWAY.
+2015-11-18 17:36:59	brosfelder	I can't
+2015-11-18 17:37:16	frappi	what
+2015-11-18 17:37:18	brosfelder	It will eventually disappear
+2015-11-18 17:37:22	PAM_2	it just did
+2015-11-18 17:37:23	brosfelder	just gotta keep entering messages.
+2015-11-18 17:37:27	frappi	shut it off
+2015-11-18 17:37:31	brosfelder	look
+2015-11-18 17:37:33	brosfelder	its done
+2015-11-18 17:37:35	frappi	thatll work
+2015-11-18 17:37:40	brosfelder	we reached the end
+2015-11-18 17:37:47	PAM_2	mario, I'm sorry we got weird.
+2015-11-18 17:38:00	brosfelder	I'm sorry Alex is obsessed with your member.
+2015-11-18 17:38:03	frappi	why are you apologizign
+2015-11-18 17:38:07	akotc	penis*
+2015-11-18 17:38:08	PAM_2	member...
+2015-11-18 17:38:13	PAM_2	is this a fanfic
+2015-11-18 17:38:26	brosfelder	dont make me put the face in again
+2015-11-18 17:39:03	PAM_2	I HATE THE AMOUNT OF GUESSING WE DO BEFORE HE FUCKING TELLS US
+2015-11-18 17:39:19	--	You are now known as frappuccino
+2015-11-18 17:39:26	brosfelder	For real though
+2015-11-18 17:39:28	PAM_2	i gave him a not so good review on that IDEAS survey... murp
+2015-11-18 17:39:37	brosfelder	Alex crucified him
+2015-11-18 17:39:40	akotc	I fucked his shit up on the review
+2015-11-18 17:40:06	brosfelder	I just gave a reasonable explanation of his shittyness
+2015-11-18 17:40:32	PAM_2	"if u don't have a raging boner for this powerpoint, change ur major"
+2015-11-18 17:40:37	akotc	"most incompetent professor" "disgrace" "please come to just one lecture"
+2015-11-18 17:40:42	PAM_2	"if u don't memorize this chart you get a C"
+2015-11-18 17:40:52	brosfelder	I just have a constant major boner
+2015-11-18 17:40:59	brosfelder	oops, wrong chat
+2015-11-18 17:41:27	PAM_2	good save
+2015-11-18 17:41:29	PAM_2	boner
+2015-11-18 17:41:30	mtraina	what?
+2015-11-18 17:41:40	brosfelder	lying is what i do
+2015-11-18 17:41:42	akotc	close
+2015-11-18 17:41:42	brosfelder	or is it
+2015-11-18 17:41:43	brosfelder	>.>
+2015-11-18 17:41:47	frappuccino	what was your save
+2015-11-18 17:41:53	frappuccino	i didnt hear what you said
+2015-11-18 17:42:03	PAM_2	RISKY BID-NESS
+2015-11-18 17:42:08	brosfelder	When Alex and Sam burst out laughing and he asked what it was about
+2015-11-18 17:42:20	brosfelder	I said it was about the IANA party joke thing he said last week
+2015-11-18 17:42:36	frappuccino	what iana party joke lol
+2015-11-18 17:42:43	PAM_2	being drunk at a party
+2015-11-18 17:42:47	mtraina	oh oh yeah
+2015-11-18 17:42:54	PAM_2	and someone saying how incompetent you are if you don't know what IANA is
+2015-11-18 17:42:54	brosfelder	"So if I were to meet you at a cocktail party and find out you do CS
+2015-11-18 17:43:04	frappuccino	ohh
+2015-11-18 17:43:07	brosfelder	Would you be able to tell me what IANA means?"
+2015-11-18 17:43:25	brosfelder	Like, bitch... Why would you know about IANA in the first place if you didn't know what it was.
+2015-11-18 17:43:35	PAM_2	riiiite
+2015-11-18 17:43:53	PAM_2	The Key & Peele skit "I said BITCH" so funny.
+2015-11-18 17:44:07	frappuccino	its dumb
+2015-11-18 17:44:09	frappuccino	ur bumb
+2015-11-18 17:44:14	PAM_2	bumb
+2015-11-18 17:44:15	brosfelder	Dx
+2015-11-18 17:44:17	frappuccino	ur dumb for liking that
+2015-11-18 17:44:20	akotc	biiittttttchhhh
+2015-11-18 17:44:24	PAM_2	ITS FUNNY BIIIIITTTCH
+2015-11-18 17:44:24	frappuccino	u shd feel dumb
+2015-11-18 17:44:35	frappuccino	no jk it funny
+2015-11-18 17:44:40	brosfelder	ก้้้้้้้้้้้้้้้้้้้้ก็็็็็็็็็็็็็็็็็็็็กิิิิิิิิิิิิิิิิิิิิก้้้้้้้้้้้้้้้้้้้้ก้้้้้้้้้้้้้้้้้้้้ก็็็็็็็็็็็็็็็็็็็็กิิิิิิิิิิิิ
+2015-11-18 17:44:58	frappuccino	3
+2015-11-18 17:44:59	frappuccino	2
+2015-11-18 17:45:00	frappuccino	1
+2015-11-18 17:45:03	frappuccino	WE ARE FREEEE
+2015-11-18 17:45:09	frappuccino	except he just started a slide
+2015-11-18 17:45:16	PAM_2	*fireworks* *boner is over*
+2015-11-18 17:45:29	brosfelder	R2D2?!
+2015-11-18 17:45:33	brosfelder	(●*∩_∩*●)
+2015-11-18 17:45:39	mtraina	i didn't learn one thing from this class
+2015-11-18 17:45:53	brosfelder	I learned that our professor will believe anything
+2015-11-18 17:45:55	brosfelder	Kappa
+2015-11-18 17:46:11	PAM_2	y u keep saying kappa
+2015-11-18 17:46:18	brosfelder	LEARN THE INTERNET
+2015-11-18 17:46:26	<--	PAM_2 (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2015-11-18 17:46:32	<--	brosfelder (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2015-11-18 17:47:00	<--	mtraina (~mtraina@205.133.110.243) has quit (Quit: WeeChat 1.3)
+2015-11-18 17:47:57	<--	akotc (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2015-11-18 18:04:25	-->	akotc (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has joined #capital_cs
+2015-11-18 18:05:25	frappuccino	hi
+2015-11-18 18:05:27	frappuccino	welcome back
+2015-11-18 18:07:02	akotc	poopy
+2015-11-18 18:07:33	frappuccino	are you in class
+2015-11-18 18:08:34	<--	akotc (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has quit (Client Quit)
+2015-11-19 12:32:40	-->	akotc (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has joined #capital_cs
+2015-11-19 12:33:13	frappuccino	akotc: sup
+2015-11-19 12:34:15	akotc	Hey Gurl
+2015-11-19 12:39:08	frappuccino	are you in class
+2015-11-19 12:41:57	<--	akotc (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2015-11-19 12:48:05	-->	akotc (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has joined #capital_cs
+2015-11-19 12:59:04	frappuccino	welcome back
+2015-11-19 12:59:18	frappuccino	why do you keep joining and quiting akotc lol
+2015-11-19 13:06:41	<--	akotc (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2015-11-19 13:09:23	-->	akotc (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has joined #capital_cs
+2015-11-19 13:09:23	akotc	To infuriate you
+2015-11-19 13:09:29	akotc	Actually
+2015-11-19 13:09:35	frappuccino	i am so infuirated
+2015-11-19 13:09:36	akotc	I just forget that I'm on this
+2015-11-19 13:09:42	akotc	where are you?
+2015-11-19 13:09:46	frappuccino	work
+2015-11-19 13:09:46	frappuccino	OCLC
+2015-11-19 13:09:53	akotc	Dublin
+2015-11-19 13:09:55	akotc	?
+2015-11-19 13:09:57	frappuccino	Ohio
+2015-11-19 13:09:58	frappuccino	yeah lol
+2015-11-19 13:10:16	frappuccino	9-5ish tuesday thursday
+2015-11-19 13:10:17	akotc	How many hours a week do you work there?
+2015-11-19 13:10:34	akotc	Nice
+2015-11-19 13:11:36	frappuccino	its normally about 16
+2015-11-19 13:11:48	frappuccino	+- 1
+2015-11-19 13:16:45	akotc	How they pay?
+2015-11-19 13:16:53	akotc	If you don't mind
+2015-11-19 13:17:31	frappuccino	$16/h
+2015-11-19 13:17:36	akotc	Nice
+2015-11-19 13:17:43	frappuccino	Its supposed to be $17 now but they havent updated it
+2015-11-19 13:17:46	frappuccino	dunno whats goin on with that
+2015-11-19 13:38:41	<--	akotc (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2015-11-19 14:12:40	-->	akotc (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has joined #capital_cs
+2015-11-19 14:12:46	<--	akotc (cd85c2fc@gateway/web/cgi-irc/kiwiirc.com/ip.205.133.194.252) has quit (Client Quit)
+2015-11-19 17:15:31	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-11-19 17:15:31	--	Mode #capital_cs [+ns] by wolfe.freenode.net
+2015-11-19 17:15:31	--	Nicks #capital_cs: [@frappuccino]
+2015-11-19 17:15:31	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2015-11-19 17:15:31	--	Mode #capital_cs [-o frappuccino] by services.
+2015-11-19 17:15:31	--	Notice(wolfe.freenode.net): *** Notice -- TS for #capital_cs changed from 1447971331 to 1440985279
+2015-11-19 17:15:31	--	Mode #capital_cs [-ns] by services.
+2015-11-19 17:15:31	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2015-11-19 17:15:31	--	Mode #capital_cs [+o ChanServ] by services.
+2015-11-19 17:15:33	--	Mode #capital_cs [+]
+2015-11-19 17:15:34	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-11-20 10:07:01	--	You are now known as christoferWALKEN
+2015-11-20 10:07:14	--	You are now known as christopherWALKE
+2015-11-20 10:07:43	--	You are now known as christoferWALKEN
+2015-11-21 13:28:49	--	You are now known as frappucciono
+2015-11-23 11:08:04	--	You are now known as frappuccino
+2015-11-23 16:57:01	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-11-23 16:57:01	--	Nicks #capital_cs: [@ChanServ frappuccino]
+2015-11-23 16:57:01	--	Channel #capital_cs: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2015-11-23 16:57:02	frappuccino	quit
+2015-11-23 16:57:05	--	Mode #capital_cs [+]
+2015-11-23 16:57:05	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-11-23 17:05:24	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-11-23 17:05:24	--	Mode #capital_cs [+ns] by rajaniemi.freenode.net
+2015-11-23 17:05:24	--	Nicks #capital_cs: [@frappuccino]
+2015-11-23 17:05:24	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2015-11-23 17:05:24	--	Mode #capital_cs [-o frappuccino] by services.
+2015-11-23 17:05:24	--	Notice(rajaniemi.freenode.net): *** Notice -- TS for #capital_cs changed from 1448316324 to 1440985279
+2015-11-23 17:05:24	--	Mode #capital_cs [-ns] by services.
+2015-11-23 17:05:24	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2015-11-23 17:05:24	--	Mode #capital_cs [+o ChanServ] by services.
+2015-11-23 17:05:26	--	Mode #capital_cs [+]
+2015-11-23 17:05:26	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-11-23 17:26:40	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-11-23 17:26:40	--	Mode #capital_cs [+ns] by leguin.freenode.net
+2015-11-23 17:26:40	--	Nicks #capital_cs: [@frappuccino]
+2015-11-23 17:26:40	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2015-11-23 17:26:40	--	Mode #capital_cs [-o frappuccino] by services.
+2015-11-23 17:26:40	--	Notice(leguin.freenode.net): *** Notice -- TS for #capital_cs changed from 1448317600 to 1440985279
+2015-11-23 17:26:40	--	Mode #capital_cs [-ns] by services.
+2015-11-23 17:26:40	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2015-11-23 17:26:40	--	Mode #capital_cs [+o ChanServ] by services.
+2015-11-23 17:26:42	--	Mode #capital_cs [+]
+2015-11-23 17:26:43	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-11-23 17:40:44	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-11-23 17:40:44	--	Mode #capital_cs [+ns] by rajaniemi.freenode.net
+2015-11-23 17:40:44	--	Nicks #capital_cs: [@frappuccino]
+2015-11-23 17:40:44	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2015-11-23 17:40:44	--	Mode #capital_cs [-o frappuccino] by services.
+2015-11-23 17:40:44	--	Notice(rajaniemi.freenode.net): *** Notice -- TS for #capital_cs changed from 1448318444 to 1440985279
+2015-11-23 17:40:44	--	Mode #capital_cs [-ns] by services.
+2015-11-23 17:40:44	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2015-11-23 17:40:44	--	Mode #capital_cs [+o ChanServ] by services.
+2015-11-23 17:40:46	--	Mode #capital_cs [+]
+2015-11-23 17:40:46	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-11-26 02:27:55	<--	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has quit (Ping timeout: 240 seconds)
+2015-11-26 02:27:55		irc: disconnected from server
+2015-11-26 02:43:58	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-11-26 02:43:58	--	Mode #capital_cs [+ns] by rajaniemi.freenode.net
+2015-11-26 02:43:58	--	Nicks #capital_cs: [@frappuccino]
+2015-11-26 02:43:58	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2015-11-26 02:44:08	--	Mode #capital_cs [+ns]
+2015-11-26 02:44:08	--	Channel created on Thu, 26 Nov 2015 02:43:58
+2015-11-26 03:00:34		irc: disconnected from server
+2015-11-26 03:02:11	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-11-26 03:02:11	--	Mode #capital_cs [+ns] by wolfe.freenode.net
+2015-11-26 03:02:11	--	Nicks #capital_cs: [@frappuccino]
+2015-11-26 03:02:11	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2015-11-26 03:02:11	--	Mode #capital_cs [-o frappuccino] by services.
+2015-11-26 03:02:11	--	Notice(wolfe.freenode.net): *** Notice -- TS for #capital_cs changed from 1448524931 to 1440985279
+2015-11-26 03:02:11	--	Mode #capital_cs [-ns] by services.
+2015-11-26 03:02:11	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2015-11-26 03:02:11	--	Mode #capital_cs [+o ChanServ] by services.
+2015-11-26 03:02:13	--	Mode #capital_cs [+]
+2015-11-26 03:02:13	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-11-29 16:13:31		irc: disconnected from server
+2015-11-29 16:15:36	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-11-29 16:15:36	--	Nicks #capital_cs: [@ChanServ frappuccino]
+2015-11-29 16:15:36	--	Channel #capital_cs: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2015-11-29 16:15:38	--	Mode #capital_cs [+]
+2015-11-29 16:15:38	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-11-30 16:43:56	-->	mtraina (~mtraina@205.133.194.252) has joined #capital_cs
+2015-11-30 16:43:56	<--	ChanServ (ChanServ@services.) has left #capital_cs
+2015-11-30 16:44:33	frappuccino	yo
+2015-11-30 16:46:20	mtraina	hola
+2015-11-30 16:58:45	mtraina	Come stai?
+2015-11-30 17:01:19	frappuccino	what
+2015-11-30 17:01:30	frappuccino	idk what that means
+2015-11-30 17:01:48	mtraina	Yikes
+2015-11-30 17:02:02	mtraina	it means how u doin in italiano
+2015-11-30 17:02:34	frappuccino	im doin
+2015-11-30 17:03:33	mtraina	aww bud whats up?
+2015-11-30 17:03:48	frappuccino	what
+2015-11-30 17:03:51	frappuccino	sitting
+2015-11-30 17:04:09	mtraina	whats the matter? why aren't you good?
+2015-11-30 17:04:17	frappuccino	im fine lol
+2015-11-30 17:04:24	frappuccino	i said i was doin
+2015-11-30 17:04:28	frappuccino	like
+2015-11-30 17:04:35	frappuccino	chuggin along
+2015-11-30 17:05:16	mtraina	Okay. do you have a long, hard week?
+2015-11-30 17:08:41	frappuccino	kinda
+2015-11-30 17:08:42	frappuccino	not too bad
+2015-11-30 17:20:34	mtraina	I'm going to raise my hand and tell him we get it
+2015-11-30 17:24:05	frappuccino	lol
+2015-11-30 17:33:41	mtraina	should i wake dan up
+2015-11-30 17:34:01	frappuccino	lol
+2015-11-30 17:34:02	frappuccino	no
+2015-11-30 17:34:22	frappuccino	hes up
+2015-11-30 17:44:45	<--	mtraina (~mtraina@205.133.194.252) has quit (Quit: WeeChat 1.3)
+2015-12-01 15:57:45	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-12-01 15:57:45	--	Mode #capital_cs [+ns] by wolfe.freenode.net
+2015-12-01 15:57:45	--	Nicks #capital_cs: [@frappuccino]
+2015-12-01 15:57:45	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2015-12-01 15:57:45	--	Mode #capital_cs [-o frappuccino] by services.
+2015-12-01 15:57:45	--	Notice(wolfe.freenode.net): *** Notice -- TS for #capital_cs changed from 1449003465 to 1440985279
+2015-12-01 15:57:45	--	Mode #capital_cs [-ns] by services.
+2015-12-01 15:57:45	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2015-12-01 15:57:45	--	Mode #capital_cs [+o ChanServ] by services.
+2015-12-01 15:57:48	--	Mode #capital_cs [+]
+2015-12-01 15:57:48	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-12-01 16:13:33	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-12-01 16:13:33	--	Nicks #capital_cs: [@ChanServ frappuccino]
+2015-12-01 16:13:33	--	Channel #capital_cs: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2015-12-01 16:13:35	--	Mode #capital_cs [+]
+2015-12-01 16:13:35	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-12-01 16:17:31	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-12-01 16:17:31	--	Nicks #capital_cs: [@ChanServ frappuccino]
+2015-12-01 16:17:31	--	Channel #capital_cs: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2015-12-01 16:17:33	--	Mode #capital_cs [+]
+2015-12-01 16:17:33	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-12-01 16:29:12	--	You are now known as ke_v_in
+2015-12-01 17:35:02	--	You are now known as frappuccino
+2015-12-02 10:34:53	<--	ChanServ (ChanServ@services.) has quit (*.net *.split)
+2015-12-02 16:51:12	--	You are now known as {wat}
+2015-12-02 17:05:46	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-12-02 17:05:46	--	Mode #capital_cs [+ns] by wolfe.freenode.net
+2015-12-02 17:05:46	--	Nicks #capital_cs: [@frappuccino]
+2015-12-02 17:05:46	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2015-12-02 17:05:47	--	Mode #capital_cs [-o frappuccino] by services.
+2015-12-02 17:05:47	--	Notice(wolfe.freenode.net): *** Notice -- TS for #capital_cs changed from 1449093946 to 1440985279
+2015-12-02 17:05:47	--	Mode #capital_cs [-ns] by services.
+2015-12-02 17:05:47	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2015-12-02 17:05:47	--	Mode #capital_cs [+o ChanServ] by services.
+2015-12-02 17:05:48	--	Mode #capital_cs [+]
+2015-12-02 17:05:49	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-12-03 21:15:00	-->	qwoodmansee (~Quinton@205.133.194.252) has joined #capital_cs
+2015-12-03 21:15:00	<--	ChanServ (ChanServ@services.) has left #capital_cs
+2015-12-03 21:15:40	qwoodmansee	lol kevin
+2015-12-03 21:15:58	<--	qwoodmansee (~Quinton@205.133.194.252) has quit (Client Quit)
+2015-12-03 21:16:21	-->	qwoodmansee (~Quinton@205.133.194.252) has joined #capital_cs
+2015-12-03 21:17:12	qwoodmansee	./
+2015-12-03 21:17:15	<--	qwoodmansee (~Quinton@205.133.194.252) has quit (Client Quit)
+2015-12-03 21:17:36	-->	qwoodmansee (~Quinton@205.133.194.252) has joined #capital_cs
+2015-12-03 21:18:06	qwoodmansee	hi kevin
+2015-12-03 21:18:28	<--	qwoodmansee (~Quinton@205.133.194.252) has quit (Client Quit)
+2015-12-03 21:22:06	-->	qwoodmansee (~Quinton@205.133.194.252) has joined #capital_cs
+2015-12-03 21:22:59	<--	qwoodmansee (~Quinton@205.133.194.252) has quit (Client Quit)
+2015-12-03 21:23:16	-->	qwoodmansee (~Quinton@205.133.194.252) has joined #capital_cs
+2015-12-03 21:23:33	<--	qwoodmansee (~Quinton@205.133.194.252) has quit (Client Quit)
+2015-12-08 10:29:26	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-12-08 10:29:26	--	Mode #capital_cs [+ns] by adams.freenode.net
+2015-12-08 10:29:26	--	Nicks #capital_cs: [@frappuccino]
+2015-12-08 10:29:26	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2015-12-08 10:29:26	--	Mode #capital_cs [-o frappuccino] by services.
+2015-12-08 10:29:26	--	Notice(adams.freenode.net): *** Notice -- TS for #capital_cs changed from 1449588565 to 1440985279
+2015-12-08 10:29:26	--	Mode #capital_cs [-ns] by services.
+2015-12-08 10:29:26	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2015-12-08 10:29:26	--	Mode #capital_cs [+o ChanServ] by services.
+2015-12-08 10:29:28	--	Mode #capital_cs [+]
+2015-12-08 10:29:29	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-12-08 19:30:55	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-12-08 19:30:55	--	Mode #capital_cs [+ns] by wilhelm.freenode.net
+2015-12-08 19:30:55	--	Nicks #capital_cs: [@frappuccino]
+2015-12-08 19:30:55	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2015-12-08 19:30:55	--	Mode #capital_cs [-o frappuccino] by services.
+2015-12-08 19:30:55	--	Notice(wilhelm.freenode.net): *** Notice -- TS for #capital_cs changed from 1449621055 to 1440985279
+2015-12-08 19:30:55	--	Mode #capital_cs [-ns] by services.
+2015-12-08 19:30:55	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2015-12-08 19:30:55	--	Mode #capital_cs [+o ChanServ] by services.
+2015-12-08 19:30:57	--	Mode #capital_cs [+]
+2015-12-08 19:30:57	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-12-09 06:09:49	-->	djtech42 (~textual@205.133.194.252) has joined #capital_cs
+2015-12-09 06:09:49	<--	ChanServ (ChanServ@services.) has left #capital_cs
+2015-12-09 06:10:44	<--	djtech42 (~textual@205.133.194.252) has quit (Client Quit)
+2015-12-14 17:05:09	-->	djtech42 (~textual@cpe-98-28-246-206.cinci.res.rr.com) has joined #capital_cs
+2015-12-14 17:11:34	<--	djtech42 (~textual@cpe-98-28-246-206.cinci.res.rr.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-12-16 11:04:59	--	You are now known as flat_tire_frappi
+2015-12-16 13:52:38		[flat_tire_frappi away: pickin up teggy]
+2015-12-16 14:52:42		[flat_tire_frappi back: gone 01:00:04]
+2015-12-16 14:52:51	--	You are now known as new_tire_frappy
+2015-12-17 10:37:45	--	You are now known as frappuccino
+2015-12-21 10:54:28	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2015-12-21 10:54:28	--	Mode #capital_cs [+ns] by rajaniemi.freenode.net
+2015-12-21 10:54:28	--	Nicks #capital_cs: [@frappuccino]
+2015-12-21 10:54:28	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2015-12-21 10:54:29	--	Mode #capital_cs [-o frappuccino] by services.
+2015-12-21 10:54:29	--	Notice(rajaniemi.freenode.net): *** Notice -- TS for #capital_cs changed from 1450713268 to 1440985279
+2015-12-21 10:54:29	--	Mode #capital_cs [-ns] by services.
+2015-12-21 10:54:29	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2015-12-21 10:54:29	--	Mode #capital_cs [+o ChanServ] by services.
+2015-12-21 10:54:30	--	Mode #capital_cs [+]
+2015-12-21 10:54:30	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2015-12-22 13:23:07	-->	djtech42 (~textual@194.sub-70-208-204.myvzw.com) has joined #capital_cs
+2015-12-22 13:23:07	<--	ChanServ (ChanServ@services.) has left #capital_cs
+2015-12-22 13:23:29	<--	djtech42 (~textual@194.sub-70-208-204.myvzw.com) has quit (Client Quit)
+2016-01-01 18:57:55	<--	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has quit (Ping timeout: 240 seconds)
+2016-01-01 18:57:55		irc: disconnected from server
+2016-01-01 19:00:40	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2016-01-01 19:00:40	--	Mode #capital_cs [+ns] by rajaniemi.freenode.net
+2016-01-01 19:00:40	--	Nicks #capital_cs: [@frappuccino]
+2016-01-01 19:00:40	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2016-01-01 19:00:44	--	Mode #capital_cs [+ns]
+2016-01-01 19:00:44	--	Channel created on Fri, 01 Jan 2016 19:00:40
+2016-01-01 19:01:47	--	Mode #capital_cs [-o frappuccino] by services.
+2016-01-01 19:01:47	--	Notice(rajaniemi.freenode.net): *** Notice -- TS for #capital_cs changed from 1451692840 to 1440985279
+2016-01-01 19:01:47	--	Mode #capital_cs [-ns] by services.
+2016-01-01 19:01:47	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2016-01-01 19:01:47	--	Mode #capital_cs [+o ChanServ] by services.
+2016-01-05 11:05:01	--	You are now known as meeting_frap
+2016-01-05 11:37:48	--	You are now known as frap_da_troof
+2016-01-05 11:42:37	--	You are now known as frappuccino
+2016-01-05 11:48:09	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2016-01-05 11:48:09	--	Nicks #capital_cs: [@ChanServ frappuccino]
+2016-01-05 11:48:09	--	Channel #capital_cs: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2016-01-05 11:48:11	--	Mode #capital_cs [+]
+2016-01-05 11:48:11	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2016-01-05 11:58:02	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2016-01-05 11:58:02	--	Mode #capital_cs [+ns] by sendak.freenode.net
+2016-01-05 11:58:02	--	Nicks #capital_cs: [@frappuccino]
+2016-01-05 11:58:02	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2016-01-05 11:58:02	--	Mode #capital_cs [-o frappuccino] by services.
+2016-01-05 11:58:02	--	Notice(sendak.freenode.net): *** Notice -- TS for #capital_cs changed from 1452013082 to 1440985279
+2016-01-05 11:58:02	--	Mode #capital_cs [-ns] by services.
+2016-01-05 11:58:02	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2016-01-05 11:58:02	--	Mode #capital_cs [+o ChanServ] by services.
+2016-01-05 11:58:04	--	Mode #capital_cs [+]
+2016-01-05 11:58:05	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2016-01-07 15:43:02	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2016-01-07 15:43:02	--	Mode #capital_cs [+ns] by sendak.freenode.net
+2016-01-07 15:43:02	--	Nicks #capital_cs: [@frappuccino]
+2016-01-07 15:43:02	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2016-01-07 15:43:02	--	Mode #capital_cs [-o frappuccino] by services.
+2016-01-07 15:43:02	--	Notice(sendak.freenode.net): *** Notice -- TS for #capital_cs changed from 1452199382 to 1440985279
+2016-01-07 15:43:02	--	Mode #capital_cs [-ns] by services.
+2016-01-07 15:43:02	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2016-01-07 15:43:02	--	Mode #capital_cs [+o ChanServ] by services.
+2016-01-07 15:43:05	--	Mode #capital_cs [+]
+2016-01-07 15:43:05	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2016-01-20 15:51:47	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2016-01-20 15:51:47	--	Mode #capital_cs [+ns] by leguin.freenode.net
+2016-01-20 15:51:47	--	Nicks #capital_cs: [@frappuccino]
+2016-01-20 15:51:47	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2016-01-20 15:51:48	--	Mode #capital_cs [-o frappuccino] by services.
+2016-01-20 15:51:48	--	Notice(leguin.freenode.net): *** Notice -- TS for #capital_cs changed from 1453323107 to 1440985279
+2016-01-20 15:51:48	--	Mode #capital_cs [-ns] by services.
+2016-01-20 15:51:48	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2016-01-20 15:51:48	--	Mode #capital_cs [+o ChanServ] by services.
+2016-01-20 15:51:49	--	Mode #capital_cs [+]
+2016-01-20 15:51:49	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2016-02-10 08:59:12	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2016-02-10 08:59:12	--	Mode #capital_cs [+ns] by rajaniemi.freenode.net
+2016-02-10 08:59:12	--	Nicks #capital_cs: [@frappuccino]
+2016-02-10 08:59:12	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2016-02-10 08:59:12	--	Mode #capital_cs [-o frappuccino] by services.
+2016-02-10 08:59:12	--	Notice(rajaniemi.freenode.net): *** Notice -- TS for #capital_cs changed from 1455112752 to 1440985279
+2016-02-10 08:59:12	--	Mode #capital_cs [-ns] by services.
+2016-02-10 08:59:12	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2016-02-10 08:59:12	--	Mode #capital_cs [+o ChanServ] by services.
+2016-02-10 08:59:14	--	Mode #capital_cs [+]
+2016-02-10 08:59:14	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2016-02-10 14:01:48	--	You are now known as abbyaha
+2016-02-10 14:07:32	<--	You were killed by NickServ ((GHOST command used by Guest65191!~Abby@140.254.77.216))
+2016-02-10 14:07:32		irc: disconnected from server
+2016-02-10 14:07:56	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2016-02-10 14:07:56	--	Nicks #capital_cs: [@ChanServ frappuccino]
+2016-02-10 14:07:56	--	Channel #capital_cs: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2016-02-10 14:07:58	--	Mode #capital_cs [+]
+2016-02-10 14:07:58	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2016-02-17 12:33:45	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2016-02-17 12:33:45	--	Mode #capital_cs [+ns] by leguin.freenode.net
+2016-02-17 12:33:45	--	Nicks #capital_cs: [@frappuccino]
+2016-02-17 12:33:45	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2016-02-17 12:33:45	--	Mode #capital_cs [-o frappuccino] by services.
+2016-02-17 12:33:45	--	Notice(leguin.freenode.net): *** Notice -- TS for #capital_cs changed from 1455730425 to 1440985279
+2016-02-17 12:33:45	--	Mode #capital_cs [-ns] by services.
+2016-02-17 12:33:45	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2016-02-17 12:33:45	--	Mode #capital_cs [+o ChanServ] by services.
+2016-02-17 12:33:47	--	Mode #capital_cs [+]
+2016-02-17 12:33:47	--	Channel created on Sun, 30 Aug 2015 21:41:19
+2016-03-23 15:20:50	-->	frappuccino (~frappucci@2605:f700:c0:1::574a:4bfd) has joined #capital_cs
+2016-03-23 15:20:50	--	Mode #capital_cs [+ns] by rajaniemi.freenode.net
+2016-03-23 15:20:50	--	Nicks #capital_cs: [@frappuccino]
+2016-03-23 15:20:50	--	Channel #capital_cs: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2016-03-23 15:20:50	--	Mode #capital_cs [-o frappuccino] by services.
+2016-03-23 15:20:50	--	Notice(rajaniemi.freenode.net): *** Notice -- TS for #capital_cs changed from 1458760850 to 1440985279
+2016-03-23 15:20:50	--	Mode #capital_cs [-ns] by services.
+2016-03-23 15:20:50	-->	ChanServ (ChanServ@services.) has joined #capital_cs
+2016-03-23 15:20:50	--	Mode #capital_cs [+o ChanServ] by services.
+2016-03-23 15:20:52	--	Mode #capital_cs [+]
+2016-03-23 15:20:52	--	Channel created on Sun, 30 Aug 2015 21:41:19

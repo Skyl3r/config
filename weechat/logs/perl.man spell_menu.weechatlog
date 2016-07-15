@@ -1,0 +1,36 @@
+2015-12-01 16:16:29		SPELL_MENU(1)                                                                       User Contributed Perl Documentation                                                                      SPELL_MENU(1)
+2015-12-01 16:16:29		NAME
+2015-12-01 16:16:29		       spell_menu - popup menu for the weechat spell checker (weechat edition)
+2015-12-01 16:16:29		USAGE
+2015-12-01 16:16:29		       type the tab key on a misspelt word to bring up the correction pop-up. make sure you have set
+2015-12-01 16:16:29		         aspell.check.enabled on
+2015-12-01 16:16:29		         aspell.check.suggestions >-1
+2015-12-01 16:16:29		       and a dictionary set, e.g in
+2015-12-01 16:16:29		         aspell.check.default_dict
+2015-12-01 16:16:29		       you also need to have a menu script, if you don't have it yet:
+2015-12-01 16:16:29		         /script install menu.pl
+2015-12-01 16:16:29		       hint: if it breaks your tab completion, you can toggle the spell checker (default key in weechat is Alt+S)
+2015-12-01 16:16:29		CAVEATS
+2015-12-01 16:16:29		       ·   on update of spell_menu from v0.3 to v0.4 you might need to do
+2015-12-01 16:16:29		             /unset menu.var.spell.*
+2015-12-01 16:16:29		             /script reload spell_menu
+2015-12-01 16:16:29		           to get rid of stale entries. sorry about that.
+2015-12-01 16:16:29		SETTINGS
+2015-12-01 16:16:29		       the settings are usually found in the
+2015-12-01 16:16:29		         plugins.var.perl.spell_menu
+2015-12-01 16:16:29		       namespace, that is, type
+2015-12-01 16:16:29		         /set plugins.var.perl.spell_menu.*
+2015-12-01 16:16:29		       to see them and
+2015-12-01 16:16:29		         /set plugins.var.perl.spell_menu.SETTINGNAME VALUE
+2015-12-01 16:16:29		       to change a setting "SETTINGNAME" to a new value "VALUE". Finally,
+2015-12-01 16:16:29		         /unset plugins.var.perl.spell_menu.SETTINGNAME
+2015-12-01 16:16:29		       will reset a setting to its default value.
+2015-12-01 16:16:29		       the following settings are available:
+2015-12-01 16:16:29		   no_complete
+2015-12-01 16:16:29		       don't open the spell menu on tab completion. make a binding yourself to call /spell_menu, for example
+2015-12-01 16:16:29		         /key bind meta-c /spell_menu
+2015-12-01 16:16:29		   complete_near
+2015-12-01 16:16:29		       only use tab complete to open the menu if the cursor is next to the wrong word
+2015-12-01 16:16:29		   complete_noend
+2015-12-01 16:16:29		       don't spell correct with tab if exactly at the end of a word
+2015-12-01 16:16:29		perl v5.14.2                                                                                    2013-07-10                                                                                   SPELL_MENU(1)

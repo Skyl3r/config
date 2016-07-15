@@ -1,0 +1,923 @@
+2015-11-17 22:47:36		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-11-17 22:47:40		fifo: pipe closed
+2015-11-17 22:48:37		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-11-17 22:49:06		fifo: pipe closed
+2015-11-17 22:51:14		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-11-19 17:15:12		fifo: pipe closed
+2015-11-19 17:15:16		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-11-23 16:48:40	=!=	Error: unknown command "script" (type /help for help)
+2015-11-23 16:48:46		Plugins loaded:
+2015-11-23 16:48:46		  rmodifier: Regex modifier plugin for WeeChat
+2015-11-23 16:48:46		  perl: Perl plugin for WeeChat
+2015-11-23 16:48:46		  xfer: Xfer (file transfer and direct chat) plugin for WeeChat
+2015-11-23 16:48:46		  irc: IRC (Internet Relay Chat) plugin for WeeChat
+2015-11-23 16:48:46		  python: Python plugin for WeeChat
+2015-11-23 16:48:46		  aspell: Aspell plugin for WeeChat
+2015-11-23 16:48:46		  logger: Logger plugin for WeeChat
+2015-11-23 16:48:46		  charset: Charset plugin for WeeChat
+2015-11-23 16:48:46		  relay: Network communication between WeeChat and remote application
+2015-11-23 16:48:46		  lua: Lua plugin for WeeChat
+2015-11-23 16:48:46		  tcl: Tcl plugin for WeeChat
+2015-11-23 16:48:46		  ruby: Ruby plugin for WeeChat
+2015-11-23 16:48:46		  alias: Alias plugin for WeeChat
+2015-11-23 16:48:46		  fifo: Fifo plugin for WeeChat
+2015-11-23 16:48:46		  guile: Guile (scheme) plugin for WeeChat
+2015-11-23 16:48:57	=!=	No help available, "script" is not a command or an option
+2015-11-23 16:48:59		[core]
+2015-11-23 16:48:59		  away    buffer  command debug   help    input   layout  mute    proxy   reload  save    unset   uptime  wait   
+2015-11-23 16:48:59		  bar     color   cursor  filter  history key     mouse   plugin  quit    repeat  set     upgrade version window 
+2015-11-23 16:48:59		[rmodifier]
+2015-11-23 16:48:59		  rmodifier
+2015-11-23 16:48:59		[perl]
+2015-11-23 16:48:59		  perl
+2015-11-23 16:48:59		[xfer]
+2015-11-23 16:48:59		  me   xfer
+2015-11-23 16:48:59		[irc]
+2015-11-23 16:48:59		  admin      ctcp       devoice    info       kickban    map        names      oper       quote      samode     service    summon     userhost   wallops   
+2015-11-23 16:48:59		  allchan    cycle      die        invite     kill       me         nick       part       reconnect  sanick     servlist   time       users      who       
+2015-11-23 16:48:59		  allserv    dcc        disconnect ison       links      mode       notice     ping       rehash     sapart     squery     topic      version    whois     
+2015-11-23 16:48:59		  ban        dehalfop   halfop     join       list       motd       notify     pong       restart    saquit     squit      trace      voice      whowas    
+2015-11-23 16:48:59		  connect    deop       ignore     kick       lusers     msg        op         query      sajoin     server     stats      unban      wallchops 
+2015-11-23 16:48:59		[python]
+2015-11-23 16:48:59		  python
+2015-11-23 16:48:59		[aspell]
+2015-11-23 16:48:59		  aspell
+2015-11-23 16:48:59		[logger]
+2015-11-23 16:48:59		  logger
+2015-11-23 16:48:59		[charset]
+2015-11-23 16:48:59		  charset
+2015-11-23 16:48:59		[relay]
+2015-11-23 16:48:59		  relay
+2015-11-23 16:48:59		[lua]
+2015-11-23 16:48:59		  lua
+2015-11-23 16:48:59		[tcl]
+2015-11-23 16:48:59		  tcl
+2015-11-23 16:48:59		[ruby]
+2015-11-23 16:48:59		  ruby
+2015-11-23 16:48:59		[alias]
+2015-11-23 16:48:59		  AAWAY   AME     ANICK   C       CL      EXIT    J       KB      M       N       REDRAW  SIGNOFF UB      unalias W       WI      WW     
+2015-11-23 16:48:59		  alias   AMSG    BYE     CHAT    CLOSE   IG      K       LEAVE   MUB     Q       SAY     T       UMODE   V       WC      WII    
+2015-11-23 16:48:59		[guile]
+2015-11-23 16:48:59		  guile
+2015-11-23 16:49:37		Plugins loaded:
+2015-11-23 16:49:37		  rmodifier: Regex modifier plugin for WeeChat
+2015-11-23 16:49:37		  perl: Perl plugin for WeeChat
+2015-11-23 16:49:37		  xfer: Xfer (file transfer and direct chat) plugin for WeeChat
+2015-11-23 16:49:37		  irc: IRC (Internet Relay Chat) plugin for WeeChat
+2015-11-23 16:49:37		  python: Python plugin for WeeChat
+2015-11-23 16:49:37		  aspell: Aspell plugin for WeeChat
+2015-11-23 16:49:37		  logger: Logger plugin for WeeChat
+2015-11-23 16:49:37		  charset: Charset plugin for WeeChat
+2015-11-23 16:49:37		  relay: Network communication between WeeChat and remote application
+2015-11-23 16:49:37		  lua: Lua plugin for WeeChat
+2015-11-23 16:49:37		  tcl: Tcl plugin for WeeChat
+2015-11-23 16:49:37		  ruby: Ruby plugin for WeeChat
+2015-11-23 16:49:37		  alias: Alias plugin for WeeChat
+2015-11-23 16:49:37		  fifo: Fifo plugin for WeeChat
+2015-11-23 16:49:37		  guile: Guile (scheme) plugin for WeeChat
+2015-11-23 16:49:52	=!=	Error: unknown option for "plugin" command
+2015-11-23 16:49:57		[core]  /plugin  list|listfull [<name>]
+2015-11-23 16:49:57		                 load <filename> [<arguments>]
+2015-11-23 16:49:57		                 autoload [<arguments>]
+2015-11-23 16:49:57		                 reload [<name> [<arguments>]]
+2015-11-23 16:49:57		                 unload [<name>]
+2015-11-23 16:49:57		list/load/unload plugins
+2015-11-23 16:49:57		     list: list loaded plugins
+2015-11-23 16:49:57		 listfull: list loaded plugins (verbose)
+2015-11-23 16:49:57		     load: load a plugin
+2015-11-23 16:49:57		 autoload: autoload plugins in system or user directory
+2015-11-23 16:49:57		   reload: reload a plugin (if no name given, unload all plugins, then autoload plugins)
+2015-11-23 16:49:57		   unload: unload a plugin (if no name given, unload all plugins)
+2015-11-23 16:49:57		 filename: plugin (file) to load
+2015-11-23 16:49:57		     name: a plugin name
+2015-11-23 16:49:57		arguments: arguments given to plugin on load
+2015-11-23 16:49:57		Without argument, this command lists loaded plugins.
+2015-11-23 16:50:47	=!=	Error: unknown command "script" (type /help for help)
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/rmodifier.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/perl.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/xfer.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/irc.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/python.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/aspell.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/logger.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/charset.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/relay.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/lua.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/tcl.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/ruby.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/alias.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/fifo.so": a plugin with same name already exists
+2015-11-23 16:51:58	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/guile.so": a plugin with same name already exists
+2015-11-23 16:52:13	=!=	Error: unknown command "script" (type /help for help)
+2015-11-23 16:53:38		Plugins loaded:
+2015-11-23 16:53:38		  rmodifier: Regex modifier plugin for WeeChat
+2015-11-23 16:53:38		  perl: Perl plugin for WeeChat
+2015-11-23 16:53:38		  xfer: Xfer (file transfer and direct chat) plugin for WeeChat
+2015-11-23 16:53:38		  irc: IRC (Internet Relay Chat) plugin for WeeChat
+2015-11-23 16:53:38		  python: Python plugin for WeeChat
+2015-11-23 16:53:38		  aspell: Aspell plugin for WeeChat
+2015-11-23 16:53:38		  logger: Logger plugin for WeeChat
+2015-11-23 16:53:38		  charset: Charset plugin for WeeChat
+2015-11-23 16:53:38		  relay: Network communication between WeeChat and remote application
+2015-11-23 16:53:38		  lua: Lua plugin for WeeChat
+2015-11-23 16:53:38		  tcl: Tcl plugin for WeeChat
+2015-11-23 16:53:38		  ruby: Ruby plugin for WeeChat
+2015-11-23 16:53:38		  alias: Alias plugin for WeeChat
+2015-11-23 16:53:38		  fifo: Fifo plugin for WeeChat
+2015-11-23 16:53:38		  guile: Guile (scheme) plugin for WeeChat
+2015-11-23 16:55:00	=!=	Error: unable to load plugin "script": script: cannot open shared object file: No such file or directory
+2015-11-23 16:55:00	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2015-11-23 16:56:46		fifo: pipe closed
+2015-11-23 16:56:52		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-11-23 16:57:05		fifo: pipe closed
+2015-11-23 17:00:13		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-11-23 17:00:18		fifo: pipe closed
+2015-11-23 17:05:16		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-11-23 17:14:17		Plugins loaded:
+2015-11-23 17:14:17		  rmodifier: Regex modifier plugin for WeeChat
+2015-11-23 17:14:17		  perl: Perl plugin for WeeChat
+2015-11-23 17:14:17		  xfer: Xfer (file transfer and direct chat) plugin for WeeChat
+2015-11-23 17:14:17		  irc: IRC (Internet Relay Chat) plugin for WeeChat
+2015-11-23 17:14:17		  python: Python plugin for WeeChat
+2015-11-23 17:14:17		  aspell: Aspell plugin for WeeChat
+2015-11-23 17:14:17		  logger: Logger plugin for WeeChat
+2015-11-23 17:14:17		  charset: Charset plugin for WeeChat
+2015-11-23 17:14:17		  relay: Network communication between WeeChat and remote application
+2015-11-23 17:14:17		  lua: Lua plugin for WeeChat
+2015-11-23 17:14:17		  tcl: Tcl plugin for WeeChat
+2015-11-23 17:14:17		  ruby: Ruby plugin for WeeChat
+2015-11-23 17:14:17		  alias: Alias plugin for WeeChat
+2015-11-23 17:14:17		  fifo: Fifo plugin for WeeChat
+2015-11-23 17:14:17		  guile: Guile (scheme) plugin for WeeChat
+2015-11-23 17:14:36	=!=	Error: unable to load plugin "script": script: cannot open shared object file: No such file or directory
+2015-11-23 17:14:36	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2015-11-23 17:18:05		fifo: pipe closed
+2015-11-23 17:26:33		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-11-23 17:26:48	=!=	No help available, "script" is not a command or an option
+2015-11-23 17:28:47		fifo: pipe closed
+2015-11-23 17:40:38		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-12-01 15:45:24	=!=	Error: unknown command "prism" (type /help for help)
+2015-12-01 15:45:30		[core]
+2015-12-01 15:45:30		  away    buffer  command debug   help    input   layout  mute    proxy   reload  save    unset   uptime  wait   
+2015-12-01 15:45:30		  bar     color   cursor  filter  history key     mouse   plugin  quit    repeat  set     upgrade version window 
+2015-12-01 15:45:30		[rmodifier]
+2015-12-01 15:45:30		  rmodifier
+2015-12-01 15:45:30		[perl]
+2015-12-01 15:45:30		  perl
+2015-12-01 15:45:30		[xfer]
+2015-12-01 15:45:30		  me   xfer
+2015-12-01 15:45:30		[irc]
+2015-12-01 15:45:30		  admin      ctcp       devoice    info       kickban    map        names      oper       quote      samode     service    summon     userhost   wallops   
+2015-12-01 15:45:30		  allchan    cycle      die        invite     kill       me         nick       part       reconnect  sanick     servlist   time       users      who       
+2015-12-01 15:45:30		  allserv    dcc        disconnect ison       links      mode       notice     ping       rehash     sapart     squery     topic      version    whois     
+2015-12-01 15:45:30		  ban        dehalfop   halfop     join       list       motd       notify     pong       restart    saquit     squit      trace      voice      whowas    
+2015-12-01 15:45:30		  connect    deop       ignore     kick       lusers     msg        op         query      sajoin     server     stats      unban      wallchops 
+2015-12-01 15:45:30		[python]
+2015-12-01 15:45:30		  python
+2015-12-01 15:45:30		[aspell]
+2015-12-01 15:45:30		  aspell
+2015-12-01 15:45:30		[logger]
+2015-12-01 15:45:30		  logger
+2015-12-01 15:45:30		[charset]
+2015-12-01 15:45:30		  charset
+2015-12-01 15:45:30		[relay]
+2015-12-01 15:45:30		  relay
+2015-12-01 15:45:30		[lua]
+2015-12-01 15:45:30		  lua
+2015-12-01 15:45:30		[tcl]
+2015-12-01 15:45:30		  tcl
+2015-12-01 15:45:30		[ruby]
+2015-12-01 15:45:30		  ruby
+2015-12-01 15:45:30		[alias]
+2015-12-01 15:45:30		  AAWAY   AME     ANICK   C       CL      EXIT    J       KB      M       N       REDRAW  SIGNOFF UB      unalias W       WI      WW     
+2015-12-01 15:45:30		  alias   AMSG    BYE     CHAT    CLOSE   IG      K       LEAVE   MUB     Q       SAY     T       UMODE   V       WC      WII    
+2015-12-01 15:45:30		[guile]
+2015-12-01 15:45:30		  guile
+2015-12-01 15:45:33		Plugins loaded:
+2015-12-01 15:45:33		  rmodifier: Regex modifier plugin for WeeChat
+2015-12-01 15:45:33		  perl: Perl plugin for WeeChat
+2015-12-01 15:45:33		  xfer: Xfer (file transfer and direct chat) plugin for WeeChat
+2015-12-01 15:45:33		  irc: IRC (Internet Relay Chat) plugin for WeeChat
+2015-12-01 15:45:33		  python: Python plugin for WeeChat
+2015-12-01 15:45:33		  aspell: Aspell plugin for WeeChat
+2015-12-01 15:45:33		  logger: Logger plugin for WeeChat
+2015-12-01 15:45:33		  charset: Charset plugin for WeeChat
+2015-12-01 15:45:33		  relay: Network communication between WeeChat and remote application
+2015-12-01 15:45:33		  lua: Lua plugin for WeeChat
+2015-12-01 15:45:33		  tcl: Tcl plugin for WeeChat
+2015-12-01 15:45:33		  ruby: Ruby plugin for WeeChat
+2015-12-01 15:45:33		  alias: Alias plugin for WeeChat
+2015-12-01 15:45:33		  fifo: Fifo plugin for WeeChat
+2015-12-01 15:45:33		  guile: Guile (scheme) plugin for WeeChat
+2015-12-01 15:45:46		[python]  /python  list|listfull [<name>]
+2015-12-01 15:45:46		                   load <filename>
+2015-12-01 15:45:46		                   autoload
+2015-12-01 15:45:46		                   reload|unload [<name>]
+2015-12-01 15:45:46		list/load/unload scripts
+2015-12-01 15:45:46		    list: list loaded scripts
+2015-12-01 15:45:46		listfull: list loaded scripts (verbose)
+2015-12-01 15:45:46		    load: load a script
+2015-12-01 15:45:46		autoload: load all scripts in "autoload" directory
+2015-12-01 15:45:46		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2015-12-01 15:45:46		  unload: unload a script (if no name given, unload all scripts)
+2015-12-01 15:45:46		filename: script (file) to load
+2015-12-01 15:45:46		    name: a script name (name used in call to "register" function)
+2015-12-01 15:45:46		Without argument, this command lists all loaded scripts.
+2015-12-01 15:46:22	=!=	python: script "help" not found
+2015-12-01 15:48:50		python: loading script "/home/bskcx/.weechat/python/autoload/prism.py"
+2015-12-01 15:48:51	=!=	python: warning, license "WTFPL" for script "prism" differs from plugin license ("GPL3")
+2015-12-01 15:48:51		python: registered script "prism", version 0.2.8 (Taste the rainbow.)
+2015-12-01 15:48:56		perl: loading script "/home/bskcx/.weechat/perl/autoload/beep.pl"
+2015-12-01 15:48:56		perl: registered script "beep", version 1.1 (Beep (terminal bell) and/or run command on highlight/private message or new DCC)
+2015-12-01 15:51:04		python: loading script "/home/bskcx/.weechat/python/autoload/prism.py"
+2015-12-01 15:51:04	=!=	python: unable to register script "prism" (another script already exists with this name)
+2015-12-01 15:51:04	=!=	python: function "register" not found (or failed) in file "/home/bskcx/.weechat/python/autoload/prism.py"
+2015-12-01 15:51:04		python: loading script "/home/bskcx/.weechat/python/autoload/arespond.py"
+2015-12-01 15:51:04		python: registered script "arespond", version 0.1.0 (An autoresponder (sending a notice on other users' messages))
+2015-12-01 15:51:53	=!=	Error: unknown command "aresponder" (type /help for help)
+2015-12-01 15:51:56		[core]
+2015-12-01 15:51:56		  away    buffer  command debug   help    input   layout  mute    proxy   reload  save    unset   uptime  wait   
+2015-12-01 15:51:56		  bar     color   cursor  filter  history key     mouse   plugin  quit    repeat  set     upgrade version window 
+2015-12-01 15:51:56		[rmodifier]
+2015-12-01 15:51:56		  rmodifier
+2015-12-01 15:51:56		[perl]
+2015-12-01 15:51:56		  perl
+2015-12-01 15:51:56		[xfer]
+2015-12-01 15:51:56		  me   xfer
+2015-12-01 15:51:56		[irc]
+2015-12-01 15:51:56		  admin      ctcp       devoice    info       kickban    map        names      oper       quote      samode     service    summon     userhost   wallops   
+2015-12-01 15:51:56		  allchan    cycle      die        invite     kill       me         nick       part       reconnect  sanick     servlist   time       users      who       
+2015-12-01 15:51:56		  allserv    dcc        disconnect ison       links      mode       notice     ping       rehash     sapart     squery     topic      version    whois     
+2015-12-01 15:51:56		  ban        dehalfop   halfop     join       list       motd       notify     pong       restart    saquit     squit      trace      voice      whowas    
+2015-12-01 15:51:56		  connect    deop       ignore     kick       lusers     msg        op         query      sajoin     server     stats      unban      wallchops 
+2015-12-01 15:51:56		[python]
+2015-12-01 15:51:56		  arespond prism    python  
+2015-12-01 15:51:56		[aspell]
+2015-12-01 15:51:56		  aspell
+2015-12-01 15:51:56		[logger]
+2015-12-01 15:51:56		  logger
+2015-12-01 15:51:56		[charset]
+2015-12-01 15:51:56		  charset
+2015-12-01 15:51:56		[relay]
+2015-12-01 15:51:56		  relay
+2015-12-01 15:51:56		[lua]
+2015-12-01 15:51:56		  lua
+2015-12-01 15:51:56		[tcl]
+2015-12-01 15:51:56		  tcl
+2015-12-01 15:51:56		[ruby]
+2015-12-01 15:51:56		  ruby
+2015-12-01 15:51:56		[alias]
+2015-12-01 15:51:56		  AAWAY   AME     ANICK   C       CL      EXIT    J       KB      M       N       REDRAW  SIGNOFF UB      unalias W       WI      WW     
+2015-12-01 15:51:56		  alias   AMSG    BYE     CHAT    CLOSE   IG      K       LEAVE   MUB     Q       SAY     T       UMODE   V       WC      WII    
+2015-12-01 15:51:56		[guile]
+2015-12-01 15:51:56		  guile
+2015-12-01 15:57:34		fifo: pipe closed
+2015-12-01 15:57:38		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-12-01 15:57:52		python scripts loaded:
+2015-12-01 15:57:52		  gweather v0.4 - Bar item with current Google weather
+2015-12-01 15:57:52		  prism v0.2.8 - Taste the rainbow.
+2015-12-01 15:59:11		Option changed: plugins.var.python.gweather.city = "Columbus"
+2015-12-01 15:59:50	=!=	Error: unknown command "gweather" (type /help for help)
+2015-12-01 15:59:52		[core]
+2015-12-01 15:59:52		  away    buffer  command debug   help    input   layout  mute    proxy   reload  save    unset   uptime  wait   
+2015-12-01 15:59:52		  bar     color   cursor  filter  history key     mouse   plugin  quit    repeat  set     upgrade version window 
+2015-12-01 15:59:52		[rmodifier]
+2015-12-01 15:59:52		  rmodifier
+2015-12-01 15:59:52		[perl]
+2015-12-01 15:59:52		  perl
+2015-12-01 15:59:52		[xfer]
+2015-12-01 15:59:52		  me   xfer
+2015-12-01 15:59:52		[irc]
+2015-12-01 15:59:52		  admin      ctcp       devoice    info       kickban    map        names      oper       quote      samode     service    summon     userhost   wallops   
+2015-12-01 15:59:52		  allchan    cycle      die        invite     kill       me         nick       part       reconnect  sanick     servlist   time       users      who       
+2015-12-01 15:59:52		  allserv    dcc        disconnect ison       links      mode       notice     ping       rehash     sapart     squery     topic      version    whois     
+2015-12-01 15:59:52		  ban        dehalfop   halfop     join       list       motd       notify     pong       restart    saquit     squit      trace      voice      whowas    
+2015-12-01 15:59:52		  connect    deop       ignore     kick       lusers     msg        op         query      sajoin     server     stats      unban      wallchops 
+2015-12-01 15:59:52		[python]
+2015-12-01 15:59:52		  prism  python
+2015-12-01 15:59:52		[aspell]
+2015-12-01 15:59:52		  aspell
+2015-12-01 15:59:52		[logger]
+2015-12-01 15:59:52		  logger
+2015-12-01 15:59:52		[charset]
+2015-12-01 15:59:52		  charset
+2015-12-01 15:59:52		[relay]
+2015-12-01 15:59:52		  relay
+2015-12-01 15:59:52		[lua]
+2015-12-01 15:59:52		  lua
+2015-12-01 15:59:52		[tcl]
+2015-12-01 15:59:52		  tcl
+2015-12-01 15:59:52		[ruby]
+2015-12-01 15:59:52		  ruby
+2015-12-01 15:59:52		[alias]
+2015-12-01 15:59:52		  AAWAY   AME     ANICK   C       CL      EXIT    J       KB      M       N       REDRAW  SIGNOFF UB      unalias W       WI      WW     
+2015-12-01 15:59:52		  alias   AMSG    BYE     CHAT    CLOSE   IG      K       LEAVE   MUB     Q       SAY     T       UMODE   V       WC      WII    
+2015-12-01 15:59:52		[guile]
+2015-12-01 15:59:52		  guile
+2015-12-01 16:02:11		python: loading script "/home/bskcx/.weechat/python/autoload/leet.py"
+2015-12-01 16:02:11		python: registered script "leet", version 0.1 (Convert text to leet)
+2015-12-01 16:02:11		python: loading script "/home/bskcx/.weechat/python/autoload/gweather.py"
+2015-12-01 16:02:11	=!=	python: unable to register script "gweather" (another script already exists with this name)
+2015-12-01 16:02:11	=!=	python: function "register" not found (or failed) in file "/home/bskcx/.weechat/python/autoload/gweather.py"
+2015-12-01 16:02:11		python: loading script "/home/bskcx/.weechat/python/autoload/prism.py"
+2015-12-01 16:02:11	=!=	python: unable to register script "prism" (another script already exists with this name)
+2015-12-01 16:02:11	=!=	python: function "register" not found (or failed) in file "/home/bskcx/.weechat/python/autoload/prism.py"
+2015-12-01 16:03:09		[python]  /leet  [text]
+2015-12-01 16:03:09		Convert text to leet
+2015-12-01 16:03:09		text: text to be in leet
+2015-12-01 16:06:29		python: loading script "/home/bskcx/.weechat/python/autoload/leet.py"
+2015-12-01 16:06:29	=!=	python: unable to register script "leet" (another script already exists with this name)
+2015-12-01 16:06:29	=!=	python: function "register" not found (or failed) in file "/home/bskcx/.weechat/python/autoload/leet.py"
+2015-12-01 16:06:29		python: loading script "/home/bskcx/.weechat/python/autoload/smile.py"
+2015-12-01 16:06:29		python: registered script "smile", version 0.1 (Prints a random ascii smiley.)
+2015-12-01 16:06:29		python: loading script "/home/bskcx/.weechat/python/autoload/gweather.py"
+2015-12-01 16:06:29	=!=	python: unable to register script "gweather" (another script already exists with this name)
+2015-12-01 16:06:29	=!=	python: function "register" not found (or failed) in file "/home/bskcx/.weechat/python/autoload/gweather.py"
+2015-12-01 16:06:29		python: loading script "/home/bskcx/.weechat/python/autoload/prism.py"
+2015-12-01 16:06:29	=!=	python: unable to register script "prism" (another script already exists with this name)
+2015-12-01 16:06:29	=!=	python: function "register" not found (or failed) in file "/home/bskcx/.weechat/python/autoload/prism.py"
+2015-12-01 16:07:24		[python]  /smile  ༼つ ◕_◕ ༽つ
+2015-12-01 16:07:24		Prints a random ascii smiley.
+2015-12-01 16:11:38		perl: loading script "/home/bskcx/.weechat/perl/autoload/spell_menu.pl"
+2015-12-01 16:11:38		perl: registered script "spell_menu", version 0.4 (spell checker menu)
+2015-12-01 16:11:38		perl: loading script "/home/bskcx/.weechat/perl/autoload/beep.pl"
+2015-12-01 16:11:38	=!=	perl: unable to register script "beep" (another script already exists with this name)
+2015-12-01 16:11:38	=!=	perl: unable to call function "info_get", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_is_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "config_set_plugin", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "hook_config", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "hook_print", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: unable to call function "hook_signal", script is not initialized (script: -)
+2015-12-01 16:11:38	=!=	perl: function "register" not found (or failed) in file "/home/bskcx/.weechat/perl/autoload/beep.pl"
+2015-12-01 16:12:58	=!=	perl: script "spell_menu" not found
+2015-12-01 16:13:09		perl: loading script "/home/bskcx/.weechat/perl/autoload/spell_menu.pl"
+2015-12-01 16:13:10	=!=	perl: unable to register script "spell_menu" (another script already exists with this name)
+2015-12-01 16:13:10	=!=	perl: function "register" not found (or failed) in file "/home/bskcx/.weechat/perl/autoload/spell_menu.pl"
+2015-12-01 16:13:18		perl: loading script "/home/bskcx/.weechat/perl/autoload/menu.pl"
+2015-12-01 16:13:18		perl: registered script "menu", version 0.9 (menu system)
+2015-12-01 16:13:18		New key binding (context "mouse"): @bar(*_menu):button1 => hsignal:menu
+2015-12-01 16:13:18		perl error: Method "get_var_array_size_string" not found in namespace "weechat::hdata" at (eval 2) line 302
+2015-12-01 16:13:18	=!=	perl: unable to parse file "/home/bskcx/.weechat/perl/autoload/menu.pl"
+2015-12-01 16:13:18	=!=	perl: error: Method "get_var_array_size_string" not found in namespace "weechat::hdata" at (eval 2) line 302
+2015-12-01 16:13:26		fifo: removing old fifo pipe "/home/bskcx/.weechat/weechat_fifo_4168"
+2015-12-01 16:13:26		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-12-01 16:13:26		perl error: Undefined subroutine &main::bar_item_main_menu called.
+2015-12-01 16:13:26	=!=	perl: error: Undefined subroutine &main::bar_item_main_menu called.
+2015-12-01 16:14:40		perl error: Undefined subroutine &main::update_main_menu called.
+2015-12-01 16:14:40	=!=	perl: error: Undefined subroutine &main::update_main_menu called.
+2015-12-01 16:14:40		Key "meta-b" unbound (context: "default")
+2015-12-01 16:14:40		New key binding (context "default"): meta-b => /spell_menu
+2015-12-01 16:15:18		perl error: Undefined subroutine &main::update_main_menu called.
+2015-12-01 16:15:18	=!=	perl: error: Undefined subroutine &main::update_main_menu called.
+2015-12-01 16:15:18		New key binding (context "default"): ctrl-b => /spell_menu
+2015-12-01 16:16:21		[perl]  /spell_menu  
+2015-12-01 16:16:21		open the spell correction menu
+2015-12-01 16:16:21		use /spell_menu help to read the manual
+2015-12-01 16:17:16		fifo: pipe closed
+2015-12-01 16:17:20		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-12-01 16:19:36		perl: loading script "/home/bskcx/.weechat/perl/autoload/spacer.pl"
+2015-12-01 16:19:36		perl: registered script "spacer", version 0.1 (Adds spaces between each character in the chat box)
+2015-12-01 20:31:42		Option changed: irc.look.smart_filter = on
+2015-12-01 20:32:06		Filter "irc_smart" added:
+2015-12-01 20:32:06		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2015-12-02 17:03:45	=!=	python: script "completetion.py" not found
+2015-12-02 17:03:56		python: loading script "/home/bskcx/.weechat/python/autoload/completion.py"
+2015-12-02 17:03:56		python: registered script "completion", version 0.2 (Word completions for WeeChat)
+2015-12-02 17:04:40		[python]  /completion  [add <word> <text>|del <word>]
+2015-12-02 17:04:40		Word completions for WeeChat
+2015-12-02 17:04:40		add: adds a new completion, <word> => <text>.
+2015-12-02 17:04:40		del: deletes a completion.
+2015-12-02 17:04:40		Without arguments it displays current completions.
+2015-12-02 17:04:40		<word> will be replaced by <text> when pressing tab in input line,
+2015-12-02 17:04:40		where <word> is any word currently behind the cursor.
+2015-12-02 17:04:40		Setup:
+2015-12-02 17:04:40		For this script to work, you must add the template
+2015-12-02 17:04:40		%(completion_script) to the default completion template, use:
+2015-12-02 17:04:40		/set weechat.completion.default_template "%(nicks)|%(irc_channels)|%(completion_script)"
+2015-12-02 17:04:40		Examples:
+2015-12-02 17:04:40		/completion add wee WeeChat (typing wee<tab> will replace 'wee' by 'WeeChat')
+2015-12-02 17:04:40		/completion add weeurl http://www.weechat.org/
+2015-12-02 17:04:40		/completion add test This is a test!
+2015-12-02 17:05:04		Option changed: weechat.completion.default_template = "%(nicks)|%(irc_channels)|%(completion_script)"
+2015-12-02 17:05:38		fifo: pipe closed
+2015-12-02 17:05:40		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-12-08 00:20:34		fifo: pipe closed
+2015-12-08 10:29:19		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-12-08 19:13:44		fifo: pipe closed
+2015-12-08 19:30:46		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2015-12-20 15:07:10		fifo: pipe closed
+2015-12-21 10:54:20		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-01-05 11:47:56		fifo: pipe closed
+2016-01-05 11:48:01		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-01-05 11:53:25		fifo: pipe closed
+2016-01-05 11:57:54		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-01-07 15:42:04		[core]
+2016-01-07 15:42:04		  away    buffer  command debug   help    input   layout  mute    proxy   reload  save    unset   uptime  wait   
+2016-01-07 15:42:04		  bar     color   cursor  filter  history key     mouse   plugin  quit    repeat  set     upgrade version window 
+2016-01-07 15:42:04		[rmodifier]
+2016-01-07 15:42:04		  rmodifier
+2016-01-07 15:42:04		[perl]
+2016-01-07 15:42:04		  perl   spacer
+2016-01-07 15:42:04		[xfer]
+2016-01-07 15:42:04		  me   xfer
+2016-01-07 15:42:04		[irc]
+2016-01-07 15:42:04		  admin      ctcp       devoice    info       kickban    map        names      oper       quote      samode     service    summon     userhost   wallops   
+2016-01-07 15:42:04		  allchan    cycle      die        invite     kill       me         nick       part       reconnect  sanick     servlist   time       users      who       
+2016-01-07 15:42:04		  allserv    dcc        disconnect ison       links      mode       notice     ping       rehash     sapart     squery     topic      version    whois     
+2016-01-07 15:42:04		  ban        dehalfop   halfop     join       list       motd       notify     pong       restart    saquit     squit      trace      voice      whowas    
+2016-01-07 15:42:04		  connect    deop       ignore     kick       lusers     msg        op         query      sajoin     server     stats      unban      wallchops 
+2016-01-07 15:42:04		[python]
+2016-01-07 15:42:04		  completion leet       prism      python     smile     
+2016-01-07 15:42:04		[aspell]
+2016-01-07 15:42:04		  aspell
+2016-01-07 15:42:04		[logger]
+2016-01-07 15:42:04		  logger
+2016-01-07 15:42:04		[charset]
+2016-01-07 15:42:04		  charset
+2016-01-07 15:42:04		[relay]
+2016-01-07 15:42:04		  relay
+2016-01-07 15:42:04		[lua]
+2016-01-07 15:42:04		  lua
+2016-01-07 15:42:04		[tcl]
+2016-01-07 15:42:04		  tcl
+2016-01-07 15:42:04		[ruby]
+2016-01-07 15:42:04		  ruby
+2016-01-07 15:42:04		[alias]
+2016-01-07 15:42:04		  AAWAY   AME     ANICK   C       CL      EXIT    J       KB      M       N       REDRAW  SIGNOFF UB      unalias W       WI      WW     
+2016-01-07 15:42:04		  alias   AMSG    BYE     CHAT    CLOSE   IG      K       LEAVE   MUB     Q       SAY     T       UMODE   V       WC      WII    
+2016-01-07 15:42:04		[guile]
+2016-01-07 15:42:04		  guile
+2016-01-07 15:42:39	=!=	Error: unknown command "rcp" (type /help for help)
+2016-01-07 15:42:51		fifo: pipe closed
+2016-01-07 15:42:55		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-01-07 15:43:50		[core]
+2016-01-07 15:43:50		  away    buffer  command debug   help    input   layout  mute    proxy   reload  save    unset   uptime  wait   
+2016-01-07 15:43:50		  bar     color   cursor  filter  history key     mouse   plugin  quit    repeat  set     upgrade version window 
+2016-01-07 15:43:50		[rmodifier]
+2016-01-07 15:43:50		  rmodifier
+2016-01-07 15:43:50		[perl]
+2016-01-07 15:43:50		  perl   spacer
+2016-01-07 15:43:50		[xfer]
+2016-01-07 15:43:50		  me   xfer
+2016-01-07 15:43:50		[irc]
+2016-01-07 15:43:50		  admin      ctcp       devoice    info       kickban    map        names      oper       quote      samode     service    summon     userhost   wallops   
+2016-01-07 15:43:50		  allchan    cycle      die        invite     kill       me         nick       part       reconnect  sanick     servlist   time       users      who       
+2016-01-07 15:43:50		  allserv    dcc        disconnect ison       links      mode       notice     ping       rehash     sapart     squery     topic      version    whois     
+2016-01-07 15:43:50		  ban        dehalfop   halfop     join       list       motd       notify     pong       restart    saquit     squit      trace      voice      whowas    
+2016-01-07 15:43:50		  connect    deop       ignore     kick       lusers     msg        op         query      sajoin     server     stats      unban      wallchops 
+2016-01-07 15:43:50		[python]
+2016-01-07 15:43:50		  completion leet       prism      python     smile     
+2016-01-07 15:43:50		[aspell]
+2016-01-07 15:43:50		  aspell
+2016-01-07 15:43:50		[logger]
+2016-01-07 15:43:50		  logger
+2016-01-07 15:43:50		[charset]
+2016-01-07 15:43:50		  charset
+2016-01-07 15:43:50		[relay]
+2016-01-07 15:43:50		  relay
+2016-01-07 15:43:50		[lua]
+2016-01-07 15:43:50		  lua
+2016-01-07 15:43:50		[tcl]
+2016-01-07 15:43:50		  tcl
+2016-01-07 15:43:50		[ruby]
+2016-01-07 15:43:50		  ruby
+2016-01-07 15:43:50		[alias]
+2016-01-07 15:43:50		  AAWAY   AME     ANICK   C       CL      EXIT    J       KB      M       N       REDRAW  SIGNOFF UB      unalias W       WI      WW     
+2016-01-07 15:43:50		  alias   AMSG    BYE     CHAT    CLOSE   IG      K       LEAVE   MUB     Q       SAY     T       UMODE   V       WC      WII    
+2016-01-07 15:43:50		[guile]
+2016-01-07 15:43:50		  guile
+2016-01-07 15:47:31		Options reloaded from weechat.conf
+2016-01-07 15:47:31		Options reloaded from plugins.conf
+2016-01-07 15:47:31		Options reloaded from rmodifier.conf
+2016-01-07 15:47:31		Options reloaded from xfer.conf
+2016-01-07 15:47:31		Options reloaded from irc.conf
+2016-01-07 15:47:31		Options reloaded from aspell.conf
+2016-01-07 15:47:31		Options reloaded from logger.conf
+2016-01-07 15:47:31		Options reloaded from charset.conf
+2016-01-07 15:47:31		Options reloaded from relay.conf
+2016-01-07 15:47:31		Options reloaded from alias.conf
+2016-01-07 15:48:50	=!=	Error: unknown command "nickl" (type /help for help)
+2016-01-07 15:51:35	=!=	python: unknown option for command "python"
+2016-01-07 15:51:45	=!=	Error: unknown command "script" (type /help for help)
+2016-01-07 15:51:54	=!=	Error: unknown command "script" (type /help for help)
+2016-01-07 15:51:56	=!=	Error: unknown command "script" (type /help for help)
+2016-01-07 15:51:59	=!=	Error: unknown command "script" (type /help for help)
+2016-01-07 15:52:02	=!=	Error: unknown command "script" (type /help for help)
+2016-01-07 15:52:12		python scripts loaded:
+2016-01-07 15:52:12		  completion v0.2 - Word completions for WeeChat
+2016-01-07 15:52:12		  gweather v0.4 - Bar item with current Google weather
+2016-01-07 15:52:12		  leet v0.1 - Convert text to leet
+2016-01-07 15:52:12		  prism v0.2.8 - Taste the rainbow.
+2016-01-07 15:52:12		  smile v0.1 - Prints a random ascii smiley.
+2016-01-07 15:52:26	=!=	python: script "quick_force_color.py" not found
+2016-01-07 15:52:28	=!=	python: script "quick_force_color" not found
+2016-01-07 15:53:22		python: loading script "/home/bskcx/.weechat/python/autoload/quick_force_color.py"
+2016-01-07 15:53:22		python: registered script "quick_force_color", version 0.4 (quickly add/del/change entry in nick_color_force)
+2016-01-07 15:54:14	=!=	Error: unknown command "add" (type /help for help)
+2016-01-07 15:58:15	=!=	Error: unknown command "del" (type /help for help)
+2016-01-08 14:03:24	=!=	Error: unknown command "nicki" (type /help for help)
+2016-01-20 15:09:11		fifo: pipe closed
+2016-01-20 15:51:39		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-02-10 08:59:05		fifo: removing old fifo pipe "/home/bskcx/.weechat/weechat_fifo_3321"
+2016-02-10 08:59:05		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-02-10 14:16:08		[core]
+2016-02-10 14:16:08		  away    buffer  command debug   help    input   layout  mute    proxy   reload  save    unset   uptime  wait   
+2016-02-10 14:16:08		  bar     color   cursor  filter  history key     mouse   plugin  quit    repeat  set     upgrade version window 
+2016-02-10 14:16:08		[rmodifier]
+2016-02-10 14:16:08		  rmodifier
+2016-02-10 14:16:08		[perl]
+2016-02-10 14:16:08		  perl   spacer
+2016-02-10 14:16:08		[xfer]
+2016-02-10 14:16:08		  me   xfer
+2016-02-10 14:16:08		[irc]
+2016-02-10 14:16:08		  admin      ctcp       devoice    info       kickban    map        names      oper       quote      samode     service    summon     userhost   wallops   
+2016-02-10 14:16:08		  allchan    cycle      die        invite     kill       me         nick       part       reconnect  sanick     servlist   time       users      who       
+2016-02-10 14:16:08		  allserv    dcc        disconnect ison       links      mode       notice     ping       rehash     sapart     squery     topic      version    whois     
+2016-02-10 14:16:08		  ban        dehalfop   halfop     join       list       motd       notify     pong       restart    saquit     squit      trace      voice      whowas    
+2016-02-10 14:16:08		  connect    deop       ignore     kick       lusers     msg        op         query      sajoin     server     stats      unban      wallchops 
+2016-02-10 14:16:08		[python]
+2016-02-10 14:16:08		  completion        leet              prism             python            quick_force_color smile            
+2016-02-10 14:16:08		[aspell]
+2016-02-10 14:16:08		  aspell
+2016-02-10 14:16:08		[logger]
+2016-02-10 14:16:08		  logger
+2016-02-10 14:16:08		[charset]
+2016-02-10 14:16:08		  charset
+2016-02-10 14:16:08		[relay]
+2016-02-10 14:16:08		  relay
+2016-02-10 14:16:08		[lua]
+2016-02-10 14:16:08		  lua
+2016-02-10 14:16:08		[tcl]
+2016-02-10 14:16:08		  tcl
+2016-02-10 14:16:08		[ruby]
+2016-02-10 14:16:08		  ruby
+2016-02-10 14:16:08		[alias]
+2016-02-10 14:16:08		  AAWAY   AME     ANICK   C       CL      EXIT    J       KB      M       N       REDRAW  SIGNOFF UB      unalias W       WI      WW     
+2016-02-10 14:16:08		  alias   AMSG    BYE     CHAT    CLOSE   IG      K       LEAVE   MUB     Q       SAY     T       UMODE   V       WC      WII    
+2016-02-10 14:16:08		[guile]
+2016-02-10 14:16:08		  guile
+2016-02-17 12:33:27		fifo: pipe closed
+2016-02-17 12:33:31		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-03-02 12:50:47	=!=	Error: unknown command "o\" (type /help for help)
+2016-03-09 16:58:08	=!=	Error: unknown command "o\" (type /help for help)
+2016-03-23 15:20:40		fifo: pipe closed
+2016-03-23 15:20:44		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-03-23 15:21:32		Option changed: irc.server.freenode.autojoin = "#internlandia"
+2016-05-12 09:22:27	=!=	Error: unknown command "clear" (type /help for help)
+2016-05-19 14:34:27	=!=	Error: unknown command "o\" (type /help for help)
+2016-05-23 08:43:00	=!=	Error: unknown command "s?" (type /help for help)
+2016-05-23 12:27:25	=!=	Error: unknown command "identify" (type /help for help)
+2016-05-26 10:41:28	=!=	Error: unknown command "cnotice" (type /help for help)
+2016-06-01 13:11:02		fifo: pipe closed
+2016-06-01 13:11:07		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-06-01 13:13:20		fifo: pipe closed
+2016-06-01 13:13:28		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-06-01 13:15:10		fifo: pipe closed
+2016-06-01 13:18:52		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-06-01 13:19:08		fifo: pipe closed
+2016-06-01 13:19:52		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-06-01 13:20:55		fifo: pipe closed
+2016-06-01 13:23:33		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-06-01 13:23:58		irc: server kornbluth.freenode.net created (temporary server, NOT SAVED!)
+2016-06-01 13:24:10		fifo: pipe closed
+2016-06-01 13:24:26		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-06-01 13:52:21	=!=	Error: unknown command "home" (type /help for help)
+2016-06-01 14:57:49	=!=	irc: unknown option for "ignore" command
+2016-06-01 14:58:48	=!=	irc: unknown option for "ignore" command
+2016-06-01 14:59:05		irc: ignore added:
+2016-06-01 14:59:05		  [1] mask: magic_conch / server: * / channel: *
+2016-06-01 15:00:39	=!=	irc: unknown option for "ignore" command
+2016-06-01 15:00:44	=!=	irc: unknown option for "ignore" command
+2016-06-01 15:00:47		[irc]  /ignore  list
+2016-06-01 15:00:47		                add [re:]<nick> [<server> [<channel>]]
+2016-06-01 15:00:47		                del <number>|-all
+2016-06-01 15:00:47		ignore nicks/hosts from servers or channels
+2016-06-01 15:00:47		     list: list all ignores
+2016-06-01 15:00:47		      add: add an ignore
+2016-06-01 15:00:47		     nick: nick or hostname (can be regular expression if "re:" is given or a mask using "*" to replace one or more chars)
+2016-06-01 15:00:47		      del: delete an ignore
+2016-06-01 15:00:47		   number: number of ignore to delete (look at list to find it)
+2016-06-01 15:00:47		     -all: delete all ignores
+2016-06-01 15:00:47		   server: internal server name where ignore is working
+2016-06-01 15:00:47		  channel: channel name where ignore is working
+2016-06-01 15:00:47		Note: the regular expression can start with "(?-i)" to become case sensitive.
+2016-06-01 15:00:47		Examples:
+2016-06-01 15:00:47		  ignore nick "toto" everywhere:
+2016-06-01 15:00:47		    /ignore add toto
+2016-06-01 15:00:47		  ignore host "toto@domain.com" on freenode server:
+2016-06-01 15:00:47		    /ignore add toto@domain.com freenode
+2016-06-01 15:00:47		  ignore host "toto*@*.domain.com" on freenode/#weechat:
+2016-06-01 15:00:47		    /ignore add toto*@*.domain.com freenode #weechat
+2016-06-01 15:00:57	=!=	irc: wrong ignore number
+2016-06-01 15:01:05		irc: ignore deleted
+2016-06-01 15:03:09		[core]  /filter  list
+2016-06-01 15:03:09		                 enable|disable|toggle [<name>]
+2016-06-01 15:03:09		                 add <name> <buffer>[,<buffer>...] <tags> <regex>
+2016-06-01 15:03:09		                 del <name>|-all
+2016-06-01 15:03:09		filter messages in buffers, to hide/show them according to tags or regex
+2016-06-01 15:03:09		   list: list all filters
+2016-06-01 15:03:09		 enable: enable filters (filters are enabled by default)
+2016-06-01 15:03:09		disable: disable filters
+2016-06-01 15:03:09		 toggle: toggle filters
+2016-06-01 15:03:09		   name: filter name
+2016-06-01 15:03:09		    add: add a filter
+2016-06-01 15:03:09		    del: delete a filter
+2016-06-01 15:03:09		   -all: delete all filters
+2016-06-01 15:03:09		 buffer: comma separated list of buffers where filter is active:
+2016-06-01 15:03:09		         - this is full name including plugin (example: "irc.freenode.#weechat")
+2016-06-01 15:03:09		         - "*" means all buffers
+2016-06-01 15:03:09		         - a name starting with '!' is excluded
+2016-06-01 15:03:09		         - name can start or end with '*' to match many buffers
+2016-06-01 15:03:09		   tags: comma separated list of tags, for example: "irc_join,irc_part,irc_quit"
+2016-06-01 15:03:09		  regex: regular expression to search in line
+2016-06-01 15:03:09		         - use '\t' to separate prefix from message, special chars like '|' must be escaped: '\|'
+2016-06-01 15:03:09		         - if regex starts with '!', then matching result is reversed (use '\!' to start with '!')
+2016-06-01 15:03:09		         - two regular expressions are created: one for prefix and one for message
+2016-06-01 15:03:09		         - regex are case insensitive, they can start by "(?-i)" to become case sensitive
+2016-06-01 15:03:09		The default key alt+'=' toggles filtering on/off.
+2016-06-01 15:03:09		Tags most commonly used:
+2016-06-01 15:03:09		  no_filter, no_highlight, no_log, log0..log9 (log level),
+2016-06-01 15:03:09		  notify_none, notify_message, notify_private, notify_highlight,
+2016-06-01 15:03:09		  nick_xxx (xxx is nick in message), prefix_nick_ccc (ccc is color of nick),
+2016-06-01 15:03:09		  irc_xxx (xxx is command name or number, see /server raw),
+2016-06-01 15:03:09		  irc_numeric, irc_error, irc_action, irc_ctcp, irc_ctcp_reply, irc_smart_filter, away_info.
+2016-06-01 15:03:09		To see tags for lines in buffers: /debug tags
+2016-06-01 15:03:09		Examples:
+2016-06-01 15:03:09		  use IRC smart filter on all buffers:
+2016-06-01 15:03:09		    /filter add irc_smart * irc_smart_filter *
+2016-06-01 15:03:09		  use IRC smart filter on all buffers except those with "#weechat" in name:
+2016-06-01 15:03:09		    /filter add irc_smart *,!*#weechat* irc_smart_filter *
+2016-06-01 15:03:09		  filter all IRC join/part/quit messages:
+2016-06-01 15:03:09		    /filter add joinquit * irc_join,irc_part,irc_quit *
+2016-06-01 15:03:09		  filter nicks displayed when joining channels or with /names:
+2016-06-01 15:03:09		    /filter add nicks * irc_366 *
+2016-06-01 15:03:09		  filter nick "toto" on IRC channel #weechat:
+2016-06-01 15:03:09		    /filter add toto irc.freenode.#weechat nick_toto *
+2016-06-01 15:03:09		  filter lines containing "weechat sucks" on IRC channel #weechat:
+2016-06-01 15:03:09		    /filter add sucks irc.freenode.#weechat * weechat sucks
+2016-06-01 15:05:18		Filter "chicken" added:
+2016-06-01 15:05:18		  [chicken] buffer: * / tags: magic_conch / regex: ": chicken*" 
+2016-06-01 15:05:39		Filter "chicken" deleted
+2016-06-01 15:05:45		Filter "chicken" added:
+2016-06-01 15:05:45		  [chicken] buffer: * / tags: magic_conch / regex: "*: chicken*" 
+2016-06-01 15:05:51		Filter "chicken" deleted
+2016-06-01 15:05:58	=!=	Error adding filter
+2016-06-01 15:06:16		Filter "chicken" added:
+2016-06-01 15:06:16		  [chicken] buffer: * / tags: magic_conch / regex: '*: chicken*' 
+2016-06-01 15:06:50		Filter "chicken" disabled
+2016-06-01 15:06:56		Filter "chicken" enabled
+2016-06-01 15:07:12		Filter "chicken" deleted
+2016-06-01 15:07:20	=!=	Error adding filter
+2016-06-01 15:07:39	=!=	Error adding filter
+2016-06-01 15:07:45		Message filtering enabled
+2016-06-01 15:07:45		Message filters:
+2016-06-01 15:07:45		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2016-06-01 15:07:58		Filter "chicken" added:
+2016-06-01 15:07:58		  [chicken] buffer: * / tags: magic_conch / regex: '*chicken*' 
+2016-06-01 15:08:31		Filter "chicken" deleted
+2016-06-01 15:08:44		Filter "chicken" added:
+2016-06-01 15:08:44		  [chicken] buffer: * / tags: * / regex: '*chicken*' 
+2016-06-01 15:08:54		Filter "chicken" deleted
+2016-06-01 15:10:57		Filter "chicken" added:
+2016-06-01 15:10:57		  [chicken] buffer: * / tags: nick_*magic_conch* / regex: '*: chicken*' 
+2016-06-01 15:11:02		Filter "chicken" deleted
+2016-06-01 15:11:26		Filter "chicken" added:
+2016-06-01 15:11:26		  [chicken] buffer: * / tags: nick_magic_conch / regex: '*: chicken*' 
+2016-06-01 15:11:36		Filter "chicken" deleted
+2016-06-01 15:12:45		Filter "chicken" added:
+2016-06-01 15:12:45		  [chicken] buffer: * / tags: nick_magic_conch / regex: * 
+2016-06-01 15:13:10	=!=	Error: filter "chicken" already exists
+2016-06-01 15:13:13		Filter "chicken" deleted
+2016-06-01 15:13:15		Filter "chicken" added:
+2016-06-01 15:13:15		  [chicken] buffer: * / tags: nick_magic_conch / regex: :*chicken* 
+2016-06-01 15:14:16		Filter "chicken" deleted
+2016-06-01 15:17:38		Filter "chicken" added:
+2016-06-01 15:17:38		  [chicken] buffer: * / tags: nick_magic_conch / regex: : chicken 
+2016-06-02 09:29:12		Mouse enabled
+2016-06-07 08:44:58	=!=	Error: unknown command "atoztitles" (type /help for help)
+2016-06-20 15:00:33	=!=	Error: unknown command "smiley" (type /help for help)
+2016-06-20 16:06:19		fifo: removing old fifo pipe "/home/bskcx/.weechat/weechat_fifo_7012"
+2016-06-20 16:06:19		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-06-21 09:08:50		Message filtering enabled
+2016-06-21 09:08:50		Message filters:
+2016-06-21 09:08:50		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2016-06-21 09:09:03		Message filtering enabled
+2016-06-21 09:09:03		Message filters:
+2016-06-21 09:09:03		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2016-06-21 09:09:13	=!=	Error: missing arguments for "filter add" command
+2016-06-21 09:09:13	=!=	Error with command "filter" (try /help filter)
+2016-06-21 09:09:16	=!=	Error: unknown option for "filter" command
+2016-06-21 09:09:18		[core]  /filter  list
+2016-06-21 09:09:18		                 enable|disable|toggle [<name>]
+2016-06-21 09:09:18		                 add <name> <buffer>[,<buffer>...] <tags> <regex>
+2016-06-21 09:09:18		                 del <name>|-all
+2016-06-21 09:09:18		filter messages in buffers, to hide/show them according to tags or regex
+2016-06-21 09:09:18		   list: list all filters
+2016-06-21 09:09:18		 enable: enable filters (filters are enabled by default)
+2016-06-21 09:09:18		disable: disable filters
+2016-06-21 09:09:18		 toggle: toggle filters
+2016-06-21 09:09:18		   name: filter name
+2016-06-21 09:09:18		    add: add a filter
+2016-06-21 09:09:18		    del: delete a filter
+2016-06-21 09:09:18		   -all: delete all filters
+2016-06-21 09:09:18		 buffer: comma separated list of buffers where filter is active:
+2016-06-21 09:09:18		         - this is full name including plugin (example: "irc.freenode.#weechat")
+2016-06-21 09:09:18		         - "*" means all buffers
+2016-06-21 09:09:18		         - a name starting with '!' is excluded
+2016-06-21 09:09:18		         - name can start or end with '*' to match many buffers
+2016-06-21 09:09:18		   tags: comma separated list of tags, for example: "irc_join,irc_part,irc_quit"
+2016-06-21 09:09:18		  regex: regular expression to search in line
+2016-06-21 09:09:18		         - use '\t' to separate prefix from message, special chars like '|' must be escaped: '\|'
+2016-06-21 09:09:18		         - if regex starts with '!', then matching result is reversed (use '\!' to start with '!')
+2016-06-21 09:09:18		         - two regular expressions are created: one for prefix and one for message
+2016-06-21 09:09:18		         - regex are case insensitive, they can start by "(?-i)" to become case sensitive
+2016-06-21 09:09:18		The default key alt+'=' toggles filtering on/off.
+2016-06-21 09:09:18		Tags most commonly used:
+2016-06-21 09:09:18		  no_filter, no_highlight, no_log, log0..log9 (log level),
+2016-06-21 09:09:18		  notify_none, notify_message, notify_private, notify_highlight,
+2016-06-21 09:09:18		  nick_xxx (xxx is nick in message), prefix_nick_ccc (ccc is color of nick),
+2016-06-21 09:09:18		  irc_xxx (xxx is command name or number, see /server raw),
+2016-06-21 09:09:18		  irc_numeric, irc_error, irc_action, irc_ctcp, irc_ctcp_reply, irc_smart_filter, away_info.
+2016-06-21 09:09:18		To see tags for lines in buffers: /debug tags
+2016-06-21 09:09:18		Examples:
+2016-06-21 09:09:18		  use IRC smart filter on all buffers:
+2016-06-21 09:09:18		    /filter add irc_smart * irc_smart_filter *
+2016-06-21 09:09:18		  use IRC smart filter on all buffers except those with "#weechat" in name:
+2016-06-21 09:09:18		    /filter add irc_smart *,!*#weechat* irc_smart_filter *
+2016-06-21 09:09:18		  filter all IRC join/part/quit messages:
+2016-06-21 09:09:18		    /filter add joinquit * irc_join,irc_part,irc_quit *
+2016-06-21 09:09:18		  filter nicks displayed when joining channels or with /names:
+2016-06-21 09:09:18		    /filter add nicks * irc_366 *
+2016-06-21 09:09:18		  filter nick "toto" on IRC channel #weechat:
+2016-06-21 09:09:18		    /filter add toto irc.freenode.#weechat nick_toto *
+2016-06-21 09:09:18		  filter lines containing "weechat sucks" on IRC channel #weechat:
+2016-06-21 09:09:18		    /filter add sucks irc.freenode.#weechat * weechat sucks
+2016-06-21 09:10:27		Filter "chicken" added:
+2016-06-21 09:10:27		  [chicken] buffer: * / tags: nick_magic_conch / regex: chicken 
+2016-06-21 09:10:54		fifo: pipe closed
+2016-06-21 09:10:57		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-06-21 09:11:08		Message filtering enabled
+2016-06-21 09:11:08		Message filters:
+2016-06-21 09:11:08		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2016-06-21 09:11:08		  [chicken] buffer: * / tags: nick_magic_conch / regex: chicken 
+2016-06-21 09:19:27		Option changed: irc.server.freenode.nicks = "keveloper,frappuccino,frappi"
+2016-06-21 09:19:56	=!=	Error: configuration option "irc.server.freenode.autjoin" not found
+2016-06-21 09:20:02		Option changed: irc.server.freenode.autojoin = "#internlandia,#discodevs"
+2016-06-21 10:15:16	=!=	Error: unknown command "do" (type /help for help)
+2016-06-22 13:09:39	=!=	Error: unknown command "script" (type /help for help)
+2016-06-22 13:09:44		python scripts loaded:
+2016-06-22 13:09:44		  completion v0.2 - Word completions for WeeChat
+2016-06-22 13:09:44		  gweather v0.4 - Bar item with current Google weather
+2016-06-22 13:09:44		  leet v0.1 - Convert text to leet
+2016-06-22 13:09:44		  prism v0.2.8 - Taste the rainbow.
+2016-06-22 13:09:44		  quick_force_color v0.4 - quickly add/del/change entry in nick_color_force
+2016-06-22 13:09:44		  smile v0.1 - Prints a random ascii smiley.
+2016-06-22 13:09:53		[python]  /python  list|listfull [<name>]
+2016-06-22 13:09:53		                   load <filename>
+2016-06-22 13:09:53		                   autoload
+2016-06-22 13:09:53		                   reload|unload [<name>]
+2016-06-22 13:09:53		list/load/unload scripts
+2016-06-22 13:09:53		    list: list loaded scripts
+2016-06-22 13:09:53		listfull: list loaded scripts (verbose)
+2016-06-22 13:09:53		    load: load a script
+2016-06-22 13:09:53		autoload: load all scripts in "autoload" directory
+2016-06-22 13:09:53		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2016-06-22 13:09:53		  unload: unload a script (if no name given, unload all scripts)
+2016-06-22 13:09:53		filename: script (file) to load
+2016-06-22 13:09:53		    name: a script name (name used in call to "register" function)
+2016-06-22 13:09:53		Without argument, this command lists all loaded scripts.
+2016-06-22 13:10:09	=!=	python: script "beinc.py" not found
+2016-06-22 13:10:11	=!=	python: script "beinc" not found
+2016-06-22 13:10:19	=!=	python: unknown option for command "python"
+2016-06-22 13:10:31		python scripts loaded:
+2016-06-22 13:10:31		  completion v0.2 - Word completions for WeeChat
+2016-06-22 13:10:31		  gweather v0.4 - Bar item with current Google weather
+2016-06-22 13:10:31		  leet v0.1 - Convert text to leet
+2016-06-22 13:10:31		  prism v0.2.8 - Taste the rainbow.
+2016-06-22 13:10:31		  quick_force_color v0.4 - quickly add/del/change entry in nick_color_force
+2016-06-22 13:10:31		  smile v0.1 - Prints a random ascii smiley.
+2016-06-22 13:10:39		Plugins loaded:
+2016-06-22 13:10:39		  rmodifier: Regex modifier plugin for WeeChat
+2016-06-22 13:10:39		  perl: Perl plugin for WeeChat
+2016-06-22 13:10:39		  xfer: Xfer (file transfer and direct chat) plugin for WeeChat
+2016-06-22 13:10:39		  irc: IRC (Internet Relay Chat) plugin for WeeChat
+2016-06-22 13:10:39		  python: Python plugin for WeeChat
+2016-06-22 13:10:39		  aspell: Aspell plugin for WeeChat
+2016-06-22 13:10:39		  logger: Logger plugin for WeeChat
+2016-06-22 13:10:39		  charset: Charset plugin for WeeChat
+2016-06-22 13:10:39		  relay: Network communication between WeeChat and remote application
+2016-06-22 13:10:39		  lua: Lua plugin for WeeChat
+2016-06-22 13:10:39		  tcl: Tcl plugin for WeeChat
+2016-06-22 13:10:39		  ruby: Ruby plugin for WeeChat
+2016-06-22 13:10:39		  alias: Alias plugin for WeeChat
+2016-06-22 13:10:39		  fifo: Fifo plugin for WeeChat
+2016-06-22 13:10:39		  guile: Guile (scheme) plugin for WeeChat
+2016-06-22 13:10:43		[core]
+2016-06-22 13:10:43		  away    buffer  command debug   help    input   layout  mute    proxy   reload  save    unset   uptime  wait   
+2016-06-22 13:10:43		  bar     color   cursor  filter  history key     mouse   plugin  quit    repeat  set     upgrade version window 
+2016-06-22 13:10:43		[rmodifier]
+2016-06-22 13:10:43		  rmodifier
+2016-06-22 13:10:43		[perl]
+2016-06-22 13:10:43		  perl   spacer
+2016-06-22 13:10:43		[xfer]
+2016-06-22 13:10:43		  me   xfer
+2016-06-22 13:10:43		[irc]
+2016-06-22 13:10:43		  admin      cycle      disconnect join       lusers     names      part       rehash     saquit     stats      userhost   who       
+2016-06-22 13:10:43		  allchan    dcc        halfop     kick       map        nick       ping       restart    server     summon     users      whois     
+2016-06-22 13:10:43		  allserv    dehalfop   ignore     kickban    me         notice     pong       sajoin     service    time       version    whowas    
+2016-06-22 13:10:43		  ban        deop       info       kill       mode       notify     query      samode     servlist   topic      voice     
+2016-06-22 13:10:43		  connect    devoice    invite     links      motd       op         quote      sanick     squery     trace      wallchops 
+2016-06-22 13:10:43		  ctcp       die        ison       list       msg        oper       reconnect  sapart     squit      unban      wallops   
+2016-06-22 13:10:43		[python]
+2016-06-22 13:10:43		  completion        leet              prism             python            quick_force_color smile            
+2016-06-22 13:10:43		[aspell]
+2016-06-22 13:10:43		  aspell
+2016-06-22 13:10:43		[logger]
+2016-06-22 13:10:43		  logger
+2016-06-22 13:10:43		[charset]
+2016-06-22 13:10:43		  charset
+2016-06-22 13:10:43		[relay]
+2016-06-22 13:10:43		  relay
+2016-06-22 13:10:43		[lua]
+2016-06-22 13:10:43		  lua
+2016-06-22 13:10:43		[tcl]
+2016-06-22 13:10:43		  tcl
+2016-06-22 13:10:43		[ruby]
+2016-06-22 13:10:43		  ruby
+2016-06-22 13:10:43		[alias]
+2016-06-22 13:10:43		  AAWAY   AME     ANICK   C       CL      EXIT    J       KB      M       N       REDRAW  SIGNOFF UB      unalias W       WI      WW     
+2016-06-22 13:10:43		  alias   AMSG    BYE     CHAT    CLOSE   IG      K       LEAVE   MUB     Q       SAY     T       UMODE   V       WC      WII    
+2016-06-22 13:10:43		[guile]
+2016-06-22 13:10:43		  guile
+2016-06-22 13:10:47		[core]  /plugin  list|listfull [<name>]
+2016-06-22 13:10:47		                 load <filename> [<arguments>]
+2016-06-22 13:10:47		                 autoload [<arguments>]
+2016-06-22 13:10:47		                 reload [<name> [<arguments>]]
+2016-06-22 13:10:47		                 unload [<name>]
+2016-06-22 13:10:47		list/load/unload plugins
+2016-06-22 13:10:47		     list: list loaded plugins
+2016-06-22 13:10:47		 listfull: list loaded plugins (verbose)
+2016-06-22 13:10:47		     load: load a plugin
+2016-06-22 13:10:47		 autoload: autoload plugins in system or user directory
+2016-06-22 13:10:47		   reload: reload a plugin (if no name given, unload all plugins, then autoload plugins)
+2016-06-22 13:10:47		   unload: unload a plugin (if no name given, unload all plugins)
+2016-06-22 13:10:47		 filename: plugin (file) to load
+2016-06-22 13:10:47		     name: a plugin name
+2016-06-22 13:10:47		arguments: arguments given to plugin on load
+2016-06-22 13:10:47		Without argument, this command lists loaded plugins.
+2016-06-22 13:12:57		python scripts loaded:
+2016-06-22 13:12:57		  completion v0.2 - Word completions for WeeChat
+2016-06-22 13:12:57		  gweather v0.4 - Bar item with current Google weather
+2016-06-22 13:12:57		  leet v0.1 - Convert text to leet
+2016-06-22 13:12:57		  prism v0.2.8 - Taste the rainbow.
+2016-06-22 13:12:57		  quick_force_color v0.4 - quickly add/del/change entry in nick_color_force
+2016-06-22 13:12:57		  smile v0.1 - Prints a random ascii smiley.
+2016-06-22 13:13:07		python: loading script "/home/bskcx/.weechat/python/autoload/beinc.py"
+2016-06-22 13:13:08		python: registered script "beinc_weechat", version 1.1 (Blackmore's Extended IRC Notification Collection (Weechat Client))
+2016-06-22 13:13:08		WeeChat version >= 0.4.0 is required to run beinc
+2016-06-22 13:14:27		fifo: pipe closed
+2016-06-22 13:20:40		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-06-28 10:46:35		Mouse is disabled
+2016-06-28 10:46:40		Mouse is disabled
+2016-06-28 10:46:47		Mouse enabled
+2016-06-28 15:21:52	=!=	Error: unknown command "" (type /help for help)
+2016-06-28 15:21:52	=!=	Error: unknown command "" (type /help for help)
+2016-06-29 11:07:11	=!=	Error: unknown command "\" (type /help for help)
+2016-07-12 10:37:32	=!=	Error: unknown command "quitr" (type /help for help)
+2016-07-12 10:37:34		fifo: pipe closed
+2016-07-12 10:37:37		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2016-07-12 16:37:04	=!=	Error: unknown command "" (type /help for help)
+2016-07-12 16:37:05	=!=	Error: unknown command "" (type /help for help)
+2016-07-14 11:14:48	=!=	Error: unknown command "search" (type /help for help)
