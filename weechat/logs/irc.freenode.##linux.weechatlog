@@ -1,0 +1,35 @@
+2017-01-09 18:41:24	-->	keveloper (~frappucci@51.ip-192-99-58.net) has joined ##linux
+2017-01-09 18:41:24	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-01-09 18:41:24	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-01-09 18:41:25	--	Channel ##linux: 1411 nicks (1 op, 0 voices, 1410 normals)
+2017-01-09 18:41:25	--	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-01-09 18:41:25	--	URL for ##linux: http://linux.chat
+2017-01-09 18:41:26	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-01-09 18:41:41	bls	that or it's routing the mail through your local MDA and getting that error back
+2017-01-09 18:41:45	keveloper	anyone ever put arch on a 2011 mbp? (not dual boot)
+2017-01-09 18:41:57	-->	na_th_an (~na_th_an@172.ip-158-69-48.net) has joined ##linux
+2017-01-09 18:42:03	bster	bls: cool thanks, I'll see if I can find some logs
+2017-01-09 18:42:39	bls	bster: you should be able to forward the mail to another valid user
+2017-01-09 18:42:45	czart	bls: considering Python development, virtualenv seems inevitable. But, I am also going to test Docker official containers and likely build my own customized images. Do you have experience with both?
+2017-01-09 18:43:09	<--	nando293921 (~Nando15@cpe-76-185-128-7.satx.res.rr.com) has quit (Ping timeout: 240 seconds)
+2017-01-09 18:43:12	bster	bls: well, git's email should be working, so if it's not i should fix that
+2017-01-09 18:43:13	bls	czart: python yes. I've avoided docker
+2017-01-09 18:43:15	czart	officail containers = offical images on thier hub, I mean
+2017-01-09 18:43:23	<--	nidr0x (~z4.30i@nidr0x.ddns.jazztel.es) has quit (Read error: Connection reset by peer)
+2017-01-09 18:43:26	phogg	realtime: the default behavior of cron is to email the cron job owner with the output of any job
+2017-01-09 18:43:37	czart	bls: any particular reason to avoid dockerized environment?
+2017-01-09 18:43:41	krocodactyl	keveloper: surely someone has done that at somepoint, yes
+2017-01-09 18:43:48	phogg	realtime: I say email, but it just delivers to the local spool unless you configure otherwise
+2017-01-09 18:43:56	-->	faLUCE (~paolo@host10-178-dynamic.7-87-r.retail.telecomitalia.it) has joined ##linux
+2017-01-09 18:44:02	bls	czart: the low quality/security being produced in a lot of the docker community
+2017-01-09 18:44:11	realtime	hm I see. thanks for the clarification
+2017-01-09 18:44:22	-->	Danilochka (8180e881@gateway/web/freenode/ip.129.128.232.129) has joined ##linux
+2017-01-09 18:44:39	<--	freeyourhead (~freeyourh@104.237.80.68) has quit (Ping timeout: 240 seconds)
+2017-01-09 18:44:52	czart	bls: yes, that's true. Although, I do not care about security at the moment, it may turn very important soon.
+2017-01-09 18:44:54	Danilochka	Hello, is there a way to strictly find a file using the 'locate' command, as in find a file with that exact name and not files that include that name?
+2017-01-09 18:44:54	bls	prebuilt docker containers are almost becomming the mystery binary from download.com of the linux world
+2017-01-09 18:45:00	-->	nidr0x (~z4.30i@nidr0x.ddns.jazztel.es) has joined ##linux
+2017-01-09 18:45:05	faLUCE	hello. Is there a good way for reseting an usb device by command line? I found that:   http://unix.stackexchange.com/questions/234581/disconnect-and-reconnect-usb-port-via-cli    It works, but it seems a bit unstable and I'm suspicious about it
+2017-01-09 18:45:10	B0g4r7	Low quality security seems to be pretty ubiquitous these days.
+2017-01-09 18:45:25	B0g4r7	:shakes head:
+2017-01-09 18:46:22	bls	czart: and none of the python stuff I'm working on is in a state to be containerized just yet, but when it does, I was leaning more towards the LXC ecosystem

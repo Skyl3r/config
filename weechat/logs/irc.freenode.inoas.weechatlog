@@ -1,0 +1,56 @@
+2017-01-10 08:43:39	keveloper	it might be time to just ignore him lol, he's always salty af
+2017-01-10 08:44:16	inoas	a bit more patience ;)
+2017-01-10 08:44:21	keveloper	:P
+2017-01-10 08:46:17	inoas	see he even had to say somthing ;p
+2017-01-10 08:46:24	inoas	it took some time but he did
+2017-01-10 08:46:29	keveloper	haha true
+2017-01-10 08:49:59	keveloper	alright now might be the time
+2017-01-10 08:50:01	keveloper	:P
+2017-01-10 08:50:07	inoas	back to trollmode ;)
+2017-01-10 08:50:07	inoas	haha
+2017-01-10 08:50:26	keveloper	http://kevinholland.me/
+2017-01-10 08:50:29	keveloper	Here count my divs lolol
+2017-01-10 08:50:40	keveloper	(This was before I cared about clean markup)
+2017-01-10 08:50:40	inoas	LOL
+2017-01-10 08:50:42	inoas	that's what I mean
+2017-01-10 08:50:57	keveloper	I use scss now to have those classes on elements
+2017-01-10 08:50:58	inoas	well some of that can be solved by doing more semantic markup
+2017-01-10 08:51:01	keveloper	and use semantic HTML
+2017-01-10 08:51:01	inoas	others by gird/flexbox
+2017-01-10 08:51:09	inoas	but you will notice that some divs will stay
+2017-01-10 08:51:25	inoas	<i class="material-icons">description</i> can be solved by css etc
+2017-01-10 08:51:26	keveloper	just look at all those divs
+2017-01-10 08:51:31	keveloper	Yeah
+2017-01-10 08:51:39	keveloper	This is if you use CSS/HTML with materializecss
+2017-01-10 08:51:43	inoas	I know
+2017-01-10 08:51:49	keveloper	Great CSS framework, but its awful for non SCSS lol
+2017-01-10 08:51:52	keveloper	your markup turns to shit
+2017-01-10 08:52:07	inoas	scss is fine enough
+2017-01-10 08:52:17	inoas	I am mostly a backend dev
+2017-01-10 08:52:19	keveloper	also don't judge this portfolio, its old :P lol
+2017-01-10 08:52:22	inoas	but I come from well.. HTML 3.2 times
+2017-01-10 08:52:28	inoas	this is the last stuff I did
+2017-01-10 08:52:31	inoas	it still has divs
+2017-01-10 08:52:41	inoas	especially in the content because it makes it easy to maintain for them
+2017-01-10 08:52:42	inoas	http://kourimsky-design.de/
+2017-01-10 08:52:58	inoas	some friend/client
+2017-01-10 08:53:17	inoas	no BEM either
+2017-01-10 08:53:27	inoas	and TWBS grid (nothing else TWBS)
+2017-01-10 08:53:33	keveloper	Eh this isn't that bad
+2017-01-10 08:53:46	keveloper	Good ol grid classes though
+2017-01-10 08:53:55	inoas	heh, sure it could be less worse
+2017-01-10 08:54:06	keveloper	everything can be less worse :P
+2017-01-10 08:54:13	inoas	less bad 
+2017-01-10 08:54:15	inoas	sorry
+2017-01-10 08:54:18	inoas	non native
+2017-01-10 08:55:10	inoas	so having simple <article class="full-width"> would be good
+2017-01-10 08:55:12	keveloper	better would have worked... better :P
+2017-01-10 08:55:16	inoas	and then <article> would be
+2017-01-10 08:56:03	inoas	article:not[class="full-width"]::wrap { width: 100%; } article:not[class="full-width"] { margin: 0 auto; max-width: 900px }
+2017-01-10 08:56:04	inoas	so easy
+2017-01-10 08:56:16	inoas	also easy for the author
+2017-01-10 08:56:41	inoas	and well full-width would apply nothing as it is width: 100% display block by default
+2017-01-10 08:56:46	inoas	or say just a margin of 1%
+2017-01-10 08:56:50	keveloper	I'm all for that. Especially with my hunt for the cleanest DOM lol
+2017-01-10 09:07:14	keveloper	innovati is trying to listen to you and mass is still being a dick -_-
+2017-01-10 09:09:30	keveloper	i'm actually interested in this im about to make ##proposewrap so we can talk in peace hahaha

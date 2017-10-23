@@ -1,0 +1,110 @@
+2017-03-16 10:05:36	-->	keveloper (~frappucci@51.ip-192-99-58.net) has joined #jquery
+2017-03-16 10:05:36	--	Topic for #jquery is "jQuery http://jquery.com | UI http://jqueryui.com | Mobile http://jquerymobile.com | Docs: http://api.jquery.com http://learn.jquery.com | Paste code @ http://jsfiddle.net or http://jsbin.com | Dev Channels #jquery-dev #jqueryui-dev | http://try.jquery.com for learning basics | Rules @ bit.ly/jQIRCCoC | Channel logged @ http://irc.jquery.com"
+2017-03-16 10:05:36	--	Topic set by arthurvr (~user@dd5761476.access.telenet.be) on Mon, 26 Jan 2015 12:01:49
+2017-03-16 10:05:36	--	Channel #jquery: 478 nicks (1 op, 0 voices, 477 normals)
+2017-03-16 10:05:36	--	URL for #jquery: http://jquery.com/
+2017-03-16 10:05:38	--	Channel created on Sun, 26 Nov 2006 01:42:46
+2017-03-16 10:07:26	<--	Rodya_ (~Rodya_@2601:46:4001:e0b4:c4a4:2c5f:9870:6641) has quit (Ping timeout: 246 seconds)
+2017-03-16 10:08:59	<--	greg_f (~greg@altlinux/developer/greg) has quit (Ping timeout: 240 seconds)
+2017-03-16 10:09:15	<--	d3m0n (~d3m0n@unaffiliated/d3m0n) has quit
+2017-03-16 10:12:09	<--	^esc (~esc-ape@91.141.0.185.wireless.dyn.drei.com) has quit (Ping timeout: 240 seconds)
+2017-03-16 10:14:37	-->	tonygreen (~tonygreen@207.59.140.125) has joined #jquery
+2017-03-16 10:15:27	-->	^esc (~esc-ape@178.115.130.4.wireless.dyn.drei.com) has joined #jquery
+2017-03-16 10:16:00	-->	puff (~steven@static-108-32-33-25.pitbpa.fios.verizon.net) has joined #jquery
+2017-03-16 10:17:19	-->	itaipu (~Marco@168.121.96.9) has joined #jquery
+2017-03-16 10:19:28	<--	Jellyg00se (~Jellyg00s@host-79-78-117-41.static.as9105.net) has quit (Ping timeout: 240 seconds)
+2017-03-16 10:19:34	<--	tonygreen (~tonygreen@207.59.140.125) has quit (Remote host closed the connection)
+2017-03-16 10:20:41	-->	MrXXIV (~MrXXIV@cpe-45-37-180-137.nc.res.rr.com) has joined #jquery
+2017-03-16 10:20:59	<--	aw1 (~aw1@unaffiliated/aw1) has quit (Ping timeout: 260 seconds)
+2017-03-16 10:21:42	<--	star_prone (~sviatovig@81.89.12.66) has quit (Remote host closed the connection)
+2017-03-16 10:22:18	-->	ghox (~ghox@179.7.131.213) has joined #jquery
+2017-03-16 10:24:49	<--	Alocat (~Thunderbi@46.140.66.42) has quit (Quit: Alocat)
+2017-03-16 10:27:26	-->	star_prone (~sviatovig@81.89.12.66) has joined #jquery
+2017-03-16 10:27:55	-->	Alocat (~Thunderbi@46.140.66.42) has joined #jquery
+2017-03-16 10:28:34	<--	jak2017 (~jak2000@189.244.127.79) has quit (Ping timeout: 260 seconds)
+2017-03-16 10:28:52	-->	zenox (~zed@82.124.208.46.dyn.plus.net) has joined #jquery
+2017-03-16 10:30:24	-->	al-damiri (uid142631@gateway/web/irccloud.com/x-dybrxdgittqcxdyp) has joined #jquery
+2017-03-16 10:32:51	-->	aw1 (~aw1@unaffiliated/aw1) has joined #jquery
+2017-03-16 10:33:48	-->	tocka (~tocka@78-56-107-170.static.zebra.lt) has joined #jquery
+2017-03-16 10:35:00	<--	xeth (~quassel@197.89.206.82) has quit (Read error: Connection reset by peer)
+2017-03-16 10:37:42	-->	mrwat (~textual@c-76-102-210-56.hsd1.ca.comcast.net) has joined #jquery
+2017-03-16 10:40:40	-->	greg_f (~greg@altlinux/developer/greg) has joined #jquery
+2017-03-16 10:41:59	<--	momomo (~momomo@80.79.152.166) has quit (Ping timeout: 240 seconds)
+2017-03-16 10:42:56	-->	momomo (~momomo@77.42.139.134) has joined #jquery
+2017-03-16 10:43:04	<--	momomo (~momomo@77.42.139.134) has quit (Max SendQ exceeded)
+2017-03-16 10:44:23	-->	ExoUNX (~ExoUNX@unaffiliated/exounx) has joined #jquery
+2017-03-16 10:45:37	<--	codelahoma (~toldorkno@ip70-185-196-150.ok.ok.cox.net) has quit (Ping timeout: 240 seconds)
+2017-03-16 10:46:34	<--	star_prone (~sviatovig@81.89.12.66) has quit (Remote host closed the connection)
+2017-03-16 10:46:40	-->	codelahoma (~toldorkno@ip70-185-196-150.ok.ok.cox.net) has joined #jquery
+2017-03-16 10:46:45	<--	Cabanossi (~Cabanossi@p57995F1E.dip0.t-ipconnect.de) has quit (Ping timeout: 245 seconds)
+2017-03-16 10:47:49	-->	Cabanossi (~Cabanossi@p57995F1E.dip0.t-ipconnect.de) has joined #jquery
+2017-03-16 10:48:23	<--	itaipu (~Marco@168.121.96.9) has quit (Ping timeout: 246 seconds)
+2017-03-16 10:49:02	-->	itaipu (~Marco@168.121.96.9) has joined #jquery
+2017-03-16 10:53:27	<--	sillyslux (~sillyslux@m193-15-39-191.cust.tele2.hr) has quit (Read error: Connection reset by peer)
+2017-03-16 10:56:33	<--	aw1 (~aw1@unaffiliated/aw1) has quit (Ping timeout: 256 seconds)
+2017-03-16 10:58:08	-->	star_prone (~sviatovig@81.89.12.66) has joined #jquery
+2017-03-16 10:59:38	<--	DonRichie (~DonRichie@ricl.de) has left #jquery
+2017-03-16 11:00:15	<--	lowbro (~lowbro@unaffiliated/lowbro) has quit (Remote host closed the connection)
+2017-03-16 11:01:00	<--	zenox (~zed@82.124.208.46.dyn.plus.net) has quit (Ping timeout: 246 seconds)
+2017-03-16 11:03:11	JuJUBee	Cork, you still around?  Think I have a jsfiddle up to work from
+2017-03-16 11:03:49	-->	Rodya_ (~Rodya_@2601:46:4001:e0b4:c4a4:2c5f:9870:6641) has joined #jquery
+2017-03-16 11:05:44	taplar	what's up?
+2017-03-16 11:06:01	-->	akkufomk (~khamilton@mail.axiomanalytix.com) has joined #jquery
+2017-03-16 11:06:05	JuJUBee	https://jsfiddle.net/qbLqL74m/  works in jsfiddle, not in browser
+2017-03-16 11:06:35	JuJUBee	taplar, was trying to diagnose an issue with script working in FF and Chromium but not in Chrome earlier with Cork
+2017-03-16 11:06:47	taplar	you are using version 1.9.1 on your site?
+2017-03-16 11:07:00	JuJUBee	taplar, minimized the code to jsfiddle to test
+2017-03-16 11:07:11	JuJUBee	yes
+2017-03-16 11:07:17	JuJUBee	for now
+2017-03-16 11:07:22	taplar	how are you running the script on your site?
+2017-03-16 11:07:30	JuJUBee	what do you mean?
+2017-03-16 11:07:45	taplar	in your head, body, is it in a doc ready, etc ?
+2017-03-16 11:08:01	JuJUBee	within $(document).ready(function(){...});
+2017-03-16 11:08:21	<--	Rodya_ (~Rodya_@2601:46:4001:e0b4:c4a4:2c5f:9870:6641) has quit (Ping timeout: 246 seconds)
+2017-03-16 11:08:26	JuJUBee	called the js file from head
+2017-03-16 11:08:33	taplar	is copyToSchoolYear a static or dynamically created element?
+2017-03-16 11:08:43	JuJUBee	static
+2017-03-16 11:09:01	taplar	any console errors?
+2017-03-16 11:09:01	JuJUBee	as in I created it and it gets its list from a db query
+2017-03-16 11:09:04	JuJUBee	nothin
+2017-03-16 11:09:09	-->	mpeeters_ (~mpeeters@c-80-78.ovpn.fundp.ac.be) has joined #jquery
+2017-03-16 11:09:17	taplar	wait, what do you mean  you created it?
+2017-03-16 11:09:26	JuJUBee	I coded it...
+2017-03-16 11:09:40	JuJUBee	not put into source via ajax
+2017-03-16 11:09:41	taplar	is it in the markup, or is it generated by javascript after page load?
+2017-03-16 11:09:46	JuJUBee	markup
+2017-03-16 11:09:49	taplar	k
+2017-03-16 11:09:57	JuJUBee	sorry, im not a programmer, I teach networking
+2017-03-16 11:10:15	taplar	in that case i'd have to see it failing cause what you have in the fiddle and what you said sound fine.
+2017-03-16 11:10:28	taplar	have you tried logging the selector before you bind on the element?
+2017-03-16 11:10:43	JuJUBee	What I have in the fiddle is not working in browser locally
+2017-03-16 11:11:17	taplar	https://jsfiddle.net/qbLqL74m/1/  try that and see what if anything logs
+2017-03-16 11:11:19	-->	MikeD_1 (~dougm@50-204-247-218-static.hfc.comcastbusiness.net) has joined #jquery
+2017-03-16 11:11:29	<--	mpeeters (~mpeeters@host-109-89-121-102.dynamic.voo.be) has quit (Ping timeout: 246 seconds)
+2017-03-16 11:11:30	--	mpeeters_ is now known as mpeeters
+2017-03-16 11:12:41	JuJUBee	nothing in the log
+2017-03-16 11:13:05	taplar	not even a number?
+2017-03-16 11:13:17	JuJUBee	nope
+2017-03-16 11:13:28	taplar	then either you have logging turned off, or your script is not running
+2017-03-16 11:13:31	JuJUBee	<script src="http://code.jquery.com/jquery-1.9.1.js"></script> in my <head>...
+2017-03-16 11:14:07	<--	MikeD_ (~dougm@50-204-247-218-static.hfc.comcastbusiness.net) has quit (Ping timeout: 256 seconds)
+2017-03-16 11:14:17	taplar	how do you have your other script in your head?
+2017-03-16 11:14:27	JuJUBee	OK, im an idiot
+2017-03-16 11:14:35	JuJUBee	forgot to load my js file :(
+2017-03-16 11:14:39	taplar	:D
+2017-03-16 11:17:32	-->	aguz (uid169722@gateway/web/irccloud.com/x-uwerwdxlxaettnkf) has joined #jquery
+2017-03-16 11:18:36	<--	merkazu (~merkazu@104.236.217.197) has quit (Ping timeout: 268 seconds)
+2017-03-16 11:19:11	JuJUBee	So when I apply the 1.9.1 to my live site, it throws error cause I am using jquery.validationEngine  ... jquery.validationEngine.js:28 Uncaught TypeError: $(...).live is not a function
+2017-03-16 11:19:34	taplar	iirc live() was deprecated in some version
+2017-03-16 11:20:01	taplar	yeah, deprecated in 1.7, removed in 1.9
+2017-03-16 11:20:30	taplar	so you'll need to either update the validationEngine to a newer version possibly, or use a jquery version prior to 1.9
+2017-03-16 11:21:03	JuJUBee	I was using 1.6.3 and that is when I noticed this problem, so I loaded 1.9.1
+2017-03-16 11:21:17	taplar	wow, that plugin is super old
+2017-03-16 11:21:39	taplar	wait, no, last updated dec last year, so ok
+2017-03-16 11:22:30	taplar	so yeah, you should consider updating that plugin
+2017-03-16 11:22:42	taplar	https://github.com/posabsolute/jQuery-Validation-Engine
+2017-03-16 11:24:37	-->	phlix (~phelix@24-117-183-126.cpe.cableone.net) has joined #jquery
+2017-03-16 11:25:07	-->	ozcanesen (~textual@128.135.198.251) has joined #jquery
+2017-03-16 11:26:18	-->	ghox_ (~ghox@173.208.122.170) has joined #jquery
+2017-03-16 11:29:42	JuJUBee	Just did now have more problems to figure out
+2017-03-16 11:29:49	<--	ghox (~ghox@179.7.131.213) has quit (Ping timeout: 260 seconds)

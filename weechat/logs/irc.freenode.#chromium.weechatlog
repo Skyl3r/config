@@ -1,0 +1,41 @@
+2016-09-12 16:16:25	-->	keveloper (~frappucci@51.ip-192-99-58.net) has joined #chromium
+2016-09-12 16:16:25	--	Topic for #chromium is "Chromium Developer Channel | Chromium OS -> #chromium-os | Ask user questions in the unofficial #chromium-support or the official http://www.google.com/support/chrome/ | Writing Extensions -> #chromium-extensions | Tree Status http://build.chromium.org/ | File a bug or feature request: http://crbug.com/new | Public logs of this channel at echelog.com/?chromium"
+2016-09-12 16:16:25	--	Topic set by tt (~ttuttle@freenode/staff/ttuttle) on Thu, 21 Mar 2013 01:08:54
+2016-09-12 16:16:25	--	Channel #chromium: 536 nicks (0 ops, 58 voices, 478 normals)
+2016-09-12 16:16:25	--	PvNotice(ChanServ): Welcome to #chromium! Please see topic; this is NOT a support channel.
+2016-09-12 16:16:26	<--	Guest59 (~textual@199.201.64.4) has quit (Read error: Connection reset by peer)
+2016-09-12 16:16:28	--	Channel created on Mon, 25 Aug 2008 20:35:28
+2016-09-12 16:16:37	<--	tdresser (~tdresser@2620:15c:0:1:34de:59de:d2d7:7110) has quit (Remote host closed the connection)
+2016-09-12 16:16:51	-->	scherkus (scherkus@nat/google/x-jqifxyrnnnrhhvsj) has joined #chromium
+2016-09-12 16:16:51	--	Mode #chromium [+v scherkus] by ChanServ
+2016-09-12 16:17:04	<--	roxlu_ (~textual@5ED23C1E.cm-7-3a.dynamic.ziggo.nl) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2016-09-12 16:17:26	keveloper	How chrome know not to save JS redirects to its history? Is there a time interval minimum to save to history or something?
+2016-09-12 16:17:30	-->	Guest59 (~textual@199.201.64.3) has joined #chromium
+2016-09-12 16:17:47	-->	rnk_ (~rnk@104.132.1.80) has joined #chromium
+2016-09-12 16:17:51	-->	roxlu_ (~textual@5ED23C1E.cm-7-3a.dynamic.ziggo.nl) has joined #chromium
+2016-09-12 16:18:32	<--	bongjovi (~bongjovi@87.224.97.75) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2016-09-12 16:19:48	+ellyjones	I think it knows whether navigations are "user initiated" or not
+2016-09-12 16:21:17	<--	rnk (rnk@nat/google/x-tszpwtrrhxrrakuh) has quit (Ping timeout: 265 seconds)
+2016-09-12 16:21:19	keveloper	So we're having this issue in Firefox where the back button will take you to a page that was automatically navigated away from (not what we want). But Chrome, Safari, and IE, all don't save the page in their history...
+2016-09-12 16:22:45	keveloper	So I was just wondering if anyone knew what the other browsers (including Chrome) do to detect things like this, because apparently FF does not. Thanks ellyjones 
+2016-09-12 16:22:55	<--	ynovikov (~ynovikov@2620:15c:0:1:a47e:434:97d:78ee) has quit (Quit: Leaving)
+2016-09-12 16:23:33	stip	scottmg: Win 10 Fast Ring
+2016-09-12 16:24:00	<--	jrmuizel (~jrmuizel@2607:f0c8:8000:80e0:fc85:ecc3:d4c0:eb62) has quit (Remote host closed the connection)
+2016-09-12 16:24:23	scottmg	stip: that's the one wfh was worried about yeah. i just tried to add notification for "Browser Side Navigation Linux" too
+2016-09-12 16:25:07	stip	I see the issue for wfh
+2016-09-12 16:25:19	stip	writing up a CL now, let's see if you're affected as well
+2016-09-12 16:25:24	-->	jrmuizel (~jrmuizel@2607:f0c8:8000:80e0:fc85:ecc3:d4c0:eb62) has joined #chromium
+2016-09-12 16:25:29	scottmg	stip: cool thanks
+2016-09-12 16:25:37	--	darktears is now known as darktears_
+2016-09-12 16:25:44	stip	ugh yeah, I was too quick on the lgtm
+2016-09-12 16:25:53	scottmg	darn
+2016-09-12 16:25:54	stip	this is something I should write a check for so people don't get into a similar jam later
+2016-09-12 16:30:56	--	darktears_ is now known as darktears
+2016-09-12 16:35:39	--	blueness is now known as basile
+2016-09-12 16:36:08	--	basile is now known as Guest94056
+2016-09-12 16:36:52	--	Guest94056 is now known as blueness
+2016-09-12 16:37:34	<--	blueness (~blueness@gentoo/developer/blueness) has quit (Quit: blueness)
+2016-09-12 16:37:55	-->	blueness (~blueness@gentoo/developer/blueness) has joined #chromium
+2016-09-12 16:39:38	<--	ajax16384 (~User@ip33.net130.n37.ru) has quit (Read error: Connection reset by peer)
+2016-09-12 16:42:29	<--	Shakeel__ (~Shakeel_@cpe-65-190-131-178.nc.res.rr.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2016-09-12 16:49:50	-->	mthiesse_ (~mthiesse@2620:15c:0:8:1da5:76f:6cbf:180e) has joined #chromium

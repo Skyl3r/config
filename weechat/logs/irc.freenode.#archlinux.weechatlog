@@ -1,0 +1,44 @@
+2017-01-09 18:42:15	-->	keveloper (~frappucci@51.ip-192-99-58.net) has joined #archlinux
+2017-01-09 18:42:15	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <+> https://goo.gl/RTNYd7 <+> Channel rules: https://goo.gl/fkksz9 <+> Pastebins: https://ptpb.pw https://gist.github.com https://bpaste.net <+> Become an official Arch Tester: https://goo.gl/3uvJQk <+> harfbuzz errors? Switch back to the official freetype2 packages: https://git.io/vMWsq"
+2017-01-09 18:42:15	--	Topic set by Namarrgon (~glei@archlinux/op/namarrgon) on Sun, 08 Jan 2017 13:49:39
+2017-01-09 18:42:15	--	Channel #archlinux: 1589 nicks (1 op, 0 voices, 1588 normals)
+2017-01-09 18:42:17	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2017-01-09 18:42:21	-->	saucyfox (~saucyfox@saucyfox.net) has joined #archlinux
+2017-01-09 18:42:21	-->	qncfj (~qncfj@dhcp-18-189-44-173.dyn.MIT.EDU) has joined #archlinux
+2017-01-09 18:42:28	keveloper	has anyone ever tried to put arch on a 2011 mbp?
+2017-01-09 18:42:28	CptGrumpy	itsxaos: but the first psmouse issue can be solved according to the wiki..
+2017-01-09 18:42:40	CptGrumpy	blacklist psmouse in modprobe.conf it says.
+2017-01-09 18:42:41	<--	jomg (~jomg@134.76.62.2) has quit (Quit: Leaving)
+2017-01-09 18:43:02	CptGrumpy	That's a start.. It's still strange that the BT device works some reboot but not all...
+2017-01-09 18:43:05	-->	stevmills (~stevmills@user-24-96-72-77.knology.net) has joined #archlinux
+2017-01-09 18:43:08	<--	alexandros_c (~alexandro@unaffiliated/alexandros-c/x-1684531) has quit (Ping timeout: 240 seconds)
+2017-01-09 18:43:09	<--	nando293921 (~Nando15@cpe-76-185-128-7.satx.res.rr.com) has quit (Ping timeout: 240 seconds)
+2017-01-09 18:43:16	CptGrumpy	have you checked BIOS? are u using UEFI ?
+2017-01-09 18:43:32	itsxaos	CptGrumpy the weirdest thing is that it disapper
+2017-01-09 18:43:33	itsxaos	s
+2017-01-09 18:43:39	<--	Tazmain (~Tazmain@197.88.73.43) has quit (Quit: Leaving)
+2017-01-09 18:43:39	-->	avenita (~vsrmain@190.85.129.93) has joined #archlinux
+2017-01-09 18:43:43	avenita	howdy
+2017-01-09 18:43:47	-->	Andronas (~Andronas@152.7.72.100) has joined #archlinux
+2017-01-09 18:43:53	itsxaos	i think it must happen when it resumes from hibernate / sleep
+2017-01-09 18:43:55	itsxaos	hello
+2017-01-09 18:44:05	Andronas	Namarrgon: Didn't fix GNOME. :/ I tried re logging in, and restarting
+2017-01-09 18:44:42	PatrolDoom	itsxaos: yeah that's possible, could be some weird power settings. hrm, when the device disappears, is the module still loaded? can you load/unload to reprobe?
+2017-01-09 18:45:08	itsxaos	im gonna do that now
+2017-01-09 18:45:10	itsxaos	so
+2017-01-09 18:45:20	<--	sPJz (~PJosepher@cpc76692-cosh16-2-0-cust323.6-1.cable.virginm.net) has quit (Remote host closed the connection)
+2017-01-09 18:45:23	cryzed	Andronas, the problem is that alsamixer allows you to change the volume but the gnome applet doesnt?
+2017-01-09 18:45:26	-->	occultus (~occultus@207.196.182.178) has joined #archlinux
+2017-01-09 18:45:30	Andronas	cryzed: exactly
+2017-01-09 18:45:32	cryzed	Maybe the gnome applet is trying to change a different pulseaudio channel
+2017-01-09 18:45:37	-->	alexandros_c (~alexandro@unaffiliated/alexandros-c/x-1684531) has joined #archlinux
+2017-01-09 18:45:38	cryzed	can you configure which audio device it "speaks" to?
+2017-01-09 18:45:43	cryzed	or channel
+2017-01-09 18:45:51	cryzed	sinks they were called I think
+2017-01-09 18:46:05	Andronas	cryzed: the Sound applet in GNOME doesn't show any devices available for sound output
+2017-01-09 18:46:05	itsxaos	lsmod | grep blue
+2017-01-09 18:46:05	itsxaos	bluetooth             487424  11 hci_uart,btintel,btqca,bnep,btbcm
+2017-01-09 18:46:05	itsxaos	rfkill                 20480  7 bluetooth,dell_laptop,cfg80211
+2017-01-09 18:46:05	itsxaos	crc16                  16384  2 bluetooth,ext4
+2017-01-09 18:46:13	-->	Binero (~jeroen@2a02:a03f:1ac4:1c00:f94d:8a15:b95b:3f9c) has joined #archlinux
+2017-01-09 18:46:13	<--	mijowh (~mijowh@75.97.236.147.res-cmts.leh.ptd.net) has quit (Ping timeout: 258 seconds)

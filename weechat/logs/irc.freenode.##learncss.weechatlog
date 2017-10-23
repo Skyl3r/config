@@ -1,0 +1,790 @@
+2017-09-25 11:47:17	-->	keveloper (~frappucci@51.ip-192-99-58.net) has joined ##learncss
+2017-09-25 11:47:17	--	Topic for ##learncss is "Come Ride the Cascade with us! A friendly place to talk about learning CSS in SVG, and ask any CSS-related questions. For help getting started check out ➳ http://bit.ly/2kfumgN (off-topic chat is a topic of conversation here) (mezod officially belongs or doesn't belong here at all times)"
+2017-09-25 11:47:17	--	Topic set by innovati (~innovati@2605:9880:0:357:216:3cff:fe1c:d926) on Tue, 04 Jul 2017 15:45:31
+2017-09-25 11:47:17	--	Channel ##learncss: 10 nicks (1 op, 0 voices, 9 normals)
+2017-09-25 11:47:19	--	Channel created on Mon, 06 Feb 2017 17:03:31
+2017-09-25 11:48:07	innovati_	eyyy
+2017-09-25 11:48:14	keveloper	\o
+2017-09-25 11:48:19	innovati_	:D:D
+2017-09-25 11:48:47	keveloper	Closing out a channel for this one :P
+2017-09-25 11:48:51	keveloper	Hate having more than 10 open
+2017-09-25 11:49:04	innovati_	:D
+2017-09-25 11:56:05	PyJahn	hotpink?
+2017-09-25 11:57:02	innovati_	oh yeah
+2017-09-25 11:57:21	PyJahn	XD
+2017-09-25 11:57:25	innovati_	there are a bunch of named colors! https://www.w3schools.com/cssref/css_colors.asp
+2017-09-25 11:57:49	PyJahn	wow nice
+2017-09-25 11:57:51	PyJahn	Idk that
+2017-09-25 11:58:03	innovati_	see how educational talking about hotpink can be if you don't ban people haha
+2017-09-25 11:58:59	PyJahn	xkcd survey mentions hotpink XD: https://i2.wp.com/imgs.xkcd.com/blag/doghouse_analysis.png?zoom=2
+2017-09-25 11:59:46	innovati_	https://blog.xkcd.com/2010/05/03/color-survey-results/
+2017-09-25 12:49:41	<--	PyJahn (~audiophil@unaffiliated/audiofile) has quit (Quit: Yᵒᵘ Oᶰˡʸ Lᶤᵛᵉ Oᶰᶜᵉ)
+2017-09-25 13:01:24	-->	darkSeid_ (~textual@2a02:c7d:281c:e200:60b7:cc10:b9c0:e1e3) has joined ##learncss
+2017-09-25 13:39:58	-->	MassDebates (c6b36f72@gateway/web/cgi-irc/kiwiirc.com/ip.198.179.111.114) has joined ##learncss
+2017-09-25 14:15:43	MassDebates	Oi innovati
+2017-09-25 14:15:48	MassDebates	I think you should check this out
+2017-09-25 14:16:08	MassDebates	https://www.visme.co/
+2017-09-25 14:16:10	MassDebates	Pretty neat.
+2017-09-25 14:16:13	MassDebates	Considering using it.
+2017-09-25 14:24:38	MassDebates	looks slick compared to your average slideshow
+2017-09-25 14:24:51	MassDebates	but I think this can be done by the skilled front end dev
+2017-09-25 14:25:26	MassDebates	You should check it out. I would bet that EQCSS could provide value to the creation of such a presentation
+2017-09-25 14:25:53	MassDebates	Drastically simplify (and speed up) the process.
+2017-09-25 14:31:04	innovati_	ah interesting
+2017-09-25 14:32:35	innovati_	so they seem to have HTML-based slideshows, and SVG-based illustrations
+2017-09-25 14:32:47	innovati_	'presentation' and 'infographic'
+2017-09-25 14:33:31	innovati_	I guess they'd be competing with people like icloud.com
+2017-09-25 14:46:19	MassDebates	Probably.
+2017-09-25 14:46:32	MassDebates	But definitely a new player to the mix, with some interesting changes to the way they do things
+2017-09-25 14:47:11	MassDebates	Also, this is a bit more of a specific niche. If I'm not mistaken, you're referring to the personal presentations that apple offers
+2017-09-25 14:47:42	MassDebates	This seems to be geared towards presentations specifically. I don't like a lot of the faux-pas that these guys seem to commit, though.
+2017-09-25 14:48:02	MassDebates	For example, there's some awful performance issues that are damned-near prohibitive for usage.
+2017-09-25 14:48:15	MassDebates	Also, embeddable content is horrid.
+2017-09-25 14:48:26	MassDebates	Well, full disclosure. I haven't actually... used or tried this out yet.
+2017-09-25 14:48:58	MassDebates	But going over the code and CSS gives me the willies on this project. Lots of awful things going on.
+2017-09-25 14:49:08	MassDebates	Backgrounds, for example.
+2017-09-25 14:50:13	MassDebates	Honestly a far simpler system could go much further imo
+2017-09-25 14:50:30	MassDebates	I'll be trying it out soon. These are my premonitions though. i could be totally wrong on all of my assumptions of how it will fare.
+2017-09-25 14:51:04	MassDebates	I have to commend these guys for using their product to market ... their product.'
+2017-09-25 14:51:12	MassDebates	er, really, _how_ they're doing it.
+2017-09-25 14:52:25	innovati_	hehe yeah, I think there's a lot of potential in this space and we're likely to see a lot more design + web tools in the future
+2017-09-25 14:53:02	innovati_	especially with SVG - I hope the future brings SVG performance enhancements to browsers so we can get more out of them
+2017-09-25 14:53:55	MassDebates	No need to worry, or even hope
+2017-09-25 14:54:08	MassDebates	They will, unless if something even better than SVG ends up coming to mainstream
+2017-09-25 14:54:19	innovati_	with design tools that use web standard files as their native format - all of the editor-specific code can be added as metadata, comments, and attributes - so it should be possible for us to standardize editing info and have web-native files that can be opened and edited in more than one tool
+2017-09-25 14:54:41	innovati_	that's always been possible, but competitive between businesses instead of open and encouraging collaboration
+2017-09-25 14:54:55	MassDebates	#wordpress is recommending bootstrap 3
+2017-09-25 14:54:59	MassDebates	What world do we live in
+2017-09-25 14:55:03	innovati_	hehe
+2017-09-25 14:55:57	MassDebates	https://imgur.com/a/1m5J0
+2017-09-25 16:14:13	<--	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-09-25 16:56:27	-->	hunboy_ (~hunboy@87.97.95.208.pool.invitel.hu) has joined ##learncss
+2017-09-25 16:58:36	<--	hunboy (~hunboy@82-131-134-110.pool.invitel.hu) has quit (Ping timeout: 248 seconds)
+2017-09-25 16:58:42	--	hunboy_ is now known as hunboy
+2017-09-25 17:04:10	-->	innovati_ (~innovati@72.139.122.18) has joined ##learncss
+2017-09-25 17:23:53	<--	innovati_ (~innovati@72.139.122.18) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-09-25 17:24:28	-->	innovati_ (~innovati@72.139.122.18) has joined ##learncss
+2017-09-25 19:16:42	-->	innovat__ (~innovati@toroon2717w-lp140-04-174-95-105-77.dsl.bell.ca) has joined ##learncss
+2017-09-25 19:17:57	<--	innovati_ (~innovati@72.139.122.18) has quit (Read error: Connection reset by peer)
+2017-09-25 19:44:01	<--	innovat__ (~innovati@toroon2717w-lp140-04-174-95-105-77.dsl.bell.ca) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-09-25 20:24:35	-->	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has joined ##learncss
+2017-09-25 20:26:05	<--	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has quit (Client Quit)
+2017-09-25 20:26:57	-->	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has joined ##learncss
+2017-09-26 02:23:32	<--	darkSeid_ (~textual@2a02:c7d:281c:e200:60b7:cc10:b9c0:e1e3) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-09-26 07:41:01	-->	PyJahn (~audiophil@unaffiliated/audiofile) has joined ##learncss
+2017-09-26 07:41:06	PyJahn	hi innovati
+2017-09-26 08:07:38	MassDebates	Oh, okay
+2017-09-26 08:07:44	MassDebates	Don't say hi to the rest of us, PyJahn
+2017-09-26 08:08:57	<--	PyJahn (~audiophil@unaffiliated/audiofile) has quit (Quit: Yᵒᵘ Oᶰˡʸ Lᶤᵛᵉ Oᶰᶜᵉ)
+2017-09-26 08:09:03	MassDebates	Pft
+2017-09-26 08:09:13	MassDebates	And he ups and leaves just like that
+2017-09-26 08:09:39	MassDebates	i thought what we had was special
+2017-09-26 08:09:43	MassDebates	But I guess not
+2017-09-26 08:58:17	MassDebates	https://imgur.com/a/ivlhP
+2017-09-26 09:24:10	-->	na_th_an (~na_th_an@172.ip-158-69-48.net) has joined ##learncss
+2017-09-26 10:11:45	-->	audiofile (~audiofile@unaffiliated/audiofile) has joined ##learncss
+2017-09-26 10:22:18	innovati_	eyyyyy
+2017-09-26 10:51:28	<--	na_th_an (~na_th_an@172.ip-158-69-48.net) has left ##learncss ("WeeChat 1.8")
+2017-09-26 11:26:00	audiofile	eww
+2017-09-26 11:34:20	innovati_	:)
+2017-09-26 11:38:29	MassDebates	who are these people
+2017-09-26 11:38:30	audiofile	Can someone tell me why the bottom padding is a bit larger? https://codepen.io/anon/pen/oGBROv
+2017-09-26 11:38:42	MassDebates	Hello audiofile
+2017-09-26 11:38:43	MassDebates	looking now
+2017-09-26 11:38:49	audiofile	hi MassDebates
+2017-09-26 11:39:04	MassDebates	Which bottom padding is a bit larger than what
+2017-09-26 11:39:05	audiofile	Just elementary css and I'm stuck lol
+2017-09-26 11:39:09	MassDebates	ah!
+2017-09-26 11:39:11	MassDebates	Super duper!
+2017-09-26 11:39:21	MassDebates	Shit I'm a bit rusty here
+2017-09-26 11:39:22	audiofile	img's bottom padding is bigger than right padding even though both are 1em
+2017-09-26 11:39:24	MassDebates	hold on a sec
+2017-09-26 11:39:27	 *	MassDebates clears throat
+2017-09-26 11:39:28	audiofile	sure
+2017-09-26 11:39:32	audiofile	0_0
+2017-09-26 11:39:33	MassDebates	Ahem, Welcome to ##LearnCSS !
+2017-09-26 11:39:40	MassDebates	The awesome channel about uh, whatever
+2017-09-26 11:39:42	MassDebates	looking now
+2017-09-26 11:39:45	audiofile	XD
+2017-09-26 11:40:06	MassDebates	you mean margin?
+2017-09-26 11:40:24	MassDebates	Just yesterday a student of mine called me about paddings and margin
+2017-09-26 11:40:29	MassDebates	here's a good way to think about it
+2017-09-26 11:40:35	MassDebates	Padding is a winter coat you wear. Padding.
+2017-09-26 11:40:56	MassDebates	Margin is your safety bubble. Y'know, that feeling of discomfort that wipes over you when a creepy guy gets too close and he happens to be holding a rusty knife.
+2017-09-26 11:41:05	MassDebates	Well, I suppose you'd need quite a big margin then!
+2017-09-26 11:41:20	audiofile	ahh
+2017-09-26 11:41:21	MassDebates	Here's the thing. Winter coats won't get magically 'ghosty-like' and start intersecting other winter coats, you see?
+2017-09-26 11:41:35	MassDebates	However, your comfort zone can be the same as my comfort zone because you're not in my comfort zone. just your comfort zone is.
+2017-09-26 11:41:36	MassDebates	y'see?
+2017-09-26 11:41:45	MassDebates	Margins collapse, paddings stay (for the most part)
+2017-09-26 11:41:48	MassDebates	Now, that being said
+2017-09-26 11:41:55	MassDebates	your img here has a winter coat and a comfort zone.
+2017-09-26 11:42:08	audiofile	uh, just a winter coat
+2017-09-26 11:42:19	audiofile	I didn't add a margin/comfort zone :P
+2017-09-26 11:42:21	MassDebates	Ah
+2017-09-26 11:42:29	MassDebates	okay hold on let me use inspect
+2017-09-26 11:42:36	MassDebates	My fault. (been a hwile since I helped people diagnose stuff)
+2017-09-26 11:42:43	MassDebates	2 secs
+2017-09-26 11:42:51	audiofile	no hurry :)
+2017-09-26 11:42:55	MassDebates	Ah
+2017-09-26 11:43:00	MassDebates	I see the issue.
+2017-09-26 11:43:34	audiofile	Oh, what's that?
+2017-09-26 11:43:45	audiofile	And btw, I don't understand how an img can have a wintercoat
+2017-09-26 11:43:50	audiofile	I'd get it if it were a div
+2017-09-26 11:44:08	MassDebates	okay, so couple things
+2017-09-26 11:44:12	MassDebates	let me change the codepen to show you
+2017-09-26 11:44:19	audiofile	sure
+2017-09-26 11:45:10	MassDebates	https://codepen.io/anon/pen/boqGov
+2017-09-26 11:45:32	MassDebates	For god sakes lad, there's a tidy button!
+2017-09-26 11:45:35	MassDebates	haha
+2017-09-26 11:45:39	MassDebates	okay, so here's the dealio.
+2017-09-26 11:45:43	MassDebates	Look at the comment.
+2017-09-26 11:45:48	MassDebates	What I also want you to do
+2017-09-26 11:45:51	MassDebates	is to right click the image, hit inspect
+2017-09-26 11:45:55	MassDebates	and then right click the image again
+2017-09-26 11:45:59	MassDebates	and hit inspect for the 2nd round
+2017-09-26 11:46:03	MassDebates	And you'll get some glowy blue shit
+2017-09-26 11:46:13	MassDebates	The glowy blue shit shows you the box model's bounds. The green stuff is the winter coat.
+2017-09-26 11:46:18	innovati_	https://news.ycombinator.com/item?id=15338136
+2017-09-26 11:47:02	innovati_	MassDebates ^ stay safe!
+2017-09-26 11:47:11	MassDebates	Holy shit
+2017-09-26 11:47:20	MassDebates	THEYRE ONTO ME INNO
+2017-09-26 11:47:24	MassDebates	I SAID NO COPS, DAMNIT
+2017-09-26 11:48:55	audiofile	ok, so in my earlier example, the wintercoat is right?
+2017-09-26 11:48:57	MassDebates	Oh my god
+2017-09-26 11:49:00	MassDebates	Holy shit
+2017-09-26 11:49:00	MassDebates	This is real
+2017-09-26 11:49:06	audiofile	0_0
+2017-09-26 11:49:06	MassDebates	innovati like
+2017-09-26 11:49:15	MassDebates	omg i know some of these people
+2017-09-26 11:49:23	audiofile	ouch
+2017-09-26 11:49:27	MassDebates	wtf is this world coming to
+2017-09-26 11:49:33	audiofile	$$$
+2017-09-26 11:49:36	MassDebates	And I thought burning budgets was scummy.
+2017-09-26 11:49:39	MassDebates	this is beyond belief
+2017-09-26 11:49:44	MassDebates	I can't believe it this is real
+2017-09-26 11:49:57	MassDebates	holy shit
+2017-09-26 11:50:52	MassDebates	I shared it with ##SEO
+2017-09-26 11:51:47	audiofile	people do this for better rankings?
+2017-09-26 11:51:58	MassDebates	Well murdering people is usually not common best practices.
+2017-09-26 11:52:11	MassDebates	at least that's not what we do
+2017-09-26 11:52:12	audiofile	if the client hadn't spoken out?
+2017-09-26 11:52:27	audiofile	0-0
+2017-09-26 11:52:31	MassDebates	Well I'd suppose it'd continue to work, then.
+2017-09-26 11:52:46	MassDebates	My god, how deplorable.
+2017-09-26 11:52:52	MassDebates	And I thought I was an asshoel!
+2017-09-26 11:53:27	innovati_	is this black hat SEO?
+2017-09-26 11:53:45	MassDebates	lol, as black as they come
+2017-09-26 11:53:50	MassDebates	I've never heard of such a practice
+2017-09-26 11:53:53	MassDebates	Seriously
+2017-09-26 11:53:58	MassDebates	I've never heard of anything like this before
+2017-09-26 11:54:15	MassDebates	hell, sabotage is usually the worst
+2017-09-26 11:54:24	MassDebates	Sabotage gets pretty common but this?
+2017-09-26 11:54:37	MassDebates	Like, I get that plastic surgery is incredibly fierce competition. I don't touch plastic drs
+2017-09-26 11:54:41	MassDebates	But dude
+2017-09-26 11:54:48	audiofile	murder ain't cool
+2017-09-26 11:54:56	MassDebates	I've run platforms for really competitive shit like alcohol distribution. Those guys are fierce
+2017-09-26 11:55:03	MassDebates	but none of them ever talked about murder
+2017-09-26 11:55:13	audiofile	stay safe lol
+2017-09-26 11:55:16	innovati_	hehe get into dispensary marketing maybe they're more chill there
+2017-09-26 11:55:26	MassDebates	Can't
+2017-09-26 11:55:34	MassDebates	Other sectors wouldn't touch you with a 40 ft pole
+2017-09-26 11:55:49	innovati_	there's money there :D
+2017-09-26 11:55:56	MassDebates	more money in b2b
+2017-09-26 11:56:15	MassDebates	mfg sector alone would be more $$ for me and less work than 2 of the top dispensaries in colorado
+2017-09-26 11:56:15	audiofile	enough money to hire hitmen?
+2017-09-26 11:56:30	MassDebates	I've never done that.
+2017-09-26 11:56:36	MassDebates	Like wtf how do you even find one?
+2017-09-26 11:56:49	audiofile	google ads XD
+2017-09-26 11:56:52	MassDebates	lmao
+2017-09-26 11:57:00	innovati_	craigslist? darknet?
+2017-09-26 11:57:01	innovati_	facebook haha
+2017-09-26 11:57:03	MassDebates	"NEED A HITMAN? CALL TODAY FREE QUOTE"
+2017-09-26 11:57:10	audiofile	looool
+2017-09-26 11:57:28	MassDebates	"INTEREST FREE 6mos, NO CREDIT CHECK"
+2017-09-26 11:57:53	audiofile	"NO PRIOR EXPERIENCE REQUIRED TO APPLY"
+2017-09-26 11:57:57	MassDebates	lol
+2017-09-26 11:58:01	MassDebates	I thought the hurricane was bad news
+2017-09-26 11:58:02	audiofile	Or were they looking for experienced ones?
+2017-09-26 11:58:07	audiofile	Either way, I don't wanna know
+2017-09-26 11:58:11	MassDebates	Well, I suppose they weren't looking for experienced ones
+2017-09-26 11:58:19	MassDebates	If they did nobody would know, right?
+2017-09-26 11:58:28	MassDebates	Must've hired an amateur :P
+2017-09-26 11:58:35	MassDebates	anywho, audiofile you see how that works?
+2017-09-26 11:58:42	MassDebates	Go ahead and try playing with the value so you can see what I mean
+2017-09-26 11:58:45	audiofile	Amateur must've bragged on fb about deal and blown cover
+2017-09-26 11:58:48	MassDebates	The text itself has a line height
+2017-09-26 11:59:01	audiofile	Yeah, it seems fine, the padding
+2017-09-26 11:59:07	MassDebates	and it'll notch into place if it has enough room. it'll look like extra space if there's just a tiny bit too little
+2017-09-26 11:59:12	audiofile	But it still seems a teeny bit large
+2017-09-26 11:59:26	MassDebates	https://codepen.io/anon/pen/KXWKJE
+2017-09-26 11:59:29	audiofile	oh wait, this depends on linewidth too right?
+2017-09-26 11:59:31	audiofile	smh
+2017-09-26 11:59:38	MassDebates	See?
+2017-09-26 11:59:50	MassDebates	Winter coats, m8
+2017-09-26 11:59:54	MassDebates	Winter fucking coats.
+2017-09-26 12:00:05	MassDebates	Now, can we get to the subject of how we're going to murder my competition?
+2017-09-26 12:00:14	audiofile	that's better, but why isn't the beginning of the paragraph aligned with the top of the img?
+2017-09-26 12:00:20	audiofile	0_0
+2017-09-26 12:00:25	MassDebates	Who the hell do you think I am, a goddamned wizard?
+2017-09-26 12:00:30	MassDebates	looking now
+2017-09-26 12:00:32	audiofile	:)
+2017-09-26 12:00:42	audiofile	;)
+2017-09-26 12:00:45	MassDebates	it is.
+2017-09-26 12:01:09	MassDebates	Don't you lie to me you miserable little sod
+2017-09-26 12:01:16	MassDebates	Just kidding. It's really lined up, though.
+2017-09-26 12:01:23	MassDebates	https://i.imgur.com/iThDdnv.png check this
+2017-09-26 12:01:27	MassDebates	er, I mean
+2017-09-26 12:01:35	MassDebates	CHECK YOURSELF BEFORE YOU WRECK YOURSELF
+2017-09-26 12:01:37	MassDebates	BRotHA
+2017-09-26 12:01:39	innovati_	I would never kill my competition, but I WOULD make jokes about them
+2017-09-26 12:01:47	MassDebates	aw
+2017-09-26 12:01:48	MassDebates	innovati
+2017-09-26 12:01:54	MassDebates	I'd kill you if you asked me really nicely
+2017-09-26 12:02:02	innovati_	if the pay was good?
+2017-09-26 12:02:03	MassDebates	Wouldn't you afford me the same flexibility?
+2017-09-26 12:02:09	MassDebates	Yeah i'd pay you
+2017-09-26 12:02:11	innovati_	hehe
+2017-09-26 12:02:14	innovati_	no
+2017-09-26 12:02:14	MassDebates	You need to make it look like an accident
+2017-09-26 12:02:22	MassDebates	And I'll give you half of the insurance $%$
+2017-09-26 12:02:39	MassDebates	audiofile:  you see how it's lined up there?
+2017-09-26 12:02:49	MassDebates	audiofile:  I highlighted the stuff and the things to show you the liney upsies
+2017-09-26 12:02:50	audiofile	It's slightly pushed down for me
+2017-09-26 12:02:54	audiofile	maybe my font?
+2017-09-26 12:02:58	MassDebates	that's what she sai...
+2017-09-26 12:02:59	MassDebates	nvm
+2017-09-26 12:03:05	audiofile	;)
+2017-09-26 12:03:11	MassDebates	Highlight like I did and screenshot that mofo
+2017-09-26 12:03:13	audiofile	still trying to get a screenie wait
+2017-09-26 12:03:16	innovati_	I'm not a pacifist, but I prefer the non-violent path and seek to reduce violence wherever it occurs
+2017-09-26 12:03:28	MassDebates	innovati:  please drop the underscore
+2017-09-26 12:03:31	MassDebates	my ocd is flipping its shit
+2017-09-26 12:03:38	innovati_	:S
+2017-09-26 12:03:46	innovati_	how do I do it without leaving and coming back?
+2017-09-26 12:04:12	audiofile	https://i.imgur.com/8QcY27A.png
+2017-09-26 12:04:31	audiofile	dang didn't highlight
+2017-09-26 12:07:07	audiofile	MassDebates: https://i.imgur.com/7t6wrJ9.png
+2017-09-26 12:07:13	audiofile	This is the last line with the image
+2017-09-26 12:07:41	audiofile	can oo see it?
+2017-09-26 12:09:42	audiofile	oh gosh
+2017-09-26 12:09:47	audiofile	did they get MassDebates too??
+2017-09-26 12:47:28	<--	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-09-26 12:55:44	<--	audiofile (~audiofile@unaffiliated/audiofile) has quit (Ping timeout: 255 seconds)
+2017-09-26 13:06:07	-->	darkSeid_ (~textual@2a02:c7d:281c:e200:60b7:cc10:b9c0:e1e3) has joined ##learncss
+2017-09-26 13:41:20	-->	keveloper (~frappucci@51.ip-192-99-58.net) has joined ##learncss
+2017-09-26 13:41:20	--	Topic for ##learncss is "Come Ride the Cascade with us! A friendly place to talk about learning CSS in SVG, and ask any CSS-related questions. For help getting started check out ➳ http://bit.ly/2kfumgN (off-topic chat is a topic of conversation here) (mezod officially belongs or doesn't belong here at all times)"
+2017-09-26 13:41:20	--	Topic set by innovati (~innovati@2605:9880:0:357:216:3cff:fe1c:d926) on Tue, 04 Jul 2017 15:45:31
+2017-09-26 13:41:20	--	Channel ##learncss: 10 nicks (1 op, 0 voices, 9 normals)
+2017-09-26 13:41:22	--	Channel created on Mon, 06 Feb 2017 17:03:31
+2017-09-26 13:56:42	-->	innovati_ (~innovati@216.13.89.146) has joined ##learncss
+2017-09-26 13:59:44	innovati_	eyy I'm back
+2017-09-26 14:01:42	<--	innovati_ (~innovati@216.13.89.146) has quit (Read error: Connection reset by peer)
+2017-09-26 14:02:23	-->	innovati_ (~innovati@216.13.89.146) has joined ##learncss
+2017-09-26 14:08:49	<--	innovati_ (~innovati@216.13.89.146) has quit (Read error: Connection reset by peer)
+2017-09-26 14:09:51	-->	innovati_ (~innovati@216.13.89.146) has joined ##learncss
+2017-09-26 14:12:49	<--	darkSeid_ (~textual@2a02:c7d:281c:e200:60b7:cc10:b9c0:e1e3) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-09-26 14:40:17	<--	innovati_ (~innovati@216.13.89.146) has quit (Read error: Connection reset by peer)
+2017-09-26 14:40:52	-->	innovati_ (~innovati@216.13.89.146) has joined ##learncss
+2017-09-26 14:42:35	<--	innovati_ (~innovati@216.13.89.146) has quit (Read error: Connection reset by peer)
+2017-09-26 14:42:44	-->	innovat__ (~innovati@24.114.78.103) has joined ##learncss
+2017-09-26 16:20:36	-->	darkSeid_ (~textual@2a02:c7d:281c:e200:60b7:cc10:b9c0:e1e3) has joined ##learncss
+2017-09-26 16:38:24	<--	innovat__ (~innovati@24.114.78.103) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-09-26 16:42:48	-->	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has joined ##learncss
+2017-09-26 16:55:42	-->	hunboy_ (~hunboy@87.97.81.234.pool.invitel.hu) has joined ##learncss
+2017-09-26 16:58:36	<--	hunboy (~hunboy@87.97.95.208.pool.invitel.hu) has quit (Ping timeout: 248 seconds)
+2017-09-26 16:58:41	--	hunboy_ is now known as hunboy
+2017-09-26 17:07:27	innovati_	:)
+2017-09-26 19:33:53	<--	darkSeid_ (~textual@2a02:c7d:281c:e200:60b7:cc10:b9c0:e1e3) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-09-27 00:29:46	<--	MassDebates (c6b36f72@gateway/web/cgi-irc/kiwiirc.com/ip.198.179.111.114) has quit (*.net *.split)
+2017-09-27 02:16:19	-->	darkSeid_ (~textual@2a02:c7d:281c:e200:6198:a0ac:797d:ef97) has joined ##learncss
+2017-09-27 02:40:39	<--	darkSeid_ (~textual@2a02:c7d:281c:e200:6198:a0ac:797d:ef97) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-09-27 07:10:53	-->	MassDebates (c6b36f72@gateway/web/cgi-irc/kiwiirc.com/ip.198.179.111.114) has joined ##learncss
+2017-09-27 08:25:27	<--	MassDebates (c6b36f72@gateway/web/cgi-irc/kiwiirc.com/ip.198.179.111.114) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-09-27 09:03:44	-->	MassDebates (c6b36f72@gateway/web/cgi-irc/kiwiirc.com/ip.198.179.111.114) has joined ##learncss
+2017-09-27 09:35:39	MassDebates	there's some others
+2017-09-27 09:35:49	MassDebates	prezi looks similar
+2017-09-27 09:58:59	innovati_	morning!!!
+2017-09-27 10:04:25	MassDebates	Morning
+2017-09-27 10:04:33	MassDebates	haiku deck has a zuru feature
+2017-09-27 10:04:56	MassDebates	I can't shake this feeling that I remember seeing a feature similar to zuru in google slides or something
+2017-09-27 10:04:59	MassDebates	or maybe something from microsfot.
+2017-09-27 10:05:02	MassDebates	I can't find it thoughl.
+2017-09-27 10:17:20	innovati_	I've heard of Prezi, but not Zuru
+2017-09-27 10:17:34	innovati_	Prezi has been around almost ten years I bet
+2017-09-27 11:40:28	<--	MassDebates (c6b36f72@gateway/web/cgi-irc/kiwiirc.com/ip.198.179.111.114) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-09-27 12:22:27	innovati_	what if CSS had a scrollport AND a viewport
+2017-09-27 13:11:24	-->	darkSeid_ (~textual@2a02:c7d:281c:e200:6198:a0ac:797d:ef97) has joined ##learncss
+2017-09-27 14:25:40	<--	darkSeid_ (~textual@2a02:c7d:281c:e200:6198:a0ac:797d:ef97) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-09-27 14:29:33	-->	darkSeid_ (~textual@2a02:c7d:281c:e200:6198:a0ac:797d:ef97) has joined ##learncss
+2017-09-27 14:53:08	<--	darkSeid_ (~textual@2a02:c7d:281c:e200:6198:a0ac:797d:ef97) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-09-27 16:05:08	<--	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-09-27 16:34:55	-->	innovati_ (~innovati@CPE1cabc0731cd3-CM1cabc0731cd0.cpe.net.cable.rogers.com) has joined ##learncss
+2017-09-27 16:38:59	-->	atroclize1 (~atroclize@134.49.239.121) has joined ##learncss
+2017-09-27 16:39:23	atroclize1	ive got some html that is like <ul class="nav navbar-nav"><li><a>stuff</a></li></ul> how can i change the color of the 'a' tag?
+2017-09-27 16:43:54	innovati_	atroclize1 maybe you can target it with a rule like a {}, or li a {}, or .nav a {}, or something like that
+2017-09-27 16:45:07	innovati_	if you want only the <a> inside an <li> inside a ul with the class of both "nav" and "navbar-nav" you could express that as ul.nav.navbar-nav li a {} which should absolutely do this but it is probably be overkill to write it that specifically
+2017-09-27 16:45:22	atroclize1	I created a <style>a { color: #00ff00; } </style> but that gets overridden I guess?
+2017-09-27 16:45:54	innovati_	yeah, and that will target every <a> on the page too, which might be too broad
+2017-09-27 16:46:15	atroclize1	But that didn't work at all
+2017-09-27 16:46:23	innovati_	.nav a {} would target just the <a> that are inside any element with a class of "nav"
+2017-09-27 16:46:34	innovati_	it's possible there's a more specific rule applying to all <a> already
+2017-09-27 16:47:01	innovati_	like if they are all set as html a {} that still includes all of them, but html a {} is more specific than a {} so it would overwrite it every time
+2017-09-27 16:47:36	innovati_	or maybe there's another rule for a {} getting loaded after the one you're editing - if one came after your rule with the same specificity it would overwrite the previously set value too
+2017-09-27 16:48:43	atroclize1	Okay cool I think I've got it now, thanks my head was gonna explode haha
+2017-09-27 16:55:28	-->	hunboy_ (~hunboy@82.131.140.200.pool.invitel.hu) has joined ##learncss
+2017-09-27 16:55:50	<--	atroclize1 (~atroclize@134.49.239.121) has quit (Quit: This computer has gone to sleep)
+2017-09-27 16:58:25	<--	hunboy (~hunboy@87.97.81.234.pool.invitel.hu) has quit (Ping timeout: 240 seconds)
+2017-09-27 16:58:40	--	hunboy_ is now known as hunboy
+2017-09-27 17:04:37	-->	atroclize1 (~atroclize@134.49.239.121) has joined ##learncss
+2017-09-27 17:09:38	-->	darkSeid_ (~textual@2a02:c7d:281c:e200:6198:a0ac:797d:ef97) has joined ##learncss
+2017-09-27 18:31:44	<--	atroclize1 (~atroclize@134.49.239.121) has quit (Quit: This computer has gone to sleep)
+2017-09-27 18:35:08	<--	hunboy (~hunboy@82.131.140.200.pool.invitel.hu) has quit (Ping timeout: 248 seconds)
+2017-09-27 18:36:59	-->	hunboy (~hunboy@82.131.228.71.pool.invitel.hu) has joined ##learncss
+2017-09-27 19:08:21	<--	innovati_ (~innovati@CPE1cabc0731cd3-CM1cabc0731cd0.cpe.net.cable.rogers.com) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-09-27 19:51:36	-->	atroclize1 (~atroclize@134.49.239.121) has joined ##learncss
+2017-09-27 20:32:40	-->	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has joined ##learncss
+2017-09-27 21:18:31	<--	atroclize1 (~atroclize@134.49.239.121) has quit (Quit: This computer has gone to sleep)
+2017-09-27 21:22:35	-->	atroclize1 (~atroclize@134.49.239.121) has joined ##learncss
+2017-09-27 21:41:36	<--	atroclize1 (~atroclize@134.49.239.121) has quit (Quit: This computer has gone to sleep)
+2017-09-27 21:53:56	-->	atroclize1 (~atroclize@134.49.239.121) has joined ##learncss
+2017-09-27 22:02:34	<--	atroclize1 (~atroclize@134.49.239.121) has quit (Quit: This computer has gone to sleep)
+2017-09-27 23:35:54	-->	atroclize1 (~atroclize@134.49.239.121) has joined ##learncss
+2017-09-28 02:42:38	<--	darkSeid_ (~textual@2a02:c7d:281c:e200:6198:a0ac:797d:ef97) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-09-28 03:16:38	<--	atroclize1 (~atroclize@134.49.239.121) has quit (Quit: This computer has gone to sleep)
+2017-09-28 03:17:35	thykka	pffft.. site is supposed to go live in 1h45m, but the client still hasn't sent all the content :I
+2017-09-28 03:18:39	thykka	i bet they send it three minutes before, then promptly send an angry email wondering why it's not live already
+2017-09-28 03:18:53	thykka	wankers...
+2017-09-28 03:58:36	thykka	oh great.. this designer is lookin at the site at 50% zoom and sending screenshots of how the layout looks borken..
+2017-09-28 04:12:22	hunboy	:)
+2017-09-28 04:57:16	thykka	aaand it's live
+2017-09-28 04:57:35	thykka	maybe a beer now :]
+2017-09-28 05:37:52	-->	PyJahn (~audiophil@unaffiliated/audiofile) has joined ##learncss
+2017-09-28 05:38:54	PyJahn	hi innovati
+2017-09-28 06:20:21	<--	PyJahn (~audiophil@unaffiliated/audiofile) has quit (Quit: Yᵒᵘ Oᶰˡʸ Lᶤᵛᵉ Oᶰᶜᵉ)
+2017-09-28 08:04:48	-->	MassDebates (c6b36f72@gateway/web/cgi-irc/kiwiirc.com/ip.198.179.111.114) has joined ##learncss
+2017-09-28 08:10:33	MassDebates	innovati:  Found it.
+2017-09-28 08:10:35	MassDebates	Microsoft Sway.
+2017-09-28 08:10:46	MassDebates	Fckin' a, I knew I wasn't dreaming
+2017-09-28 10:46:11	innovati_	thykka <3 how the launch go?
+2017-09-28 10:46:18	innovati_	eyyy pyjahn
+2017-09-28 10:46:25	thykka	no major fix requests so far
+2017-09-28 10:46:34	thykka	and i just opened a beer, so.. pretty good i guess :D
+2017-09-28 10:46:55	innovati_	🍻
+2017-09-28 10:46:56	thykka	here it is http://nohiccups.myhelsinki.fi/
+2017-09-28 10:47:04	innovati_	I just got up so I am hunting for some wake up juice
+2017-09-28 10:47:22	thykka	terrible hack job, but with these time constraints – whatever
+2017-09-28 10:48:55	innovati_	I feel like the hiccups is a metaphor for challenges in relocation?
+2017-09-28 10:49:50	thykka	right
+2017-09-28 10:50:36	thykka	afaik this is about UK leaving EU and the European Medical Agency needing a new HQ
+2017-09-28 10:51:01	innovati_	nice
+2017-09-28 10:51:27	innovati_	well now that it's launched I'm certain the content will arrive soon
+2017-09-28 10:51:30	innovati_	:)
+2017-09-28 10:51:49	thykka	i hope this is all the content there'll ever be on this site :D
+2017-09-28 10:54:55	innovati_	:D
+2017-09-28 11:27:11	-->	audiophile (~audiophil@unaffiliated/audiofile) has joined ##learncss
+2017-09-28 11:31:14	innovati_	there's a guy writing an article about element queries and he just can't seem to wrap his head around scoping the application of a conditional style to only those elements that match is
+2017-09-28 11:31:17	innovati_	*it
+2017-09-28 11:32:37	audiophile	lol
+2017-09-28 11:32:41	audiophile	link?
+2017-09-28 11:32:59	audiophile	btw, is our seo friend safe?
+2017-09-28 11:34:11	innovati_	hehe I hope so
+2017-09-28 11:34:27	innovati_	time to hire bodyguards and make BFFs out of your old business partners
+2017-09-28 11:34:29	audiophile	MassDebates ping for your safety :P
+2017-09-28 11:34:37	audiophile	hehe
+2017-09-28 11:34:51	audiophile	Looks like a real dangerous field
+2017-09-28 11:35:44	innovati_	indeed :3
+2017-09-28 11:37:13	innovati_	I'm just checking my own search ranking
+2017-09-28 11:37:15	audiophile	soo, anyway, lazy me just slaps on a light blue gradient and site looks cooler now
+2017-09-28 11:37:18	innovati_	I've moved up :D
+2017-09-28 11:37:22	innovati_	nice!
+2017-09-28 11:37:23	audiophile	how do you check that?
+2017-09-28 11:37:27	innovati_	gradients can add a lot
+2017-09-28 11:37:50	thykka	gradients are the cat's nightwear
+2017-09-28 11:38:04	innovati_	audiophile Google results are based on like, 50 environmental variables, one of which is where I'm searching from, and another is what people near me search, so the results change as I move around town even - it's not exact
+2017-09-28 11:38:07	thykka	and by that i mean they are the bee's leg joints
+2017-09-28 11:38:29	audiophile	whoa, seo sounds...complicated?
+2017-09-28 11:38:31	innovati_	but from my home, from incognito window (google pretends to not know it's still me) I was showing up low on the first page for 2 terms, and on page 4 for two other terms.
+2017-09-28 11:38:55	innovati_	Now I'm nearer the top (like #2 spot) for those two good searches, and I'm at the bottom of page 3 for my other 2
+2017-09-28 11:39:03	audiophile	wow
+2017-09-28 11:39:08	audiophile	did you do something to cause that bump?
+2017-09-28 11:39:18	innovati_	all I did was make a tiny bit of HTML, mark it up well add meta keywords and description, and that's about it
+2017-09-28 11:39:38	innovati_	I switched from my old web server to hosting on Amazon S3, but I don't know if that helped, or if it just got more relevant over time
+2017-09-28 11:39:59	thykka	that's a nice search rank, but do you have an IMDB page? :>
+2017-09-28 11:40:06	innovati_	at first I put my resume online as HTML and never even linked it to anywhere, no link from my website - nothing and google still found it, ranked it, and it was doing well
+2017-09-28 11:40:25	audiophile	imdb?
+2017-09-28 11:40:26	thykka	(i just noticed that i have an IMDb page)
+2017-09-28 11:40:27	innovati_	thykka no, but I have a TechCrunch bio :D
+2017-09-28 11:40:29	audiophile	isn't that for movies?
+2017-09-28 11:40:32	thykka	yes
+2017-09-28 11:40:34	innovati_	crunchbase?
+2017-09-28 11:40:38	audiophile	0_0
+2017-09-28 11:40:45	audiophile	innovati_ makes movies?
+2017-09-28 11:40:57	thykka	i'm listed under "Miscellaneous Crew"
+2017-09-28 11:41:04	innovati_	no, I did that startup thing one time https://www.crunchbase.com/person/tommy-hodgins
+2017-09-28 11:41:19	innovati_	thykka oh niiiiiice
+2017-09-28 11:42:24	innovati_	what happens if you google 'Toronto UI Design Resume'? does any link to tomhodgins.com/resume.html show up?
+2017-09-28 11:42:46	thykka	you're 4th
+2017-09-28 11:42:47	audiophile	third link
+2017-09-28 11:42:55	innovati_	that's the page - took like 30 minutes one day to write the content, 30 minutes another day to style it, and I don't link to it from anywhere
+2017-09-28 11:42:59	innovati_	so google somehow just found that I had a /resume.html and ranked it accordingly
+2017-09-28 11:43:06	innovati_	no further magic involved
+2017-09-28 11:43:06	thykka	https://snag.gy/QSr5PC.jpg
+2017-09-28 11:43:22	innovati_	yeah! for me it's one position above that, so surprising that you see it so high
+2017-09-28 11:43:36	innovati_	I thought it would be more weighted to geographic location (where I'm searching from)
+2017-09-28 11:43:48	audiophile	hmm third link here
+2017-09-28 11:43:57	audiophile	I didn't get the third result that thykka got
+2017-09-28 11:44:57	innovati_	so what I've learned from this experiment - take an hour to put your resume online and then forget about it
+2017-09-28 11:45:25	innovati_	set it & forget it, but take the time sooner than later so you can start getting the ranking sooner
+2017-09-28 11:48:46	<--	audiophile (~audiophil@unaffiliated/audiofile) has quit (Quit: Yᵒᵘ Oᶰˡʸ Lᶤᵛᵉ Oᶰᶜᵉ)
+2017-09-28 13:06:33	-->	darkSeid_ (~textual@2a02:c7d:281c:e200:6198:a0ac:797d:ef97) has joined ##learncss
+2017-09-28 14:15:01	innovati_	:)
+2017-09-28 14:15:30	innovati_	everybody seems to be having the same problem with EQCSS, and everybody's solution seems to be "modify the plugin so no error occurs"
+2017-09-28 14:15:42	innovati_	but the plugin is responding in error because something is wrong
+2017-09-28 14:16:09	innovati_	if I 'fix' the plugin, it won't cause errors on broken pages where something is wrong. That doesn't seem like a solution to me, that feels like ignoring the problem, no?
+2017-09-28 14:28:32	darkSeid_	hmmm
+2017-09-28 14:28:41	darkSeid_	whats the issue
+2017-09-28 14:28:54	darkSeid_	u dont want to be sich a
+2017-09-28 14:29:08	darkSeid_	*such a purist that you create the perfect product that no one can/does use
+2017-09-28 14:32:11	innovati_	You write EQCSS-formatted queries. The EQCSS.js plugin loads those. If at some point after EQCSS.js has loaded your queries - something magical on the page causes data to go missing from the EQCSS.data object where the parsed queries live…then the plugin has a hard time replacing the text of text that USED to exist, but for some reason no longer exists
+2017-09-28 14:32:28	innovati_	you might think: well is it poorly formatted queries? Nope, we can verify the syntax is valid 2 ways
+2017-09-28 14:32:56	innovati_	you might think: are those queries for some reason not getting loaded in correctly? Nope, we can verify that no matter how you supply the queries, the EQCSS.js plugin does load them 💯% at first
+2017-09-28 14:33:18	innovati_	and when you create an empty test case where just your queries and EQCSS.js run without any of the other JS on the site…it isn't broken
+2017-09-28 14:33:41	innovati_	but, when you load those queries, with EQCSS.js, and run them over time on a page with ¿something else?, some data is getting dropped and the error occurs
+2017-09-28 14:33:59	innovati_	right now 50% of the Pull Requests to EQCSS on Github are ways of ignoring the fact that styles have gone missing when they go missing
+2017-09-28 14:34:26	innovati_	in reality, it's indicative of something else going wrong on the site. If it's deleting your stylesheets ignoring the fact that it's deleting them isn't a solution, you're still missing styles - now you just don't know it
+2017-09-28 14:34:55	innovati_	(when it throws these errors it's still processing the rest, just letting you know: hey, the style data is now missing here)
+2017-09-28 14:35:55	innovati_	I'd LOVE to track it down and figure out what's happening here, but the fact that I can't reproduce it except on full websites people are building, we can't even seem to replicate it with a smaller striped down test case says to me it's not a browser or OS thing, and not an EQCSS.js thing, but a 'their entire website' thing
+2017-09-28 15:56:30	darkSeid_	hmmm
+2017-09-28 15:56:51	darkSeid_	honestly, if you want people to use it, you either need an ugly fix or you need to spend real time finding out what's causing the issue and then determine the best path forward
+2017-09-28 15:56:57	darkSeid_	otherwise its not gonna grow
+2017-09-28 15:58:21	darkSeid_	innovati_ ^
+2017-09-28 15:59:01	innovati_	yeah, I spent a few hours with the first person who reported the bug and we didn't nail it down, but he's using a custom build of EQCSS that has just what his project needs
+2017-09-28 15:59:32	innovati_	in this case, I can't hope to track down what's causing it if they can't a) share their site where the problem pops up, and b) show me the queries they're trying to load in so we can try to build a stripped down test case that reproduces it
+2017-09-28 15:59:51	darkSeid_	hmm
+2017-09-28 16:00:04	-->	atroclize1 (~atroclize@134.49.239.121) has joined ##learncss
+2017-09-28 16:00:09	darkSeid_	well yeah, if they cant give you the necessary information to debug, then obviously you cant debug
+2017-09-28 16:00:21	darkSeid_	do you have any ideas as to what it could be
+2017-09-28 16:00:38	innovati_	but making the plugin so NOBODY could debug the problem by hiding when it occurs isn't a step forward for me who wants to be able to fix the real problem going on
+2017-09-28 16:00:54	innovati_	on the site where I saw it it was intermittent, and not always the same queries
+2017-09-28 16:01:13	innovati_	we could verify the queries were good, they worked in isolation of the rest of his JS, it was broken only on the full site, but in whatever browser you tried
+2017-09-28 16:01:26	innovati_	and it wasn't consistent. You could reload it 4 times and no problem, 1 dropped, then 4 dropped, then fine again
+2017-09-28 16:01:29	innovati_	so ¯\_(ツ)_/¯
+2017-09-28 16:02:14	darkSeid_	hmm
+2017-09-28 16:02:33	darkSeid_	then it'll be one of his JS files he's loading async i guess?
+2017-09-28 16:02:48	darkSeid_	something that if it loads before X it's fine, but after X and it's fucked
+2017-09-28 16:02:54	darkSeid_	possibly?
+2017-09-28 16:03:22	innovati_	I have no clue why something would be accessing something like EQCSS.data[0].style and somehow nullifying it though
+2017-09-28 16:03:29	darkSeid_	well
+2017-09-28 16:03:31	darkSeid_	it wont be?
+2017-09-28 16:03:34	innovati_	it's so specific, what would accidentally touch that?
+2017-09-28 16:03:35	darkSeid_	it wont be that direct
+2017-09-28 16:03:45	darkSeid_	it'll be grabbing something more generic
+2017-09-28 16:03:57	innovati_	well we can see they go missing
+2017-09-28 16:04:05	innovati_	the object is there but style is empty…sometimes
+2017-09-28 16:04:13	innovati_	after it has been there originally
+2017-09-28 16:04:21	darkSeid_	could it be something crazy like maxymizer or smth
+2017-09-28 16:04:54	innovati_	this is the 'broken' site I know about - but it didn't seem broken at all today https://www.focusvitamins.com/?template=fvs
+2017-09-28 16:05:05	darkSeid_	what is supposed to be broken
+2017-09-28 16:05:13	innovati_	if you run this in the console and there are 'broken' styles, it will return the queries in the console
+2017-09-28 16:05:14	innovati_	EQCSS.data.forEach(query => { if (!query.style) console.log(query) })
+2017-09-28 16:05:21	innovati_	doesn't seem to be doing it right now / today
+2017-09-28 16:05:30	innovati_	he hasn't told me he fixed it, but he did say it was intermittent
+2017-09-28 16:05:47	darkSeid_	man
+2017-09-28 16:05:52	innovati_	I see neither errors, nor does running this log queries that are broken
+2017-09-28 16:05:57	darkSeid_	thats a lot of shit getting loaded in the console though
+2017-09-28 16:06:02	innovati_	hooooo yeah
+2017-09-28 16:06:19	innovati_	this site has a TON of JS
+2017-09-28 16:06:20	darkSeid_	is that just lazy console logging?
+2017-09-28 16:06:35	innovati_	it's a development site
+2017-09-28 16:07:16	innovati_	although a version that looks similar to this seems to be on the live site now too - maybe they finally launched it :D
+2017-09-28 16:07:55	darkSeid_	hmm
+2017-09-28 16:08:05	darkSeid_	unless you have full access its basically impossible to debug
+2017-09-28 16:08:09	innovati_	yeah
+2017-09-28 16:08:30	darkSeid_	have you asked him what 3rd party stuff he's using
+2017-09-28 16:08:56	innovati_	so 'to make IE happy' one user wants me to add this to EQCSS.js https://github.com/eqcss/eqcss/pull/76/commits/6d41e6c55b7d398ba031a0c5e7bb5515abc7e158
+2017-09-28 16:09:33	innovati_	this forces `code` in this situation to always be a string type, even if `code` is undefined. This stops the error, but your site is still missing a style, you've just tricked the plugin into thinking it processed the style
+2017-09-28 16:09:49	darkSeid_	hmm
+2017-09-28 16:10:01	innovati_	A different person has a different solution to the same problem - just check to see if it's defined before attempting to process it: https://github.com/eqcss/eqcss/pull/71/commits/fa22f5cb4f4f83dc8b6f9e9e693ea36bec0ac22d
+2017-09-28 16:10:08	darkSeid_	i feel a conditional might be better there
+2017-09-28 16:10:17	darkSeid_	yeah
+2017-09-28 16:10:21	darkSeid_	thats what i would have thought
+2017-09-28 16:10:22	innovati_	that way the plugin will skip it if it's broken! problem solved, now it doesn't matter that your site is broken and the stylesheet is missing, you'll never even know
+2017-09-28 16:11:22	darkSeid_	good point :
+2017-09-28 16:11:23	darkSeid_	:p
+2017-09-28 16:11:49	innovati_	by having an error when the code that's loaded has been broken that leads you to believe maybe a style is missing, and when you check - it IS…isn't that a helpful debugging thing?
+2017-09-28 16:11:57	darkSeid_	absolutely
+2017-09-28 16:12:03	darkSeid_	massively
+2017-09-28 16:12:23	innovati_	I would never have thought to run the console thing checking for styles that got broken if there hadn't been an error. they may or may not have noticed the style was missing visually, but how would you even begin to troubleshoot
+2017-09-28 16:12:47	darkSeid_	for sure
+2017-09-28 16:12:55	darkSeid_	errors are helpful :)
+2017-09-28 16:13:09	innovati_	actually I just asked him now, the site I linked to - and he said there never was a visual problem he ever saw, there was just an annoying message in the console. I don't believe that, if the style was missing it's gone so _something_ must have been off visually, but clearly it wasn't too important
+2017-09-28 16:13:23	innovati_	so who knows if it will pop up intermittently again ;)
+2017-09-28 16:13:29	darkSeid_	i had an issue today where something wasn't working and without the error message i would have been totally screwed
+2017-09-28 16:14:31	darkSeid_	could be a style thats only applied on mobile and he  was looking at desktop maybe
+2017-09-28 16:16:22	innovati_	yeah, he has the highest number of queries I've ever seen on a site so when he drops 1 or 2 out of hundreds, it's hard to check
+2017-09-28 16:17:10	innovati_	in some cases it looked like he even had redundancy between queries so it's possible when one or 2 fail only some properties were missing too. I thought it was messy code but maybe it was extreme foresight hehe
+2017-09-28 16:18:30	darkSeid_	that sounds fucking horrendous to try and debug
+2017-09-28 16:18:32	darkSeid_	for a site that small
+2017-09-28 16:18:59	innovati_	yeah, people love making things more complex than they need to be just because of the beauty of the system to them
+2017-09-28 16:19:40	darkSeid_	yep
+2017-09-28 16:19:51	darkSeid_	altho tbh our site is a fucking monster
+2017-09-28 16:19:59	darkSeid_	which is what happens when a company grows fast
+2017-09-28 16:20:30	darkSeid_	its revenue is nearly 1bn dollars a year but they only started like 16 yrs ago and its all online
+2017-09-28 16:20:33	innovati_	the site I spend a lot of time working on grew horizontally a lot and suffers with some structural issues
+2017-09-28 16:20:54	innovati_	but that was a conscious choice made by project management about how things would be expanded, so it's exactly what they asked for
+2017-09-28 16:21:04	innovati_	that's a lot of revenue!! :3
+2017-09-28 16:21:14	innovati_	16 years is an eternity to be online too
+2017-09-28 16:21:23	innovati_	that's really good
+2017-09-28 16:22:57	darkSeid_	yeah
+2017-09-28 16:23:06	darkSeid_	but i means its very tough to keep managing it all
+2017-09-28 16:23:17	innovati_	I'm sure
+2017-09-28 16:23:18	darkSeid_	because the front end team is still relatively small
+2017-09-28 16:23:22	darkSeid_	like, maybe...
+2017-09-28 16:23:37	innovati_	it sounds exciting
+2017-09-28 16:23:53	darkSeid_	12-14 devs total?
+2017-09-28 16:24:00	innovati_	doing that store
+2017-09-28 16:24:01	innovati_	yeah
+2017-09-28 16:24:13	darkSeid_	ehh, some of the work is awesome, some of it is soul crushing man
+2017-09-28 16:24:30	darkSeid_	like updating some merchanise pods on the site
+2017-09-28 16:24:49	darkSeid_	its literally copying urls and image names and going into Sitecore and pasting it in
+2017-09-28 16:24:57	darkSeid_	and it can take days
+2017-09-28 16:25:32	darkSeid_	but some of the work is really cool and challenging
+2017-09-28 16:25:49	darkSeid_	and it reminds me how much of a fookin n00b i still am :p
+2017-09-28 16:26:30	darkSeid_	and ive got an awesome project next week. its a page i need to build but its gonna be very tricky
+2017-09-28 16:27:39	innovati_	is there a way you could build something on your end to automate some of that?
+2017-09-28 16:27:58	innovati_	I was looking at Mac automator the other day wondering if there was a way I could use that to tie together some desktop apps into a workflow
+2017-09-28 16:34:09	<--	atroclize1 (~atroclize@134.49.239.121) has quit (Quit: This computer has gone to sleep)
+2017-09-28 16:34:22	darkSeid_	yes
+2017-09-28 16:34:30	darkSeid_	absolutely
+2017-09-28 16:34:32	darkSeid_	well, its what we are going to try and look at
+2017-09-28 16:34:38	darkSeid_	although tbh it shouldnt be a dev job at all
+2017-09-28 16:38:21	darkSeid_	its just risky to automate tbh
+2017-09-28 16:39:43	innovati_	LD
+2017-09-28 16:39:45	innovati_	:D
+2017-09-28 16:39:46	innovati_	yeah
+2017-09-28 16:45:41	darkSeid_	egh
+2017-09-28 16:45:54	darkSeid_	im having one of those weeks where i feel like i know nothing
+2017-09-28 16:45:59	darkSeid_	after 7 months :/
+2017-09-28 16:45:59	innovati_	*hug*
+2017-09-28 16:46:12	darkSeid_	\o/
+2017-09-28 16:46:18	innovati_	it means you're growing
+2017-09-28 16:46:19	darkSeid_	it worked, muahaha
+2017-09-28 16:46:23	darkSeid_	;)
+2017-09-28 16:46:54	darkSeid_	man  i dont feel like it sometimes tho
+2017-09-28 16:47:09	darkSeid_	sometimes i just think 'i have no idea wtf is going on'
+2017-09-28 16:47:58	innovati_	everybody has those moments unless you're dead!
+2017-09-28 16:52:04	-->	atroclize1 (~atroclize@134.49.239.121) has joined ##learncss
+2017-09-28 16:52:48	darkSeid_	yeah but for me its actually true :p
+2017-09-28 16:52:59	darkSeid_	do you ever go through moments where u feel less motivated?
+2017-09-28 16:56:10	innovati_	yes!
+2017-09-28 16:56:18	innovati_	I just flipped a ticket last night that was killing me!
+2017-09-28 16:56:57	innovati_	stuff I CAN do, but don't like to do
+2017-09-28 16:58:44	darkSeid_	right
+2017-09-28 16:59:08	darkSeid_	but i mean do u ever just feel a little tired of coding, like you need a break/holiday/whatever
+2017-09-28 16:59:25	innovati_	I was taking a whole bunch of charts like this image and vectorizing the data and recreating them at a much larger resolution so the slides could be used as video overlays: https://imgur.com/a/I5TXr
+2017-09-28 16:59:44	innovati_	re: coding, yes and no
+2017-09-28 17:00:20	innovati_	There were times when my job was to type hundreds of lines of CSS all day every day, it was honestly just a never-ending set of CSS that needed to be written and I grew weary of the labour
+2017-09-28 17:00:37	darkSeid_	right
+2017-09-28 17:00:54	innovati_	I've fought with JS until my brain hurt before too - and it wasn't because I was writing lots of code (not exhaustion from typing) just struggling to wrap my head around stuff
+2017-09-28 17:01:31	innovati_	and I was one of the best HTML un-knotters at all of the places I've worked so I was always given the tangled up messes to try to sort out, couldn't always do it, so I know how mind-numbing hand-balancing broken HTML tags can be too
+2017-09-28 17:01:54	innovati_	but despite all those moments I can remember, I still end up writing code to relax and have fun too - just very different code
+2017-09-28 17:02:03	innovati_	so I know at worst it comes and goes
+2017-09-28 17:04:54	innovati_	what do you find inspires or recharges you?
+2017-09-28 17:26:45	darkSeid_	hmmm
+2017-09-28 17:26:48	darkSeid_	good question!
+2017-09-28 17:27:16	darkSeid_	i like being given challenges/problems to solve
+2017-09-28 17:27:38	darkSeid_	something i can sink my teeth into
+2017-09-28 17:27:52	darkSeid_	what recharges me is probably a few days of holiday :p
+2017-09-28 17:29:18	innovati_	:D maybe make a big deal about relaxing on the weekends to help recover from the demands of the work wee
+2017-09-28 17:29:37	innovati_	have a number of mini vacations that can add up to one vacation if put together
+2017-09-28 17:36:37	darkSeid_	yeah good idea
+2017-09-28 17:36:54	darkSeid_	i think also, there's so much for me to learn that sometimes it feels overwhelming
+2017-09-28 17:37:02	darkSeid_	whereas if i didnt feel like that, it would probably not be so bad
+2017-09-28 17:37:39	darkSeid_	its like starting a huge project, the most difficult thing about it is trying to destructure every task to its own component
+2017-09-28 17:42:54	<--	atroclize1 (~atroclize@134.49.239.121) has quit (Quit: Leaving)
+2017-09-28 17:55:38	innovati_	hehe yeah, and sometimes you don't know until you're done how it should have been built
+2017-09-28 17:58:28	innovati_	https://imgur.com/gallery/pc4Au my little babies!
+2017-09-28 18:05:41	-->	mezod (~mezod@unaffiliated/mezod) has joined ##learncss
+2017-09-28 18:38:26	-->	hunboy_ (~hunboy@87.97.81.49.pool.invitel.hu) has joined ##learncss
+2017-09-28 18:40:29	<--	hunboy (~hunboy@82.131.228.71.pool.invitel.hu) has quit (Ping timeout: 260 seconds)
+2017-09-28 18:40:41	--	hunboy_ is now known as hunboy
+2017-09-28 20:55:48	<--	mezod (~mezod@unaffiliated/mezod) has quit (Remote host closed the connection)
+2017-09-28 21:51:40	-->	audiofile (~audiophil@unaffiliated/audiofile) has joined ##learncss
+2017-09-28 22:45:24	<--	audiofile (~audiophil@unaffiliated/audiofile) has quit (Quit: Yᵒᵘ Oᶰˡʸ Lᶤᵛᵉ Oᶰᶜᵉ)
+2017-09-29 01:02:56	innovati_	oh yeaaaah https://github.com/tomhodgins/slinky
+2017-09-29 01:32:42	-->	mezod (~mezod@unaffiliated/mezod) has joined ##learncss
+2017-09-29 01:37:34	<--	mezod (~mezod@unaffiliated/mezod) has quit (Ping timeout: 260 seconds)
+2017-09-29 01:52:28	<--	innovati (~innovati@108.61.95.143) has quit (Disconnected by services)
+2017-09-29 01:52:36	-->	innovati (~innovati@108.61.95.143) has joined ##learncss
+2017-09-29 01:54:10	<--	innovati (~innovati@108.61.95.143) has quit (Disconnected by services)
+2017-09-29 01:54:18	-->	innovati (~innovati@2001:19f0:1614:12f:216:3cff:fe1c:d926) has joined ##learncss
+2017-09-29 01:55:26	<--	innovati (~innovati@2001:19f0:1614:12f:216:3cff:fe1c:d926) has quit (Disconnected by services)
+2017-09-29 01:55:33	-->	innovati (~innovati@108.61.95.143) has joined ##learncss
+2017-09-29 01:55:50	<--	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-09-29 01:56:23	-->	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has joined ##learncss
+2017-09-29 01:58:41	<--	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has left ##learncss
+2017-09-29 02:02:05	-->	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has joined ##learncss
+2017-09-29 02:07:05	<--	innovati (~innovati@108.61.95.143) has quit (Disconnected by services)
+2017-09-29 02:07:12	-->	innovati (~innovati@108.61.95.143) has joined ##learncss
+2017-09-29 02:13:42	--	innovati_ is now known as hmmm
+2017-09-29 02:13:51	--	hmmm is now known as innovati___
+2017-09-29 02:17:53	<--	innovati___ (~innovati@209-195-85-150.cpe.distributel.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-09-29 02:20:00	-->	innovati_ (~innovati@209-195-85-150.cpe.distributel.net) has joined ##learncss
+2017-09-29 02:24:16	<--	innovati (~innovati@108.61.95.143) has quit (Disconnected by services)
+2017-09-29 02:24:24	-->	innovati (~innovati@2001:19f0:1614:12f:216:3cff:fe1c:d926) has joined ##learncss
+2017-09-29 02:25:00	<--	innovati (~innovati@2001:19f0:1614:12f:216:3cff:fe1c:d926) has quit (Disconnected by services)
+2017-09-29 02:25:07	-->	innovati (~innovati@108.61.95.143) has joined ##learncss
+2017-09-29 02:25:57	<--	innovati (~innovati@108.61.95.143) has quit (Disconnected by services)
+2017-09-29 02:26:05	-->	innovati (~innovati@2605:9880:0:357:216:3cff:fe1c:d926) has joined ##learncss
+2017-09-29 02:38:04	<--	darkSeid_ (~textual@2a02:c7d:281c:e200:6198:a0ac:797d:ef97) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-09-29 02:56:56	thykka	kittehs!
+2017-09-29 06:06:41	-->	mezod (~mezod@unaffiliated/mezod) has joined ##learncss
+2017-09-29 08:09:29	<--	mezod (~mezod@unaffiliated/mezod) has quit (Remote host closed the connection)
+2017-09-29 08:56:36	MassDebates	bad days
+2017-09-29 08:56:38	MassDebates	bad days all around
+2017-09-29 08:59:10	MassDebates	Good news is that my students are doing really good
+2017-09-29 08:59:23	MassDebates	bad news is everything else
+2017-09-29 09:01:21	MassDebates	we have a dedicated ip and it looks like spam has been going out under my nose
+2017-09-29 09:01:33	MassDebates	enthusiastic sales reps. ugh.
+2017-09-29 09:01:58	MassDebates	I gotta say though, really nice usage of our templates
+2017-09-29 09:02:06	innovati_	good morning sir
+2017-09-29 09:02:10	MassDebates	But that doesn't hurt our efforts to avoid blacklisting
+2017-09-29 09:02:14	MassDebates	Good morning.
+2017-09-29 09:02:52	thykka	cheer up, you're a clump of stardust drifting at 100000km/h around an ancient explosion.
+2017-09-29 09:03:06	thykka	:>
+2017-09-29 09:03:18	MassDebates	That's a theory.
+2017-09-29 09:04:10	thykka	also, you work with stones with lightning inside of them, which we managed to trick into thinking
+2017-09-29 09:04:19	MassDebates	I have something interesting happen here though
+2017-09-29 09:05:10	MassDebates	They found my fingerprinting merge tag code and they implemented it on more than just links
+2017-09-29 09:05:44	MassDebates	They saw my commented code that applies query strings on the end of images and they uncommented it, but then they also made a second query string on their own (these guys aren't developers, mind you)
+2017-09-29 09:05:53	MassDebates	and created a rudimentary tokenization system
+2017-09-29 09:06:12	MassDebates	What's neat about this is that any noncaching inbox now gives us a count of how many times the image was served.
+2017-09-29 09:07:04	MassDebates	Well, not really the inbox client themselves. Just fetches more, but we have counts here
+2017-09-29 09:07:34	thykka	it's almost never a good idea to leave commented code anywhere
+2017-09-29 09:07:40	thykka	that's what git is for
+2017-09-29 09:07:46	MassDebates	THEY DONT FUCKING LET ME TOUCH GIT
+2017-09-29 09:07:49	MassDebates	Sorry
+2017-09-29 09:07:51	thykka	:O
+2017-09-29 09:08:04	thykka	who? why not?
+2017-09-29 09:08:09	MassDebates	Yeah the devs say I'm not allowed to go in there and touch anything
+2017-09-29 09:08:14	MassDebates	I have to give it to them and they have to do it
+2017-09-29 09:08:18	MassDebates	Well I got in trouble
+2017-09-29 09:08:23	MassDebates	and I got yelled at
+2017-09-29 09:08:35	MassDebates	Y'know, you guys keep thinking that I'm some sort of a boss here
+2017-09-29 09:08:44	MassDebates	I'm the only employee of the company and everyone else here is my boss
+2017-09-29 09:08:50	MassDebates	At least that what it feels like
+2017-09-29 09:09:10	MassDebates	well, not the only employee but I just feel like I'm the coffee boy of sorts
+2017-09-29 09:09:17	thykka	that sucks :S
+2017-09-29 09:09:43	MassDebates	At any rate, apparently I've done some not-the-best-things on their git
+2017-09-29 09:09:46	MassDebates	They set up a special one for me
+2017-09-29 09:10:14	MassDebates	At any rate
+2017-09-29 09:10:18	MassDebates	I'm really interested in this email thing
+2017-09-29 09:10:36	MassDebates	And for the record, the commented code is just in our template generator
+2017-09-29 09:10:49	MassDebates	it needs to be commented because that's how I let them generate emails
+2017-09-29 09:11:02	MassDebates	It uses the commented code template pieces and slots them in so everything hatches together
+2017-09-29 09:11:24	MassDebates	It knows what layout pieces to use by the configs that are set up in an excel spreadsheet
+2017-09-29 09:11:33	MassDebates	my script converts the spreadsheet into useable json data
+2017-09-29 09:11:42	MassDebates	and then the json data is used to generate an email layout with merge tags
+2017-09-29 09:11:53	MassDebates	the merge tags are used by our ESP to customize and whatnot
+2017-09-29 09:12:08	MassDebates	they went through the source code that the layouts are generated from
+2017-09-29 09:12:55	MassDebates	So really, I'm very impressed with what they did, but they got a list of like 40k emails (which is a lot for us, especially if it's not vetted/scrubbed) from these businesses in the northeast US
+2017-09-29 09:13:14	MassDebates	and they started using it to spam these people who've NEVER opted in, some of them never even heard of us
+2017-09-29 09:13:30	thykka	isn't that like.. illegal even?
+2017-09-29 09:13:34	MassDebates	Yes.
+2017-09-29 09:13:43	MassDebates	Yes it is.
+2017-09-29 09:13:52	MassDebates	I don't have a lawyer for the business here.
+2017-09-29 09:14:11	MassDebates	But that's alright, it's not like people sue right away
+2017-09-29 09:14:26	MassDebates	and the more immediate issue is blacklisting. We lose email and we lose a LOT of ability to render services for clients
+2017-09-29 09:14:33	MassDebates	and in-house marketing ability too
+2017-09-29 09:19:49	innovati_	thykka morning!
+2017-09-29 09:19:55	thykka	hi innovati_
+2017-09-29 09:21:24	innovati_	MassDebates sounds complicated
+2017-09-29 09:24:13	MassDebates	It's not complicated and the sales reps know better
+2017-09-29 09:24:18	MassDebates	You don't email without permission.
+2017-09-29 09:24:30	MassDebates	'Nuff said.
+2017-09-29 09:24:47	MassDebates	Now I gotta figure how they got these emails
+2017-09-29 09:24:56	MassDebates	I gotta figure out how I can vet these
+2017-09-29 09:24:59	MassDebates	Anyone have any ideas?
+2017-09-29 09:25:22	MassDebates	Considering hiring a cold caller
+2017-09-29 09:39:06	innovati_	you can't compare them against known lists, or these are all new, but only some are legally 🆗?
+2017-09-29 09:39:32	innovati_	the CAN SPAM thing has some teeth in it so it would be better to lose an uncertain contact than get a real fine
+2017-09-29 09:40:12	MassDebates	your penchant for emojis is unceasing lol
+2017-09-29 09:40:33	MassDebates	and yes, you're right
+2017-09-29 09:40:41	MassDebates	CAN SPAM can be some serious shit at higher volumes
+2017-09-29 09:40:52	MassDebates	Canada is harsher on spam than us
+2017-09-29 09:41:12	MassDebates	but both are harsh. That's actually a concerted agreement of sorts between the two countries to cooperatively (and more effectively) combat spam
+2017-09-29 09:41:39	innovati_	I text-replace stuff to emojis too so sometimes it just happens automatically
+2017-09-29 09:41:41	MassDebates	Anyone know any cold calling services to vet and opt in these people?
+2017-09-29 09:41:48	MassDebates	lol
+2017-09-29 09:42:06	innovati_	can you phone them 🆗, but not email them?
+2017-09-29 09:42:15	MassDebates	You're really forcing that one in there hahaha
+2017-09-29 09:42:22	MassDebates	yeah you have a right to call anyone
+2017-09-29 09:42:34	MassDebates	I mean, even if they're on the DNC lists you can still call without penalty
+2017-09-29 09:42:45	thykka	you also have a right to fill their snailmailbox with trash
+2017-09-29 09:43:20	innovati_	I also change the word r e p l a c e m e n t with �
+2017-09-29 09:43:25	MassDebates	for the most part- its' because the scope of capable actions given out by DNC lists are limited by the _purpose_ and _content_ of the call, which is hugely subjective and easy to weasel out of when it comes to culpability
+2017-09-29 09:44:11	MassDebates	thykka:  That's because it's super costly to do so if you send trash it's likely to go nowhere and just burn oyur money
+2017-09-29 09:44:23	MassDebates	well, super costly relative to email, that is.
+2017-09-29 09:44:32	MassDebates	I'm looking for a good opt-in service that calls people
+2017-09-29 09:44:36	MassDebates	(or hell, mails them)
+2017-09-29 09:44:41	MassDebates	I want it to be cheap and effective, of course.
+2017-09-29 09:44:43	MassDebates	Any ideas?
+2017-09-29 09:51:54	MassDebates	innovati:  reddit.com/r/fellowkids
+2017-09-29 09:52:01	MassDebates	you need to be there.
+2017-09-29 09:52:02	MassDebates	:P
+2017-09-29 09:52:33	innovati_	I sub there!
+2017-09-29 09:52:53	innovati_	Remember kids, when writing CSS don't forget to D.A.B.
+2017-09-29 09:52:56	innovati_	D. on't
+2017-09-29 09:52:59	innovati_	A. use
+2017-09-29 09:53:02	innovati_	B. Sass
+2017-09-29 09:53:37	innovati_	🤧
+2017-09-29 09:54:57	innovati_	MassDebates there's also https://www.reddit.com/r/emojipasta/
+2017-09-29 09:55:14	MassDebates	omfg
+2017-09-29 09:55:21	MassDebates	2 seconds after the click and my eyes burn
+2017-09-29 09:55:23	MassDebates	can't even do it
+2017-09-29 09:55:26	MassDebates	can't even browse top of all time.
+2017-09-29 09:55:29	MassDebates	Not going to.
+2017-09-29 09:55:31	MassDebates	...
+2017-09-29 09:55:32	MassDebates	I must.
+2017-09-29 09:55:34	innovati_	hehe
+2017-09-29 09:55:37	MassDebates	FOR SCIENCE
+2017-09-29 09:56:06	MassDebates	Can't do it. I did 2 links
+2017-09-29 09:56:13	MassDebates	I need to go wash my eyes out. brb
+2017-09-29 09:56:17	MassDebates	(i'm not kidding) brb
+2017-09-29 09:56:54	innovati_	I'm on a slack network where they have an autoresponder anything anybody says something close to 'good shit' that replies with:
+2017-09-29 09:57:17	innovati_	👌👀👌👀👌👀👌👀👌👀 good shit go౦ԁ sHit👌 thats ✔ some good👌👌shit right👌👌there👌👌👌 right✔there ✔✔if i do ƽaү so my self 💯 i say so 💯 thats what im talking about right there right there (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ💯 👌👌 👌НO0ОଠOOOOOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒ
+2017-09-29 09:57:17	innovati_	👌 👌👌 👌 💯 👌 👀 👀 👀 👌👌Good shit
+2017-09-29 09:57:46	innovati_	but…if they mispell it, they get the 'unicode' version haha
+2017-09-29 09:57:51	innovati_	👌👀👌👀👌👀👌👀👌👀 gᅇd sῌt go౦ԁ sῌt👌 ЋѦs ✔ ꂢ𐅕 gᅇd👌👌sῌt rig𐅋👌👌𐅫𐅏👌👌👌 rig𐅋✔𐅫𐅏 ✔✔if i do ƽaү ꂢ my self 💯 i sꜽ ꂢ 💯 ЋѦs whѦ im talk㏌g 🆎oﬔ rig𐅋 𐅫𐅏 rig𐅋 𐅫𐅏 (cꀞԅs: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) ㎜㎜MᎷМ💯 👌👌 👌НO0О
+2017-09-29 09:57:51	innovati_	ଠဿᅇОଠଠဿoᵒᵒᵒᵒᵒᵒᵒᵒᵒ👌 👌👌 👌 💯 👌 👀 👀 👀 👌👌Gᅇd sῌt
+2017-09-29 09:58:35	innovati_	there's also a version for 'hood shit'
+2017-09-29 10:32:43	--	You are now known as innovati-_-
+2017-09-29 10:34:01	--	You are now known as keveloper
+2017-09-29 10:35:38	<--	innovati (~innovati@2605:9880:0:357:216:3cff:fe1c:d926) has quit (Disconnected by services)
+2017-09-29 10:35:46	-->	innovati (~innovati@108.61.95.143) has joined ##learncss
+2017-09-29 10:37:27	<--	innovati (~innovati@108.61.95.143) has quit (Disconnected by services)
+2017-09-29 10:37:34	-->	innovati (~innovati@2605:9880:0:357:216:3cff:fe1c:d926) has joined ##learncss
+2017-09-29 10:42:44	<--	innovati (~innovati@2605:9880:0:357:216:3cff:fe1c:d926) has quit (Disconnected by services)
+2017-09-29 10:42:49	-->	mezod (~mezod@unaffiliated/mezod) has joined ##learncss
+2017-09-29 10:42:53	-->	innovati- (~innovati@108.61.95.143) has joined ##learncss
+2017-09-29 10:43:15	--	innovati_ is now known as innovati
+2017-09-29 10:54:00	--	You are now known as treeford
+2017-09-29 10:54:09	--	You are now known as keveloper
+2017-09-29 12:03:47	innovati	would it shock you if I had made another scoped styles plugin :D
+2017-09-29 12:04:14	MassDebates	I'd say crack comes in many forms
+2017-09-29 12:04:23	innovati	http://staticresource.com/skopein.html this one uses <link rel=scoped> and a stylesheet with $this selectors so you can apply styles only to the element(s) that match a JS test
+2017-09-29 12:04:47	innovati	hopefully I've demonstrated that making an element queries plugin isn't hard
+2017-09-29 12:07:21	<--	MassDebates (c6b36f72@gateway/web/cgi-irc/kiwiirc.com/ip.198.179.111.114) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-09-29 13:43:07	-->	darkSeid_ (~textual@2a02:c7d:281c:e200:750a:659a:6f3f:8a76) has joined ##learncss
+2017-09-29 14:00:45	<--	innovati (~innovati@209-195-85-150.cpe.distributel.net) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-09-29 15:12:13	<--	mezod (~mezod@unaffiliated/mezod) has quit (Remote host closed the connection)
+2017-09-29 15:22:16	-->	innovati (~innovati@72.143.116.180) has joined ##learncss
+2017-09-29 15:24:58	innovati	:D:D:D
+2017-09-29 17:59:30	innovati	happy weekend friends
+2017-09-29 18:34:12	<--	innovati (~innovati@72.143.116.180) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-09-29 18:38:25	-->	hunboy_ (~hunboy@82-131-148-145.pool.invitel.hu) has joined ##learncss
+2017-09-29 18:40:32	<--	hunboy (~hunboy@87.97.81.49.pool.invitel.hu) has quit (Ping timeout: 258 seconds)
+2017-09-29 18:40:46	--	hunboy_ is now known as hunboy
+2017-09-29 20:37:48	-->	mezod (~mezod@unaffiliated/mezod) has joined ##learncss
+2017-09-29 21:23:46	<--	mezod (~mezod@unaffiliated/mezod) has quit (Remote host closed the connection)

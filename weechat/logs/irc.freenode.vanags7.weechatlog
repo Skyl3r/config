@@ -1,0 +1,91 @@
+2017-04-07 09:03:10	Vanags7	hey
+2017-04-07 09:03:10	Vanags7	http://evarsa.appair.it/
+2017-04-07 09:03:33	keveloper	okay so what is the goal?
+2017-04-07 09:03:52	Vanags7	so
+2017-04-07 09:04:08	Vanags7	1. make a white space in the middle for all the content.
+2017-04-07 09:04:09	Vanags7	2.
+2017-04-07 09:04:20	Vanags7	put a background below it, so it appears only on the sides
+2017-04-07 09:04:47	Vanags7	I'm neither english, or italian, so it's hard for me to look for information on that
+2017-04-07 09:04:50	Vanags7	no idea what's that called
+2017-04-07 09:05:25	keveloper	It looks like there is a white space in the middle for all of the content already.. ?
+2017-04-07 09:05:38	Vanags7	no there's not
+2017-04-07 09:05:41	Vanags7	lemme change background
+2017-04-07 09:06:23	Vanags7	okay see it now
+2017-04-07 09:06:36	keveloper	I mean there's some content with a wthok
+2017-04-07 09:06:39	keveloper	oops
+2017-04-07 09:06:42	keveloper	yes i see it
+2017-04-07 09:06:58	Vanags7	that white patch in the middle will get removed in a sec
+2017-04-07 09:07:43	Vanags7	so how do I do that
+2017-04-07 09:08:28	keveloper	I'm still pretty confused about what you want
+2017-04-07 09:08:46	Vanags7	i can draw that in paint if you want me to xD
+2017-04-07 09:09:03	Vanags7	or wait no
+2017-04-07 09:09:07	keveloper	Do you have an example website that also does this
+2017-04-07 09:09:09	Vanags7	I will give you a screenshot
+2017-04-07 09:09:11	Vanags7	yeah
+2017-04-07 09:09:12	keveloper	ok
+2017-04-07 09:09:13	Vanags7	and example
+2017-04-07 09:09:29	Vanags7	I have a project with another theme, that looks like I want to
+2017-04-07 09:10:59	Vanags7	http://imgur.com/a/EUhD7
+2017-04-07 09:11:19	keveloper	OHHHHH
+2017-04-07 09:11:21	keveloper	OK
+2017-04-07 09:12:32	Vanags7	so do you have any ideas?
+2017-04-07 09:12:35	keveloper	ya
+2017-04-07 09:12:36	keveloper	hold on
+2017-04-07 09:14:19	keveloper	you want this? http://imgur.com/a/LDQ1v
+2017-04-07 09:14:36	Vanags7	exactly
+2017-04-07 09:14:41	keveloper	cool okay, a few steps
+2017-04-07 09:15:06	keveloper	#wrapper-1 { width: 80%; margin-left: 10%; }
+2017-04-07 09:15:42	Vanags7	okay, whoa, works
+2017-04-07 09:15:43	keveloper	body { background: url("http://evarsa.appair.it/wp-content/uploads/2017/04/8fWGVfB1.jpg") repeat-y scroll center top #FFFFFF }
+2017-04-07 09:15:58	keveloper	I forgot the semicolon but
+2017-04-07 09:16:02	keveloper	url("http://evarsa.appair.it/wp-content/uploads/2017/04/8fWGVfB1.jpg") repeat-y scroll center top #FFFFFF; }
+2017-04-07 09:16:05	keveloper	is what i meant
+2017-04-07 09:16:20	keveloper	#home-page-content { background-color: white; }
+2017-04-07 09:16:44	keveloper	It looks like your other pages just use the id page-content instead of home-page-content though so you'll have to add that as well
+2017-04-07 09:17:15	keveloper	one question: do you want that top bar to span the whole thing?
+2017-04-07 09:17:54	Vanags7	uhm could I see how it looks?
+2017-04-07 09:18:52	keveloper	eh jk
+2017-04-07 09:18:56	keveloper	looks way worse than i thought
+2017-04-07 09:19:35	Vanags7	yeah it might be so
+2017-04-07 09:19:37	keveloper	http://imgur.com/a/XDCjZ
+2017-04-07 09:19:38	keveloper	there it is
+2017-04-07 09:19:41	keveloper	i think it looks bad though
+2017-04-07 09:19:54	Vanags7	thank you man
+2017-04-07 09:19:58	keveloper	Oh right, one more step to fix that image width
+2017-04-07 09:20:01	keveloper	If you are keeping it
+2017-04-07 09:20:48	Vanags7	it might look different on other resolution or something?
+2017-04-07 09:21:37	keveloper	Do you see the image stretching over the middle section
+2017-04-07 09:22:07	keveloper	http://imgur.com/a/9Nzbk
+2017-04-07 09:22:15	Vanags7	uhm I see it repeating in home page but I can fix that i think
+2017-04-07 09:22:24	Vanags7	ah yes, thats a slider
+2017-04-07 09:22:29	keveloper	right
+2017-04-07 09:22:38	keveloper	are you keeping it
+2017-04-07 09:22:44	Vanags7	yeah
+2017-04-07 09:22:55	keveloper	do you need help fixing that or do you got it
+2017-04-07 09:23:03	Vanags7	it's set to 1200x400 now
+2017-04-07 09:23:18	Vanags7	It doesn't center in the middle like a single image for some reason
+2017-04-07 09:24:10	keveloper	i got it to this: http://imgur.com/a/tuGyi
+2017-04-07 09:24:24	Vanags7	I just set it to 1085x400
+2017-04-07 09:24:36	keveloper	what happens when you resize the window
+2017-04-07 09:24:44	Vanags7	ok ill check
+2017-04-07 09:24:53	Vanags7	uhm yeah
+2017-04-07 09:25:14	Vanags7	it's not changing
+2017-04-07 09:25:17	Vanags7	looks really weird
+2017-04-07 09:26:18	keveloper	.vc_column_container { width: 100% }
+2017-04-07 09:26:35	keveloper	.wpb_wrapper { width: 100% }
+2017-04-07 09:26:37	keveloper	will fix that i think
+2017-04-07 09:27:19	keveloper	oh the last selector is wrong hold up
+2017-04-07 09:27:43	keveloper	.vc_images_carousel { width: 100%; }
+2017-04-07 09:27:45	keveloper	that might not work though
+2017-04-07 09:28:37	keveloper	Anyway 100% width on the vc_images-carousel-1-1491571675 element is what you need
+2017-04-07 09:28:55	keveloper	but that ID changes on every page load so you cant use that id as a selector
+2017-04-07 09:29:23	Vanags7	it happens to text boxes and images too, on certain size
+2017-04-07 09:41:35	Vanags7	it's solved
+2017-04-07 09:41:36	Vanags7	thanks
+2017-04-07 09:44:07	keveloper	Cool \o/
+2017-04-07 09:47:09	Vanags7	You're the best
+2017-04-07 09:49:26	keveloper	Pff :P
+2017-04-07 09:49:28	keveloper	Glad to help
+2017-04-07 09:50:20	Vanags7	:)
+2017-04-07 09:50:30	Vanags7	I made a revo slider
+2017-04-07 10:00:52	<--	Vanags7 (5d32540f@gateway/web/cgi-irc/kiwiirc.com/ip.93.50.84.15) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
