@@ -7,3 +7,19 @@
 2016-03-02 11:18:41	magic_conch	odule. (admin only), bing <search query> - Provides the first result from a Bing search; duck, ddg <search query> - Provides the first link from a DuckDuckGo search; g - <query> - Google for <query> and return the top result; search <search query> - Provides the first result from Bing, DuckDuckgo, and Google; tell, to <person> <message> - relays a message to a person the next time they say something anywhere jenni is present; w, wik, wiki <
 2016-03-02 11:18:43	magic_conch	ntry> - Returns the wiki entry for <entry>; xkcd - Randomly generates a valid URL for an xkcd item.
 2016-03-02 22:26:28	<--	magic_conch (~magic_con@172.ip-158-69-48.net) has quit (Ping timeout: 260 seconds)
+2017-01-17 10:25:10	keveloper	hello
+2017-05-11 10:22:26	keveloper	.btc
+2017-05-11 10:22:26	magic_conch	1 BTC (in USD) = bitstamp: 1849.95 | btce: 1767.0 | coinbase: 1,851.98 | ripple: 327.42057115 | rock: 1844.96 | last updated at: 2017-05-11 10:21:02.567014 UTC
+2017-05-15 16:28:52	keveloper	.help
+2017-05-15 16:28:52	magic_conch	keveloper: I'm sending you a list of my most common commands in private.
+2017-05-15 16:28:54	magic_conch	keveloper: For a list of all of my commands, please visit: https://is.gd/CPStvK
+2017-05-15 16:29:00	magic_conch	Common commands: join <channel> - Join the provided channel. (admin only); part <channel> - Leave the provided channel. (admin only); animate_me, nm8_me <search term> - Find an animated gif from giphy.com; py, python <python> - Interpret some Python (runs on Google App Engine); s/<find>/<replace> - Not a command, jenni will listen for phrases beginning with s/ and perform basic find-replace functionality. Note that this is not PRE compliant;
+2017-05-15 16:29:07	magic_conch	 .food <location> - Find food in your area using the Yelp API; img_me, image_me <search term> - Provide a random result from the first page of Google Image search; commands, help - Display a list of all commands, ip, iplookup, host <ip|host> - Get approximate geolocation from an IP or host using freegeoip.net; mustache_me <search term> - Adds a mustache to the image returned for the given search term; reload <module>: Ask jenni to reload a m
+2017-05-15 16:29:13	magic_conch	odule. (admin only), bing <search query> - Provides the first result from a Bing search; duck, ddg <search query> - Provides the first link from a DuckDuckGo search; g - <query> - Google for <query> and return the top result; search <search query> - Provides the first result from Bing, DuckDuckgo, and Google; tell, to <person> <message> - relays a message to a person the next time they say something anywhere jenni is present; w, wik, wiki <e
+2017-05-15 16:29:15	magic_conch	ntry> - Returns the wiki entry for <entry>; xkcd - Randomly generates a valid URL for an xkcd item.
+2017-08-01 11:15:22	keveloper	.g hello
+2017-08-01 11:15:23	magic_conch	https://en.wikipedia.org/wiki/Hello_(disambiguation)
+2017-08-01 11:15:45	keveloper	.strawpoll --title="fdsa" "hello"
+2017-08-01 11:15:49	keveloper	.strawpoll
+2017-08-01 11:15:57	keveloper	.sp "1" "2"
+2017-08-01 11:16:28	keveloper	.strawpoll --title="is dumb" ["1", "2"]

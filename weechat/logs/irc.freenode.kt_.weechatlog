@@ -1,0 +1,1207 @@
+2017-09-22 17:33:28	keveloper	sup why u bored
+2017-09-22 17:34:05	kt_	tired of working on the same damn thing for 5 months
+2017-09-22 17:34:11	keveloper	what is it
+2017-09-22 17:34:17	kt_	Institution Registry
+2017-09-22 17:34:43	kt_	everything was fine but then we decided to do away with selenium server and use chromdriver and we also updated watir webdriver and it broke everything
+2017-09-22 17:35:13	keveloper	:(
+2017-09-22 17:35:14	kt_	and now all the tests are failing again due to whatever reasons... and months ago I figured out like 8 different ways of doing something until one way finally worked and now I have to do that again
+2017-09-22 17:35:23	kt_	I'm just frustrated. I know I shouldn
+2017-09-22 17:35:29	kt_	shouldnt be because I'm an intern
+2017-09-22 17:35:37	keveloper	eh
+2017-09-22 17:35:41	keveloper	whyd you guys migrate
+2017-09-22 17:35:47	kt_	I don't know
+2017-09-22 17:36:34	keveloper	sounds pointless
+2017-09-22 17:36:44	kt_	I know right
+2017-09-22 17:37:12	keveloper	why did things break
+2017-09-22 17:37:21	keveloper	like bugs in chromedrier?
+2017-09-22 17:37:45	kt_	there's new ways of selecting things so you can't do like select_list = option. that's fine and was easy to fix
+2017-09-22 17:38:17	kt_	also chromedriver doesn't scroll the same way that watir did when that was the main webdriver I guess? 
+2017-09-22 17:39:17	kt_	so that's causing things to fail
+2017-09-22 17:39:32	kt_	and I also can't figure out why Watir is flat out just not finding things sometimes
+2017-09-22 17:40:35	kt_	I ran all of the tests on my machine and all of them passed which is awesome bc they don't do that very often but it doesn't pass on Jenkins and Jenkins is what matters
+2017-09-22 17:40:35	keveloper	yeah scrolling with ui tests suck
+2017-09-22 17:40:45	keveloper	i gotta go eat dinner lol
+2017-09-22 17:40:51	keveloper	gtg byeeeee
+2017-09-22 17:40:52	keveloper	good luc
+2017-09-22 17:40:53	kt_	yeah I'm just pissed because I worked super hard getting thhis to work forever ago and now it's broken :')
+2017-09-22 17:40:55	kt_	have fun
+2017-09-22 18:54:32	keveloper	yoooooo
+2017-09-22 18:54:33	keveloper	still at work
+2017-09-22 18:57:38	<--	kt_ (~stahlk@132-174-20-217.ip.oclc.org) has quit (Ping timeout: 240 seconds)
+2017-10-16 15:02:23	keveloper	hows cap
+2017-10-16 15:32:41	kt_	cap is cap
+2017-10-16 15:32:44	kt_	crapital
+2017-10-16 15:32:47	keveloper	lol rip
+2017-10-16 16:18:03	keveloper	why crapital
+2017-10-16 16:18:06	keveloper	hows dreed
+2017-10-16 16:18:12	keveloper	are you a senior
+2017-10-16 16:23:44	kt_	no i'll be a senior next year. technically next sem. but i can't graduate early
+2017-10-16 16:23:54	keveloper	why not
+2017-10-16 16:24:09	kt_	bc I need to take a class that's offered the spring of 19
+2017-10-16 16:24:19	keveloper	what class
+2017-10-16 16:24:28	kt_	also crapital bc I hate my roommate who used to be my best friend + my other friends stopped talking to me bc they're mad at me
+2017-10-16 16:24:33	kt_	uhhh I think Graphics
+2017-10-16 16:24:37	keveloper	what
+2017-10-16 16:24:42	kt_	wat
+2017-10-16 16:24:44	keveloper	t h e   d r a m a
+2017-10-16 16:24:47	kt_	I KNOW
+2017-10-16 16:25:01	kt_	I thought drama stopped at high school lol
+2017-10-16 16:25:02	keveloper	why are they mad
+2017-10-16 16:25:17	keveloper	did you still her bf
+2017-10-16 16:25:19	keveloper	steal*
+2017-10-16 16:25:28	kt_	nope lol they're MEN who are pissed at me
+2017-10-16 16:25:50	keveloper	are you friend zoning
+2017-10-16 16:25:51	keveloper	lol
+2017-10-16 16:25:57	kt_	and it's bc I'm going to Kappa Sig semiformal with my friend and they just got all mad
+2017-10-16 16:26:02	kt_	honestly prob
+2017-10-16 16:26:05	keveloper	lollll
+2017-10-16 16:26:14	keveloper	lonely dudes are lonely ¯\_(ツ)_/¯
+2017-10-16 16:26:20	kt_	they all wanted me to date this guy named johnny in their friend group and I was like nah fam
+2017-10-16 16:26:29	keveloper	you said 'nah fam'
+2017-10-16 16:26:31	kt_	and I got the "we need to talk" text last night
+2017-10-16 16:26:38	keveloper	'hey do you wanna go on a date'
+2017-10-16 16:26:40	keveloper	'nah fam'
+2017-10-16 16:26:43	kt_	lol I did not actually say nah fam
+2017-10-16 16:26:50	keveloper	who said we need to talk
+2017-10-16 16:26:56	kt_	johnny
+2017-10-16 16:27:11	kt_	so this gets kinda confusing. I am going to semiformal with John. And Johnny is upset
+2017-10-16 16:27:13	keveloper	who is johnny
+2017-10-16 16:27:14	keveloper	lol
+2017-10-16 16:27:19	kt_	* d r a m a *
+2017-10-16 16:27:19	keveloper	who are these people
+2017-10-16 16:27:26	keveloper	do i know them
+2017-10-16 16:27:27	kt_	they're all CS majors in my grade
+2017-10-16 16:27:30	keveloper	wait you were 3 years behind me
+2017-10-16 16:27:43	keveloper	lol
+2017-10-16 16:27:43	kt_	ye I think bc I was a freshman when you graduated
+2017-10-16 16:27:46	keveloper	yeah
+2017-10-16 16:27:52	keveloper	i dont know any of them probably
+2017-10-16 16:28:08	keveloper	i mean this is what happens when you are the only girl in CS lol
+2017-10-16 16:28:13	kt_	most likely not
+2017-10-16 16:28:17	kt_	and l o l
+2017-10-16 16:28:27	keveloper	are you the last girl
+2017-10-16 16:28:30	kt_	I help them w their homework 1 time and this is what I get
+2017-10-16 16:28:32	keveloper	my class actually had like.... 4 girls?
+2017-10-16 16:28:34	keveloper	or 3
+2017-10-16 16:28:35	keveloper	idk
+2017-10-16 16:28:52	kt_	no there's Sage who you may have had parallel with. She's graduating early tho. Adn then there's this other gil named Avery
+2017-10-16 16:28:59	keveloper	sounds familiar idk
+2017-10-16 16:29:04	keveloper	idk an avery
+2017-10-16 16:29:07	keveloper	are they weird
+2017-10-16 16:29:10	kt_	everything she says will make you cringe @ sage
+2017-10-16 16:29:16	keveloper	lol why
+2017-10-16 16:29:17	kt_	avery never speaks.
+2017-10-16 16:29:24	keveloper	avery sounds nice
+2017-10-16 16:29:26	keveloper	avery is a cool nam
+2017-10-16 16:29:27	kt_	sage is just... rly weird
+2017-10-16 16:29:28	keveloper	name*
+2017-10-16 16:29:31	keveloper	oh 
+2017-10-16 16:29:33	keveloper	hows avery
+2017-10-16 16:29:42	kt_	also rly weird except quiet
+2017-10-16 16:29:50	keveloper	sounds like she has brown hair and glasses
+2017-10-16 16:29:53	keveloper	and sits in the corner
+2017-10-16 16:29:54	kt_	like I heard her speak today for like the first time
+2017-10-16 16:30:03	kt_	she has crazy red hair but yes
+2017-10-16 16:30:05	keveloper	lol
+2017-10-16 16:30:21	keveloper	i was gonna look her up but i dont have facebook anymore so
+2017-10-16 16:30:23	keveloper	whats her last name
+2017-10-16 16:30:39	kt_	rubbel-beaty I think? may have misspelled it
+2017-10-16 16:30:47	kt_	she probably doesn't have a facebook honestly
+2017-10-16 16:31:04	keveloper	i was checking instagram lol
+2017-10-16 16:31:16	kt_	she prob doesn't have that either
+2017-10-16 16:31:21	keveloper	she's one of those hyphenaters
+2017-10-16 16:31:36	kt_	lol yep
+2017-10-16 16:31:51	keveloper	so an entire friend group is made at you because you like a guy outside of a friend group
+2017-10-16 16:31:54	keveloper	the*
+2017-10-16 16:32:02	kt_	idk if i like him 
+2017-10-16 16:32:07	keveloper	oh OK sorry
+2017-10-16 16:32:09	kt_	WHICH MAKES MATTERS WORSE
+2017-10-16 16:32:12	keveloper	what
+2017-10-16 16:32:19	keveloper	do you like any of the friend group gusy
+2017-10-16 16:32:20	keveloper	guys*
+2017-10-16 16:32:30	kt_	and this other guyin this same friend group wamts to be FWB and I am DYING I am such a fucking piece of meat
+2017-10-16 16:32:36	keveloper	FWB
+2017-10-16 16:32:46	keveloper	im too old
+2017-10-16 16:32:47	keveloper	what mean
+2017-10-16 16:32:52	kt_	.. omg kev
+2017-10-16 16:32:57	kt_	friends with benefits
+2017-10-16 16:32:57	keveloper	fuck wit bitches
+2017-10-16 16:32:59	keveloper	oh lol
+2017-10-16 16:33:15	keveloper	tbf i have never seen that as an acronym lol
+2017-10-16 16:33:22	kt_	am surprised
+2017-10-16 16:33:33	keveloper	idk man i wasn't involved in this shit in college lol
+2017-10-16 16:33:39	kt_	fuck w bitches... i like that better lmao
+2017-10-16 16:33:46	keveloper	lol
+2017-10-16 16:33:50	kt_	I didn't think I would be but here I am 
+2017-10-16 16:33:56	keveloper	lol
+2017-10-16 16:34:06	keveloper	so you dont like formal guy
+2017-10-16 16:34:13	kt_	he's alright
+2017-10-16 16:34:15	keveloper	what
+2017-10-16 16:34:18	keveloper	that's a no
+2017-10-16 16:34:21	keveloper	do you like guys
+2017-10-16 16:34:22	kt_	l o l
+2017-10-16 16:34:28	kt_	yes I like guys omg wtf
+2017-10-16 16:34:32	keveloper	lol idk man
+2017-10-16 16:34:53	kt_	all these guys are weird man
+2017-10-16 16:34:57	kt_	formal guy is sweet
+2017-10-16 16:34:59	keveloper	he's alright == dont like him dont even attempt
+2017-10-16 16:35:13	kt_	eh not necessarily
+2017-10-16 16:35:16	keveloper	what
+2017-10-16 16:35:22	keveloper	idk man
+2017-10-16 16:35:27	kt_	he's nice. I like him a little bit. 
+2017-10-16 16:35:37	kt_	I am just not in hot pursuit
+2017-10-16 16:35:41	kt_	bc I have 0 free time
+2017-10-16 16:35:42	keveloper	do you get nervous when you see him
+2017-10-16 16:35:46	kt_	nooe
+2017-10-16 16:35:51	keveloper	not good enough
+2017-10-16 16:36:05	kt_	I haven't gotten nervous around a guy since.. a long time
+2017-10-16 16:36:11	keveloper	:(
+2017-10-16 16:36:14	kt_	prob last year when I dated this guy named emerson
+2017-10-16 16:36:17	keveloper	same until emily
+2017-10-16 16:36:21	kt_	d'awwww
+2017-10-16 16:36:27	keveloper	emerson lol
+2017-10-16 16:36:37	kt_	yep lol 
+2017-10-16 16:36:39	keveloper	by long time i thought you meant years lol
+2017-10-16 16:36:40	keveloper	1 year
+2017-10-16 16:36:59	keveloper	anyway DONT SETTLE
+2017-10-16 16:37:07	kt_	yeah just 1 year
+2017-10-16 16:37:20	kt_	lol thank u. 
+2017-10-16 16:37:24	keveloper	"he's alright" will never turn into "HES AMAZING I LOVE HIM"
+2017-10-16 16:37:25	keveloper	lol
+2017-10-16 16:37:28	keveloper	jus sayin
+2017-10-16 16:38:04	keveloper	not sayin dont go to formal but
+2017-10-16 16:38:05	kt_	fuck :C I was maybe hoping it would? I feel so weird not actually having a love interest for once
+2017-10-16 16:38:20	kt_	I work so damn much tho I barely think about anything else
+2017-10-16 16:38:45	keveloper	i've had a lot of friends (and myself) that try to make something out of something that's not there and they/i ended up worse off trying to invent osmething that didnt need to be invented yanno
+2017-10-16 16:39:10	kt_	ye i understand. huge reason why I was like "nah fam" @ johnny
+2017-10-16 16:39:17	keveloper	in my experience trying to find somebody resulted in not finding anybody
+2017-10-16 16:39:27	keveloper	or finding somebody that i didn't want
+2017-10-16 16:39:41	kt_	understandable. my relationship w emerson came out of the blue and it was the best one I had
+2017-10-16 16:39:49	keveloper	yeah see
+2017-10-16 16:39:50	keveloper	:(
+2017-10-16 16:39:52	keveloper	why you break up
+2017-10-16 16:40:21	kt_	he stopped putting in effort so then I did as well and it kinda fell apart :C
+2017-10-16 16:40:27	keveloper	:(
+2017-10-16 16:40:33	keveloper	are there anymore specifics than that
+2017-10-16 16:40:36	kt_	yeah it sad
+2017-10-16 16:40:50	keveloper	:(
+2017-10-16 16:40:58	kt_	I mean tbh some personal ones. And he also didn't have his license which made it p hard as well
+2017-10-16 16:41:25	keveloper	oh jeez
+2017-10-16 16:41:27	keveloper	did he not go to cap
+2017-10-16 16:41:35	kt_	nope he went to OSU
+2017-10-16 16:41:38	kt_	was studying music ed
+2017-10-16 16:41:41	keveloper	ah
+2017-10-16 16:42:10	keveloper	that sucks :/
+2017-10-16 16:42:26	kt_	yep. still sad but we've moved on
+2017-10-16 16:42:36	keveloper	that's good at least
+2017-10-16 16:42:41	keveloper	couldve been worse yanno
+2017-10-16 16:42:57	kt_	yeah! like we're on good terms. I texted him the other day 
+2017-10-16 16:43:09	keveloper	that's good
+2017-10-16 16:43:14	kt_	I don't forsee us getting back together tho
+2017-10-16 16:43:14	keveloper	i'm on good terms with like maybe 1 ex lol
+2017-10-16 16:43:29	kt_	lol it's okay. that's how it works out sometimes
+2017-10-16 16:43:31	keveloper	eh more than that but i dont talk to any of them
+2017-10-16 16:43:42	keveloper	there's one who is married to like a 30 year old
+2017-10-16 16:43:45	keveloper	which is a lil weird but
+2017-10-16 16:43:50	kt_	o.o
+2017-10-16 16:43:53	keveloper	she's 23 lol
+2017-10-16 16:44:10	kt_	that is pretty interesting.. oh well. more power to her I guess
+2017-10-16 16:44:13	keveloper	ya
+2017-10-16 16:44:23	keveloper	idk not as interesting as abbys thing goin but
+2017-10-16 16:44:25	keveloper	no comment lol
+2017-10-16 16:44:34	kt_	omg wat abby thing
+2017-10-16 16:44:37	kt_	i have been so out of loop
+2017-10-16 16:44:42	keveloper	you dont know about that
+2017-10-16 16:44:42	keveloper	her bf
+2017-10-16 16:44:47	kt_	NO
+2017-10-16 16:44:51	keveloper	so
+2017-10-16 16:44:52	kt_	i didn't even know she had a bf
+2017-10-16 16:44:54	keveloper	ya
+2017-10-16 16:44:57	keveloper	uh
+2017-10-16 16:44:59	kt_	maybe she mentioned it once or something
+2017-10-16 16:45:01	keveloper	idk
+2017-10-16 16:45:18	keveloper	she's dating a 31yo (maybe 32 now?) dude from vancouver that she's never met
+2017-10-16 16:45:23	keveloper	met on reddit
+2017-10-16 16:45:27	kt_	W A T
+2017-10-16 16:45:29	keveloper	yaaa
+2017-10-16 16:45:36	keveloper	they are going to meet at some point...
+2017-10-16 16:45:45	kt_	omg
+2017-10-16 16:46:06	keveloper	she keeps saying things like "i love when ryan ____" and shit like that and me and nathana re like.... lul
+2017-10-16 16:46:10	keveloper	yeah its definitely weird
+2017-10-16 16:46:24	keveloper	he's coming to meet her in columbus or something
+2017-10-16 16:46:30	keveloper	they were going to meet in seattle but idk what happened to that
+2017-10-16 16:46:41	kt_	love when ryan WHAT she's never met him
+2017-10-16 16:46:45	keveloper	right
+2017-10-16 16:46:53	kt_	omg I hope hes legit and she doesnt get like kidnapped or something
+2017-10-16 16:47:13	keveloper	i've noticed her messages on snapchat with him before and they are all just a bunch of heart eye emojis like "I LOVE YOU SOOOOO MUCH"
+2017-10-16 16:47:14	keveloper	im like ok
+2017-10-16 16:47:21	keveloper	etc. etc.
+2017-10-16 16:47:22	kt_	AHH
+2017-10-16 16:47:23	keveloper	sappy love stuff
+2017-10-16 16:47:25	keveloper	very weird
+2017-10-16 16:47:26	kt_	eek
+2017-10-16 16:47:31	keveloper	lol
+2017-10-16 16:47:33	keveloper	dont say anything
+2017-10-16 16:47:39	keveloper	me and nathan are being nice about it
+2017-10-16 16:47:42	kt_	i wont lol
+2017-10-16 16:47:50	kt_	that's cool of you guys for being supportive
+2017-10-16 16:47:52	keveloper	but yeeeah
+2017-10-16 16:48:06	kt_	love is love? 
+2017-10-16 16:48:10	keveloper	at first she told us and we were just like "w/e"
+2017-10-16 16:48:22	keveloper	then she was saying something about "i like older guys" or smoething
+2017-10-16 16:48:25	kt_	how long has she been talking to him
+2017-10-16 16:48:27	keveloper	so i asked her how old ryan was
+2017-10-16 16:48:32	keveloper	and she was like uhhh not telling
+2017-10-16 16:48:34	kt_	lol interesting
+2017-10-16 16:48:37	keveloper	and i was like "25" and she was like "older"
+2017-10-16 16:48:38	kt_	how old is she?
+2017-10-16 16:48:39	keveloper	and iw as like
+2017-10-16 16:48:40	keveloper	"40"
+2017-10-16 16:48:42	keveloper	she is 23
+2017-10-16 16:48:55	keveloper	but yeah he was "31" probably 5 months ago
+2017-10-16 16:49:00	keveloper	so
+2017-10-16 16:49:08	kt_	oo
+2017-10-16 16:49:10	keveloper	me and nathan are just trying to imagine it from his side
+2017-10-16 16:49:25	keveloper	and how weird you ahve to be to be 31 or 32 and be dating a 23 year old that youve never met
+2017-10-16 16:49:32	keveloper	and you met her on reddit like
+2017-10-16 16:49:36	keveloper	idk
+2017-10-16 16:49:39	keveloper	shits weird
+2017-10-16 16:49:49	keveloper	anyway
+2017-10-16 16:49:53	kt_	hope he doesnt live in his moms basement
+2017-10-16 16:49:59	keveloper	do you know lindsey cundiff
+2017-10-16 16:50:08	kt_	ye
+2017-10-16 16:50:11	keveloper	lul
+2017-10-16 16:50:12	keveloper	we dated
+2017-10-16 16:50:15	keveloper	on and off for 3 years
+2017-10-16 16:50:17	kt_	o m g
+2017-10-16 16:50:21	keveloper	what you know about her
+2017-10-16 16:50:23	kt_	wait I think you told me this
+2017-10-16 16:50:26	keveloper	cause im about to blow your mind
+2017-10-16 16:50:36	keveloper	what do you know about her/what do you think of her
+2017-10-16 16:51:06	kt_	UHH honeslty I don't remember
+2017-10-16 16:51:12	kt_	I don't even remember how I met her tbh
+2017-10-16 16:51:39	keveloper	ok well she is bat shit crazy
+2017-10-16 16:51:53	kt_	am not surprised
+2017-10-16 16:52:05	keveloper	there is so much to tell
+2017-10-16 16:52:07	keveloper	so first of all
+2017-10-16 16:52:14	keveloper	she has "anxiety and depression"
+2017-10-16 16:52:24	keveloper	which after knowing her for 5 years seems not real and self-caused
+2017-10-16 16:52:32	kt_	OHH was she a flute player or something
+2017-10-16 16:52:32	keveloper	and i take anxiety and depression very very seriously
+2017-10-16 16:52:39	kt_	that's prob how I know her
+2017-10-16 16:52:42	keveloper	uhhhhhh maybe
+2017-10-16 16:52:42	kt_	awww
+2017-10-16 16:52:49	keveloper	but she self-harmed
+2017-10-16 16:52:54	keveloper	basically because of tumblr
+2017-10-16 16:53:04	keveloper	and had a blog about self-harm and stuff
+2017-10-16 16:53:05	kt_	tumblr
+2017-10-16 16:53:07	kt_	wat
+2017-10-16 16:53:11	kt_	WAT
+2017-10-16 16:53:19	keveloper	do you know about the depressing self-harm section oif tumblr
+2017-10-16 16:53:26	keveloper	its all like glorifying it
+2017-10-16 16:53:33	keveloper	and rationalizing self-harm
+2017-10-16 16:53:38	keveloper	she had one of those blogs
+2017-10-16 16:53:41	keveloper	tumblr shut it down twice
+2017-10-16 16:53:44	kt_	I try to stay away from that kind of thing bc it should not be glorified holy shit
+2017-10-16 16:53:57	keveloper	so yeah she cut her self a lot and after two years i got her to stop
+2017-10-16 16:54:03	keveloper	afaik she has still stopped
+2017-10-16 16:54:12	keveloper	but she would threaten to cut herself when she got mad or upset with me
+2017-10-16 16:54:18	keveloper	she would use it as leverage
+2017-10-16 16:54:19	kt_	that's?? so sweet?? of you??
+2017-10-16 16:54:24	kt_	that is ridic
+2017-10-16 16:54:29	keveloper	nah it's bad of me, she needs professional help not me
+2017-10-16 16:54:43	keveloper	im happy she stopped (mostly because of me i think) but
+2017-10-16 16:54:50	keveloper	it convinced her parents she was better
+2017-10-16 16:54:51	kt_	i meaaaan it's still cool that you were there for her instead of like shrugging it off or something
+2017-10-16 16:54:52	keveloper	which was a lie so
+2017-10-16 16:54:57	keveloper	yeah i guess
+2017-10-16 16:54:59	keveloper	either way
+2017-10-16 16:55:02	keveloper	she would use it as leverage
+2017-10-16 16:55:09	keveloper	she would like force herself to cry all the time
+2017-10-16 16:55:11	keveloper	about ridiculous shit
+2017-10-16 16:55:19	keveloper	it was about being manipulative
+2017-10-16 16:55:23	keveloper	she was like pathologically spoiled
+2017-10-16 16:55:27	keveloper	by her parents
+2017-10-16 16:55:36	keveloper	when shit didnt go her way she would like convince herself to cry
+2017-10-16 16:55:43	keveloper	im not even to the bad stuff yet
+2017-10-16 16:55:51	kt_	oh my gahd WAT
+2017-10-16 16:55:59	keveloper	even when i was older than 21 she would try to keep me from drinking
+2017-10-16 16:56:03	keveloper	because of bullshit reasons
+2017-10-16 16:56:08	keveloper	then she'd go get trashed
+2017-10-16 16:56:15	keveloper	and call me when she's about to drink and rive
+2017-10-16 16:56:19	keveloper	just to get a reaction out of me
+2017-10-16 16:56:27	keveloper	a lot of things she did was just to get a reaction from me/others
+2017-10-16 16:56:32	keveloper	she lied about being pregnant
+2017-10-16 16:56:34	keveloper	that was a good time
+2017-10-16 16:56:36	kt_	what the actual fuck
+2017-10-16 16:56:42	keveloper	THEN way later she lied about having HIV
+2017-10-16 16:56:46	kt_	she is a trash human being
+2017-10-16 16:56:49	keveloper	so i thought i had HIV and had to get tested
+2017-10-16 16:56:53	kt_	JESUS
+2017-10-16 16:56:55	keveloper	that was the scariest part of my life probably
+2017-10-16 16:57:02	keveloper	waiting for an HIV test to come back
+2017-10-16 16:57:03	kt_	I feel that honestly
+2017-10-16 16:57:12	keveloper	THEN she lied about being pregnant AGAIN
+2017-10-16 16:57:19	kt_	HOW LONG DID U FUCKING DATE HER WTF
+2017-10-16 16:57:26	keveloper	on and off for 3 years idkj
+2017-10-16 16:57:27	kt_	was she not on BC?
+2017-10-16 16:57:32	keveloper	i tried to leave but it was so difficult
+2017-10-16 16:57:34	kt_	THE FUCK KEVIN
+2017-10-16 16:57:50	kt_	oh thats understandable she was probably v manipulative
+2017-10-16 16:57:56	keveloper	yeah idk
+2017-10-16 16:58:14	keveloper	do you know what stockholm syndrom is
+2017-10-16 16:58:18	keveloper	probably some of that idrk
+2017-10-16 16:58:28	keveloper	i did care about her for some reason
+2017-10-16 16:58:29	keveloper	i dunno
+2017-10-16 16:58:34	keveloper	but  yeah it was very bad
+2017-10-16 16:58:48	keveloper	the last thing she did was show up at my apartment unannounced trying to get back together with me
+2017-10-16 16:58:50	keveloper	and wouldnt leave
+2017-10-16 16:58:54	kt_	again that's like so sweet but holy. fuck.
+2017-10-16 16:59:01	keveloper	i was pretty close to looking into getting a restraining order for a while
+2017-10-16 16:59:11	keveloper	we broke up over 2 years ago
+2017-10-16 16:59:12	kt_	I'm glad you're away from that bullshit bc damn
+2017-10-16 16:59:17	keveloper	she tries to contact me sometiems still
+2017-10-16 16:59:24	keveloper	not in a while luckily but
+2017-10-16 16:59:30	keveloper	she is  c r a z y
+2017-10-16 16:59:34	kt_	creepy bitch
+2017-10-16 16:59:38	keveloper	it took me a realllllly long time to get out of that relationshipo
+2017-10-16 16:59:49	kt_	yeah holy shit
+2017-10-16 17:00:01	kt_	my mind is blown
+2017-10-16 17:00:07	keveloper	yeah she knows ive been dating emily for a year and a half
+2017-10-16 17:00:08	keveloper	yeah
+2017-10-16 17:00:11	keveloper	so
+2017-10-16 17:00:16	keveloper	stay far away
+2017-10-16 17:00:26	kt_	I wasn't ever close friends with her lol
+2017-10-16 17:00:31	kt_	and def don't plan to be
+2017-10-16 17:00:43	keveloper	idk if you like one of your friends is like "do you know lindsey cundiff" just be like "run"
+2017-10-16 17:00:49	kt_	LOL
+2017-10-16 17:01:01	kt_	I think she deleted her FB
+2017-10-16 17:01:06	keveloper	probably
+2017-10-16 17:01:09	keveloper	she has an instagram
+2017-10-16 17:01:13	kt_	yeah I saw it
+2017-10-16 17:01:24	keveloper	hopefully she found somebody thatd be cool
+2017-10-16 17:01:29	keveloper	maybe she'll chill down as she grows up
+2017-10-16 17:01:33	keveloper	highschool wasn't good for her tbf
+2017-10-16 17:01:38	kt_	hopefully
+2017-10-16 17:01:48	keveloper	but there's not much to be fair about with all the shit she did to me and other people
+2017-10-16 17:02:08	keveloper	so yeah that's how i wasted 3 years of my life lol
+2017-10-16 17:02:09	kt_	I don't understand how someone can be so evil and manipulate people like that
+2017-10-16 17:02:20	keveloper	it's not intentionally
+2017-10-16 17:02:24	keveloper	she's mentally unstable
+2017-10-16 17:02:27	kt_	high school was rough but like I have definitely struggled more with shit in college so hopefulyl she is still better
+2017-10-16 17:02:37	keveloper	yeah hopefully she'll get better
+2017-10-16 17:02:42	keveloper	i think she needs professional help
+2017-10-16 17:02:43	keveloper	but
+2017-10-16 17:02:52	keveloper	her parents don't believe that depression or anxiety are real things so
+2017-10-16 17:02:52	kt_	for sure
+2017-10-16 17:03:00	keveloper	her family is kinda fucked
+2017-10-16 17:03:00	kt_	that. sucks.
+2017-10-16 17:03:09	keveloper	like they have money and stuff but they are not a good family
+2017-10-16 17:03:10	keveloper	at all
+2017-10-16 17:03:11	keveloper	so
+2017-10-16 17:03:14	keveloper	i feel bad for her
+2017-10-16 17:03:16	keveloper	but at the same time
+2017-10-16 17:03:20	keveloper	she knew what she was doing
+2017-10-16 17:03:45	keveloper	but yeah that's my bad ex story lol
+2017-10-16 17:04:01	keveloper	well one of them but
+2017-10-16 17:04:02	kt_	I have one that is not nearly as bad
+2017-10-16 17:04:11	kt_	I had to block him on everything
+2017-10-16 17:04:12	keveloper	one in highschool that cheated on me but w/e its highschool who cares
+2017-10-16 17:04:14	keveloper	oh shit
+2017-10-16 17:04:27	kt_	I mean cheating is still cheating
+2017-10-16 17:04:29	kt_	story time
+2017-10-16 17:04:38	kt_	so I dated this guy named Michael who I met at my grad party
+2017-10-16 17:04:42	keveloper	yeah but idc it was like 7 years ago i forgive her
+2017-10-16 17:05:06	keveloper	kt_ ok
+2017-10-16 17:05:07	kt_	he was this guy Matt's brother and we hit it off bc he and I basically played frisbee and talked about computer science
+2017-10-16 17:05:17	keveloper	you played ultimate
+2017-10-16 17:05:17	kt_	wat
+2017-10-16 17:05:21	keveloper	wtf we had an ultimate teamk
+2017-10-16 17:05:27	keveloper	oh wait
+2017-10-16 17:05:29	keveloper	misread
+2017-10-16 17:05:30	keveloper	jk
+2017-10-16 17:05:33	keveloper	go on
+2017-10-16 17:05:35	kt_	I mean I did play ultimate
+2017-10-16 17:05:37	keveloper	oh
+2017-10-16 17:05:37	keveloper	well
+2017-10-16 17:05:43	kt_	we had a for fun club
+2017-10-16 17:05:43	keveloper	me and my roommate ran an ultimate team at cap
+2017-10-16 17:05:54	keveloper	but we stopped what would have been your freshman year so
+2017-10-16 17:05:54	kt_	is it still going?
+2017-10-16 17:05:56	keveloper	ripperoni
+2017-10-16 17:05:58	keveloper	probably not
+2017-10-16 17:06:00	kt_	aw RIP
+2017-10-16 17:06:00	keveloper	we _were_ the team lol
+2017-10-16 17:06:14	keveloper	we passed it on but the people we passed it on to didnt take it very seriously so
+2017-10-16 17:06:16	keveloper	its probablyt dea
+2017-10-16 17:06:20	keveloper	its probably dead*
+2017-10-16 17:06:24	keveloper	ANYWAY GO ON
+2017-10-16 17:06:39	kt_	anyway this guy was actually p sweet and everything except like literally the epitome of creepy CS dude when you think of it. Like pale as snow and super tall and lanky. 
+2017-10-16 17:06:42	kt_	but I thought he was cute
+2017-10-16 17:06:48	keveloper	ok
+2017-10-16 17:06:57	kt_	ANYWAY we started dating and things escalated. 
+2017-10-16 17:07:58	keveloper	are you typing
+2017-10-16 17:08:05	keveloper	or
+2017-10-16 17:08:07	kt_	so literally in the middle of us watching a movie. like not even doing anything he would say things like "I wanna rail you so hard"
+2017-10-16 17:08:12	keveloper	LOL
+2017-10-16 17:08:15	keveloper	LOLOL
+2017-10-16 17:08:15	kt_	and little virgin mary me was like "BRUH WHAT"
+2017-10-16 17:08:19	keveloper	LOLOL WTF
+2017-10-16 17:08:25	kt_	I was creeped tf out
+2017-10-16 17:08:26	keveloper	LLOOOOOOLLLL
+2017-10-16 17:08:29	keveloper	HAHAHAHA
+2017-10-16 17:08:35	kt_	and he was working a CO OP in Cinci and he tried to get me to visit
+2017-10-16 17:08:38	kt_	and I was like 'uh;
+2017-10-16 17:08:44	keveloper	im saying that to emily tonight lol
+2017-10-16 17:08:59	kt_	I fucking just laughed out loud
+2017-10-16 17:09:03	keveloper	lolol
+2017-10-16 17:09:11	keveloper	wtf
+2017-10-16 17:09:15	keveloper	anyway go on
+2017-10-16 17:09:20	kt_	so I was like "I'm not gonna fuck this guy. he's a little creepy" but I was too freaking afraid to break up w him
+2017-10-16 17:09:31	kt_	so I just kinda let things continue
+2017-10-16 17:09:48	keveloper	even not little virgin mary you should be creeped out by a guy randomly going "i wanna rail you so hard" lololol wtf
+2017-10-16 17:09:51	keveloper	'rail'
+2017-10-16 17:09:55	kt_	and he'd say things liek that still when we were watching a movie and would like.. touch me and stuff and I was like "bruh what are you doing stop"
+2017-10-16 17:10:06	keveloper	how old were you 18
+2017-10-16 17:10:09	kt_	but he wouldn't but I STILL IGNORED THESE RED FLAGS because I was afraid of confrontation
+2017-10-16 17:10:18	keveloper	:|
+2017-10-16 17:10:25	kt_	uh I was 17 but then was 18 in the middle of the relationship
+2017-10-16 17:10:30	kt_	flash forward to getting to Cap
+2017-10-16 17:10:33	keveloper	okay
+2017-10-16 17:10:49	kt_	I was finally like "this sucks I need to get TF out of this" so I called him and tried breaking up w him but he wasn't having any of it
+2017-10-16 17:10:52	kt_	he was like "no"
+2017-10-16 17:10:55	kt_	and I was like "uh??
+2017-10-16 17:10:58	keveloper	thats healthy
+2017-10-16 17:11:07	keveloper	just be like "yes fuck you *hang up*"
+2017-10-16 17:11:19	kt_	so I kinda stopped talking to him for a few days
+2017-10-16 17:11:24	keveloper	just a few
+2017-10-16 17:11:25	kt_	and then he THREATENED TO BREAK UP W ME
+2017-10-16 17:11:28	kt_	and I was like "ok"
+2017-10-16 17:11:29	keveloper	LOLOL
+2017-10-16 17:11:31	kt_	and called him again
+2017-10-16 17:11:52	kt_	anyway I made it really clear this time I was like "I'm breakin gup w you" and he was liuke "what? like we'll never talk again?"
+2017-10-16 17:11:59	kt_	and I was like "yes" and he was like "what"
+2017-10-16 17:12:14	kt_	anyway after that convo ended he called me later and was calling me a bitch and a quitter and WHATEVER
+2017-10-16 17:12:49	kt_	and he kept texting me and calling me (didn't answer) and saying hurtful things and all that jazz so I blocked him on my phone and all social media
+2017-10-16 17:13:01	kt_	flash forward a month, I start getting 20 firned requests per day on snapchat
+2017-10-16 17:13:01	keveloper	that sucks
+2017-10-16 17:13:07	keveloper	guy seems like a dumbass
+2017-10-16 17:13:21	kt_	didn't think anything of it until I was like "hm I'm gonna google my snapchat name"
+2017-10-16 17:13:27	kt_	HOMEBOY POSTED IT ON 4CHAN
+2017-10-16 17:13:29	kt_	but it gets worse
+2017-10-16 17:13:32	keveloper	OMG
+2017-10-16 17:13:54	kt_	it was on like webcam meetup threads. He took pictures from my social media and posted them saying I was like 23 and bi or some shit like that 
+2017-10-16 17:14:16	keveloper	shoulda sued him
+2017-10-16 17:14:30	kt_	of course I didn't know it was actually him but I knew it was when one of the pics he posted was a pic I only sent to him (no it wasn't a nude. It was one of me in a bikini from the beach)
+2017-10-16 17:14:37	keveloper	texted him been like "im gonna rail you so hard"
+2017-10-16 17:14:53	kt_	I tried to file a suit against him but they didn't have enough evidence that it was actually him. bascially his word against mine. he hired a lawyer
+2017-10-16 17:15:05	keveloper	aw you tried damn
+2017-10-16 17:15:07	keveloper	im sorry that sucks
+2017-10-16 17:15:14	kt_	and I deleted our texts really stupidly bc I was tired of looking a tthem bc they made me depressed as hell
+2017-10-16 17:15:19	kt_	SO ALSO
+2017-10-16 17:15:23	keveloper	so also what
+2017-10-16 17:15:32	kt_	I started getting a ton of weird text messages from people
+2017-10-16 17:15:38	kt_	SAYING SOMEONE PUT A NUDE ON 4CHAN
+2017-10-16 17:15:42	kt_	so I googled my phone number
+2017-10-16 17:16:10	kt_	and found more threads that were like "roll dubz for her number" and along with it was the worst photoshopped nude I've seen in my entire life
+2017-10-16 17:16:21	kt_	but people thought it was real? which I thought was hella funny
+2017-10-16 17:16:30	keveloper	wtf
+2017-10-16 17:16:44	kt_	except at the time I was flipping out thinking my life was ruined and that my future employer would think it';s actualy me and not hire me or something
+2017-10-16 17:16:47	keveloper	he and lindsey should date
+2017-10-16 17:17:08	kt_	so yeah. spent that entire night in public safety filing a report and was super freaked out. I got him banned from Capital's campus
+2017-10-16 17:17:16	keveloper	nice
+2017-10-16 17:17:25	kt_	I was literally terrified that he was going to come to capital and find me or something
+2017-10-16 17:17:30	keveloper	yeah wtf
+2017-10-16 17:17:34	kt_	he was real creepy
+2017-10-16 17:17:40	kt_	he and lindsey would make an excellent couple
+2017-10-16 17:18:04	keveloper	lul
+2017-10-16 17:18:11	kt_	I got dublin cops to go to his house and talk to him and his dad
+2017-10-16 17:18:22	keveloper	niiice
+2017-10-16 17:18:44	kt_	then they came ot my house after I had already left to go back to capital and they talked to my dad and was like "we could tell it was him but we couldn't get a confession. but hopefully he won't be bothering you anymore"
+2017-10-16 17:18:47	kt_	fucking love cops
+2017-10-16 17:18:54	kt_	anyway so yeah. that was my crazy ex story
+2017-10-16 17:19:00	keveloper	good story
+2017-10-16 17:19:18	kt_	also after I'd tried breaking up w him I started seeing this other guy and some of the texts from him were "are you cheating on me" and I was like "homeboy we BROKE UP"
+2017-10-16 17:19:29	keveloper	'homeboy'
+2017-10-16 17:19:48	keveloper	you seem to have had a lot of love interests lol
+2017-10-16 17:19:53	kt_	and THIS KID ended up ghosting me after 2 weeks but it's fun bc in my friend group we make fun of him for not being able to get it up
+2017-10-16 17:20:05	kt_	hand sign: pinky in the downward motion
+2017-10-16 17:20:07	keveloper	rude
+2017-10-16 17:20:12	kt_	I had a hell of a first few months of freshman year
+2017-10-16 17:20:16	keveloper	oh same
+2017-10-16 17:20:33	keveloper	very interesting not good time
+2017-10-16 17:20:38	keveloper	great time friend wise and fun wise
+2017-10-16 17:20:39	kt_	Y E P
+2017-10-16 17:20:42	keveloper	bad time girl wise lol
+2017-10-16 17:20:50	kt_	oh I had no friends l o l
+2017-10-16 17:20:55	keveloper	:( noo
+2017-10-16 17:20:59	keveloper	you had at least 1
+2017-10-16 17:21:13	keveloper	(me?????)
+2017-10-16 17:21:14	keveloper	lol
+2017-10-16 17:21:25	kt_	nope lol I was dumb and only talked to that guy and my roomie when I first moveed into college. and he stopped talking to me and my roomie did too
+2017-10-16 17:21:30	kt_	lol I met you second sem
+2017-10-16 17:21:36	keveloper	oh i dont remember
+2017-10-16 17:21:41	keveloper	calc buddies tho
+2017-10-16 17:21:45	kt_	Calc2!!!!!
+2017-10-16 17:21:50	keveloper	are you clarifying
+2017-10-16 17:21:53	keveloper	that it was calc 2
+2017-10-16 17:21:57	kt_	Dr. Stadler just emailed me and said I couldn't ask any more questions btw
+2017-10-16 17:22:03	keveloper	what lol
+2017-10-16 17:22:13	kt_	I typed that before you said calc buddies and sent it anyway srry
+2017-10-16 17:22:17	keveloper	i thought you thought i was creepy or something but i just wanted a buddy to study with lmao
+2017-10-16 17:22:29	kt_	LOL I didn't think you were creepy at all
+2017-10-16 17:22:32	keveloper	PHEW
+2017-10-16 17:22:32	kt_	more people need to be like that
+2017-10-16 17:22:42	keveloper	no i was just tryna rail you tbh
+2017-10-16 17:22:48	kt_	L O L O L
+2017-10-16 17:22:50	kt_	so hard
+2017-10-16 17:22:55	keveloper	oh sorry yeah so hard
+2017-10-16 17:23:11	kt_	lmao
+2017-10-16 17:23:22	keveloper	emily was like "whos this katie girl you keep studying with" lolol
+2017-10-16 17:23:29	kt_	oh dear
+2017-10-16 17:23:56	kt_	that actually helped on one of the exams lol. a question we went over was on it
+2017-10-16 17:24:03	keveloper	1 single question
+2017-10-16 17:24:10	keveloper	nah you always beat me
+2017-10-16 17:24:15	keveloper	i think i did better than you one 1 exam
+2017-10-16 17:24:30	kt_	I think you did better than me on all except 1
+2017-10-16 17:24:33	keveloper	oh
+2017-10-16 17:24:34	keveloper	maybe idk
+2017-10-16 17:24:39	keveloper	i   a m   p r e t t y   s m a r t
+2017-10-16 17:24:49	kt_	yep
+2017-10-16 17:24:54	keveloper	jk
+2017-10-16 17:24:55	kt_	and how much do you use calc2 now
+2017-10-16 17:24:57	keveloper	maybe
+2017-10-16 17:25:00	keveloper	EVERY DAY
+2017-10-16 17:25:06	keveloper	nathan actually had to use calc like  a month ago
+2017-10-16 17:25:13	kt_	omg with what
+2017-10-16 17:25:13	keveloper	for figuring out params for a load test
+2017-10-16 17:25:17	kt_	wow
+2017-10-16 17:25:18	keveloper	yea
+2017-10-16 17:25:20	keveloper	was funny
+2017-10-16 17:25:25	keveloper	he jsut used wolfram alpha tho so
+2017-10-16 17:25:29	keveloper	but it worked
+2017-10-16 17:25:35	kt_	lool dont we all
+2017-10-16 17:25:41	keveloper	it was also a really simple problem
+2017-10-16 17:26:28	keveloper	i kinda miss school
+2017-10-16 17:26:31	keveloper	at least the campus
+2017-10-16 17:26:36	keveloper	and just liek seein peers around and stuff
+2017-10-16 17:26:43	keveloper	and hanging out between class on cmapus and stuff
+2017-10-16 17:26:56	kt_	yeah it is pretty cute. I love the tower at kearns and when it rings
+2017-10-16 17:26:57	keveloper	especially around fall
+2017-10-16 17:27:05	keveloper	i just like all the trees and the brick
+2017-10-16 17:27:12	kt_	it's soooo pretty with all the leaves falling
+2017-10-16 17:27:13	keveloper	feels home-y
+2017-10-16 17:27:18	keveloper	i mean i live in old town east so
+2017-10-16 17:27:19	keveloper	im pretty close
+2017-10-16 17:27:26	keveloper	and its pretty similar so
+2017-10-16 17:27:28	keveloper	but still
+2017-10-16 17:27:28	kt_	and there are christmas lights on the trees from homecoming
+2017-10-16 17:27:33	keveloper	aw
+2017-10-16 17:27:51	keveloper	a lot of capital memories are ruined by lindsay though lol
+2017-10-16 17:27:59	kt_	dude that's so saf
+2017-10-16 17:28:00	keveloper	lindsey woops
+2017-10-16 17:28:04	kt_	come back with emily and make new fun ones
+2017-10-16 17:28:05	keveloper	eh i was still happy enough
+2017-10-16 17:28:12	keveloper	me a nd emily dated for the last semester
+2017-10-16 17:28:17	keveloper	and hung out for like a year before we dated
+2017-10-16 17:28:22	keveloper	playing soccer and stuff
+2017-10-16 17:28:23	kt_	o wow
+2017-10-16 17:28:28	keveloper	and went to lib together
+2017-10-16 17:28:42	keveloper	yeah we liked each other for a while but i was dealing with lindsey shit
+2017-10-16 17:28:58	kt_	woah even at the end of college?
+2017-10-16 17:29:11	keveloper	it stopped first semester of my last year
+2017-10-16 17:29:16	kt_	dude
+2017-10-16 17:29:19	keveloper	wat
+2017-10-16 17:29:23	kt_	I am so sorry
+2017-10-16 17:29:25	keveloper	oh its fin
+2017-10-16 17:29:26	keveloper	fine(
+2017-10-16 17:29:28	keveloper	fine*
+2017-10-16 17:29:31	keveloper	i've recovered
+2017-10-16 17:29:35	keveloper	learned some lessonp
+2017-10-16 17:29:37	keveloper	life experience is good
+2017-10-16 17:29:54	kt_	true
+2017-10-16 17:30:14	keveloper	hey now i know im std free because i had to go get tested \o/ lol
+2017-10-16 17:30:33	keveloper	got to drive a scion frs around a lot for 2 years that was fun
+2017-10-16 17:30:39	kt_	LOL it's literally the scariest thing waiting for the results
+2017-10-16 17:30:40	keveloper	just block out the crazy bitch and we good
+2017-10-16 17:30:52	kt_	I almost threw up when I got a call but I was fine
+2017-10-16 17:30:55	keveloper	phew
+2017-10-16 17:31:08	kt_	wouldn't that have had to mean that she was cheating on you..?
+2017-10-16 17:31:23	keveloper	nah she had sex with people while we werent a thing
+2017-10-16 17:31:29	kt_	ohhh
+2017-10-16 17:31:30	keveloper	there was a year between one of the times we dated
+2017-10-16 17:31:35	kt_	i gotchu
+2017-10-16 17:31:44	keveloper	she went a little sex rampage in there
+2017-10-16 17:31:49	kt_	LOL
+2017-10-16 17:31:55	keveloper	yeh
+2017-10-16 17:32:03	keveloper	she might be addicted to sex idk
+2017-10-16 17:32:05	keveloper	im not a doctor
+2017-10-16 17:32:13	kt_	freaking scott disick
+2017-10-16 17:32:17	keveloper	she made me have sex with her one time or i couldnt leave
+2017-10-16 17:32:21	kt_	but a girl version
+2017-10-16 17:32:30	keveloper	i was trying to break up with her
+2017-10-16 17:32:31	kt_	that's not healthy. am so sorry
+2017-10-16 17:32:34	keveloper	yeah it was bad
+2017-10-16 17:32:44	keveloper	pretty sure it was rape
+2017-10-16 17:32:51	kt_	uh yes. yes it is
+2017-10-16 17:32:57	keveloper	oh well
+2017-10-16 17:33:02	kt_	:(
+2017-10-16 17:33:07	keveloper	i wasn't emotionally affected by it tbh
+2017-10-16 17:33:11	keveloper	luckily
+2017-10-16 17:33:26	kt_	yeah that's good. still super sad you had to go through it
+2017-10-16 17:33:27	keveloper	but yeah i was trying to fight her off but then i like hurt her wrist or something and i was like shit
+2017-10-16 17:33:33	keveloper	then she kept persisting so i was like w/e
+2017-10-16 17:33:41	kt_	:(
+2017-10-16 17:33:47	keveloper	yeah it was just all bad all bad
+2017-10-16 17:33:54	keveloper	(we did have some good times)
+2017-10-16 17:34:01	keveloper	(but those arent nearly as fun to talk about)
+2017-10-16 17:34:21	kt_	true :(
+2017-10-16 17:34:24	keveloper	but yeah thats my life ¯\_(ツ)_/¯
+2017-10-16 17:34:30	keveloper	besides me slutting around freshman year jfc
+2017-10-16 17:34:34	keveloper	i was actually a trash person
+2017-10-16 17:34:35	kt_	that's it. all 3 years
+2017-10-16 17:34:40	kt_	LOL 
+2017-10-16 17:34:48	keveloper	yaa haha
+2017-10-16 17:34:53	keveloper	laugh it out
+2017-10-16 17:35:19	kt_	I can't even really picture that lmao. freshman kevin slutting around
+2017-10-16 17:35:24	keveloper	lolol
+2017-10-16 17:35:31	keveloper	yeah it was not a good time
+2017-10-16 17:35:46	keveloper	i had sex with like ... 5 people in 6 moths or something awful
+2017-10-16 17:35:52	keveloper	or maybe 8 months i cant rememeber
+2017-10-16 17:35:54	keveloper	it was bad
+2017-10-16 17:35:54	kt_	d a mn
+2017-10-16 17:35:57	keveloper	ya
+2017-10-16 17:36:14	kt_	I feel like we all go through that phase tho
+2017-10-16 17:36:17	keveloper	high school gf, capital person, high school ex that cheated on me, capital person, capital person
+2017-10-16 17:36:20	keveloper	then lindsey
+2017-10-16 17:36:25	keveloper	lol idk about that
+2017-10-16 17:36:42	kt_	if it makes you feel any better, I have anyway
+2017-10-16 17:36:44	keveloper	maybe a little bit but 5 people in 8 months is bad
+2017-10-16 17:36:49	kt_	not that extreme tho bc I am not that forward
+2017-10-16 17:36:59	kt_	mine is currently at like.. 3 people in 6 months?
+2017-10-16 17:37:02	keveloper	yeah honestly idk how i had so many girls like me lolol
+2017-10-16 17:37:07	kt_	lol wow
+2017-10-16 17:37:11	keveloper	OH i forgot about the one night stand
+2017-10-16 17:37:16	kt_	LOL
+2017-10-16 17:37:30	keveloper	then she told me i gave her an std because she had a rash on her leg like a week later?
+2017-10-16 17:37:33	keveloper	i was like "uhhh nope"
+2017-10-16 17:37:38	kt_	yeah that's not... no
+2017-10-16 17:37:41	keveloper	ya
+2017-10-16 17:37:44	keveloper	she has a kid now
+2017-10-16 17:37:47	keveloper	(not my kid)
+2017-10-16 17:37:48	kt_	also those don't appear witin a week
+2017-10-16 17:37:54	kt_	lol I'd hope not
+2017-10-16 17:38:02	keveloper	yeah freshman year was
+2017-10-16 17:38:04	keveloper	interesting
+2017-10-16 17:38:06	kt_	lit
+2017-10-16 17:38:10	keveloper	since freshman year ive had sex with 3 people
+2017-10-16 17:38:13	keveloper	in 4 years lol
+2017-10-16 17:38:18	keveloper	2 of which were in 1 year
+2017-10-16 17:38:21	kt_	that's not as bad
+2017-10-16 17:38:23	keveloper	ya
+2017-10-16 17:38:28	keveloper	then after that is 2 people in 3 years
+2017-10-16 17:38:33	kt_	I mean none of it's really /bad/ imo. you do you
+2017-10-16 17:38:36	keveloper	now it 1 person in like 1.9 years
+2017-10-16 17:38:52	keveloper	i mean i dont _want_ to have sex with a bunch of people
+2017-10-16 17:38:57	keveloper	i guess i did when i was freshman
+2017-10-16 17:39:01	keveloper	lol
+2017-10-16 17:39:23	kt_	I secretly had sex with 2 of johnny's closest friends
+2017-10-16 17:39:27	kt_	and he still doesn't know about it
+2017-10-16 17:39:33	keveloper	LOL RIP
+2017-10-16 17:39:35	keveloper	NOOOOO
+2017-10-16 17:39:48	kt_	he and noah would KILL me if they found out
+2017-10-16 17:39:54	keveloper	lolol
+2017-10-16 17:40:08	kt_	and I hooked up w John and his roommate pretty close together last year. and then had sex w the roommate and john found out and I was like RIP me
+2017-10-16 17:40:09	keveloper	if he ever pisses you off just be like "yeah i had sex with x and y just so you kno"
+2017-10-16 17:40:14	kt_	L O L
+2017-10-16 17:40:26	keveloper	hey be young yanno ¯\_(ツ)_/¯
+2017-10-16 17:40:27	kt_	pretty close as in like within the same week
+2017-10-16 17:40:36	keveloper	wow i would not guess you were like this :P lol
+2017-10-16 17:40:47	kt_	yeah I am going through my ho phase so that's why I'm not judging you at all
+2017-10-16 17:40:48	keveloper	(its always the quiet ones)
+2017-10-16 17:40:52	kt_	L O L
+2017-10-16 17:40:55	keveloper	:D
+2017-10-16 17:40:58	keveloper	(but really tho)
+2017-10-16 17:41:10	kt_	:'(
+2017-10-16 17:41:17	keveloper	hey nothin wrong with that
+2017-10-16 17:41:27	keveloper	sex is fun lol
+2017-10-16 17:41:28	kt_	I get it :( I look like I'm 10 so no one would think that
+2017-10-16 17:41:29	keveloper	as long as its safe
+2017-10-16 17:41:34	kt_	exactly
+2017-10-16 17:41:35	keveloper	LOL NOPE
+2017-10-16 17:41:39	keveloper	not what i mean lololol
+2017-10-16 17:42:06	keveloper	and tbf
+2017-10-16 17:42:10	keveloper	you look AT LEAST 12
+2017-10-16 17:42:36	kt_	my worthington kids were talking about the "most likely to be sexually active" out of a group of the kids and the two coaches (me being one of them) and they gave me a loook like "yeah no you are def not" and I didn't say anything
+2017-10-16 17:42:49	kt_	I was laughin gon the inside bc I had sex literally the day before
+2017-10-16 17:42:50	keveloper	wowww noobs
+2017-10-16 17:42:58	keveloper	i wouldve looked at you and been like ".... ya shes a freak"
+2017-10-16 17:43:02	kt_	lol thanks. I will embrace my 12 year old looking self
+2017-10-16 17:43:08	keveloper	i was joking lol you do not look 12
+2017-10-16 17:43:40	keveloper	ok i gotta go thank you for being entertaining lol
+2017-10-16 17:43:41	keveloper	good talk
+2017-10-16 17:43:44	kt_	Makayla (other coach) asked a random kid how old we both looked the other day. said she looked 20 (she's like 25) and looked at me and said 10
+2017-10-16 17:43:49	kt_	yes lol good talk. have fun
+2017-10-16 17:43:54	keveloper	:P
+2017-10-16 17:44:01	keveloper	good luck with john or johnny or w/e
+2017-10-16 17:44:07	keveloper	:P
+2017-10-16 17:44:09	keveloper	when do you work next
+2017-10-16 17:44:11	kt_	omg thanks bc I am gonna need it
+2017-10-16 17:44:14	keveloper	idk your schedule at all
+2017-10-16 17:44:16	kt_	wednesday at 2:30
+2017-10-16 17:44:23	keveloper	ok cool talk to you then byeeeeeeee
+2017-10-16 17:44:32	kt_	l8r
+2017-10-16 19:33:16	<--	kt_ (~stahlk@132-174-20-247.ip.oclc.org) has quit (Ping timeout: 246 seconds)
+2017-10-18 15:15:51	keveloper	sup
+2017-10-18 15:16:49	kt_	hi srry in meeting
+2017-10-18 15:16:59	keveloper	lol nbd
+2017-10-18 15:17:15	keveloper	u wanna play pool today
+2017-10-18 15:24:34	<--	kt_ (~stahlk@132.174.100.202) has quit (Ping timeout: 240 seconds)
+2017-10-18 15:27:55	-->	kt_ (~stahlk@132-174-20-2.ip.oclc.org) is back on server
+2017-10-18 15:31:46	kt_	how did abby get a concussion
+2017-10-18 15:31:53	keveloper	uh
+2017-10-18 15:32:01	keveloper	she like slipped on clothing and hit her head on the wall or something
+2017-10-18 15:32:11	keveloper	and apparently went to the doctor and they said she had a mild concussion
+2017-10-18 15:32:26	kt_	oof
+2017-10-18 15:32:29	keveloper	ya
+2017-10-18 15:32:37	kt_	..clothing?
+2017-10-18 15:33:00	keveloper	idk something ont he floor
+2017-10-18 15:33:05	keveloper	she tripped and hit her head on the wall idk
+2017-10-18 15:33:05	kt_	sux
+2017-10-18 15:33:19	keveloper	that was monday morning
+2017-10-18 15:33:32	kt_	has she been out all week?
+2017-10-18 15:33:36	keveloper	and so she working from home today because her "concussed brain gets too distracted" or something
+2017-10-18 15:33:41	keveloper	monday and today
+2017-10-18 15:33:44	keveloper	and she left early yesterday
+2017-10-18 15:33:48	kt_	me everyday
+2017-10-18 15:34:03	keveloper	what lol
+2017-10-18 15:34:07	kt_	the getting distracted part
+2017-10-18 15:34:12	keveloper	oh lol ya
+2017-10-18 15:34:21	keveloper	idk she's really riding this concussion thing lol
+2017-10-18 15:34:39	kt_	so ive heard
+2017-10-18 15:35:07	keveloper	idk lol
+2017-10-18 15:35:10	keveloper	im skeptical but w/e
+2017-10-18 15:35:15	keveloper	she takes like 5 sick days a month lol
+2017-10-18 15:35:21	kt_	that is a lot
+2017-10-18 15:35:32	keveloper	that might be high but at LEAST 3
+2017-10-18 15:35:36	keveloper	she's out all the time for random shit idk man
+2017-10-18 15:35:56	keveloper	idk but I've had a lot of experience with concussions and this is ridiculous lol
+2017-10-18 15:36:08	kt_	I do not understand people like that but w/e. as long as they get their work done
+2017-10-18 15:36:17	keveloper	lol
+2017-10-18 15:36:19	kt_	how do you feel about Crew rn
+2017-10-18 15:36:27	keveloper	idk
+2017-10-18 15:36:30	keveloper	pretty dumb but
+2017-10-18 15:36:31	keveloper	oh well
+2017-10-18 15:36:33	kt_	sorry that's random. you talking about experience in concussions made me think soccer
+2017-10-18 15:36:41	keveloper	ah no they were from snowboarding lol
+2017-10-18 15:36:42	kt_	I am p i s s e d
+2017-10-18 15:36:56	kt_	I assumed they were soccer lol. 
+2017-10-18 15:37:02	keveloper	i've had two concussion that caused temporary anterograde amnesia lol
+2017-10-18 15:37:11	kt_	wow
+2017-10-18 15:37:12	keveloper	first one was like 4 hours, second one was like 16 hours
+2017-10-18 15:37:16	keveloper	yeah it's weird lol
+2017-10-18 15:37:21	kt_	what was that liek
+2017-10-18 15:37:22	keveloper	can't remember the entire day of the second one
+2017-10-18 15:37:27	keveloper	idk dont remember ¯\_(ツ)_/¯
+2017-10-18 15:37:30	kt_	crazyyy
+2017-10-18 15:37:44	keveloper	the first one i remember realizing that i couldnt remember what happened
+2017-10-18 15:37:47	keveloper	i kept riding after
+2017-10-18 15:37:56	kt_	oh also. yes I do wanna play pool but I also have lot of work to get done so idk my chances of making it down
+2017-10-18 15:38:00	keveloper	then going up the lift next run i asked if i had a gf lol
+2017-10-18 15:38:06	keveloper	and my friend was like "what... yeah"
+2017-10-18 15:38:10	kt_	LOL
+2017-10-18 15:38:11	keveloper	i was like "what who"
+2017-10-18 15:38:17	keveloper	and he was like "[name]"
+2017-10-18 15:38:19	kt_	you have the craziest life
+2017-10-18 15:38:23	keveloper	and i was like "wait what happened"
+2017-10-18 15:38:28	keveloper	and he was like when
+2017-10-18 15:38:35	keveloper	and i was like "is this our first run"
+2017-10-18 15:38:41	keveloper	and he was like "no but you just hit your head"
+2017-10-18 15:38:43	keveloper	lol
+2017-10-18 15:38:53	kt_	damn. did he let you keep riding after that?
+2017-10-18 15:38:57	keveloper	noooo lol
+2017-10-18 15:39:02	kt_	good
+2017-10-18 15:39:09	keveloper	second time i was unconscious for a while
+2017-10-18 15:39:16	keveloper	that one was way more serious
+2017-10-18 15:39:21	keveloper	couldnt play soccer for 6 months lol
+2017-10-18 15:39:27	kt_	wat omg did you go to the hospital
+2017-10-18 15:39:29	keveloper	yeah
+2017-10-18 15:39:44	keveloper	they didn't really do anything tho i just kinda laid in a bed apparently
+2017-10-18 15:39:50	keveloper	i dont remember going to the hospital at all lol
+2017-10-18 15:39:50	kt_	the more concussions you get the worse your brain gets
+2017-10-18 15:40:19	keveloper	i remember the morning when we went to the resort and the night when we were watching a movie or something
+2017-10-18 15:40:24	keveloper	everything in between is gone
+2017-10-18 15:40:34	kt_	wow
+2017-10-18 15:40:39	keveloper	yeah its creep ylol
+2017-10-18 15:41:03	keveloper	i didnt miss any school or anything though i went right back into things it wasnt that big of a deal
+2017-10-18 15:41:08	keveloper	thats why im annoyed about abby lol
+2017-10-18 15:41:19	kt_	some people are a lil more sheltered than other kevin
+2017-10-18 15:41:23	keveloper	lol
+2017-10-18 15:41:25	kt_	others*
+2017-10-18 15:41:35	keveloper	i had to do these fucking memory tests for therapy that was awful omg
+2017-10-18 15:41:45	kt_	LOL
+2017-10-18 15:41:51	kt_	that sounds like fun
+2017-10-18 15:41:55	keveloper	no it was terrible
+2017-10-18 15:42:04	kt_	how did they test you on that
+2017-10-18 15:42:12	keveloper	on memory?
+2017-10-18 15:42:16	kt_	ye
+2017-10-18 15:42:22	keveloper	idk i dont really remember
+2017-10-18 15:42:26	keveloper	just like a bunch of random memory things
+2017-10-18 15:42:27	kt_	was it like those memory card games
+2017-10-18 15:42:31	keveloper	short term and long term
+2017-10-18 15:42:35	keveloper	yeah some
+2017-10-18 15:42:37	kt_	well that kinda defeats the purpose... that's p ironic
+2017-10-18 15:42:39	keveloper	there was some matching stuff
+2017-10-18 15:42:44	keveloper	memory card stuff
+2017-10-18 15:43:02	keveloper	there was like "remember this thing and tell me it at the end of the appointment" i think
+2017-10-18 15:43:17	kt_	lol
+2017-10-18 15:43:30	keveloper	idk but i think my memory was bad to begin with
+2017-10-18 15:43:45	keveloper	no idea if the concussion affected me at all 
+2017-10-18 15:43:48	kt_	cant be too bad cuz you made it through school 
+2017-10-18 15:43:51	keveloper	the doctors were just kinda like "your memory is fine"
+2017-10-18 15:43:58	keveloper	maybe im just a genious ¯\_(ツ)_/¯
+2017-10-18 15:44:02	kt_	tru
+2017-10-18 15:44:06	keveloper	lol
+2017-10-18 15:44:30	kt_	I bombed our SQL quiz in DB today
+2017-10-18 15:44:33	kt_	I was ashamed
+2017-10-18 15:44:35	kt_	SQL is so easy
+2017-10-18 15:44:36	keveloper	the worst part of it was being told to not do physical activity for 6 months
+2017-10-18 15:44:39	keveloper	which i did not listen to
+2017-10-18 15:44:44	keveloper	rippppppppppppppppp
+2017-10-18 15:44:46	kt_	yeah that sucks a lot ??? like
+2017-10-18 15:44:48	keveloper	whatd you get
+2017-10-18 15:44:51	kt_	idk yet
+2017-10-18 15:44:57	keveloper	lol
+2017-10-18 15:45:00	keveloper	what questions did you jmiss
+2017-10-18 15:45:21	kt_	it gave us like the database schema
+2017-10-18 15:45:25	kt_	and was like "perform these queries"
+2017-10-18 15:45:28	kt_	and some of them were easy
+2017-10-18 15:45:33	keveloper	rip
+2017-10-18 15:45:37	keveloper	did you mess up dem inner joins
+2017-10-18 15:45:49	keveloper	if you had to write inner join syntax on paper fuck off dreed
+2017-10-18 15:45:58	keveloper	i can never remember that shit i google it every time
+2017-10-18 15:46:31	kt_	but others were like "get the transcript of a student who graduate this year" and the transcript thing was like course's course number, the credit hours, the section and all of these different fucking relations
+2017-10-18 15:46:35	kt_	pretty sure that's what it was
+2017-10-18 15:47:29	kt_	it was supposed to be like nested selects or something
+2017-10-18 15:47:33	kt_	and our professor sucks
+2017-10-18 15:47:45	kt_	it's not even dreed
+2017-10-18 15:47:52	kt_	also I think he's going on sabbatical next year
+2017-10-18 15:48:26	kt_	he hasn't said anything yet but when he was pulling stuff up on his computer in class I saw a recent document that said "reed sabbatical application"
+2017-10-18 15:48:38	kt_	and I was like FUCK u better not be going on fucking sabbatical my senior year
+2017-10-18 15:48:54	keveloper	lolol
+2017-10-18 15:48:55	keveloper	:)(
+2017-10-18 15:48:57	keveloper	:(
+2017-10-18 15:48:59	keveloper	whos the prof
+2017-10-18 15:49:15	kt_	dr feng
+2017-10-18 15:49:21	keveloper	oh ok
+2017-10-18 15:49:27	kt_	shes new and from china
+2017-10-18 15:49:35	keveloper	wait you have 3 profs
+2017-10-18 15:49:41	kt_	nope
+2017-10-18 15:49:44	kt_	it's just those 2
+2017-10-18 15:49:56	keveloper	oh ok
+2017-10-18 15:50:00	keveloper	i knew about her already then
+2017-10-18 15:50:06	keveloper	not that new
+2017-10-18 15:50:16	keveloper	nested selects are easy pz kt_ 
+2017-10-18 15:50:20	kt_	I don't think he'll go on sabbatical next year unless they find someone to teach the graphics course
+2017-10-18 15:50:31	kt_	yeeah I'm just dumb as shit keveloper
+2017-10-18 15:50:39	keveloper	rite
+2017-10-18 15:50:41	keveloper	no jk
+2017-10-18 15:50:43	keveloper	u smaht
+2017-10-18 15:50:47	kt_	I CAN DO EVERYTHING EELSE
+2017-10-18 15:51:06	kt_	I ate way too many snacks... won't have room for piada after work
+2017-10-18 15:51:13	keveloper	rip
+2017-10-18 15:51:16	keveloper	come to piada with us on fridya
+2017-10-18 15:51:26	keveloper	wait will you be here on friday 
+2017-10-18 15:51:32	kt_	2:30-7:30
+2017-10-18 15:51:46	kt_	In december c: I'll go in december
+2017-10-18 15:52:03	keveloper	oh rip
+2017-10-18 15:52:05	keveloper	ok sounds good
+2017-10-18 15:52:12	keveloper	hows johnny or john or w/e
+2017-10-18 15:52:28	kt_	johnny is pissed @ me
+2017-10-18 15:52:33	kt_	he texted me a fucken NOVEL
+2017-10-18 15:52:52	kt_	explaining how upset he was at the way I told him and noah
+2017-10-18 15:53:03	kt_	and was acting like I should've told him separately
+2017-10-18 15:53:08	keveloper	i thought johnny was the formal guy
+2017-10-18 15:53:18	keveloper	told him what
+2017-10-18 15:53:23	kt_	he wasn't acting like it... he was pissed at me for not telling him separately
+2017-10-18 15:53:26	keveloper	what actually is your life
+2017-10-18 15:53:26	kt_	no John is formal guy
+2017-10-18 15:53:33	kt_	Johnny is guy who is in love w me but I don't want to date
+2017-10-18 15:53:40	keveloper	so maybe like
+2017-10-18 15:53:42	kt_	A FUCKING SHITSHOW
+2017-10-18 15:53:45	keveloper	dont be friends iwth him lol
+2017-10-18 15:53:49	keveloper	because thats not gonna go away
+2017-10-18 15:53:50	keveloper	js
+2017-10-18 15:53:52	kt_	between that and the news of the Crew I cried myself to sleep on Monday
+2017-10-18 15:53:55	kt_	so over everything
+2017-10-18 15:54:02	kt_	He's in our friend group tho. That's what sucks
+2017-10-18 15:54:24	kt_	but based on how he's been acting, I don't really want to be friends w him tbh
+2017-10-18 15:54:59	keveloper	lolol wtf
+2017-10-18 15:55:01	keveloper	do you even play soccer
+2017-10-18 15:56:02	kt_	fuck u
+2017-10-18 15:56:33	kt_	maybe I don't play soccer but I like watching it
+2017-10-18 15:56:39	keveloper	lol learn to paly
+2017-10-18 15:56:41	kt_	I suck ass at soccer honestly
+2017-10-18 15:56:54	keveloper	lol
+2017-10-18 15:57:03	keveloper	distance from friend group anyway
+2017-10-18 15:57:15	keveloper	he's not gonna stop trying to pursue you lol
+2017-10-18 15:57:22	keveloper	especially if you keep hanging around
+2017-10-18 15:57:27	keveloper	he'll be like "maybe there's a chance"
+2017-10-18 15:57:29	kt_	but then I won't have any friends?????
+2017-10-18 15:57:36	keveloper	idk man
+2017-10-18 15:57:45	keveloper	then deal with him being a lil bitch about it lol
+2017-10-18 15:58:02	keveloper	emmerse yourself i n the drama
+2017-10-18 15:58:03	kt_	I will and I will be petty about it
+2017-10-18 15:58:16	keveloper	you should send him a text like
+2017-10-18 15:58:19	kt_	lol I'm not immersing myself in the drama. his bitch ass will get over it
+2017-10-18 15:58:24	keveloper	"i've wanted to say this for a long time, i love you"
+2017-10-18 15:58:27	keveloper	then wait like 90 seconds
+2017-10-18 15:58:28	keveloper	and be like
+2017-10-18 15:58:29	kt_	L O L
+2017-10-18 15:58:31	keveloper	"oops wrong person sorry"
+2017-10-18 15:58:36	kt_	L O L
+2017-10-18 15:59:15	kt_	when this child is drunk
+2017-10-18 15:59:20	kt_	he is so fucking affectionate
+2017-10-18 15:59:24	kt_	and he is a giant person
+2017-10-18 15:59:27	kt_	so like it's fucking weird
+2017-10-18 16:00:45	kt_	I mean that's fine I know ppl are like that. he just uses it as an excuse to hug me more or like snuggle up close to me
+2017-10-18 16:00:53	kt_	and I am like BACK YO ASS UP I DONT LIKE U
+2017-10-18 16:00:59	keveloper	what
+2017-10-18 16:01:00	keveloper	lol
+2017-10-18 16:01:06	keveloper	lololo
+2017-10-18 16:01:08	keveloper	get outttt
+2017-10-18 16:01:08	kt_	p i s s e d
+2017-10-18 16:01:15	keveloper	but rly tho thats creepy
+2017-10-18 16:01:22	keveloper	its not hard to handle yourself when your drunk
+2017-10-18 16:01:23	keveloper	honestly
+2017-10-18 16:01:24	kt_	also he's never had a girlfriend
+2017-10-18 16:01:32	keveloper	so
+2017-10-18 16:01:38	keveloper	whats that have to do with anything lol
+2017-10-18 16:01:45	kt_	I am getting to my point
+2017-10-18 16:01:56	kt_	fucking mcafee popped up and had to click that
+2017-10-18 16:01:57	keveloper	oh ok go on i am sorry
+2017-10-18 16:01:59	keveloper	lol
+2017-10-18 16:03:17	kt_	a TON of the guys I have dated have never had girlfriends. But again with all of them (in my experience), they haven't really known how to act in a relationship
+2017-10-18 16:03:30	kt_	which is also weird to me. like it's fine. nothing wrong with it. everyon ehas to start somewhere
+2017-10-18 16:03:32	kt_	just not for me
+2017-10-18 16:04:25	kt_	 R Y A N
+2017-10-18 16:04:28	keveloper	what
+2017-10-18 16:04:31	kt_	is that his name I forgot
+2017-10-18 16:04:34	keveloper	ya
+2017-10-18 16:04:35	keveloper	abby
+2017-10-18 16:04:37	keveloper	abbys thing
+2017-10-18 16:04:37	keveloper	?
+2017-10-18 16:04:43	kt_	he's coming next week?!
+2017-10-18 16:04:48	keveloper	oh no
+2017-10-18 16:05:01	keveloper	oh no
+2017-10-18 16:05:04	kt_	wat
+2017-10-18 16:05:05	keveloper	"as long as he's feeling better"
+2017-10-18 16:05:09	keveloper	he's not coming
+2017-10-18 16:05:10	keveloper	100%
+2017-10-18 16:05:12	keveloper	cold feet
+2017-10-18 16:05:13	keveloper	i will bet you
+2017-10-18 16:05:16	kt_	oh my god
+2017-10-18 16:05:17	keveloper	$11.50
+2017-10-18 16:05:24	keveloper	which is about as much as a piada meal
+2017-10-18 16:05:25	keveloper	lol
+2017-10-18 16:05:26	kt_	I don't want to bet against you because I totally see it
+2017-10-18 16:05:30	keveloper	lol
+2017-10-18 16:05:33	kt_	but that MAKES ME SOS AD
+2017-10-18 16:05:40	kt_	how
+2017-10-18 16:05:42	kt_	does it take a week
+2017-10-18 16:05:46	kt_	to get over an illness
+2017-10-18 16:05:50	kt_	wat
+2017-10-18 16:06:56	keveloper	lol
+2017-10-18 16:07:25	kt_	so antonio and brendon are both new? 
+2017-10-18 16:07:27	kt_	discovery?
+2017-10-18 16:07:39	kt_	is this channel called discodevs bc disco = discovery
+2017-10-18 16:08:34	keveloper	lololol
+2017-10-18 16:08:35	keveloper	yes
+2017-10-18 16:08:55	keveloper	but yeah
+2017-10-18 16:08:57	keveloper	he's not coming
+2017-10-18 16:08:57	keveloper	no way
+2017-10-18 16:09:07	kt_	I want to bet on it
+2017-10-18 16:09:10	keveloper	really
+2017-10-18 16:09:16	kt_	but I also haven't heard enough about him
+2017-10-18 16:09:23	keveloper	okay so 1) he definitely exists
+2017-10-18 16:09:29	keveloper	2) i dont _think_ its a catfish
+2017-10-18 16:09:34	keveloper	3) they snapchat and skype and stuff i tihink
+2017-10-18 16:09:41	kt_	but does he have a passport
+2017-10-18 16:09:47	keveloper	i would assume
+2017-10-18 16:09:51	keveloper	idfk
+2017-10-18 16:10:01	kt_	has he already bought plane tickets
+2017-10-18 16:11:00	keveloper	wouldnt he have had to
+2017-10-18 16:11:01	keveloper	idk
+2017-10-18 16:11:04	keveloper	this is the bet like
+2017-10-18 16:11:06	keveloper	take a chance
+2017-10-18 16:11:12	keveloper	i bet you 1 piada meal he will not come
+2017-10-18 16:11:24	kt_	omfg fine
+2017-10-18 16:11:32	kt_	even tho I 100% believe you
+2017-10-18 16:11:36	keveloper	you think he will come?
+2017-10-18 16:11:39	kt_	I will bet in the hopes of abby
+2017-10-18 16:11:54	kt_	I aam beginning to think not lol. but I am hopeful for abbys sake
+2017-10-18 16:14:34	keveloper	lol
+2017-10-18 16:14:35	keveloper	idk
+2017-10-18 16:14:38	keveloper	but like
+2017-10-18 16:14:41	keveloper	it's weird
+2017-10-18 16:15:50	kt_	charles being the real mvp here being totally chill w a canadian stranger coming to his house
+2017-10-18 16:15:54	kt_	are you going to his party
+2017-10-18 16:16:18	keveloper	lol
+2017-10-18 16:16:21	keveloper	hopefully
+2017-10-18 16:16:24	keveloper	emilys comin too i think
+2017-10-18 16:16:27	keveloper	come meet
+2017-10-18 16:16:40	kt_	I will be getting trashed at another party :'C
+2017-10-18 16:16:47	kt_	it's pi phi's activation that night
+2017-10-18 16:18:33	keveloper	noooooo
+2017-10-18 16:18:57	kt_	rite
+2017-10-18 16:19:19	kt_	it was supposed to be this firday (':
+2017-10-18 16:19:33	keveloper	dont go
+2017-10-18 16:19:38	keveloper	come with us we r cool
+2017-10-18 16:19:45	kt_	but the new member educators suck and were like "you guys aren't ready to be activated so we're pushing it to next week"
+2017-10-18 16:20:04	keveloper	wait youre in pi phi
+2017-10-18 16:20:06	keveloper	why tho
+2017-10-18 16:20:13	kt_	uhh
+2017-10-18 16:20:22	keveloper	imma tell bill to go get them to move i
+2017-10-18 16:20:23	keveloper	it*
+2017-10-18 16:20:23	kt_	well I rly wanted to be in dphie but they didn't give me a bid sooo
+2017-10-18 16:20:27	keveloper	and morgan white
+2017-10-18 16:20:31	keveloper	i'll get it moved you just wait
+2017-10-18 16:20:31	kt_	who tf
+2017-10-18 16:20:37	keveloper	morgan jenkins and morgan white lol
+2017-10-18 16:20:57	kt_	dont even know those ppl
+2017-10-18 16:21:06	keveloper	morgan white was the president and we were best friends in college and same with morgan jenkins (aka bill) who was some other title
+2017-10-18 16:21:17	kt_	oh interesting
+2017-10-18 16:21:18	keveloper	i'll pull some strings lol
+2017-10-18 16:21:29	keveloper	jk idc youre too young for our old ppl party
+2017-10-18 16:21:31	keveloper	are you 21 yet
+2017-10-18 16:22:18	kt_	no
+2017-10-18 16:23:18	keveloper	lol
+2017-10-18 16:23:20	keveloper	are you 20
+2017-10-18 16:24:16	kt_	ye
+2017-10-18 16:24:29	keveloper	ah ok
+2017-10-18 16:24:47	kt_	why
+2017-10-18 16:25:02	keveloper	jw
+2017-10-18 16:26:00	kt_	I feel like when I do turn 21 that people are going to think my ID is fake
+2017-10-18 16:26:22	keveloper	lololol
+2017-10-18 16:26:23	keveloper	maybe
+2017-10-18 16:26:28	keveloper	you will get carded for like 7 years probably
+2017-10-18 16:26:30	kt_	yep
+2017-10-18 16:26:36	keveloper	prolly more than that
+2017-10-18 16:26:48	kt_	oh well. blessing and a curse
+2017-10-18 16:26:51	keveloper	just grow a beard and you never get carded
+2017-10-18 16:26:56	kt_	LOL
+2017-10-18 16:26:59	kt_	do u never get carded
+2017-10-18 16:27:17	kt_	maybe if I wear a lot of makeup
+2017-10-18 16:27:26	keveloper	lolol
+2017-10-18 16:27:29	keveloper	no i never get carded
+2017-10-18 16:27:35	kt_	wow
+2017-10-18 16:27:51	kt_	they're supposed to card you if you look under 40
+2017-10-18 16:28:22	keveloper	rly
+2017-10-18 16:28:27	keveloper	i thought it was 25 lol
+2017-10-18 16:28:32	kt_	that's what I was told when I was a cashier
+2017-10-18 16:31:59	keveloper	oh ok
+2017-10-18 16:32:21	keveloper	hey
+2017-10-18 16:32:21	keveloper	yt
+2017-10-18 16:32:23	keveloper	psst
+2017-10-18 16:32:34	kt_	wat
+2017-10-18 16:32:50	keveloper	wanna play pool
+2017-10-18 16:32:51	keveloper	plez
+2017-10-18 16:33:07	kt_	lemme look at how much I have left to do on this :C
+2017-10-18 16:34:17	keveloper	okkkkkk
+2017-10-18 16:34:31	keveloper	nvm im playing charles because you are too indecisive
+2017-10-18 16:34:43	kt_	omg Im sorry lol
+2017-10-18 16:36:53	kt_	I AM SO FUCKING TIRED
+2017-10-18 16:37:01	kt_	OF PEOPLE NOT USING GIT PROPERLY
+2017-10-18 16:37:08	kt_	FUCKING FIX MERGE CONFLICTS INSTEAD OF DELETING MY SHIT JESUS
+2017-10-18 17:01:52	keveloper	WHAT
+2017-10-18 17:01:55	keveloper	WHATD U DO
+2017-10-18 17:02:28	kt_	it wasnt me lol
+2017-10-18 17:03:19	keveloper	lolol
+2017-10-18 17:03:23	keveloper	yeh ppl dont know git
+2017-10-18 17:05:42	kt_	rip
+2017-10-18 17:51:57	keveloper	you still here
+2017-10-18 17:52:03	kt_	yep
+2017-10-18 17:52:21	keveloper	rip
+2017-10-18 17:52:24	keveloper	im about to elave lol
+2017-10-18 17:52:27	kt_	rite
+2017-10-18 17:52:28	keveloper	how long you work til
+2017-10-18 17:52:29	kt_	luckt
+2017-10-18 17:52:35	kt_	1.5 more hrs
+2017-10-18 17:52:38	keveloper	noo
+2017-10-18 17:52:42	kt_	so bored
+2017-10-18 17:52:46	keveloper	lol
+2017-10-18 17:52:50	keveloper	you wanna play a game of pool
+2017-10-18 17:53:07	kt_	I have to get this stuff done :'C
+2017-10-18 17:53:14	keveloper	ugh
+2017-10-18 17:53:17	keveloper	ok bye im leevin
+2017-10-18 17:53:21	kt_	friyay?
+2017-10-18 17:53:30	kt_	bye
+2017-10-18 17:53:33	keveloper	ye
+2017-10-18 17:53:36	kt_	yee
+2017-10-18 17:53:47	keveloper	think i can squeeze you in my sched
+2017-10-18 17:53:56	kt_	gr8
+2017-10-18 17:54:12	keveloper	wanna see something amazing
+2017-10-18 17:54:20	kt_	wat
+2017-10-18 17:54:26	keveloper	https://chrome.google.com/webstore/detail/tabby-cat/mefhakmgclhhfbdadeojlkbllmecialg/related?hl=en
+2017-10-18 17:54:30	keveloper	get that
+2017-10-18 17:54:31	keveloper	add to chrome
+2017-10-18 17:54:33	keveloper	right now
+2017-10-18 17:54:41	kt_	what do
+2017-10-18 17:54:47	keveloper	make a new tab
+2017-10-18 17:55:30	kt_	omg
+2017-10-18 17:55:32	kt_	this is so cute
+2017-10-18 17:55:34	keveloper	right
+2017-10-18 17:55:35	keveloper	lol
+2017-10-18 17:55:44	kt_	this makes me so happy
+2017-10-18 17:55:45	keveloper	you can toggle your glasses
+2017-10-18 17:55:50	keveloper	bottom left
+2017-10-18 17:55:54	keveloper	emily got a hat idk how
+2017-10-18 17:56:30	kt_	yeah I was gonna say it looks like you can unlock items somehow
+2017-10-18 17:56:31	kt_	I have a hat
+2017-10-18 17:56:50	kt_	mine has a cute lil propeller hat
+2017-10-18 17:56:57	keveloper	how did you do that
+2017-10-18 17:57:01	keveloper	mine just has glasses
+2017-10-18 17:57:38	keveloper	wtf i wanna hat
+2017-10-18 17:57:47	kt_	mine just had a hat when I added it
+2017-10-18 17:58:22	keveloper	wwwwwwwwat
+2017-10-18 17:58:45	kt_	I wanna know how you unlock more items
+2017-10-18 17:59:09	keveloper	IO KNOW
+2017-10-18 17:59:10	keveloper	I KNOW
+2017-10-18 17:59:26	keveloper	i have a dead mouse now
+2017-10-18 17:59:33	keveloper	if you delete it and reinstall it
+2017-10-18 17:59:41	kt_	L O L
+2017-10-18 18:00:05	keveloper	k
+2017-10-18 18:00:08	keveloper	inspect page
+2017-10-18 18:00:22	keveloper	are you there
+2017-10-18 18:00:32	kt_	wat
+2017-10-18 18:00:35	kt_	inspect? ok
+2017-10-18 18:00:37	keveloper	chrome dev tools go
+2017-10-18 18:00:43	keveloper	go to applciation
+2017-10-18 18:01:03	keveloper	go to local storage
+2017-10-18 18:01:05	keveloper	expand that
+2017-10-18 18:01:11	keveloper	click on chrome-exstension://
+2017-10-18 18:01:20	kt_	mhm
+2017-10-18 18:01:23	keveloper	overwrite the value for goodies with: {"collected":["glasses-1","glasses-2","glasses-3","glasses-4","hat-1","hat-2","hat-3","hat-4","hat-5","hat-6","hat-7","hat-8","toy-1","toy-2","toy-3","toy-4","toy-5","toy-6","toy-7","toy-8"],"active":{"hat":"hat-8","toy":"toy-3","glasses":"glasses-3"},"unseen":[],"shuffle":false}
+2017-10-18 18:01:51	keveloper	https://cl.ly/0q3u1u3V2T0w
+2017-10-18 18:01:56	keveloper	https://gist.github.com/oldwestaction/f728bc8e36eba9c27c024b7652c262c0
+2017-10-18 18:01:58	keveloper	to paste
+2017-10-18 18:02:54	keveloper	https://cl.ly/0F1E313K0105
+2017-10-18 18:03:20	kt_	omg I love the crown
+2017-10-18 18:03:25	keveloper	did you do it
+2017-10-18 18:03:30	keveloper	do you have all items
+2017-10-18 18:04:07	kt_	ye
+2017-10-18 18:04:40	kt_	omg the dead mouse is hysterical
+2017-10-18 18:04:59	kt_	some toys attract baby cats
+2017-10-18 18:05:38	keveloper	lol ya i got a baby cat
+2017-10-18 18:05:56	kt_	yay I do too
+2017-10-18 18:06:19	keveloper	i am haxor
+2017-10-18 18:06:26	keveloper	ok im going home byeeeeeee
+2017-10-18 18:06:30	kt_	I thin kthe more tabs you open is how you unlock toys
+2017-10-18 18:06:34	kt_	bye
+2017-10-18 18:07:11	kt_	http://tabbycats.club/d16wrx
+2017-10-18 19:42:13	<--	kt_ (~stahlk@132-174-20-2.ip.oclc.org) has quit (Ping timeout: 252 seconds)
+2017-10-19 10:05:55	keveloper	ye
+2017-10-19 10:05:55	--	kt_: No such nick/channel
+2017-10-19 10:05:55	keveloper	but
+2017-10-19 10:05:57	--	kt_: No such nick/channel
+2017-10-20 15:09:39	-->	kt_ (~stahlk@132-174-20-157.ip.oclc.org) is back on server

@@ -1,0 +1,919 @@
+2017-01-03 09:56:20	-->	keveloper (~frappucci@51.ip-192-99-58.net) has joined ##javascript
+2017-01-03 09:56:20	--	Topic for ##javascript is "Can't talk? Get registered on freenode (HOWTO: https://gist.github.com/brigand/f271177642368307f051 ). | JavaScript is *not* Java. | Just ask your question. | Say "!mdn abc" for docs on "abc". | Don't paste code in the channel."
+2017-01-03 09:56:20	--	Topic set by buu (~buu@47.221.33.92) on Sat, 29 Oct 2016 13:30:15
+2017-01-03 09:56:21	--	Channel ##javascript: 1230 nicks (2 ops, 0 voices, 1228 normals)
+2017-01-03 09:56:22	--	Channel created on Sun, 26 Nov 2006 01:42:45
+2017-01-03 09:57:33	<--	Maxulica (~Maxulica@5.2.194.23) has quit (Remote host closed the connection)
+2017-01-03 09:57:50	<--	saganbyte (495ca588@gateway/web/freenode/ip.73.92.165.136) has quit (Client Quit)
+2017-01-03 09:59:31	graingert	saganbyte: they might have different toStrings
+2017-01-03 09:59:36	<--	psychicist__ (~psychicis@93-46-250-20.ip110.fastwebnet.it) has quit (Ping timeout: 248 seconds)
+2017-01-03 10:00:01	-->	e14 (~e14@104.207.209.180) has joined ##javascript
+2017-01-03 10:00:11	<--	cyberhabbening (~cyberhabb@host32-144-dynamic.252-95-r.retail.telecomitalia.it) has quit (Ping timeout: 256 seconds)
+2017-01-03 10:00:17	graingert	n> (x => x).toString()
+2017-01-03 10:00:20	babelboot	graingert: (okay) 'x => x'
+2017-01-03 10:00:45	graingert	n> ((x) => x).toString()
+2017-01-03 10:00:48	babelboot	graingert: (okay) '(x) => x'
+2017-01-03 10:00:49	<--	kakashiAL (~kakashiAL@ip-178-202-50-202.hsi09.unitymediagroup.de) has quit (Ping timeout: 246 seconds)
+2017-01-03 10:01:14	-->	kakashiAL (~kakashiAL@ip-178-202-50-202.hsi09.unitymediagroup.de) has joined ##javascript
+2017-01-03 10:01:17	<--	jhack (~jhack@unaffiliated/jhack) has quit (Quit: jhack)
+2017-01-03 10:01:27	-->	cyberhabbening (~cyberhabb@host32-144-dynamic.252-95-r.retail.telecomitalia.it) has joined ##javascript
+2017-01-03 10:02:39	<--	uvarovserge (~uvarovser@80.92.25.37) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-01-03 10:03:12	-->	macabre (~ibtjw@unaffiliated/macabre) has joined ##javascript
+2017-01-03 10:03:22	<--	rscata (~cata@5.2.202.145) has quit (Quit: Leaving)
+2017-01-03 10:03:26	<--	macabre (~ibtjw@unaffiliated/macabre) has quit (Remote host closed the connection)
+2017-01-03 10:03:37	-->	macabre (~ibtjw@unaffiliated/macabre) has joined ##javascript
+2017-01-03 10:03:45	-->	psychicist__ (~psychicis@93-46-250-20.ip110.fastwebnet.it) has joined ##javascript
+2017-01-03 10:03:52	-->	patarr (~patarr@unaffiliated/patarr) has joined ##javascript
+2017-01-03 10:03:53	<--	kd0t (~kd0t@46.165.244.207) has quit (Ping timeout: 248 seconds)
+2017-01-03 10:04:07	-->	kd0t (~kd0t@46.165.244.207) has joined ##javascript
+2017-01-03 10:04:30	-->	morlenxus (~morlenxus@enlightenment/developer/morlenxus) has joined ##javascript
+2017-01-03 10:05:36	-->	Rodya_ (~Rodya_@c-71-224-101-129.hsd1.pa.comcast.net) has joined ##javascript
+2017-01-03 10:05:43	-->	MarkyC (~MarkyC@74.123.93.58) has joined ##javascript
+2017-01-03 10:05:51	<--	nocigar (~nocigar@83.247.28.37.rev.vodafone.pt) has quit (Ping timeout: 256 seconds)
+2017-01-03 10:06:03	<--	MarkyC (~MarkyC@74.123.93.58) has quit (Client Quit)
+2017-01-03 10:06:13	-->	dk0r (~dk0r@unaffiliated/dk0r) has joined ##javascript
+2017-01-03 10:07:10	-->	ocpysh (~ocpysh@28.224.251.212.customer.cdi.no) has joined ##javascript
+2017-01-03 10:08:45	-->	LucaTM (~LucaTM@unaffiliated/lucatm) has joined ##javascript
+2017-01-03 10:09:11	-->	fatguylaughing (~fatguylau@worx01.meridian-ds.com) has joined ##javascript
+2017-01-03 10:10:33	-->	boogyman (~boogyman@173-171-182-134.res.bhn.net) has joined ##javascript
+2017-01-03 10:10:49	<--	boogyman (~boogyman@173-171-182-134.res.bhn.net) has quit (Changing host)
+2017-01-03 10:10:49	-->	boogyman (~boogyman@pdpc/supporter/professional/boogyman) has joined ##javascript
+2017-01-03 10:11:39	<--	pingo (~pingo@93-103-23-41.dynamic.t-2.net) has quit
+2017-01-03 10:12:20	DeltaHeavy	RxMcDonald Did you get your momentjs stuff figured out?
+2017-01-03 10:13:05	<--	motaka2 (~Thunderbi@5.9.227.100) has quit (Quit: motaka2)
+2017-01-03 10:13:06	<--	DINOWILLIAM (~DINOWILLI@187.95.126.126) has quit (Ping timeout: 272 seconds)
+2017-01-03 10:13:13	<--	root3d (~root3d@unaffiliated/root3d) has quit (Remote host closed the connection)
+2017-01-03 10:13:37	-->	root3d (~root3d@unaffiliated/root3d) has joined ##javascript
+2017-01-03 10:13:47	<--	root3d (~root3d@unaffiliated/root3d) has quit (Remote host closed the connection)
+2017-01-03 10:14:24	-->	jaziz1 (~jaziz@ip70-187-187-1.oc.oc.cox.net) has joined ##javascript
+2017-01-03 10:14:25	-->	root3d (~root3d@unaffiliated/root3d) has joined ##javascript
+2017-01-03 10:14:41	-->	qrestlove (~qrestlove@cpe-66-68-40-90.austin.res.rr.com) has joined ##javascript
+2017-01-03 10:16:46	-->	preyalone (uid21561@gateway/web/irccloud.com/x-ttcldxcqezagxbnu) has joined ##javascript
+2017-01-03 10:17:10	<--	dodobrain (~dodobrain@unaffiliated/freakabcd) has quit (Ping timeout: 256 seconds)
+2017-01-03 10:17:33	<--	kraucrow_ (tyrion@198.211.120.194) has quit (Quit: leaving)
+2017-01-03 10:17:41	-->	bbankes (~bbankes@50-200-100-242-static.hfc.comcastbusiness.net) has joined ##javascript
+2017-01-03 10:17:47	-->	kraucrow (tyrion@198.211.120.194) has joined ##javascript
+2017-01-03 10:18:08	-->	RedOrangeZ (~RedOrange@71.58.97.85) has joined ##javascript
+2017-01-03 10:18:40	-->	tonygreen (~tonygreen@207.59.140.125) has joined ##javascript
+2017-01-03 10:18:41	<--	root3d (~root3d@unaffiliated/root3d) has quit (Ping timeout: 246 seconds)
+2017-01-03 10:18:49	-->	SHC (~quassel@45.249.248.44) has joined ##javascript
+2017-01-03 10:19:31	ljharb	lilltiger: please don't use that word.
+2017-01-03 10:19:40	<--	fatguylaughing (~fatguylau@worx01.meridian-ds.com) has quit (Quit: fatguylaughing)
+2017-01-03 10:20:25	<--	kakashiAL (~kakashiAL@ip-178-202-50-202.hsi09.unitymediagroup.de) has quit (Ping timeout: 246 seconds)
+2017-01-03 10:20:27	graingert	ljharb: "well", "the" or "syntax"?
+2017-01-03 10:20:44	ljharb	graingert: don't be cute.
+2017-01-03 10:21:28	<--	SpeakerToMeat (~SpeakerTo@prgmr/customer/SpeakerToMeat) has quit (Ping timeout: 248 seconds)
+2017-01-03 10:21:29	-->	kakashiAL (~kakashiAL@ip-178-202-50-202.hsi09.unitymediagroup.de) has joined ##javascript
+2017-01-03 10:23:16	-->	__Yiota (~textual@CPE6c709fd08eb3-CMbc4dfb575c90.cpe.net.cable.rogers.com) has joined ##javascript
+2017-01-03 10:23:19	-->	JenElizabeth (~Jen@cpc76806-brmb10-2-0-cust240.1-3.cable.virginm.net) has joined ##javascript
+2017-01-03 10:23:25	graingert	ljharb: ah didn't see that far back in the scrollback
+2017-01-03 10:23:32	-->	zivester (~zivester@38.104.66.138) has joined ##javascript
+2017-01-03 10:23:39	<--	Coldwine (~marcel@62.214.1.146) has quit (Ping timeout: 265 seconds)
+2017-01-03 10:23:41	nicksloan	ljharb: in fairness to graingert, I was wondering the same thing. Missed the comment in question
+2017-01-03 10:24:16	<--	pawnbox (~pawnbox@182.76.50.66) has quit (Remote host closed the connection)
+2017-01-03 10:24:20	ljharb	luckily it wasn't addressed at either of you so it's not important that either of you understand it :-)
+2017-01-03 10:24:30	nicksloan	Logging join/parts in this channel makes it pretty unusable
+2017-01-03 10:24:33	<--	kd0t (~kd0t@46.165.244.207) has quit (Ping timeout: 256 seconds)
+2017-01-03 10:24:42	-->	theskillwithin (~theskillw@unaffiliated/theskillwithin) has joined ##javascript
+2017-01-03 10:24:50	graingert	ljharb: sorry I thought you had an issue with a technical term
+2017-01-03 10:24:51	ljharb	my client collapses them, most clients let you hide them
+2017-01-03 10:24:54	ljharb	graingert: np
+2017-01-03 10:25:09	`slikts	nicksloan: your client should be able to filter them
+2017-01-03 10:25:24	ljharb	but don't worry, it's acceptable to say "classes" here
+2017-01-03 10:25:28	nicksloan	yeah, it can. I like them in some small channels among friends
+2017-01-03 10:25:33	nicksloan	but hadn't set it up here yet
+2017-01-03 10:25:35	-->	kd0t (~kd0t@46.165.244.207) has joined ##javascript
+2017-01-03 10:25:38	-->	looper (~looper@p5B321978.dip0.t-ipconnect.de) has joined ##javascript
+2017-01-03 10:25:43	`slikts	mine can filter them per-channel
+2017-01-03 10:25:59	nicksloan	yeah, mine too. Just hadn't gotten around to it
+2017-01-03 10:26:05	`slikts	although if it was good it'd allow including them from only recently active users
+2017-01-03 10:26:17	nicksloan	that would be pretty fancy
+2017-01-03 10:26:24	`slikts	not really, it's basic
+2017-01-03 10:26:26	<--	Rodya_ (~Rodya_@c-71-224-101-129.hsd1.pa.comcast.net) has quit (Remote host closed the connection)
+2017-01-03 10:26:30	graingert	ljharb: also I think the context of l-i-l-l-t-i-g-e-r's message is many times worse than just the word
+2017-01-03 10:26:32	-->	jhack (~jhack@unaffiliated/jhack) has joined ##javascript
+2017-01-03 10:26:36	`slikts	but is still too much for the brainthrust behind most clients apparently
+2017-01-03 10:26:50	-->	tapout (~tapout@unaffiliated/tapout) has joined ##javascript
+2017-01-03 10:26:51	-->	pawnbox (~pawnbox@182.76.50.66) has joined ##javascript
+2017-01-03 10:27:01	ljharb	graingert: yes that's also true but sometimes gentler approaches are a better start.
+2017-01-03 10:27:20	graingert	insta-kb plz
+2017-01-03 10:27:21	<--	psychicist__ (~psychicis@93-46-250-20.ip110.fastwebnet.it) has quit (Ping timeout: 248 seconds)
+2017-01-03 10:27:24	-->	xorro (~x@pa49-197-91-146.pa.qld.optusnet.com.au) has joined ##javascript
+2017-01-03 10:27:30	-->	Rodya_ (~Rodya_@c-71-224-101-129.hsd1.pa.comcast.net) has joined ##javascript
+2017-01-03 10:27:39	-->	kojeve (~kojeve@72.166.95.2) has joined ##javascript
+2017-01-03 10:29:08	nicksloan	`slikts: I'd be inclined to agree if I had ever made even a single pull-request for my IRC client.
+2017-01-03 10:29:29	cjohnson	RxMcDonald: read the docs.
+2017-01-03 10:29:40	`slikts	it'd fix it if the client had an extensible architecture
+2017-01-03 10:30:48	`slikts	i.e., you shouldn't need a pr for that
+2017-01-03 10:31:39	`slikts	*I'd fix it
+2017-01-03 10:31:58	`slikts	guess irc just isn't popular enough for there to be actually good clients
+2017-01-03 10:32:28	-->	fatguylaughing (~fatguylau@worx01.meridian-ds.com) has joined ##javascript
+2017-01-03 10:32:29	<--	HitexLT (~HitexLT@213.252.255.251) has quit (Quit: HitexLT)
+2017-01-03 10:32:33	-->	krishna (~krishna@76.14.26.3) has joined ##javascript
+2017-01-03 10:33:14	-->	fragMental (~fragMenta@aftr-5-146-249-207.unity-media.net) has joined ##javascript
+2017-01-03 10:33:38	-->	hagabaka (hagabaka@unaffiliated/hagabaka) has joined ##javascript
+2017-01-03 10:33:59	<--	Snugglebash (~textual@80.168.21.194) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2017-01-03 10:34:44	-->	ClutchHunter (~ClutchHun@cpc93788-hari17-2-0-cust2994.20-2.cable.virginm.net) has joined ##javascript
+2017-01-03 10:35:49	-->	maks25 (~maxim@206.248.124.82) has joined ##javascript
+2017-01-03 10:36:06	lilltiger	ljharb: Why not, the word is in the dictionary, it's a perfectly legit and well defined word and suitable in the sentence.
+2017-01-03 10:36:57	DeltaHeavy	Is there a way to destroy an instance of an object from in itself?
+2017-01-03 10:36:59	<--	madbytes (~madbytes@123.237.226.162) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-03 10:36:59	`slikts	lilltiger: you can probably figure it out on your own if you try
+2017-01-03 10:37:39	-->	mateusz (~mateusz@2a01:6e60:10:15cb::1) has joined ##javascript
+2017-01-03 10:38:02	--	mateusz is now known as Guest28928
+2017-01-03 10:38:14	graingert	DeltaHeavy: destroy being remove from the GC?
+2017-01-03 10:38:34	<--	tarkus (~koistya@109.230.131.90) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-01-03 10:38:38	ljharb	lilltiger: feel free to ask me to explain it to you in PM if you truly don't understand it, but the irony will be pretty thick
+2017-01-03 10:39:34	<--	cyan__ (~cyan@217.170.162.68) has quit (Remote host closed the connection)
+2017-01-03 10:39:41	-->	LeBlaaanc (~textual@unaffiliated/leblaaanc) has joined ##javascript
+2017-01-03 10:39:43	DeltaHeavy	graingert More so stop it functionally
+2017-01-03 10:39:55	<--	Rodya_ (~Rodya_@c-71-224-101-129.hsd1.pa.comcast.net) has quit (Remote host closed the connection)
+2017-01-03 10:39:58	graingert	DeltaHeavy: depends on the object
+2017-01-03 10:40:35	lilltiger	ljharb: I am against cencorship of words, espesialy when used properly. If you are against free speech that is up you, but you should not violate others rights because you do not agree with them.
+2017-01-03 10:40:56	DeltaHeavy	graingert It's using ES6 class syntax.
+2017-01-03 10:41:17	<--	pawnbox (~pawnbox@182.76.50.66) has quit (Remote host closed the connection)
+2017-01-03 10:41:19	LeBlaaanc	oh javascript
+2017-01-03 10:41:24	-->	snarfy (6b4ddc35@gateway/web/freenode/ip.107.77.220.53) has joined ##javascript
+2017-01-03 10:41:26	LeBlaaanc	#javascript that is
+2017-01-03 10:41:35	ljharb	lilltiger: i think you perhaps don't understand censorship, but either way that's part of the policy of the channel, so let's discuss it in PM if you like but *not in the channel*
+2017-01-03 10:41:39	ljharb	!coc @ lilltiger
+2017-01-03 10:41:39	ecmabot	lilltiger: The JSConf and #npm Codes of Conduct are good resources to understand how people should conduct themselves on this channel - < http://jsconf.com/codeofconduct.html > and < http://www.npmjs.com/policies/conduct/ >
+2017-01-03 10:42:00	LeBlaaanc	only one chan on freenode where we can talk about both javascript and censorship
+2017-01-03 10:42:14	LeBlaaanc	i missed you
+2017-01-03 10:42:17	lilltiger	ljharb: I did not break that coc in any way.
+2017-01-03 10:42:17	ljharb	LeBlaaanc: there's more than one.
+2017-01-03 10:42:22	-->	nishu-tryinghard (~nishanth@183.82.187.154) has joined ##javascript
+2017-01-03 10:42:28	LeBlaaanc	ljharb dang I'm missing out
+2017-01-03 10:42:30	ljharb	lilltiger: again, happy to explain it to you in PM.
+2017-01-03 10:42:38	cjohnson	I just made one called #cjohnsonandleblaaanctalkaboutjavascriptandcensorship
+2017-01-03 10:42:42	-->	kojeve_ (~kojeve@72.166.95.2) has joined ##javascript
+2017-01-03 10:42:43	cjohnson	so now there's even more
+2017-01-03 10:42:49	-->	IBeRKa (~Thunderbi@2001:a61:1bd:e701:85e:5931:53ff:ddaa) has joined ##javascript
+2017-01-03 10:43:06	<--	IBeRKa (~Thunderbi@2001:a61:1bd:e701:85e:5931:53ff:ddaa) has left ##javascript
+2017-01-03 10:43:21	`slikts	did someone say freeze peaches?
+2017-01-03 10:43:21	<--	kojeve (~kojeve@72.166.95.2) has quit (Ping timeout: 248 seconds)
+2017-01-03 10:43:29	LeBlaaanc	lol
+2017-01-03 10:43:52	snarfy	Would anyone have any suggestions as to how I could ensure the game is printed on the same line as the online streamer in this code? http://codepen.io/ReallyDarkHallway/pen/XNvqPy?editors=0010
+2017-01-03 10:44:04	lilltiger	ljharb: you are free to PM me if you want to try to argue your point of view. But please refrain from harassing me.
+2017-01-03 10:44:14	-->	ogres (uid159312@gateway/web/irccloud.com/x-oifnzmnnmrcxbsmz) has joined ##javascript
+2017-01-03 10:44:14	-->	javascript745 (42579416@gateway/web/freenode/ip.66.87.148.22) has joined ##javascript
+2017-01-03 10:44:17	Armays	hello can somebody please explain me that code ? https://gist.github.com/anonymous/295bbf2fc86397d13290dbf6cd471a8a
+2017-01-03 10:44:40	-->	roadrunneratwast (~mitchell@ool-1826db6a.dyn.optonline.net) has joined ##javascript
+2017-01-03 10:44:49	Armays	what is define ?
+2017-01-03 10:45:05	`slikts	what a hill to die on, using the stupid r-word
+2017-01-03 10:45:23	cjohnson	Armays: it's code that is trying to be a module for multiple different module systems
+2017-01-03 10:45:32	roadrunneratwast	hi all.  if you do an es6 import, then shouldn't the importe variable be visible everywhere within the file?  For whatever reason, console is complaining that it is undefined in a function
+2017-01-03 10:45:33	cjohnson	define is an amd thing
+2017-01-03 10:45:43	Armays	what is amd ?
+2017-01-03 10:45:49	-->	theskillwithin_ (~theskillw@unaffiliated/theskillwithin) has joined ##javascript
+2017-01-03 10:45:52	cjohnson	a module loader/module spec
+2017-01-03 10:45:52	`slikts	Armays: advanced micro devices
+2017-01-03 10:46:01	cjohnson	module.exports is the commonjs approach
+2017-01-03 10:46:07	cjohnson	(node uses a commonjs-style module system)
+2017-01-03 10:46:20	Armays	Module not found: Error: Cannot resolve module 'leaflet'
+2017-01-03 10:46:26	cjohnson	If you are writing new code I would just use commonjs and none of this conditional stuff
+2017-01-03 10:46:27	`slikts	akshually the commonjs approach is just a global "exports"
+2017-01-03 10:46:42	ljharb	the node-style commonJS approach is module.exports, and that's the one that matters
+2017-01-03 10:46:59	ljharb	nobody means "pre-node commonJS" anymore when they say "commonJS"
+2017-01-03 10:47:12	Armays	why do i have this error ?
+2017-01-03 10:47:31	-->	Munt (~Munt@unaffiliated/munt) has joined ##javascript
+2017-01-03 10:47:39	`slikts	would be easier to just call it node modues
+2017-01-03 10:47:41	`slikts	*modules
+2017-01-03 10:47:43	-->	varunest (~varunest@27.255.213.2) has joined ##javascript
+2017-01-03 10:48:02	`slikts	does anything besides node implement node-style cjs modules?
+2017-01-03 10:48:06	Xinoloni	call it susan if it makes you happy ;D
+2017-01-03 10:48:13	-->	boniface (~boniface@186.red-83-54-164.dynamicip.rima-tde.net) has joined ##javascript
+2017-01-03 10:48:25	<--	jaziz1 (~jaziz@ip70-187-187-1.oc.oc.cox.net) has quit (Ping timeout: 246 seconds)
+2017-01-03 10:48:35	`slikts	nodules in short
+2017-01-03 10:48:37	<--	javascript745 (42579416@gateway/web/freenode/ip.66.87.148.22) has quit (Ping timeout: 260 seconds)
+2017-01-03 10:48:43	cjohnson	my doctor removed some of those
+2017-01-03 10:48:55	Armays	sorry i don't understand :/
+2017-01-03 10:48:56	Xinoloni	nodules is a word you dont wanna hear from your doctor
+2017-01-03 10:49:05	Armays	i want to display a map
+2017-01-03 10:49:27	<--	ocpysh (~ocpysh@28.224.251.212.customer.cdi.no) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-01-03 10:49:33	cjohnson	Armays: you have the error because whatever thing you are using to run this code hasn't installed the required dependency "leaflet"
+2017-01-03 10:49:38	--	Deusdeorum is now known as Deusdeorum|away
+2017-01-03 10:49:43	cjohnson	or it's not installed in the right place for this to resolve it
+2017-01-03 10:49:43	-->	Rodya_ (~Rodya_@2601:46:4001:e0b4:5c0:e82d:eee9:8932) has joined ##javascript
+2017-01-03 10:50:02	cjohnson	I would start by reading the docs of whatever you are using
+2017-01-03 10:50:07	cjohnson	for setup/usage/install
+2017-01-03 10:50:09	-->	SpeakerToMeat (~SpeakerTo@prgmr/customer/SpeakerToMeat) has joined ##javascript
+2017-01-03 10:50:33	<--	igcewieling (~ewieling@ip98-170-211-145.pn.at.cox.net) has left ##javascript
+2017-01-03 10:50:35	Armays	ok i will try thanks
+2017-01-03 10:50:36	-->	subhojit777 (~subhojit@223.190.66.138) has joined ##javascript
+2017-01-03 10:51:29	`slikts	what would barbie.js do if it existed?
+2017-01-03 10:51:30	-->	steeze (~steeze@63.76.231.82) has joined ##javascript
+2017-01-03 10:51:52	-->	bradfordli123 (~bradfordl@redrock.intuit.com) has joined ##javascript
+2017-01-03 10:51:59	ljharb	`slikts: since every JS tool now uses node, yes, every module tool does
+2017-01-03 10:52:05	ljharb	`slikts: browserify, webpack, etc
+2017-01-03 10:52:11	-->	Sna4x8 (~avejidah@45-19-138-50.lightspeed.frokca.sbcglobal.net) has joined ##javascript
+2017-01-03 10:52:16	<--	varunest (~varunest@27.255.213.2) has quit (Ping timeout: 246 seconds)
+2017-01-03 10:52:52	`slikts	isn't that just using node modules, not implementing?
+2017-01-03 10:52:53	-->	root3d (~root3d@unaffiliated/root3d) has joined ##javascript
+2017-01-03 10:53:36	<--	HashMap (~HashMap@host01-brn01.clevermaps.cz) has quit (Quit: WeeChat 1.5)
+2017-01-03 10:53:52	ljharb	`slikts: what do you mean by "implementing" then
+2017-01-03 10:53:57	<--	Kingsy (~chris@deimos.kingsy.co.uk) has quit (Changing host)
+2017-01-03 10:53:57	-->	Kingsy (~chris@unaffiliated/kingsy101) has joined ##javascript
+2017-01-03 10:54:01	<--	patarr (~patarr@unaffiliated/patarr) has quit (Ping timeout: 248 seconds)
+2017-01-03 10:54:02	ljharb	`slikts: those tools implement "require" and "module.exports"
+2017-01-03 10:54:05	<--	e14 (~e14@104.207.209.180) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-03 10:54:11	-->	cyclonis (~csh11@ip70-174-182-101.dc.dc.cox.net) has joined ##javascript
+2017-01-03 10:54:50	-->	elzi (~elzi@wsip-70-166-81-171.sd.sd.cox.net) has joined ##javascript
+2017-01-03 10:55:08	<--	maciuszek (~maciuszek@104.245.147.11) has quit (Remote host closed the connection)
+2017-01-03 10:55:17	<--	Kingsy (~chris@unaffiliated/kingsy101) has left ##javascript
+2017-01-03 10:55:21	-->	weckstrom (~weckstrom@46.166.190.163) has joined ##javascript
+2017-01-03 10:55:22	-->	rabies (~rabies@72-185-100-60.res.bhn.net) has joined ##javascript
+2017-01-03 10:56:29	-->	e2xistz (~e2xistz@unaffiliated/e2xistz) has joined ##javascript
+2017-01-03 10:56:36	<--	Josve05a (uid46873@wikipedia/Josve05a) has quit (Quit: Connection closed for inactivity)
+2017-01-03 10:56:40	-->	tarkus (~koistya@109.230.131.90) has joined ##javascript
+2017-01-03 10:57:15	graingert	Armays: this is a UMD thing
+2017-01-03 10:57:23	graingert	!UMD
+2017-01-03 10:57:33	graingert	!umd
+2017-01-03 10:57:37	-->	e14 (~e14@104.207.209.180) has joined ##javascript
+2017-01-03 10:57:38	graingert	:(
+2017-01-03 10:57:45	Armays	what is umd ?
+2017-01-03 10:58:12	-->	al-damiri (uid142631@gateway/web/irccloud.com/x-bzefojlucilxeasn) has joined ##javascript
+2017-01-03 10:58:19	graingert	Universal module de...
+2017-01-03 10:58:23	graingert	Definition?
+2017-01-03 10:58:25	-->	zzz (~zzz@2001:8a0:ca1f:1001:380b:5287:d76a:cc15) has joined ##javascript
+2017-01-03 10:58:29	graingert	Declaration?
+2017-01-03 10:58:49	-->	akshat (~akshat@unaffiliated/akshat) has joined ##javascript
+2017-01-03 10:58:52	-->	thetitan (~thetitan@tss-supp0grg3qn.ads.northwestern.edu) has joined ##javascript
+2017-01-03 10:58:58	<--	cyclonis (~csh11@ip70-174-182-101.dc.dc.cox.net) has quit (Ping timeout: 245 seconds)
+2017-01-03 10:59:08	-->	abijeet (~abijeet@183.82.190.192) has joined ##javascript
+2017-01-03 10:59:17	<--	Guest84426 (~suurperke@85-76-87-65-nat.elisa-mobile.fi) has quit (Read error: Connection reset by peer)
+2017-01-03 10:59:24	-->	psychicist__ (~psychicis@93-46-250-20.ip110.fastwebnet.it) has joined ##javascript
+2017-01-03 10:59:31	ljharb	definition
+2017-01-03 10:59:51	-->	elpoptardo (~elpoptard@46.166.190.133) has joined ##javascript
+2017-01-03 11:01:07	<--	Slartibart (~kvirc@c-1943e253.11-8-64736c10.cust.bredbandsbolaget.se) has quit (Ping timeout: 246 seconds)
+2017-01-03 11:01:26	<--	Xinoloni (~Meow@unaffiliated/xin) has quit (Read error: Connection reset by peer)
+2017-01-03 11:01:48	<--	thetitan (~thetitan@tss-supp0grg3qn.ads.northwestern.edu) has quit (Client Quit)
+2017-01-03 11:02:06	-->	xall_ (~xall@182.232.80.107) has joined ##javascript
+2017-01-03 11:02:49	-->	TilakeTikka (~TilakeTik@105.112.36.237) has joined ##javascript
+2017-01-03 11:03:06	-->	Xin (~Meow@unaffiliated/xin) has joined ##javascript
+2017-01-03 11:03:21	<--	TilakeTikka (~TilakeTik@105.112.36.237) has left ##javascript
+2017-01-03 11:03:33	<--	maks25 (~maxim@206.248.124.82) has quit (Quit: maks25)
+2017-01-03 11:03:42	<--	Jimbocuzzi (~chatzilla@2605:a601:84f:8e01:cd4e:e7e8:b354:ba16) has quit (Quit: peace)
+2017-01-03 11:04:01	<--	bradfordli123 (~bradfordl@redrock.intuit.com) has quit
+2017-01-03 11:04:26	graingert	Armays: ^
+2017-01-03 11:04:43	Xin	^
+2017-01-03 11:04:46	-->	ocpysh (~ocpysh@28.224.251.212.customer.cdi.no) has joined ##javascript
+2017-01-03 11:04:56	-->	madbytes (~madbytes@103.7.81.29) has joined ##javascript
+2017-01-03 11:05:13	<--	ibouvousaime (~ibouvousa@41.82.44.90) has quit (Ping timeout: 248 seconds)
+2017-01-03 11:05:15	-->	SourcePhoenix (~sourcepho@nat-dip4.cfw-a-gci.corp.ne1.yahoo.com) has joined ##javascript
+2017-01-03 11:05:58	<--	RxMcDonald (~gustavo@unaffiliated/rxmcdonald) has quit (Quit: leaving)
+2017-01-03 11:06:21	-->	csk157_ (~clopan@109.70.48.156) has joined ##javascript
+2017-01-03 11:07:32	-->	patarr (~patarr@unaffiliated/patarr) has joined ##javascript
+2017-01-03 11:07:32	<--	armdale (~armdale@hlfxns017vw-142134028221.dhcp-dynamic.FibreOp.ns.bellaliant.net) has quit (Read error: Connection reset by peer)
+2017-01-03 11:07:33	<--	flobin (~Flobin@unaffiliated/flobin) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-03 11:07:59	-->	ejb (~ejb@unaffiliated/ejb) has joined ##javascript
+2017-01-03 11:08:05	-->	patientpl (~quassel@24-155-108-4.dyn.grandenetworks.net) has joined ##javascript
+2017-01-03 11:08:17	-->	szmq (~szmq@nat186.gorlice.ap-media.pl) has joined ##javascript
+2017-01-03 11:09:10	<--	csk157 (~clopan@109.70.48.156) has quit (Ping timeout: 246 seconds)
+2017-01-03 11:09:56	-->	pawnbox (~pawnbox@106.51.136.102) has joined ##javascript
+2017-01-03 11:10:06	<--	strull (~strull@pD9F4B831.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2017-01-03 11:10:10	-->	lsv (~nn@CPE1cabc064a733-CM1cabc064a730.cpe.net.cable.rogers.com) has joined ##javascript
+2017-01-03 11:10:11	-->	varunest (~varunest@27.255.213.2) has joined ##javascript
+2017-01-03 11:10:24	<--	madbytes (~madbytes@103.7.81.29) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-03 11:11:06	<--	varunest (~varunest@27.255.213.2) has quit (Remote host closed the connection)
+2017-01-03 11:11:19	-->	davidosomething (~davidosom@cpe-24-102-71-35.nyc.res.rr.com) has joined ##javascript
+2017-01-03 11:11:20	-->	Josve05a (uid46873@wikipedia/Josve05a) has joined ##javascript
+2017-01-03 11:11:21	-->	varunest (~varunest@27.255.213.2) has joined ##javascript
+2017-01-03 11:11:22	<--	varunest (~varunest@27.255.213.2) has quit (Remote host closed the connection)
+2017-01-03 11:11:36	-->	meain (uid205106@gateway/web/irccloud.com/x-vumexnqsbucnzjtu) has joined ##javascript
+2017-01-03 11:11:36	-->	bradford_ (~bradfordl@redrock.intuit.com) has joined ##javascript
+2017-01-03 11:11:37	<--	csk157_ (~clopan@109.70.48.156) has quit (Ping timeout: 248 seconds)
+2017-01-03 11:12:00	<--	Rodya_ (~Rodya_@2601:46:4001:e0b4:5c0:e82d:eee9:8932) has quit (Remote host closed the connection)
+2017-01-03 11:12:56	-->	Endarked (~endarked@2a01:11bf:5b1:b300:2ac2:ddff:fe1a:bec9) has joined ##javascript
+2017-01-03 11:13:37	<--	SourcePhoenix (~sourcepho@nat-dip4.cfw-a-gci.corp.ne1.yahoo.com) has quit
+2017-01-03 11:13:51	<--	pawnbox (~pawnbox@106.51.136.102) has quit (Remote host closed the connection)
+2017-01-03 11:14:06	-->	pawnbox (~pawnbox@106.51.136.102) has joined ##javascript
+2017-01-03 11:14:09	-->	max12345 (~max@x4e348b09.dyn.telefonica.de) has joined ##javascript
+2017-01-03 11:15:26	<--	bradford_ (~bradfordl@redrock.intuit.com) has quit (Client Quit)
+2017-01-03 11:15:46	-->	bradfordli123 (~bradfordl@redrock.intuit.com) has joined ##javascript
+2017-01-03 11:15:48	<--	jhack (~jhack@unaffiliated/jhack) has quit (Ping timeout: 272 seconds)
+2017-01-03 11:16:02	max12345	hey, so I have this js fiddle
+2017-01-03 11:16:10	`slikts	rip
+2017-01-03 11:16:13	-->	nickp (~nickp@unaffiliated/nicolasp) has joined ##javascript
+2017-01-03 11:16:13	max12345	http://jsfiddle.net/wGjDm/7/
+2017-01-03 11:16:19	Xin	nobody uses jsfiddle anymore
+2017-01-03 11:16:26	max12345	oh ok
+2017-01-03 11:16:28	Xin	its all esflorp now
+2017-01-03 11:17:06	`slikts	it's actually codypens
+2017-01-03 11:17:07	wubbalubba	florp
+2017-01-03 11:17:10	wubbalubba	funny name
+2017-01-03 11:17:32	-->	elh9 (~elh9@gateway/tor-sasl/elh9) has joined ##javascript
+2017-01-03 11:17:34	<--	van_6 (~van2@116.101.59.83) has quit (Read error: Connection reset by peer)
+2017-01-03 11:17:35	max12345	anyway, I have it set up on my dev server
+2017-01-03 11:17:37	-->	SourcePhoenix (~sourcepho@nat-dip4.cfw-a-gci.corp.ne1.yahoo.com) has joined ##javascript
+2017-01-03 11:17:40	max12345	but the arrows don't show
+2017-01-03 11:18:01	-->	analymous (~blomzin@179.43.177.98) has joined ##javascript
+2017-01-03 11:18:14	Xin	you probably broke it somehow
+2017-01-03 11:18:14	max12345	and this ($("#elementname")) doesn't work
+2017-01-03 11:18:16	Xin	you're welcome
+2017-01-03 11:18:24	max12345	any idea how I can make the arrows show?
+2017-01-03 11:18:27	`slikts	you need to reinstall windows
+2017-01-03 11:18:32	Xin	lol do you load jquery in your external demo?
+2017-01-03 11:18:41	max12345	idk, it's not my demo
+2017-01-03 11:18:46	Xin	no
+2017-01-03 11:18:48	Xin	in YOUR demo
+2017-01-03 11:18:50	Xin	aka the one not working
+2017-01-03 11:18:51	Xin	jquery-jsplumb-1-5-1-min.js
+2017-01-03 11:18:54	Xin	:))
+2017-01-03 11:18:57	max12345	ah
+2017-01-03 11:18:58	Xin	as per the fiddle
+2017-01-03 11:19:04	max12345	I might not...
+2017-01-03 11:19:35	max12345	I have the jsplumb thing installed
+2017-01-03 11:19:49	Xin	'installed'
+2017-01-03 11:19:49	-->	Rashad (~chatzilla@94.249.34.49) has joined ##javascript
+2017-01-03 11:19:57	max12345	downloaded and linked
+2017-01-03 11:20:04	max12345	but that's not the jquery thing then...
+2017-01-03 11:20:05	max12345	ok
+2017-01-03 11:20:33	<--	RLa (~RL@82.131.127.254.cable.starman.ee) has quit (Quit: Leaving)
+2017-01-03 11:21:49	-->	mpsag (~mpsag@p5DD6F0ED.dip0.t-ipconnect.de) has joined ##javascript
+2017-01-03 11:23:13	<--	ClutchHunter (~ClutchHun@cpc93788-hari17-2-0-cust2994.20-2.cable.virginm.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-03 11:23:20	<--	SpeakerToMeat (~SpeakerTo@prgmr/customer/SpeakerToMeat) has quit (Ping timeout: 248 seconds)
+2017-01-03 11:23:23	<--	lixujia (~user@183.225.26.95) has quit (Ping timeout: 272 seconds)
+2017-01-03 11:23:27	-->	xall (~xall@182.232.46.117) has joined ##javascript
+2017-01-03 11:23:40	-->	Snugglebash (~textual@80.168.21.194) has joined ##javascript
+2017-01-03 11:23:45	-->	ClutchHunter (~ClutchHun@cpc93788-hari17-2-0-cust2994.20-2.cable.virginm.net) has joined ##javascript
+2017-01-03 11:23:52	<--	krishna (~krishna@76.14.26.3) has quit (Ping timeout: 248 seconds)
+2017-01-03 11:24:01	-->	gts (~gts@103.38.246.188) has joined ##javascript
+2017-01-03 11:25:21	<--	ravenzz (uid23577@gateway/web/irccloud.com/x-xswmqcwrmzypxkeg) has quit (Quit: Connection closed for inactivity)
+2017-01-03 11:25:25	-->	madbytes (~madbytes@103.7.81.29) has joined ##javascript
+2017-01-03 11:25:56	-->	Rodya_ (~Rodya_@c-71-224-101-129.hsd1.pa.comcast.net) has joined ##javascript
+2017-01-03 11:26:03	<--	elh9 (~elh9@gateway/tor-sasl/elh9) has quit (Remote host closed the connection)
+2017-01-03 11:26:32	<--	xall_ (~xall@182.232.80.107) has quit (Ping timeout: 248 seconds)
+2017-01-03 11:26:34	-->	elh9 (~elh9@gateway/tor-sasl/elh9) has joined ##javascript
+2017-01-03 11:26:37	<--	snarfy (6b4ddc35@gateway/web/freenode/ip.107.77.220.53) has quit (Quit: Page closed)
+2017-01-03 11:27:49	-->	SpeakerToMeat (~SpeakerTo@prgmr/customer/SpeakerToMeat) has joined ##javascript
+2017-01-03 11:27:49	-->	prtz (~Thunderbi@187.62.201.94) has joined ##javascript
+2017-01-03 11:28:18	angrybacon	  To all of you out there putting "smooth scroll" on your pages
+2017-01-03 11:28:21	angrybacon	Please don't
+2017-01-03 11:28:35	MinusFour	what is smooth scroll?
+2017-01-03 11:28:54	MinusFour	the one i know is the FF one
+2017-01-03 11:29:16	<--	ejb (~ejb@unaffiliated/ejb) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2017-01-03 11:29:19	max12345	Xin: I got the dependency and linked it but it didn't change my page.
+2017-01-03 11:29:19	-->	motaka2 (~Thunderbi@5.9.227.100) has joined ##javascript
+2017-01-03 11:29:36	angrybacon	MinusFour There are JS solutions too
+2017-01-03 11:29:54	-->	DrYockel1 (~Thunderbi@h83-209-148-156.cust.se.alltele.net) has joined ##javascript
+2017-01-03 11:29:56	angrybacon	It really isn't nice when the browser already implement it
+2017-01-03 11:30:07	<--	ocpysh (~ocpysh@28.224.251.212.customer.cdi.no) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-01-03 11:30:36	-->	Slartibart (~kvirc@c-1943e253.11-8-64736c10.cust.bredbandsbolaget.se) has joined ##javascript
+2017-01-03 11:30:50	MinusFour	i don't even like the browser one
+2017-01-03 11:30:52	MinusFour	i got it disabled
+2017-01-03 11:31:06	monq	i have a different request
+2017-01-03 11:31:14	monq	anyone faking chrome message boxes inside a website
+2017-01-03 11:31:18	monq	please effin don't :p
+2017-01-03 11:31:31	monq	such a low thing to do
+2017-01-03 11:31:53	<--	patarr (~patarr@unaffiliated/patarr) has quit (Ping timeout: 245 seconds)
+2017-01-03 11:32:09	-->	poot (~pootpoot@2601:8c:c301:1116:fdd4:b941:e1b2:436a) has joined ##javascript
+2017-01-03 11:32:36	-->	jost__ (~jost@p508BE66E.dip0.t-ipconnect.de) has joined ##javascript
+2017-01-03 11:33:14	<--	Rodya_ (~Rodya_@c-71-224-101-129.hsd1.pa.comcast.net) has quit (Remote host closed the connection)
+2017-01-03 11:33:15	<--	prtz (~Thunderbi@187.62.201.94) has quit (Quit: prtz)
+2017-01-03 11:33:33	-->	fourcolors (~fourcolor@222.127.33.20) has joined ##javascript
+2017-01-03 11:33:40	<--	pawnbox (~pawnbox@106.51.136.102) has quit (Read error: Connection reset by peer)
+2017-01-03 11:33:50	-->	pingo (~pingo@93-103-23-41.dynamic.t-2.net) has joined ##javascript
+2017-01-03 11:34:13	-->	Rodya_ (~Rodya_@2601:46:4001:e0b4:ed72:77cc:7fa3:213e) has joined ##javascript
+2017-01-03 11:34:22	<--	SHC (~quassel@45.249.248.44) has quit (Read error: Connection reset by peer)
+2017-01-03 11:34:28	-->	patarr (~patarr@unaffiliated/patarr) has joined ##javascript
+2017-01-03 11:34:28	<--	gts (~gts@103.38.246.188) has quit
+2017-01-03 11:34:49	<--	pingo (~pingo@93-103-23-41.dynamic.t-2.net) has quit (Client Quit)
+2017-01-03 11:34:53	-->	SHC (~quassel@45.249.248.44) has joined ##javascript
+2017-01-03 11:35:23	<--	pootpoot (~pootpoot@c-73-198-182-219.hsd1.nj.comcast.net) has quit (Ping timeout: 256 seconds)
+2017-01-03 11:35:46	<--	jost_ (~jost@p2E501635.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2017-01-03 11:35:47	-->	ptx0 (~cheesus_c@unaffiliated/ptx0) has joined ##javascript
+2017-01-03 11:35:48	Smeef	I have an odd problem, my Google Maps code ONLY works in Chrome on localhost, if I upload it to my VPS, it stops working altogether, by that I mean it shows the map div, but doesn't center where I tell it, and it doesn't load any of the polygon data, except on localhost in Chrome. Here's my code: https://gist.github.com/anonymous/2ab93ac7598e08d5c1449389264bd299
+2017-01-03 11:35:52	<--	mortacci (4f36be7b@gateway/web/freenode/ip.79.54.190.123) has quit (Ping timeout: 260 seconds)
+2017-01-03 11:36:46	-->	varunest (~varunest@27.255.213.2) has joined ##javascript
+2017-01-03 11:36:51	<--	theskillwithin_ (~theskillw@unaffiliated/theskillwithin) has quit (Quit: theskillwithin_)
+2017-01-03 11:36:51	-->	pawnbox (~pawnbox@106.51.136.102) has joined ##javascript
+2017-01-03 11:36:55	<--	Haugli92 (~haugli92@87.248.15.179) has quit (Read error: Connection reset by peer)
+2017-01-03 11:37:09	Smeef	I've tried clearing the broswer cache just to be sure, and the commented out XML string in the code is exactly what is in the phpsqlajax.xml file
+2017-01-03 11:37:26	<--	last_staff (~Thunderbi@79.135.14.226) has quit (Quit: last_staff)
+2017-01-03 11:38:06	<--	nishu-tryinghard (~nishanth@183.82.187.154) has quit (Quit: Leaving)
+2017-01-03 11:38:08	MinusFour	Smeef: any errors on the console?
+2017-01-03 11:38:11	-->	Haugli92 (~haugli92@87.248.15.179) has joined ##javascript
+2017-01-03 11:38:33	<--	Slartibart (~kvirc@c-1943e253.11-8-64736c10.cust.bredbandsbolaget.se) has quit (Ping timeout: 245 seconds)
+2017-01-03 11:38:38	Smeef	MinusFour, I'm a bit new to this, how do I check that?
+2017-01-03 11:38:49	MinusFour	Smeef: check the developer tools
+2017-01-03 11:39:02	MinusFour	Ctrl+Shift+J in chrome
+2017-01-03 11:39:31	-->	Daemonik (~anon@2602:304:cdda:f4f0:8e40:5a6c:6d3a:2e04) has joined ##javascript
+2017-01-03 11:39:32	-->	pterodactyl (~disruptiv@2001:420:2140:2260:89e5:d444:9c7e:f16c) has joined ##javascript
+2017-01-03 11:39:39	--	pterodactyl is now known as disruptive
+2017-01-03 11:39:47	-->	worktoner (~dan@50.235.111.66) has joined ##javascript
+2017-01-03 11:39:55	Daemonik	If I have a timestamp like   2016-12-30T08:00:00.001Z   are there libraries or functions that can get the hour, minute, second, etc?
+2017-01-03 11:39:56	-->	GreenDog (~greendog@cpe-76-176-54-209.san.res.rr.com) has joined ##javascript
+2017-01-03 11:40:00	<--	erry (~errietta@shadowcat/hyperactive-puppy/erry) has quit (Quit: WeeChat 1.5)
+2017-01-03 11:40:15	-->	erry (~errietta@shadowcat/hyperactive-puppy/erry) has joined ##javascript
+2017-01-03 11:41:08	ljharb	Daemonik: momentjs
+2017-01-03 11:41:08	<--	Haugli92 (~haugli92@87.248.15.179) has quit (Read error: Connection reset by peer)
+2017-01-03 11:41:58	Smeef	MinusFour, wow, yeah, quite a few of net::ERR_BLOCKED_BY_CLIENT
+2017-01-03 11:42:10	-->	username_ (~carl@169.145.120.34) has joined ##javascript
+2017-01-03 11:42:17	-->	Haugli92 (~haugli92@87.248.15.179) has joined ##javascript
+2017-01-03 11:42:45	MinusFour	any concrete error?
+2017-01-03 11:42:58	MinusFour	that could be an ad blocking extensioni
+2017-01-03 11:43:05	disruptive	or cors
+2017-01-03 11:43:09	-->	ahmed_elgabri (~ahmedelga@212.123.217.146) has joined ##javascript
+2017-01-03 11:43:47	-->	bruttus (~bruttus__@177.202.134.125) has joined ##javascript
+2017-01-03 11:43:51	angrybacon	Smeef IIRC you need a API token for that, and you also need to enable that token for domains
+2017-01-03 11:44:04	<--	siddart (~siddart@172.56.38.204) has quit (Ping timeout: 246 seconds)
+2017-01-03 11:44:05	angrybacon	Your application maybe only allows locahost
+2017-01-03 11:44:09	<--	ahmedelgabri (~ahmedelga@212.123.217.154) has quit (Ping timeout: 248 seconds)
+2017-01-03 11:45:08	Smeef	angrybacon, I have one, I omitted the key for privacy reasons, and I've been using it for a couple years now on multiple domains wit simpler single-point geolocation
+2017-01-03 11:45:16	Smeef	with*
+2017-01-03 11:45:30	-->	Darren_ (~Darren_@bas3-malton22-70-26-73-23.dsl.bell.ca) has joined ##javascript
+2017-01-03 11:46:01	<--	lithie (uid45836@gateway/web/irccloud.com/x-dhbcjzccpqstmtuc) has quit (Quit: Connection closed for inactivity)
+2017-01-03 11:46:24	<--	tarkus (~koistya@109.230.131.90) has quit (Read error: Connection reset by peer)
+2017-01-03 11:46:49	<--	max12345 (~max@x4e348b09.dyn.telefonica.de) has quit (Ping timeout: 248 seconds)
+2017-01-03 11:46:50	MinusFour	what's the reason for that PHP there
+2017-01-03 11:47:08	MinusFour	you could have put that straight into the HTML
+2017-01-03 11:47:18	-->	bradleymeck (~bradleyme@rrcs-71-41-5-28.sw.biz.rr.com) has joined ##javascript
+2017-01-03 11:47:18	<--	ahmed_elgabri (~ahmedelga@212.123.217.146) has quit (Ping timeout: 245 seconds)
+2017-01-03 11:47:32	<--	varunest (~varunest@27.255.213.2) has quit (Remote host closed the connection)
+2017-01-03 11:47:37	-->	max12345 (~max@x4e348b09.dyn.telefonica.de) has joined ##javascript
+2017-01-03 11:48:01	--	max12345 is now known as Guest36672
+2017-01-03 11:48:06	<--	qdk (~qdk@93.176.70.6) has quit (Ping timeout: 272 seconds)
+2017-01-03 11:48:12	Armays	Hello has anyone used angular js to display an open street map ?
+2017-01-03 11:48:14	Rashad	Hello. I have the following problem: I am using vuejs with vuex to maintain my app's state. Basically, you get a state object that stores the state of the app. I want also to maintain a subset of the state in localStorage. Now, whenever one tab changes localStorage, I listen to the changes in the other tabs and use the new data to sync the state between all tabs.
+2017-01-03 11:48:37	Armays	I would like to draw some itineries between two points
+2017-01-03 11:48:43	Armays	with osrm
+2017-01-03 11:48:44	-->	maks25 (~maxim@206.248.124.82) has joined ##javascript
+2017-01-03 11:48:48	<--	fourcolors (~fourcolor@222.127.33.20) has quit
+2017-01-03 11:49:01	<--	ClutchHunter (~ClutchHun@cpc93788-hari17-2-0-cust2994.20-2.cable.virginm.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-03 11:49:20	Rashad	My problem is that, in some scenarios, I want to do something at the server when the state changes. Here is an example: tab1 logs in, updates localStorage, tab2 detects the change, extracts the access token from the new localStorage data, then logs in at the server with the token.
+2017-01-03 11:49:22	<--	Y04NN (~y04nn@178.18.54.206) has quit (Remote host closed the connection)
+2017-01-03 11:50:01	-->	^aq (~quassel@227.132.208.46.dyn.plus.net) has joined ##javascript
+2017-01-03 11:50:07	<--	patarr (~patarr@unaffiliated/patarr) has quit (Ping timeout: 256 seconds)
+2017-01-03 11:50:08	Rashad	However, I can't directly go to the server, I have to go through vuex (the state maintainance vuejs plugin) to do that.
+2017-01-03 11:50:26	Rashad	So basically I fire an event "login" and supply a payload with the token.
+2017-01-03 11:50:40	-->	ocpysh (~ocpysh@28.224.251.212.customer.cdi.no) has joined ##javascript
+2017-01-03 11:51:05	-->	FunnyLookinHat (~funnylook@208.185.177.193) has joined ##javascript
+2017-01-03 11:51:05	<--	FunnyLookinHat (~funnylook@208.185.177.193) has quit (Changing host)
+2017-01-03 11:51:05	-->	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has joined ##javascript
+2017-01-03 11:51:06	Rashad	And here is the crux of the issue: the payload depends on the current state, but I can't seem to find a way to keep that reference up to date.
+2017-01-03 11:51:15	-->	zack_ (~zack@nachfwasa01.ogilvy.com) has joined ##javascript
+2017-01-03 11:51:45	<--	SuperHans (~alex@62.209.164.18) has quit (Remote host closed the connection)
+2017-01-03 11:51:57	Rashad	In other words, if I just pass "state", it will be the old state. I tried wrapping the payload in a function, so instead of doing: fire_event('login', payload);, I do: fire_event('login', payload(state));
+2017-01-03 11:52:15	-->	ClutchHunter (~ClutchHun@cpc93788-hari17-2-0-cust2994.20-2.cable.virginm.net) has joined ##javascript
+2017-01-03 11:52:43	Rashad	Now each time the payload will be calculated based on the provided state argument. Cool... but... again... the state I supply is always the out of date object that is used to initialize my code.
+2017-01-03 11:52:57	<--	xall (~xall@182.232.46.117) has quit (Ping timeout: 256 seconds)
+2017-01-03 11:53:04	Rashad	I hope I was clear. Any questions are welcome. I also can post code.
+2017-01-03 11:53:30	<--	howdoi (uid224@gateway/web/irccloud.com/x-frznlrdiwujgwbvj) has quit (Quit: Connection closed for inactivity)
+2017-01-03 11:53:41	Rashad	Ah... I think I found a solution... wrap state in a function like I did with payload. Let me try.
+2017-01-03 11:53:51	-->	soulisson (~soulisson@unaffiliated/soulisson) has joined ##javascript
+2017-01-03 11:53:55	-->	Ryanar (~Ryanar@winroute.wireless.rit.edu) has joined ##javascript
+2017-01-03 11:54:12	soulisson	Hi, can someone explain me in simple terms what sandbox="allow-top-navigation" means, I read the documentation but I don't understand what it means
+2017-01-03 11:54:31	-->	TomyLobo (~TomyLobo@2a02:8109:87c0:20c:8446:ec5e:3c65:e932) has joined ##javascript
+2017-01-03 11:55:37	-->	afx_ (~afx_@adsl-218.37.6.0.tellas.gr) has joined ##javascript
+2017-01-03 11:56:02	-->	pingo (~pingo@93-103-23-41.dynamic.t-2.net) has joined ##javascript
+2017-01-03 11:56:22	-->	patarr (~patarr@unaffiliated/patarr) has joined ##javascript
+2017-01-03 11:56:38	-->	krishna (~krishna@76.14.26.3) has joined ##javascript
+2017-01-03 11:57:01	<--	mizu_no_oto_work (~textual@c-50-177-170-9.hsd1.ma.comcast.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-03 11:57:54	-->	enterprisey (~enterpris@wikipedia/enterprisey) has joined ##javascript
+2017-01-03 11:58:37	-->	sabram (~textual@vdsl-66-18-212-57.broadband.nucleus.com) has joined ##javascript
+2017-01-03 11:58:55	-->	realnot (~realnot@unaffiliated/realnot) has joined ##javascript
+2017-01-03 11:59:11	-->	xall (~xall@49.229.40.47) has joined ##javascript
+2017-01-03 11:59:28	-->	meshsmith (~quassel@ool-4352e86a.dyn.optonline.net) has joined ##javascript
+2017-01-03 12:00:14	-->	Limes_ (~Limes@2a00:23c4:2f82:4700:e1ef:d0e5:e5a5:8763) has joined ##javascript
+2017-01-03 12:00:55	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:01:23	<--	Guest36672 (~max@x4e348b09.dyn.telefonica.de) has quit (Ping timeout: 272 seconds)
+2017-01-03 12:02:02	<--	cyberhabbening (~cyberhabb@host32-144-dynamic.252-95-r.retail.telecomitalia.it) has quit (Ping timeout: 272 seconds)
+2017-01-03 12:02:13	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:02:14	<--	aavrug (~aavrug@49.200.185.202) has quit (Read error: Connection reset by peer)
+2017-01-03 12:02:31	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:02:33	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:02:51	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:03:09	<--	szmq (~szmq@nat186.gorlice.ap-media.pl) has quit (Ping timeout: 256 seconds)
+2017-01-03 12:03:46	-->	doc|work (~doc@gentoo/contributor/doc-007) has joined ##javascript
+2017-01-03 12:04:32	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:04:41	cjohnson	soulisson: if I have my page on mypage.com/foo.html and you have your page on yourpage.com/bar.html
+2017-01-03 12:04:46	cjohnson	on your page, you include my page via iframe
+2017-01-03 12:04:51	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:04:59	cjohnson	you can use that to let me navigate the user, who is currently at yourpage.com, to another url entirely
+2017-01-03 12:05:09	cjohnson	otherwise the sandbox prevents the iframe from controlling the parent
+2017-01-03 12:05:16	cjohnson	and it can only navigate the iframe to another url
+2017-01-03 12:05:23	<--	lsk (~lsk@enucs/member/lsk) has quit (Read error: Connection reset by peer)
+2017-01-03 12:05:42	Daemonik	ljharb, Thank you, that was just what I was looking for -- tried it in my code, and it works.
+2017-01-03 12:05:46	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:05:54	<--	ocpysh (~ocpysh@28.224.251.212.customer.cdi.no) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-01-03 12:05:55	<--	GreenDog (~greendog@cpe-76-176-54-209.san.res.rr.com) has quit (Remote host closed the connection)
+2017-01-03 12:05:59	<--	nikhil_ (~nikhil@169-0-163-216.ip.afrihost.co.za) has quit (Ping timeout: 256 seconds)
+2017-01-03 12:06:02	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:06:16	soulisson	cjohnson: like with window.parent.location?
+2017-01-03 12:06:35	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:06:47	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:07:08	<--	victorqueiroz (~victorque@177.98.181.157) has quit (Quit: Lost terminal)
+2017-01-03 12:07:27	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:07:34	cjohnson	soulisson: yes
+2017-01-03 12:07:41	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:08:07	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:08:22	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:08:49	-->	szmq (~szmq@nat186.gorlice.ap-media.pl) has joined ##javascript
+2017-01-03 12:08:51	<--	szmq (~szmq@nat186.gorlice.ap-media.pl) has quit (Client Quit)
+2017-01-03 12:09:13	<--	patientpl (~quassel@24-155-108-4.dyn.grandenetworks.net) has quit (Ping timeout: 248 seconds)
+2017-01-03 12:09:18	<--	m1su (~m1su@catv-89-132-103-61.catv.broadband.hu) has quit
+2017-01-03 12:09:32	-->	normie1 (~textual@host109-158-44-236.range109-158.btcentralplus.com) has joined ##javascript
+2017-01-03 12:09:38	<--	ams__ (uid48118@gateway/web/irccloud.com/x-nkhmnqqcxyufghnp) has quit (Quit: Connection closed for inactivity)
+2017-01-03 12:10:23	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:10:50	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:11:03	soulisson	cjohnson: In the documentation, it talks about the "top-level context", does that means if we have multiple iframes embeded on in another like iframe C included in iframe B and iframe B included in the document A, iframe C can change the location of document A but not iframe B?
+2017-01-03 12:11:17	-->	duch_kazatel (~robert0@50-203-70-200-static.hfc.comcastbusiness.net) has joined ##javascript
+2017-01-03 12:11:17	<--	duch_kazatel (~robert0@50-203-70-200-static.hfc.comcastbusiness.net) has quit (Changing host)
+2017-01-03 12:11:17	-->	duch_kazatel (~robert0@unaffiliated/duch-kazatel/x-0361328) has joined ##javascript
+2017-01-03 12:11:32	<--	roadrunneratwast (~mitchell@ool-1826db6a.dyn.optonline.net) has quit (Ping timeout: 272 seconds)
+2017-01-03 12:12:51	-->	goodenough (~goodenoug@wsip-184-177-20-171.oc.oc.cox.net) has joined ##javascript
+2017-01-03 12:13:34	<--	felixjet (~felixjet@96.red-79-152-236.dynamicip.rima-tde.net) has quit (Quit: Leaving)
+2017-01-03 12:13:52	-->	kober (46bfa732@gateway/web/freenode/ip.70.191.167.50) has joined ##javascript
+2017-01-03 12:13:57	<--	kober (46bfa732@gateway/web/freenode/ip.70.191.167.50) has left ##javascript
+2017-01-03 12:13:58	<--	SpeakerToMeat (~SpeakerTo@prgmr/customer/SpeakerToMeat) has quit (Ping timeout: 245 seconds)
+2017-01-03 12:14:01	-->	kober (46bfa732@gateway/web/freenode/ip.70.191.167.50) has joined ##javascript
+2017-01-03 12:14:58	kober	Hey, does anyone know a good way to do a `debounce` but have it link to one of the arguments of the function?  I have a function  saveData(id, data)  and I want to debounce the saveData call based on the id
+2017-01-03 12:15:00	-->	Onemorenickname (~Onemoreni@2a01:240:fe3d:c04:7d43:ee84:5c50:2e3d) has joined ##javascript
+2017-01-03 12:15:16	kober	That way I don't delay saves of one set of data based on another set
+2017-01-03 12:15:20	falafel	kober, not sure what you mean exactly... can you post some code?
+2017-01-03 12:15:25	<--	Draecos_ (~Draecos@203-121-194-221.e-wire.net.au) has quit (Quit: This computer has gone to sleep)
+2017-01-03 12:15:38	-->	nando293921 (~Nando15@cpe-76-185-128-7.satx.res.rr.com) has joined ##javascript
+2017-01-03 12:16:08	<--	mpsag (~mpsag@p5DD6F0ED.dip0.t-ipconnect.de) has quit (Quit: WeeChat 1.0.1)
+2017-01-03 12:16:35	Xin	I just opened an incorrect currency trade
+2017-01-03 12:16:40	Xin	ended up making lots of money
+2017-01-03 12:16:42	Xin	life is weird.
+2017-01-03 12:17:10	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:17:25	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:17:36	-->	felixjet (~felixjet@96.red-79-152-236.dynamicip.rima-tde.net) has joined ##javascript
+2017-01-03 12:18:22	-->	mizu_no_oto_work (~textual@c-50-177-170-9.hsd1.ma.comcast.net) has joined ##javascript
+2017-01-03 12:18:48	kober	falafel: http://paste.openstack.org/show/593801/    I don't want to delay the run of saveData with ID=1  if a saveData ID=2 comes in
+2017-01-03 12:18:50	-->	feneco (uid135851@gateway/web/irccloud.com/x-twvhbrhkuwxstoho) has joined ##javascript
+2017-01-03 12:18:53	-->	theskillwithin_ (~theskillw@unaffiliated/theskillwithin) has joined ##javascript
+2017-01-03 12:18:58	<--	psychicist__ (~psychicis@93-46-250-20.ip110.fastwebnet.it) has quit (Ping timeout: 245 seconds)
+2017-01-03 12:19:04	kober	I only want to delay repeat calls for the same object
+2017-01-03 12:19:13	-->	roadrunneratwast (~mitchell@ool-1826db6a.dyn.optonline.net) has joined ##javascript
+2017-01-03 12:19:46	<--	Guest20119 (~xterm@94.187.88.250) has quit (Ping timeout: 246 seconds)
+2017-01-03 12:21:02	-->	neoncont_ (~neoncontr@wsip-72-196-168-39.sd.sd.cox.net) has joined ##javascript
+2017-01-03 12:21:29	cjohnson	soulisson: I'm not 100% sure but I suspect "top" in any given context just means its parent, and then its parent has its own "top" and set of sandbox rules
+2017-01-03 12:21:35	<--	sl33k (~tfa04@90.216.134.197) has quit (Ping timeout: 265 seconds)
+2017-01-03 12:21:37	cjohnson	soulisson: I haven't ever used iframe within an iframe
+2017-01-03 12:22:29	soulisson	cjohnson: I made some tests, I'm able to change window.parent.parent.location but not to window.parent.location :=
+2017-01-03 12:22:31	soulisson	:)
+2017-01-03 12:22:33	-->	ducklin5 (~ducklin5@unaffiliated/ducklin5) has joined ##javascript
+2017-01-03 12:22:37	-->	siddart (~siddart@172.56.38.158) has joined ##javascript
+2017-01-03 12:23:03	cjohnson	interesting
+2017-01-03 12:23:04	Xin	good on you for just testing :))
+2017-01-03 12:23:16	<--	neoncontrails (~neoncontr@wsip-72-196-168-39.sd.sd.cox.net) has quit (Ping timeout: 246 seconds)
+2017-01-03 12:23:53	cjohnson	kober: for the debounce, where you are creating the timer and storing it to later call clearTimeout, instead of storing the timer in a variable, store it in a map
+2017-01-03 12:23:56	cjohnson	use the id as the key
+2017-01-03 12:24:15	<--	Onemorenickname (~Onemoreni@2a01:240:fe3d:c04:7d43:ee84:5c50:2e3d) has quit (Read error: No route to host)
+2017-01-03 12:24:32	-->	Onemorenickname (~Onemoreni@2a01:240:fe3d:c04:7d43:ee84:5c50:2e3d) has joined ##javascript
+2017-01-03 12:24:43	-->	cyclonis (~csh11@ip70-174-182-101.dc.dc.cox.net) has joined ##javascript
+2017-01-03 12:25:10	-->	bahamut24_ (~bahamut24@220.191.233.220.static.exetel.com.au) has joined ##javascript
+2017-01-03 12:25:33	<--	fatguylaughing (~fatguylau@worx01.meridian-ds.com) has quit (Quit: fatguylaughing)
+2017-01-03 12:25:51	joeytwiddle	that's certainly one way, modifying the debounce function itself
+2017-01-03 12:25:55	-->	crunchiebones (~jy@31.205.160.1) has joined ##javascript
+2017-01-03 12:26:15	<--	bahamut24 (~bahamut24@220.191.233.220.static.exetel.com.au) has quit (Read error: Connection reset by peer)
+2017-01-03 12:27:03	fuchstronaut	I want to dynamically add a striped background to an SVG element (via JavaScript). It seems like CSS3's linear-gradient has no effect. any hints?ß
+2017-01-03 12:27:09	joeytwiddle	the common implementation of debounce takes a function and returns you a new function: a debounced version of the one you gave it
+2017-01-03 12:27:13	<--	Onemorenickname (~Onemoreni@2a01:240:fe3d:c04:7d43:ee84:5c50:2e3d) has quit (Read error: No route to host)
+2017-01-03 12:27:36	joeytwiddle	so an alternative way would be to create a separate debounced function for each id, and call the right function for the right id
+2017-01-03 12:28:06	joeytwiddle	you could store each function directly on the element, or again in a map[id] but this time outside of the debounce code
+2017-01-03 12:28:08	<--	xall (~xall@49.229.40.47) has quit (Ping timeout: 245 seconds)
+2017-01-03 12:28:13	-->	Onemorenickname (~Onemoreni@reda2wifi.wifi.crans.org) has joined ##javascript
+2017-01-03 12:28:32	<--	Armays (6dd59c6c@gateway/web/freenode/ip.109.213.156.108) has quit (Quit: Page closed)
+2017-01-03 12:28:33	<--	Popzi (~Thunderbi@79-73-198-93.dynamic.dsl.as9105.com) has quit (Quit: Popzi)
+2017-01-03 12:29:15	<--	angrycat2 (~androirc@160.178.103.178) has quit (Ping timeout: 272 seconds)
+2017-01-03 12:29:16	cjohnson	well you could write the debouncer method in such a way that it is configurable where the timer storage occurs, rather than just using a closure
+2017-01-03 12:29:32	cjohnson	without having to customize the debouncer method to your specific map lookup technique
+2017-01-03 12:29:33	<--	encod3 (~encod3@81.30.42.83) has quit (Remote host closed the connection)
+2017-01-03 12:29:48	<--	motaka2 (~Thunderbi@5.9.227.100) has quit (Quit: motaka2)
+2017-01-03 12:29:54	<--	cyclonis (~csh11@ip70-174-182-101.dc.dc.cox.net) has quit (Ping timeout: 272 seconds)
+2017-01-03 12:30:35	joeytwiddle	fuchstronaut, you might find something here: http://codepen.io/search/pens?q=stripe&limit=all&type=type-pens
+2017-01-03 12:30:56	-->	SuperHans (~alex@89-253-127-136.customers.ownit.se) has joined ##javascript
+2017-01-03 12:31:04	Xin	dead space 3 seems like scary mass effect
+2017-01-03 12:31:08	Xin	and im not sure how I feel about that
+2017-01-03 12:31:31	fuchstronaut	joeytwiddle: I have a linear-gradient, but they don't seem to work for SVG elements
+2017-01-03 12:31:39	-->	sillyslux (~sillyslux@m90-137-182-43.cust.tele2.hr) has joined ##javascript
+2017-01-03 12:31:45	joeytwiddle	oh noes
+2017-01-03 12:32:00	Xin	fuchstronaut, ask qswz
+2017-01-03 12:32:07	Xin	I think they came up with a thing for this at one point
+2017-01-03 12:32:12	Xin	they have me on ignore though lol
+2017-01-03 12:32:27	<--	Rashad (~chatzilla@94.249.34.49) has quit (Read error: Connection reset by peer)
+2017-01-03 12:32:27	-->	Rashad_ (~chatzilla@149.200.178.56) has joined ##javascript
+2017-01-03 12:32:30	<--	_m8 (~m8@host229-196-static.225-95-b.business.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2017-01-03 12:32:36	-->	xall (~xall@49.229.40.47) has joined ##javascript
+2017-01-03 12:32:38	fuchstronaut	qswz: I summon you
+2017-01-03 12:32:45	fuchstronaut	thanks, Xin
+2017-01-03 12:32:59	joeytwiddle	fuchstronaut, maybe do it with an SVG <lineargradient> rather than with CSS: http://stackoverflow.com/questions/14051351/svg-gradient-using-css
+2017-01-03 12:33:13	<--	elzi (~elzi@wsip-70-166-81-171.sd.sd.cox.net) has quit (Ping timeout: 248 seconds)
+2017-01-03 12:33:37	fuchstronaut	joeytwiddle: I guess I will have to.. That sucks though, as it is beeing created dynamically (in huge numbers) and that means I will have to create dynamically even more elemnts the browser has to handle
+2017-01-03 12:33:45	-->	GreenDog (~greendog@cpe-76-176-54-209.san.res.rr.com) has joined ##javascript
+2017-01-03 12:34:21	-->	angrycat2 (~androirc@41.141.58.166) has joined ##javascript
+2017-01-03 12:34:32	-->	Darcidride (~Darcidrid@2a01:e35:8b4a:ca10:a1c6:22f3:23a7:608d) has joined ##javascript
+2017-01-03 12:35:21	-->	BitWhisperer (~BitWhispe@pool-96-227-235-90.phlapa.fios.verizon.net) has joined ##javascript
+2017-01-03 12:35:27	<--	rabies (~rabies@72-185-100-60.res.bhn.net) has quit (Ping timeout: 256 seconds)
+2017-01-03 12:35:35	joeytwiddle	yeah i would also worry about performance with dynamically generated SVG elements. Although I haven't actually tried it
+2017-01-03 12:35:43	<--	SuperHans (~alex@89-253-127-136.customers.ownit.se) has quit (Remote host closed the connection)
+2017-01-03 12:35:45	zetlen	fuchstronaut: why not just create a wrapper element and put it around that
+2017-01-03 12:36:07	-->	omen (~suurperke@85-76-87-65-nat.elisa-mobile.fi) has joined ##javascript
+2017-01-03 12:36:15	<--	GreenDog (~greendog@cpe-76-176-54-209.san.res.rr.com) has quit (Remote host closed the connection)
+2017-01-03 12:36:18	<--	theskillwithin_ (~theskillw@unaffiliated/theskillwithin) has quit (Quit: theskillwithin_)
+2017-01-03 12:36:29	<--	skyx (~skyx__@internet-178-58-81-90.narocnik.mobitel.si) has quit (Quit: This computer has gone to sleep)
+2017-01-03 12:36:30	--	omen is now known as Guest2342
+2017-01-03 12:36:35	fuchstronaut	joeytwiddle: I can not complain, I have simple plots (a canvas with 10 elements) and hundreds of them render in under a second
+2017-01-03 12:36:42	-->	Agamemnus (~Agamemnus@pool-108-26-247-186.bstnma.fios.verizon.net) has joined ##javascript
+2017-01-03 12:36:47	-->	varunest (~varunest@27.255.213.2) has joined ##javascript
+2017-01-03 12:36:48	fuchstronaut	zetlen: how do you mean?
+2017-01-03 12:37:04	<--	qrestlove (~qrestlove@cpe-66-68-40-90.austin.res.rr.com) has quit (Remote host closed the connection)
+2017-01-03 12:37:10	-->	NeverDie (~NeverDie@pool-74-96-240-190.washdc.fios.verizon.net) has joined ##javascript
+2017-01-03 12:37:19	-->	montanonic (~nicholas@c-73-37-88-126.hsd1.or.comcast.net) has joined ##javascript
+2017-01-03 12:37:20	Xin	hundreds in under a second xD
+2017-01-03 12:37:29	zetlen	fuchstronaut: just put the svg inside a div and put the striped background on that div?
+2017-01-03 12:37:32	-->	Aven (~ahmad@wsip-68-1-194-124.oc.oc.cox.net) has joined ##javascript
+2017-01-03 12:37:32	Xin	hillary-wow.gif
+2017-01-03 12:37:41	Xin	zetlen, yeah thatd probably be fine eh
+2017-01-03 12:38:18	Xin	lineargradient would probably also work fine lel
+2017-01-03 12:38:21	Xin	who cares
+2017-01-03 12:38:23	Xin	fuck svg
+2017-01-03 12:38:31	Xin	fuck da police
+2017-01-03 12:38:37	-->	qrestlove (~qrestlove@cpe-66-68-40-90.austin.res.rr.com) has joined ##javascript
+2017-01-03 12:38:39	fuchstronaut	Xin: now I get why you are on ignore
+2017-01-03 12:38:51	-->	dogarrhea (454b2d32@gateway/web/freenode/ip.69.75.45.50) has joined ##javascript
+2017-01-03 12:38:54	boogyman	Xin please don't curse
+2017-01-03 12:38:55	<--	Agamemnus (~Agamemnus@pool-108-26-247-186.bstnma.fios.verizon.net) has left ##javascript
+2017-01-03 12:38:56	fuchstronaut	zetlen: I have different shapes that I want to stripe, so I am not sure if that would work
+2017-01-03 12:39:02	Xin	Oh I understand it. I just don't care about qswz and their french shenanigans
+2017-01-03 12:39:04	-->	Agamemnus (~Agamemnus@pool-108-26-247-186.bstnma.fios.verizon.net) has joined ##javascript
+2017-01-03 12:39:07	<--	wrainbolt (~wrainbolt@dyn214173.shef.ac.uk) has quit (Quit: leaving)
+2017-01-03 12:39:14	Agamemnus	hey
+2017-01-03 12:39:20	Agamemnus	i need some math help
+2017-01-03 12:39:23	zetlen	fuchstronaut: how many possible shapes?
+2017-01-03 12:39:23	<--	soulisson (~soulisson@unaffiliated/soulisson) has left ##javascript ("Leaving")
+2017-01-03 12:39:26	Xin	fuchstronaut, so you want to have the gradient as the fill
+2017-01-03 12:39:30	Agamemnus	https://jsfiddle.net/agamemnus/0r3khj12/
+2017-01-03 12:39:31	Xin	not a background
+2017-01-03 12:39:37	Agamemnus	i have a solution to a math problem here
+2017-01-03 12:39:44	Agamemnus	but i need some help verifying it
+2017-01-03 12:39:48	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:39:50	Xin	Agamemnus, is it Automatic Semicolon Insertion?
+2017-01-03 12:40:01	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:40:08	Agamemnus	:[
+2017-01-03 12:40:16	-->	Maxel (~Maxel@50-241-60-122-static.hfc.comcastbusiness.net) has joined ##javascript
+2017-01-03 12:40:18	fuchstronaut	zetlen: right now there are 4 shapes (ellipse, square, polygon and one that is created via path, it is a combination of a polygon and an ellipse)
+2017-01-03 12:40:23	Xin	fuchstronaut, http://vanseodesign.com/web-design/svg-linear-gradients/
+2017-01-03 12:40:24	Xin	wee
+2017-01-03 12:40:32	fuchstronaut	also they might be in different angles placed on the canvas
+2017-01-03 12:40:38	Xin	reusable fills, strokes, backgrounds
+2017-01-03 12:40:39	-->	SpeakerToMeat (~SpeakerTo@prgmr/customer/SpeakerToMeat) has joined ##javascript
+2017-01-03 12:40:40	Xin	^_^
+2017-01-03 12:40:47	zetlen	fuchstronaut: try using a fill, yeah
+2017-01-03 12:40:54	zetlen	in the event that you have to use css, consider clip-path
+2017-01-03 12:40:59	fuchstronaut	I guess I will go with the fill
+2017-01-03 12:40:59	<--	akshat (~akshat@unaffiliated/akshat) has quit (Quit: akshat)
+2017-01-03 12:41:06	zetlen	provided you don't need IE
+2017-01-03 12:41:07	Xin	ooh yeah thats what qswz's solution used zetlen !!
+2017-01-03 12:41:09	Xin	good job
+2017-01-03 12:41:14	-->	ocpysh (~ocpysh@28.224.251.212.customer.cdi.no) has joined ##javascript
+2017-01-03 12:41:17	Xin	now we dont even need the frenchman
+2017-01-03 12:41:18	<--	Rodya_ (~Rodya_@2601:46:4001:e0b4:ed72:77cc:7fa3:213e) has quit (Remote host closed the connection)
+2017-01-03 12:41:19	Agamemnus	Given that there is an X chance of something occuring at least once in a population, what is the probability that it does occur, given a population N?
+2017-01-03 12:41:35	Xin	Agamemnus, why are you here.
+2017-01-03 12:41:37	Agamemnus	So I made a model to figure this out
+2017-01-03 12:41:48	Agamemnus	I need someone to tell me if my model checks out
+2017-01-03 12:41:56	<--	nando293921 (~Nando15@cpe-76-185-128-7.satx.res.rr.com) has quit (Ping timeout: 272 seconds)
+2017-01-03 12:41:59	Agamemnus	https://jsfiddle.net/agamemnus/0r3khj12/
+2017-01-03 12:42:00	-->	psychicist__ (~psychicis@93-46-250-20.ip110.fastwebnet.it) has joined ##javascript
+2017-01-03 12:42:23	Agamemnus	Hmm. I could optimize this
+2017-01-03 12:42:25	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:42:30	Xin	yeah seems badly written obviously
+2017-01-03 12:42:37	Xin	but I mean, the concept is trivial
+2017-01-03 12:42:41	-->	nowlan (~nowlan@x2f7fc3e.dyn.telefonica.de) has joined ##javascript
+2017-01-03 12:42:42	Xin	so.. not really a lot to fuck up
+2017-01-03 12:42:45	<--	Deide (Deide@90.195.185.155) has quit (Quit: Seeee yaaaa)
+2017-01-03 12:42:46	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:42:53	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:42:58	Xin	its basically just a for loop and line 12 lol
+2017-01-03 12:43:11	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:43:20	<--	xall (~xall@49.229.40.47) has quit (Ping timeout: 248 seconds)
+2017-01-03 12:43:23	-->	superspring (~superspri@188.28.104.37.threembb.co.uk) has joined ##javascript
+2017-01-03 12:43:33	Xin	put it in a function, run n times
+2017-01-03 12:43:34	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:43:46	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:43:53	Agamemnus	i fucked up
+2017-01-03 12:43:57	Agamemnus	yeah i fucked it up
+2017-01-03 12:44:04	Xin	ahahaha
+2017-01-03 12:44:04	Agamemnus	it should have been >= 1
+2017-01-03 12:44:08	Xin	and it has no semicolons
+2017-01-03 12:44:12	<--	systemfault (~rcyr@unaffiliated/rcyr) has quit (Quit: Bye!)
+2017-01-03 12:44:16	Agamemnus	that isn't an actual issue
+2017-01-03 12:44:22	Xin	go back to wherever you've been for like
+2017-01-03 12:44:25	Xin	6 months+
+2017-01-03 12:44:27	-->	elzi (~elzi@wsip-70-166-81-171.sd.sd.cox.net) has joined ##javascript
+2017-01-03 12:44:39	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:44:46	-->	xall (~xall@182.232.29.63) has joined ##javascript
+2017-01-03 12:44:47	Agamemnus	heh
+2017-01-03 12:46:11	<--	ali1234 (~ajbuxton@2a01:4f8:162:4348::2) has left ##javascript
+2017-01-03 12:46:16	-->	[log] (~nnn@jrvieira.com) has joined ##javascript
+2017-01-03 12:46:20	<--	nowlan (~nowlan@x2f7fc3e.dyn.telefonica.de) has quit (Read error: Connection reset by peer)
+2017-01-03 12:46:26	joeytwiddle	i think you should be able to calculate that without using your Monte Carlo sampling
+2017-01-03 12:46:43	<--	Algebr (~user@2602:30a:2c7b:f8f0:9f0:c295:c84:fd89) has quit (Ping timeout: 258 seconds)
+2017-01-03 12:46:57	joeytwiddle	However my attempt at a one-liner has produced entirely different results :)
+2017-01-03 12:47:06	<--	varunest (~varunest@27.255.213.2) has quit (Remote host closed the connection)
+2017-01-03 12:47:10	<--	e14 (~e14@104.207.209.180) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-03 12:47:23	Agamemnus	did you fix the > to =>?
+2017-01-03 12:47:31	-->	nowlan (~nowlan@x2f7fc3e.dyn.telefonica.de) has joined ##javascript
+2017-01-03 12:47:58	Agamemnus	https://jsfiddle.net/agamemnus/czsy7118/
+2017-01-03 12:47:59	-->	sa0 (~sa0@arl95-3-82-244-236-87.fbx.proxad.net) has joined ##javascript
+2017-01-03 12:48:01	Agamemnus	i changed it
+2017-01-03 12:48:40	<--	sa0 (~sa0@arl95-3-82-244-236-87.fbx.proxad.net) has quit (Client Quit)
+2017-01-03 12:48:41	<--	shfq (~shfq@unaffiliated/shfq) has quit (Ping timeout: 248 seconds)
+2017-01-03 12:48:58	-->	sa0 (~sa0@arl95-3-82-244-236-87.fbx.proxad.net) has joined ##javascript
+2017-01-03 12:49:19	joeytwiddle	Yes, and now I can get the same result in one line :)
+2017-01-03 12:49:38	Xin	Agamemnus is not a programmer
+2017-01-03 12:49:41	Xin	they're a.. um..
+2017-01-03 12:49:43	<--	twistedi (twisted@komeetanpoikatahtiainen.fi) has quit (Ping timeout: 260 seconds)
+2017-01-03 12:49:50	Xin	shitty.. android.. crapware.. manufacturer
+2017-01-03 12:49:53	Xin	last I heard
+2017-01-03 12:50:01	zetlen	joeytwiddle: i'm curious to see your oneliner!
+2017-01-03 12:50:03	joeytwiddle	For this kind of problem, you need to calculate the probability of it NOT occurring in any of the patients, and then subtract that from 1
+2017-01-03 12:50:29	Xin	lol
+2017-01-03 12:50:42	joeytwiddle	sadly my browser has crashed due to 90 open tabs :/
+2017-01-03 12:50:48	-->	Kubius (c7a7d545@gateway/web/freenode/ip.199.167.213.69) has joined ##javascript
+2017-01-03 12:50:53	Xin	joeytwiddle, try opening 90 in edge!
+2017-01-03 12:50:57	Xin	it will probably be fine :D
+2017-01-03 12:51:22	Kubius	ello
+2017-01-03 12:51:34	Agamemnus	No
+2017-01-03 12:51:34	-->	e14 (~e14@104.207.209.180) has joined ##javascript
+2017-01-03 12:51:52	<--	polyrob (~rob@unaffiliated/mickn) has quit (Quit: ZNC - http://znc.in)
+2017-01-03 12:51:53	<--	krishna (~krishna@76.14.26.3) has quit (Ping timeout: 248 seconds)
+2017-01-03 12:52:00	joeytwiddle	var chanceOfOccurrence = 1 - Math.pow(1 - .000055, groups.soli)
+2017-01-03 12:52:00	joeytwiddle	console.log((Math.round(chanceOfOccurrence * 10000) / 100) + "%")
+2017-01-03 12:52:04	<--	doc|work (~doc@gentoo/contributor/doc-007) has quit
+2017-01-03 12:52:08	Kubius	I'm fixing up a friend's computer and some super weird Javascript error pops up when the computer starts
+2017-01-03 12:52:09	Agamemnus	We are looking at the probability that something with a .0055% chance of happening will not occur
+2017-01-03 12:52:11	Kubius	referencing "HKEY_CURRENT_USER\Software\ppjsyajv"
+2017-01-03 12:52:13	Agamemnus	That is correct
+2017-01-03 12:52:27	-->	Sorella (uid49404@oftn/oswg-member/Sorella) has joined ##javascript
+2017-01-03 12:52:31	<--	e14 (~e14@104.207.209.180) has quit (Client Quit)
+2017-01-03 12:52:32	Xin	Kubius, ##windows
+2017-01-03 12:52:38	Kubius	k
+2017-01-03 12:52:45	Agamemnus	But I am not subtract 1 from it
+2017-01-03 12:52:58	<--	Kubius (c7a7d545@gateway/web/freenode/ip.199.167.213.69) has left ##javascript
+2017-01-03 12:52:58	Xin	lol
+2017-01-03 12:52:59	Agamemnus	but that is a minor thing
+2017-01-03 12:53:14	-->	broofa (~broofa@72.0.163.71) has joined ##javascript
+2017-01-03 12:53:29	Agamemnus	well
+2017-01-03 12:53:32	joeytwiddle	Well that thing up there gets the same as your 10000 samples did
+2017-01-03 12:53:37	Agamemnus	ok maybe i need to rephrase
+2017-01-03 12:53:40	<--	NeverDie (~NeverDie@pool-74-96-240-190.washdc.fios.verizon.net) has quit (Quit: http://radiux.io/)
+2017-01-03 12:53:51	-->	sergey (~sergey@46.98.130.33) has joined ##javascript
+2017-01-03 12:53:51	joeytwiddle	Note that it subtracts from 1 twice ;)
+2017-01-03 12:53:52	Xin	heheh
+2017-01-03 12:53:53	zetlen	Xin: if it's an error that could be javascript, it could be something we could help with. please control yourself enough not to dismiss newcomers
+2017-01-03 12:54:01	<--	psychicist__ (~psychicis@93-46-250-20.ip110.fastwebnet.it) has quit (Ping timeout: 248 seconds)
+2017-01-03 12:54:06	Xin	zetlen, uh, Agamemnus is technically an op
+2017-01-03 12:54:08	<--	[log] (~nnn@jrvieira.com) has quit (Remote host closed the connection)
+2017-01-03 12:54:10	Xin	for whatever fucking stupid reason
+2017-01-03 12:54:11	Xin	hahah
+2017-01-03 12:54:16	Xin	because life is insane
+2017-01-03 12:54:18	-->	twistedi (twisted@komeetanpoikatahtiainen.fi) has joined ##javascript
+2017-01-03 12:54:36	<--	Xgc (~Xgc@p-68-237-138-23.dsl1.rtr.chat.fpma.frpt.net) has quit (Ping timeout: 272 seconds)
+2017-01-03 12:54:45	Agamemnus	Was he talking about me?
+2017-01-03 12:54:49	Agamemnus	Hard to say nowadays
+2017-01-03 12:54:55	Agamemnus	But you should still control yourself
+2017-01-03 12:55:10	Agamemnus	D:
+2017-01-03 12:55:14	<--	edrocks (~edrocks@66-194-206-178.static.twtelecom.net) has quit (Ping timeout: 272 seconds)
+2017-01-03 12:55:15	Xin	control your ASI
+2017-01-03 12:55:17	-->	ironfroggy_ (~ironfrogg@python/site-packages/ironfroggy) has joined ##javascript
+2017-01-03 12:55:20	Agamemnus	wew
+2017-01-03 12:55:21	Xin	then we'll talk
+2017-01-03 12:55:23	Agamemnus	nice comeback
+2017-01-03 12:55:25	Xin	xD
+2017-01-03 12:55:26	Xin	ya
+2017-01-03 12:55:28	Xin	ty
+2017-01-03 12:55:29	zetlen	noise, please
+2017-01-03 12:55:31	Agamemnus	I am humbled beyond all measure
+2017-01-03 12:55:36	Xin	yw
+2017-01-03 12:55:38	-->	e14 (~e14@104.207.209.180) has joined ##javascript
+2017-01-03 12:55:40	Xin	im here for you
+2017-01-03 12:55:49	<--	shmu (~amireldor@87.69.57.209.cable.012.net.il) has quit (Ping timeout: 246 seconds)
+2017-01-03 12:56:00	-->	tiwula (~lane@70.89.246.241-Busname-UT.hfc.comcastbusiness.net) has joined ##javascript
+2017-01-03 12:56:11	-->	ironfrog_ (~ironfrogg@python/site-packages/ironfroggy) has joined ##javascript
+2017-01-03 12:56:14	<--	ironfroggy_ (~ironfrogg@python/site-packages/ironfroggy) has quit (Read error: Connection reset by peer)
+2017-01-03 12:56:34	-->	krishna (~krishna@76.14.26.3) has joined ##javascript
+2017-01-03 12:57:34	-->	theskillwithin_ (~theskillw@unaffiliated/theskillwithin) has joined ##javascript
+2017-01-03 12:58:07	-->	segurb (~segurb@unaffiliated/segurb) has joined ##javascript
+2017-01-03 12:58:17	<--	ironfroggy (~ironfrogg@python/site-packages/ironfroggy) has quit (Ping timeout: 248 seconds)
+2017-01-03 12:58:57	-->	icor1031 (~icor1031@24-230-47-93-dynamic.midco.net) has joined ##javascript
+2017-01-03 12:59:14	<--	Credus (~Credus@45.25.209.139) has quit (Ping timeout: 256 seconds)
+2017-01-03 12:59:45	<--	subhojit777 (~subhojit@223.190.66.138) has quit (Quit: Leaving)
+2017-01-03 13:00:17	-->	Credus (~Credus@45.25.209.139) has joined ##javascript
+2017-01-03 13:00:29	<--	codestorm (~codestorm@cpe-76-94-72-91.socal.res.rr.com) has quit (Remote host closed the connection)
+2017-01-03 13:02:14	NoiseEee	huh
+2017-01-03 13:02:22	Xin	http://prntscr.com/dr30gj
+2017-01-03 13:02:26	Xin	oh shit son!
+2017-01-03 13:02:29	Xin	$$$
+2017-01-03 13:03:13	<--	Credus (~Credus@45.25.209.139) has quit (Remote host closed the connection)
+2017-01-03 13:03:16	-->	codestorm (~codestorm@cpe-76-94-72-91.socal.res.rr.com) has joined ##javascript
+2017-01-03 13:03:34	-->	Credus (~Credus@45.25.209.139) has joined ##javascript
+2017-01-03 13:03:45	-->	underikar (uid139442@gateway/web/irccloud.com/x-vnuoqgbeddiuocrs) has joined ##javascript
+2017-01-03 13:04:08	Agamemnus	https://jsfiddle.net/agamemnus/czsy7118/ --> new
+2017-01-03 13:04:19	-->	Federkun (~Federkun@93-35-205-59.ip56.fastwebnet.it) has joined ##javascript
+2017-01-03 13:04:21	Agamemnus	thank you @joeytwiddle
+2017-01-03 13:04:59	-->	bongjovi (~bongjovi@87.224.97.75) has joined ##javascript
+2017-01-03 13:05:31	-->	edrocks (~edrocks@66-194-206-178.static.twtelecom.net) has joined ##javascript
+2017-01-03 13:05:37	<--	kakashiAL (~kakashiAL@ip-178-202-50-202.hsi09.unitymediagroup.de) has quit (Ping timeout: 246 seconds)
+2017-01-03 13:06:06	-->	JaAnTr (~JaAnTr@host81-132-223-63.range81-132.btcentralplus.com) has joined ##javascript
+2017-01-03 13:06:10	Agamemnus	although, you don't even need that
+2017-01-03 13:06:50	<--	vpi (~vpi@195.66.82.9) has quit (Remote host closed the connection)
+2017-01-03 13:07:21	-->	flappynerd (~flappyner@gateway/vpn/privateinternetaccess/account) has joined ##javascript
+2017-01-03 13:07:32	-->	varunest (~varunest@27.255.213.2) has joined ##javascript
+2017-01-03 13:07:35	<--	DeckTone (decktone@gateway/shell/mydevil.net/x-yjuzhpomdspsykvk) has quit (Ping timeout: 248 seconds)
+2017-01-03 13:08:04	<--	Puffball (~Puffball@cm-dhcp-173-46-250-185.bloombroadband.com) has quit (Remote host closed the connection)
+2017-01-03 13:08:44	<--	pawnbox (~pawnbox@106.51.136.102) has quit (Remote host closed the connection)
+2017-01-03 13:08:49	-->	kakashiAL (~kakashiAL@ip-178-202-50-202.hsi09.unitymediagroup.de) has joined ##javascript
+2017-01-03 13:09:06	-->	Puffball (~Puffball@cm-dhcp-173-46-250-185.bloombroadband.com) has joined ##javascript
+2017-01-03 13:09:17	-->	pawnbox (~pawnbox@106.51.136.102) has joined ##javascript
+2017-01-03 13:09:35	-->	DeckTone (decktone@gateway/shell/mydevil.net/x-jspykyshxuxtoeaz) has joined ##javascript
+2017-01-03 13:11:25	<--	pawnbox (~pawnbox@106.51.136.102) has quit (Remote host closed the connection)
+2017-01-03 13:11:41	-->	pawnbox (~pawnbox@106.51.136.102) has joined ##javascript
+2017-01-03 13:11:55	<--	varunest (~varunest@27.255.213.2) has quit (Ping timeout: 246 seconds)
+2017-01-03 13:11:58	-->	samsam (~samsam@5070B773.static.ziggozakelijk.nl) has joined ##javascript
+2017-01-03 13:12:28	joeytwiddle	Agamemnus, yeah you can re-arrange that calculation, and get the answer in one go https://jsfiddle.net/czsy7118/3/
+2017-01-03 13:12:40	<--	parasite_ (~parasite@mar75-4-82-230-46-11.fbx.proxad.net) has quit (Ping timeout: 264 seconds)
+2017-01-03 13:12:48	-->	negatifze (~textual@2605:6000:2ac2:f200:cc91:e91d:e0bd:b2af) has joined ##javascript
+2017-01-03 13:12:49	-->	modlin (~modlin@93.123.41.167) has joined ##javascript
+2017-01-03 13:13:19	<--	krishna (~krishna@76.14.26.3) has quit (Ping timeout: 246 seconds)
+2017-01-03 13:13:25	<--	renchan (~renchan@195.88.124.213) has quit (Quit: Leaving...)
+2017-01-03 13:13:52	-->	ResidentBiscuit (~ResidentB@unaffiliated/residentbiscuit) has joined ##javascript
+2017-01-03 13:13:52	-->	varunest (~varunest@27.255.213.2) has joined ##javascript
+2017-01-03 13:13:53	<--	ResidentBiscuit (~ResidentB@unaffiliated/residentbiscuit) has quit (Max SendQ exceeded)
+2017-01-03 13:13:54	Xin	Is it coincidence that in 3 hours I make $1200 I dont need.. and tickets to Singapore are on sale for $119 each way?
+2017-01-03 13:14:03	-->	fekz_ (~makoto@unaffiliated/fekz) has joined ##javascript
+2017-01-03 13:14:17	-->	ResidentBiscuit (~ResidentB@unaffiliated/residentbiscuit) has joined ##javascript
+2017-01-03 13:14:18	<--	ResidentBiscuit (~ResidentB@unaffiliated/residentbiscuit) has quit (Max SendQ exceeded)
+2017-01-03 13:14:42	-->	ResidentBiscuit (~ResidentB@unaffiliated/residentbiscuit) has joined ##javascript
+2017-01-03 13:14:43	<--	ResidentBiscuit (~ResidentB@unaffiliated/residentbiscuit) has quit (Max SendQ exceeded)
+2017-01-03 13:14:46	wubbalubba	are you scrooge mc duck
+2017-01-03 13:14:47	<--	RedOrangeZ (~RedOrange@71.58.97.85) has quit (Read error: Connection reset by peer)
+2017-01-03 13:14:54	<--	theskillwithin_ (~theskillw@unaffiliated/theskillwithin) has quit (Quit: theskillwithin_)
+2017-01-03 13:15:07	<--	nowlan (~nowlan@x2f7fc3e.dyn.telefonica.de) has quit (Ping timeout: 256 seconds)
+2017-01-03 13:15:09	-->	skyx (~skyx__@internet-178-58-81-90.narocnik.mobitel.si) has joined ##javascript
+2017-01-03 13:15:19	-->	pilne (~pilne@75-132-212-62.dhcp.stls.mo.charter.com) has joined ##javascript
+2017-01-03 13:15:19	-->	theskillwithin_ (~theskillw@unaffiliated/theskillwithin) has joined ##javascript
+2017-01-03 13:15:20	<--	bocaneri (~bocaneri@about/linux/staff/sauvin) has quit (Read error: Connection reset by peer)
+2017-01-03 13:15:30	Xin	lol well no I was thinking I could take my partner and a couple friends maybe
+2017-01-03 13:15:37	Xin	for a weekend $_$
+2017-01-03 13:15:49	<--	hashpuppy (uid43164@gateway/web/irccloud.com/x-qmudfwizbmyfbzzu) has quit (Quit: Connection closed for inactivity)
+2017-01-03 13:15:57	<--	ocpysh (~ocpysh@28.224.251.212.customer.cdi.no) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-01-03 13:16:03	Xin	ive never been there though, but as long as theres a nice hotel im set xD
+2017-01-03 13:16:05	wubbalubba	yes take 10.084033613 friends
+2017-01-03 13:16:08	-->	ResidentBiscuit (9f8cfe63@gateway/web/cgi-irc/kiwiirc.com/ip.159.140.254.99) has joined ##javascript
+2017-01-03 13:16:08	wubbalubba	including you
+2017-01-03 13:16:16	-->	RedOrangeZ (~RedOrange@71.58.97.85) has joined ##javascript
+2017-01-03 13:16:20	joeytwiddle	Agamemnus, https://jsfiddle.net/czsy7118/4/ has a correction to the working. Also check the use of .toFixed(2) to avoid that Math.round() madness!
+2017-01-03 13:16:22	Xin	lol thats like suicidally generous
+2017-01-03 13:16:36	flappynerd	Xin pretending he makes money, lol
+2017-01-03 13:16:39	flappynerd	so cute
+2017-01-03 13:16:40	<--	duch_kazatel (~robert0@unaffiliated/duch-kazatel/x-0361328) has quit
+2017-01-03 13:16:45	<--	kojeve_ (~kojeve@72.166.95.2) has quit (Ping timeout: 272 seconds)
+2017-01-03 13:17:02	flappynerd	tell us again how rich you are, because, you know, it's highly important and relevant
+2017-01-03 13:17:02	wubbalubba	he fold quick tho
+2017-01-03 13:17:07	Xin	lol its not a lot of money :/
+2017-01-03 13:17:15	<--	fekz (~makoto@unaffiliated/fekz) has quit (Ping timeout: 260 seconds)
+2017-01-03 13:17:16	<--	bruttus (~bruttus__@177.202.134.125) has quit (Remote host closed the connection)
+2017-01-03 13:17:26	Xin	its like, the kind of money you win on a scratcher randomly that someone gets you on your birthday
+2017-01-03 13:17:32	Xin	or at the casino when you started with $100 lol
+2017-01-03 13:17:33	zomg	Xin: you kept saying titanfall 2 looks gimmicky.. you should check here =) https://www.twitch.tv/zomgmoz/v/111777563
+2017-01-03 13:17:37	<--	soee (~soee@user-94-254-235-40.play-internet.pl) has quit (Quit: Konversation terminated!)
+2017-01-03 13:17:45	zomg	I was streaming today because some dumbass kept insisting I was cheating so I told him fine, I'll stream and you'll see
+2017-01-03 13:17:45	<--	poot (~pootpoot@2601:8c:c301:1116:fdd4:b941:e1b2:436a) has quit (Read error: Connection reset by peer)
+2017-01-03 13:17:48	zomg	lol
+2017-01-03 13:17:52	flappynerd	well, admittedly, titantfall 1 was 100% gimmick pretty much
+2017-01-03 13:17:55	na_th_an	Xin: I know people that'd get pretty mad being told that $1200 isn't a lot of money
+2017-01-03 13:17:56	Xin	haha lets seee
+2017-01-03 13:17:57	flappynerd	but that doesn't mean it's a shitty game
+2017-01-03 13:18:11	Xin	na_th_an, getting mad over money seems silly :P its so arbitrary
+2017-01-03 13:18:12	-->	poot (~pootpoot@2601:8c:c301:1116:fdd4:b941:e1b2:436a) has joined ##javascript
+2017-01-03 13:18:17	Xin	you should only ever have what you need
+2017-01-03 13:18:18	na_th_an	it's arbitrary if you have enough
+2017-01-03 13:18:20	tcsc	everybody i know who played titanfall 2 said it was good
+2017-01-03 13:18:29	Xin	right, but then with the excess we can give back ^_^
+2017-01-03 13:18:31	Xin	everyone wins
+2017-01-03 13:18:34	tcsc	not my kind of game though
+2017-01-03 13:18:39	-->	soee (~soee@user-94-254-235-40.play-internet.pl) has joined ##javascript
+2017-01-03 13:19:13	-->	gdesarrollos (~gdesarrol@189.150.40.72) has joined ##javascript
+2017-01-03 13:19:14	<--	mizu_no_oto_work (~textual@c-50-177-170-9.hsd1.ma.comcast.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-03 13:19:17	Xin	why
+2017-01-03 13:19:21	wubbalubba	Xin how much you pay for friends in first place tho
+2017-01-03 13:19:21	Xin	is twitch so incapable
+2017-01-03 13:19:26	Xin	of negotiating nat
+2017-01-03 13:19:28	Xin	or something
+2017-01-03 13:19:34	Xin	it makes me so sick to my stomach
+2017-01-03 13:19:36	-->	ocpysh (~ocpysh@28.224.251.212.customer.cdi.no) has joined ##javascript
+2017-01-03 13:19:43	zomg	hmm?
+2017-01-03 13:19:45	Bantalon	what's te equivalent of this in js? <script type="text/javascript" src="lib/impact/impact.js"></script>
+2017-01-03 13:19:47	Bantalon	the*
+2017-01-03 13:19:49	flappynerd	no, it's just that new zealand is shit internet
+2017-01-03 13:19:51	Xin	wubbalubba, just a fast and loose handyj
+2017-01-03 13:19:57	Bantalon	not sure how impact is supposed to work without npm :/
+2017-01-03 13:19:59	Xin	lol im on 100mbit fibre fukr
+2017-01-03 13:20:07	<--	bradleymeck (~bradleyme@rrcs-71-41-5-28.sw.biz.rr.com) has quit (Quit: bradleymeck)
+2017-01-03 13:20:09	flappynerd	Bantalon, require('impact');

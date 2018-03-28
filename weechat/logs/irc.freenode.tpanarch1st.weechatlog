@@ -1,0 +1,604 @@
+2017-04-06 10:44:23	keveloper	I figured it's easier to talk here
+2017-04-06 10:44:27	keveloper	Rather than clutter up css
+2017-04-06 10:44:44	keveloper	So this selector: .g-main-nav a { .g-menu-item.active { background: #123456; } }
+2017-04-06 10:45:32	keveloper	CSS inteprets that as this: Find an element with the class g-main-nav, from there find an <a> tag, from the find an element with the classes g-menu-item and active
+2017-04-06 10:45:35	keveloper	Style that element
+2017-04-06 10:45:52	keveloper	The last part is where that selector breaks for you
+2017-04-06 10:46:15	tpanarch1st	hey, firstly, thanks ever so much for your time
+2017-04-06 10:46:27	keveloper	Youre welcome :)
+2017-04-06 10:46:35	keveloper	Always willing to help people learn
+2017-04-06 10:46:51	keveloper	So your markup is something like
+2017-04-06 10:46:53	tpanarch1st	thank you - I do warn you, my dyslexia really plays up with coding!
+2017-04-06 10:47:14	tpanarch1st	so I read everything people say to the letter when it comes to this and sometimes it creates conflict :)
+2017-04-06 10:47:31	tpanarch1st	so re, the above
+2017-04-06 10:47:33	keveloper	<div class"g-main-nav">...<li class="g-menu-item active"><a></a></li>...</div>
+2017-04-06 10:47:45	tpanarch1st	ok, i shall follow you :)
+2017-04-06 10:47:59	keveloper	You want to style that a tag in there
+2017-04-06 10:48:08	keveloper	But only if it's the active nav item
+2017-04-06 10:48:20	keveloper	So your selector should start with .g-main-nav
+2017-04-06 10:48:30	keveloper	because you only want to style active items under the main nav
+2017-04-06 10:48:47	tpanarch1st	with you so far :)
+2017-04-06 10:49:13	keveloper	Then under that nav you want any g-menu-items that are also active
+2017-04-06 10:49:22	keveloper	.g-menu-item.active is that
+2017-04-06 10:49:28	tpanarch1st	what is a g-menu-item?
+2017-04-06 10:49:34	keveloper	A class in your markup
+2017-04-06 10:49:37	tpanarch1st	is that just like any menu item in gantry?
+2017-04-06 10:49:42	tpanarch1st	in laymens terms?
+2017-04-06 10:49:44	keveloper	maybe im not sure
+2017-04-06 10:49:49	tpanarch1st	ahhh ok :)
+2017-04-06 10:49:53	keveloper	it is a menu-item in gantry i'd imagine :P
+2017-04-06 10:50:08	tpanarch1st	sure, i get why we are being specific about what we are picking though!
+2017-04-06 10:50:15	tpanarch1st	otherwise it affects too much
+2017-04-06 10:50:28	keveloper	so since that li is descendant of the div (not the same as a child) you'd put them together like such
+2017-04-06 10:50:42	keveloper	.g-main-nav .g-menu-item.active
+2017-04-06 10:50:50	keveloper	So that means any active menu item under a main nav
+2017-04-06 10:50:59	keveloper	But that selects the li, not the a tag
+2017-04-06 10:51:09	keveloper	So you'd add an a to the end of that
+2017-04-06 10:51:16	tpanarch1st	so "take .g-main-nav and look for .g-menu-item.active under it"?
+2017-04-06 10:51:16	keveloper	Since that one IS a child, you can use the > selector
+2017-04-06 10:51:20	keveloper	Yes
+2017-04-06 10:51:27	keveloper	So you'd end up with
+2017-04-06 10:51:30	tpanarch1st	this is how I tend to try and translate things!
+2017-04-06 10:51:40	keveloper	.g-main-nav .g-menu-item.active > a
+2017-04-06 10:51:51	tpanarch1st	got you, you know this "child" stuff
+2017-04-06 10:52:05	tpanarch1st	is that pretty much meaning "under it"
+2017-04-06 10:52:12	keveloper	Find a g-main-nav, find a g-menu-item and active under that, find an <a> that is a CHILD
+2017-04-06 10:52:16	keveloper	yes
+2017-04-06 10:52:18	keveloper	under it anywhere
+2017-04-06 10:52:27	keveloper	it's called a descendant
+2017-04-06 10:52:31	keveloper	vs a child
+2017-04-06 10:52:34	keveloper	which is DIRECTLY udner it
+2017-04-06 10:52:36	keveloper	that is >
+2017-04-06 10:52:38	tpanarch1st	ahhh :) - someone loved family trees!
+2017-04-06 10:52:42	keveloper	lol
+2017-04-06 10:52:43	keveloper	yep
+2017-04-06 10:52:46	tpanarch1st	so just being a geek does < do anything?
+2017-04-06 10:52:52	keveloper	and anything above an element is an ancestor
+2017-04-06 10:52:55	keveloper	no
+2017-04-06 10:53:05	keveloper	css selector only go deeper into the DOM, not back up it
+2017-04-06 10:53:06	tpanarch1st	ah cool so it's like shorthand
+2017-04-06 10:53:28	tpanarch1st	I do that to depict menus Mother ->Child ->Child's Toy
+2017-04-06 10:53:33	tpanarch1st	similar idea?
+2017-04-06 10:53:39	keveloper	Yeah
+2017-04-06 10:53:43	tpanarch1st	right ok :)
+2017-04-06 10:53:54	keveloper	.grandmother > .grandchild
+2017-04-06 10:53:55	keveloper	Does not work
+2017-04-06 10:54:03	tpanarch1st	ooooh how come?
+2017-04-06 10:54:15	tpanarch1st	because mother needs to be in between?
+2017-04-06 10:54:18	tpanarch1st	or father indeed
+2017-04-06 10:54:18	keveloper	because .grandchild is not the child of .grandmother
+2017-04-06 10:54:19	keveloper	yes
+2017-04-06 10:54:21	keveloper	yeah
+2017-04-06 10:54:22	tpanarch1st	yeah right!
+2017-04-06 10:54:52	keveloper	.grandmother .grandchild works because a space is essentially a descendant selector
+2017-04-06 10:54:55	tpanarch1st	ok, can you not be lazy and say target grandchild under grandmother (and everything else (I presume that would be the tradeoff)
+2017-04-06 10:55:16	keveloper	I'm not sure what you mean by and everything else
+2017-04-06 10:55:20	tpanarch1st	ahhh 
+2017-04-06 10:55:32	tpanarch1st	ok, actually i think i know the answer to my own question
+2017-04-06 10:55:35	keveloper	target grandchild under grandmother would ".grandmother .grandchild"
+2017-04-06 10:56:02	tpanarch1st	so basically if you want to target everything you'd simply use .grandmother as the selector and mother and grandchild would inherit?
+2017-04-06 10:56:16	tpanarch1st	oh right, maybe i'm wrong
+2017-04-06 10:56:26	keveloper	Depends on the attribute :P
+2017-04-06 10:56:30	tpanarch1st	ahhhh meh :-p
+2017-04-06 10:56:32	keveloper	But if you did like
+2017-04-06 10:56:46	keveloper	.grandmother { color: grey; } 
+2017-04-06 10:56:54	keveloper	All descendant text would be grey
+2017-04-06 10:57:06	keveloper	UNLESS there is a more specific selector overriding the text color
+2017-04-06 10:57:35	tpanarch1st	ahhh that's where it gets fun - if there is conflict
+2017-04-06 10:57:46	keveloper	Yeah
+2017-04-06 10:57:52	keveloper	So there's something called CSS specificity
+2017-04-06 10:57:54	tpanarch1st	what I know of Gantry is what I shove in custom.scss over-rides everything so I just need to keep my code tidy
+2017-04-06 10:58:25	keveloper	ID (#) is the most specific
+2017-04-06 10:58:49	keveloper	if you select by an id, the style in the block would override everything
+2017-04-06 10:59:04	tpanarch1st	correct me if im wrong please, but an #id can be used multiple times and a class only once?
+2017-04-06 10:59:12	keveloper	Other way around
+2017-04-06 10:59:15	tpanarch1st	oooops haha
+2017-04-06 10:59:20	keveloper	ID means what is says
+2017-04-06 10:59:21	keveloper	identifier
+2017-04-06 10:59:24	keveloper	it identifies an element
+2017-04-06 10:59:26	keveloper	there can only be one
+2017-04-06 10:59:36	keveloper	nobody else in Ohio has my license # yanno
+2017-04-06 10:59:39	keveloper	that is my id
+2017-04-06 10:59:51	tpanarch1st	not to be pedantic but what i've noticed with gantry is it does let me call it again and again over multiple templates
+2017-04-06 10:59:53	tpanarch1st	sure :-D
+2017-04-06 11:00:00	tpanarch1st	(it = class)
+2017-04-06 11:00:06	keveloper	class would be like
+2017-04-06 11:00:09	keveloper	im a hipster
+2017-04-06 11:00:15	tpanarch1st	legend!
+2017-04-06 11:00:15	keveloper	there can be tons of hipsters
+2017-04-06 11:00:28	keveloper	.hipster { glasses: raybans; }
+2017-04-06 11:00:33	keveloper	so all hipster have raybans
+2017-04-06 11:00:33	keveloper	BUT
+2017-04-06 11:00:39	keveloper	if i have that hipster class
+2017-04-06 11:00:52	keveloper	then do #keveloper { glasses: oga; }
+2017-04-06 11:00:59	keveloper	I wouldn't be wearing raybans anymore, I'd have ogas on
+2017-04-06 11:01:26	tpanarch1st	oooh you confused me there
+2017-04-06 11:01:29	tpanarch1st	i get the real life example
+2017-04-06 11:01:30	keveloper	basically specificity goes: class > tag > id
+2017-04-06 11:01:33	keveloper	from least to most speicfic
+2017-04-06 11:01:42	tpanarch1st	if we take
+2017-04-06 11:01:43	tpanarch1st	.hipster { glasses: raybans; 
+2017-04-06 11:01:52	tpanarch1st	where does the colon come in to play please? 
+2017-04-06 11:02:07	keveloper	ah right, i just pretended that was an attribute lol
+2017-04-06 11:02:19	keveloper	.hister { color: red; } same thing
+2017-04-06 11:02:20	tpanarch1st	ah like color: #1234;
+2017-04-06 11:02:22	tpanarch1st	right!
+2017-04-06 11:02:22	keveloper	yes
+2017-04-06 11:02:23	tpanarch1st	sorry
+2017-04-06 11:02:25	keveloper	sorry my b
+2017-04-06 11:02:27	tpanarch1st	nooo
+2017-04-06 11:02:29	tpanarch1st	it's ok!
+2017-04-06 11:02:40	tpanarch1st	i just don't like to be the smart ass making assumptions
+2017-04-06 11:02:51	keveloper	lol nbd
+2017-04-06 11:03:00	tpanarch1st	just re-reading that last bit
+2017-04-06 11:03:46	tpanarch1st	yeah i get that, cos if you are calling background-color you are not calling color 
+2017-04-06 11:03:52	tpanarch1st	you do actually have to call what you want to change
+2017-04-06 11:03:52	keveloper	OH NO i tought you wrong my bad
+2017-04-06 11:03:57	keveloper	tag > class > id sorry
+2017-04-06 11:04:03	keveloper	tag is least specific
+2017-04-06 11:04:41	tpanarch1st	i get the theory but i'm just trying to image this in a way i can apply what you have told me
+2017-04-06 11:04:59	keveloper	Soo on that site you sent
+2017-04-06 11:05:11	tpanarch1st	i think i may be able to make an example here? :)
+2017-04-06 11:05:52	keveloper	eh
+2017-04-06 11:05:56	keveloper	these examples are complicated
+2017-04-06 11:05:59	keveloper	Oh here we go
+2017-04-06 11:06:15	keveloper	Right click on the top red bar and click inspect
+2017-04-06 11:06:19	keveloper	it should put on the g-toplevel ul
+2017-04-06 11:06:21	tpanarch1st	if I said .dog{color:#1234;} and then said #dog{color#4321}; I presume .dog wins and therefore the color is #1234
+2017-04-06 11:06:31	keveloper	No other way around
+2017-04-06 11:06:32	keveloper	#dog wins
+2017-04-06 11:06:35	tpanarch1st	oh right ok!
+2017-04-06 11:06:54	tpanarch1st	sure - just following your latest now...
+2017-04-06 11:07:00	keveloper	go to the training page
+2017-04-06 11:07:06	keveloper	right click on red bar, click inspect
+2017-04-06 11:07:21	keveloper	The inspector should highligh <ul class="g-toplevel">
+2017-04-06 11:07:24	tpanarch1st	yep i'm there (been there too much recently! :-) )
+2017-04-06 11:07:32	keveloper	See the styles panel on the right
+2017-04-06 11:07:32	tpanarch1st	it certainly does :)
+2017-04-06 11:07:47	tpanarch1st	yeah i'm comfortable with getting there  -it's just interpreting it
+2017-04-06 11:07:57	tpanarch1st	there btw 
+2017-04-06 11:07:58	keveloper	Ok so the 3rd section down
+2017-04-06 11:07:59	keveloper	it said
+2017-04-06 11:08:10	keveloper	Wait sorry, 4th section down
+2017-04-06 11:08:11	keveloper	it says
+2017-04-06 11:08:17	tpanarch1st	how do you do 4th section
+2017-04-06 11:08:19	keveloper	.g-main-nav ul
+2017-04-06 11:08:23	tpanarch1st	how are you cutting this up please :)
+2017-04-06 11:08:31	keveloper	There are very hard to see lines
+2017-04-06 11:08:36	keveloper	lol
+2017-04-06 11:08:45	keveloper	But you should see .g-main-nav ul
+2017-04-06 11:08:46	tpanarch1st	jees that's a nightmare for me 
+2017-04-06 11:08:49	tpanarch1st	but sure :)
+2017-04-06 11:08:54	keveloper	and it sets margin to 0
+2017-04-06 11:08:59	keveloper	right?
+2017-04-06 11:09:35	tpanarch1st	is that the == $0
+2017-04-06 11:09:45	keveloper	no
+2017-04-06 11:09:50	keveloper	Look at the styles panel on the right
+2017-04-06 11:09:54	keveloper	Youre looking at the markup :P
+2017-04-06 11:10:26	tpanarch1st	ah this is where i am atm https://snag.gy/9TBEdo.jpg
+2017-04-06 11:10:31	tpanarch1st	(screenshot)
+2017-04-06 11:10:40	keveloper	http://i.imgur.com/37c8v4X.png
+2017-04-06 11:10:41	keveloper	ah same
+2017-04-06 11:10:49	keveloper	ohhhhh
+2017-04-06 11:10:54	keveloper	ok ok
+2017-04-06 11:11:07	keveloper	click on the elipsis at the top next to the x of the inspector window
+2017-04-06 11:11:16	keveloper	select the one that puts it on the bottom half of the screen
+2017-04-06 11:11:38	keveloper	your styles panel is like 3px tall in that screen shot thats why you couldnt see anything lol
+2017-04-06 11:12:11	tpanarch1st	i suppose "dock" :)
+2017-04-06 11:12:21	keveloper	Yeah dockside
+2017-04-06 11:12:24	keveloper	second one
+2017-04-06 11:12:30	keveloper	Now you should see the styles panel
+2017-04-06 11:12:49	tpanarch1st	https://snag.gy/5ZCOIS.jpg
+2017-04-06 11:13:04	keveloper	press the x on the console
+2017-04-06 11:13:05	keveloper	get that outta here
+2017-04-06 11:13:06	keveloper	lol
+2017-04-06 11:13:20	tpanarch1st	gone totally :)
+2017-04-06 11:13:23	keveloper	ok cool
+2017-04-06 11:13:27	keveloper	do you see the styles panel now :P
+2017-04-06 11:13:34	tpanarch1st	no i just quit the lot :-p
+2017-04-06 11:13:43	keveloper	Oh you clicked the wrong x :O
+2017-04-06 11:13:48	keveloper	lol
+2017-04-06 11:13:51	tpanarch1st	oh i think i know what you mean!
+2017-04-06 11:13:58	keveloper	:P
+2017-04-06 11:14:11	tpanarch1st	you want me to be looking at this https://snag.gy/mgjPDJ.jpg
+2017-04-06 11:14:12	tpanarch1st	:-p
+2017-04-06 11:14:28	keveloper	yes woo
+2017-04-06 11:14:38	tpanarch1st	awesome - process of eliminatin!
+2017-04-06 11:14:44	tpanarch1st	elimination*
+2017-04-06 11:14:44	keveloper	now right click on the red bar again and click inspect
+2017-04-06 11:14:50	keveloper	get back to the ul element
+2017-04-06 11:15:12	tpanarch1st	back there
+2017-04-06 11:15:18	keveloper	ok
+2017-04-06 11:15:26	keveloper	So on the right are all of the styles of that element
+2017-04-06 11:15:34	tpanarch1st	yep
+2017-04-06 11:15:36	keveloper	scroll down to like the 4th section
+2017-04-06 11:15:38	keveloper	it will say
+2017-04-06 11:15:42	keveloper	.g-main-nav ul
+2017-04-06 11:15:48	keveloper	then some greyed out stuff
+2017-04-06 11:15:50	keveloper	then margin: 0;
+2017-04-06 11:15:52	keveloper	etc.
+2017-04-06 11:16:07	keveloper	Like this: http://i.imgur.com/37c8v4X.png
+2017-04-06 11:16:34	tpanarch1st	right i'm with you!
+2017-04-06 11:16:39	tpanarch1st	took me a while to suss this out
+2017-04-06 11:16:45	keveloper	See how that sets margin to 0
+2017-04-06 11:16:48	tpanarch1st	yes :)
+2017-04-06 11:16:53	keveloper	Now look at the section below it
+2017-04-06 11:17:00	keveloper	thats a rule setting ul margin-left to 1.5rem
+2017-04-06 11:17:03	keveloper	but its crossed out
+2017-04-06 11:17:21	tpanarch1st	the margin-left and the padding are over-ridden by something else
+2017-04-06 11:17:32	keveloper	correct
+2017-04-06 11:17:39	keveloper	.g-main-nav ul
+2017-04-06 11:17:44	keveloper	is more specific than just ul
+2017-04-06 11:18:01	tpanarch1st	makes sense :)
+2017-04-06 11:18:12	keveloper	so somewhere they just made the general rule that <ul> tags should have a margin-left of 1.5rem
+2017-04-06 11:18:12	tpanarch1st	i wasn't sure before where to look for where it was being controlled from 
+2017-04-06 11:18:14	tpanarch1st	but i get that
+2017-04-06 11:18:42	keveloper	BUT if the ul is under .g-main-nav, then it shouuld have no margin
+2017-04-06 11:18:47	tpanarch1st	yes :)
+2017-04-06 11:18:49	keveloper	thats how typical overriding works
+2017-04-06 11:18:49	tpanarch1st	whilst we are there
+2017-04-06 11:19:15	keveloper	yep
+2017-04-06 11:19:15	tpanarch1st	.g-main-nav ul, then has greyed out mobile stuff
+2017-04-06 11:19:18	tpanarch1st	is it the same principle
+2017-04-06 11:19:19	keveloper	right
+2017-04-06 11:19:21	tpanarch1st	that is being controlled above
+2017-04-06 11:19:29	keveloper	a comma is an or
+2017-04-06 11:19:43	tpanarch1st	ah sweet, is it not more of an "and" here
+2017-04-06 11:19:52	tpanarch1st	"let's control these both with the same values!
+2017-04-06 11:19:54	tpanarch1st	"*
+2017-04-06 11:20:07	keveloper	so it says "a ul the g main nav class OR an element with id g-mobilemenu-container with a ul under it"
+2017-04-06 11:20:14	keveloper	right
+2017-04-06 11:20:21	keveloper	so either one of those will ahve the same styling
+2017-04-06 11:20:21	keveloper	BUT
+2017-04-06 11:20:22	tpanarch1st	sweet ok!
+2017-04-06 11:20:32	keveloper	the element you are on only applies to the first selector of the OR
+2017-04-06 11:20:42	keveloper	so it grays out the ones that dont apply here for clarity
+2017-04-06 11:20:49	tpanarch1st	that makes sense
+2017-04-06 11:21:03	keveloper	But if you found yourself on #g-mobilemenu-container ul
+2017-04-06 11:21:10	keveloper	then the .g-main-nav ul would be greyed out
+2017-04-06 11:21:35	tpanarch1st	sure :)
+2017-04-06 11:21:42	tpanarch1st	so in terms of the issue
+2017-04-06 11:21:49	tpanarch1st	just looking back at my current incorrect code
+2017-04-06 11:22:07	tpanarch1st	.g-main-nav a { .g-menu-item.active { background: #123456; }
+2017-04-06 11:22:09	keveloper	right
+2017-04-06 11:22:14	keveloper	do you understand why it is incorrect
+2017-04-06 11:22:19	tpanarch1st	and just re-reading what you've said...
+2017-04-06 11:22:40	tpanarch1st	well ul means unordered list right?
+2017-04-06 11:23:00	keveloper	right but the only thing that really does is telling the browser to not put number in front of it
+2017-04-06 11:23:06	keveloper	numbers*
+2017-04-06 11:23:07	tpanarch1st	ahhh
+2017-04-06 11:23:13	tpanarch1st	but we need a's belonging to them?
+2017-04-06 11:23:24	keveloper	you dont 'need' them
+2017-04-06 11:23:36	keveloper	<ul><li></li></ul> is valid markup
+2017-04-06 11:23:37	tpanarch1st	oh right?
+2017-04-06 11:23:42	keveloper	an <a> tag means "anchor"
+2017-04-06 11:23:43	keveloper	which is a link
+2017-04-06 11:23:49	tpanarch1st	yeah i appreciate that :)
+2017-04-06 11:24:00	tpanarch1st	so is it that no a is specified to the far right of the selector
+2017-04-06 11:24:18	tpanarch1st	hmmmm
+2017-04-06 11:24:18	keveloper	well that, but also there's another issue
+2017-04-06 11:24:36	tpanarch1st	i think .g-main-nav { .g-menu-item.active a { background: #123456; }
+2017-04-06 11:24:38	keveloper	right
+2017-04-06 11:24:40	keveloper	\o/
+2017-04-06 11:24:49	keveloper	quick scss lesson
+2017-04-06 11:25:00	keveloper	.g-main-nav .g-menu-item.active a {} would also work
+2017-04-06 11:25:05	keveloper	the benefit of doing
+2017-04-06 11:25:07	tpanarch1st	because we haven't kinda gone down the garden path enough to get hold of the wheelbarrow and there is no point in trying to grab the wheelbarrow when you are not in front of it?
+2017-04-06 11:25:22	keveloper	sure lol
+2017-04-06 11:25:24	keveloper	interesting way to put it
+2017-04-06 11:25:31	tpanarch1st	I think about things in a silly way sometimes
+2017-04-06 11:25:38	keveloper	the benefit of doing .g-main-nav { .g-menu-item.active a { background: #123456; }
+2017-04-06 11:25:46	tpanarch1st	ok just digesting this next bit
+2017-04-06 11:25:59	keveloper	is that if you have other styling under .g-main-nav you need
+2017-04-06 11:26:04	keveloper	you only need to put .g-main-nav once
+2017-04-06 11:26:50	tpanarch1st	hmmm
+2017-04-06 11:27:12	tpanarch1st	so 1) is i think .g-main-nav { .g-menu-item.active a { background: #123456; }
+2017-04-06 11:27:34	keveloper	You can do stuff like this: https://pastebin.com/DguajsRF
+2017-04-06 11:27:35	tpanarch1st	2 is .g-main-nav .g-menu-item.active a {}
+2017-04-06 11:27:39	keveloper	yes those both work
+2017-04-06 11:27:49	tpanarch1st	so we are lacking a nesting situation
+2017-04-06 11:27:54	keveloper	the first one is nice if you ever have other styling under .g-main-nav
+2017-04-06 11:27:57	keveloper	like that pastebin
+2017-04-06 11:28:01	tpanarch1st	ok :)
+2017-04-06 11:28:15	tpanarch1st	is this all scss is btw
+2017-04-06 11:28:19	keveloper	no
+2017-04-06 11:28:20	tpanarch1st	shorthand css stuff :)
+2017-04-06 11:28:21	tpanarch1st	ahhh
+2017-04-06 11:28:26	keveloper	the ONLY scss thing we've talked about is the nesting
+2017-04-06 11:28:31	keveloper	you can't do that in css
+2017-04-06 11:28:39	keveloper	so that pastebin i sent is not valid css
+2017-04-06 11:28:53	keveloper	.g-main-nav .g-menu-item.active {} is valid css however
+2017-04-06 11:29:23	tpanarch1st	ah sweet, scss seems more natural somehow
+2017-04-06 11:29:32	tpanarch1st	it just felt "right"
+2017-04-06 11:29:50	keveloper	the pure css version of that pastebin is this: https://pastebin.com/SxEq7QVr
+2017-04-06 11:30:06	keveloper	having .g-main-nav a bunch is annoying
+2017-04-06 11:30:15	keveloper	That's one of the main problems scss solves
+2017-04-06 11:30:46	tpanarch1st	so like
+2017-04-06 11:31:08	tpanarch1st	got a question but i need to rearrange your pastebin :)
+2017-04-06 11:31:30	keveloper	ok thats fine just clone it :P
+2017-04-06 11:33:15	tpanarch1st	https://pastebin.com/inBxFyTQ
+2017-04-06 11:33:27	tpanarch1st	so the change I have made, does that achieve the same in css?
+2017-04-06 11:33:34	tpanarch1st	with one less section of code?
+2017-04-06 11:33:46	keveloper	no
+2017-04-06 11:34:03	keveloper	mine makes the actual .g-main-nav elements 50%
+2017-04-06 11:34:15	keveloper	yours makes .g-menu-item.active 50% width
+2017-04-06 11:34:50	tpanarch1st	ah cos the space isn't for selecting two at the same time equally, it's about the nearest tag to the right
+2017-04-06 11:35:02	tpanarch1st	i just realised the error of my ways i think!
+2017-04-06 11:35:12	keveloper	right
+2017-04-06 11:35:15	keveloper	its for locating
+2017-04-06 11:35:20	tpanarch1st	right! That makes a lot more sense!
+2017-04-06 11:35:26	keveloper	if you want to select both equally
+2017-04-06 11:35:27	keveloper	use ,
+2017-04-06 11:35:29	tpanarch1st	i think in all of this, that was the biggest issue for me
+2017-04-06 11:35:31	tpanarch1st	ahhhh!
+2017-04-06 11:35:38	keveloper	.g-main-nav, .g-menu-item.active
+2017-04-06 11:35:39	tpanarch1st	so i could have just used a comma (do you use spaces then)
+2017-04-06 11:35:45	keveloper	but keep in mind that change the active selector
+2017-04-06 11:35:58	keveloper	the .g-menu-item.active part is way less specific now
+2017-04-06 11:36:05	keveloper	becuase it doesn't find a .g-main-nav first
+2017-04-06 11:36:12	keveloper	to do that you'd do
+2017-04-06 11:36:24	keveloper	.g-main-nav, .g-main-nav .g-menu-item.active
+2017-04-06 11:36:39	keveloper	but you probably wouldn't want to apply the same css to both of  those :P
+2017-04-06 11:36:50	tpanarch1st	ah that makes sense - the same principle could be applied either side of the comma
+2017-04-06 11:36:55	tpanarch1st	IF you wanted the same values :)
+2017-04-06 11:37:06	keveloper	righ
+2017-04-06 11:37:12	keveloper	you can have as many commas as you want
+2017-04-06 11:37:13	tpanarch1st	so you can stick a bath to one WHEN FINISHED , path to two
+2017-04-06 11:37:18	tpanarch1st	path not bath*
+2017-04-06 11:37:21	keveloper	h1, h2, h3, h4, h5 { font-weight: 500; }
+2017-04-06 11:37:23	keveloper	for example
+2017-04-06 11:37:30	tpanarch1st	that brings me neatly onto two other questions
+2017-04-06 11:37:33	tpanarch1st	in my muddled learning
+2017-04-06 11:37:33	keveloper	ok
+2017-04-06 11:38:23	tpanarch1st	i'm a fan of h1, h2, h3, h4, h5, p, strong {color:#ffffff; background-color:#000000;}
+2017-04-06 11:38:39	tpanarch1st	i'd have to look at my current code as i always forget where to shove the semi colon
+2017-04-06 11:38:56	tpanarch1st	but essentially, i notice sometimes with when i get told to do something in gantry
+2017-04-06 11:39:07	tpanarch1st	no id or class is used first
+2017-04-06 11:39:11	keveloper	at the end of an setting an attribute
+2017-04-06 11:39:12	tpanarch1st	so the line simply starts with h1....
+2017-04-06 11:41:21	tpanarch1st	is that right sorry*
+2017-04-06 11:41:25	tpanarch1st	not a very clear question
+2017-04-06 11:41:35	tpanarch1st	also, so I think i'm right on this code .g-main-nav { .g-menu-item.active a { background: #123456; }
+2017-04-06 11:44:11	keveloper	yes thats right
+2017-04-06 11:44:25	tpanarch1st	ok, that code is still not doing it
+2017-04-06 11:44:27	tpanarch1st	BUT
+2017-04-06 11:44:30	tpanarch1st	I must confees
+2017-04-06 11:44:39	keveloper	did you publish
+2017-04-06 11:44:40	keveloper	i can debug
+2017-04-06 11:44:41	tpanarch1st	confess - my custom.scss in such a horrible mess it is untrue!
+2017-04-06 11:44:57	tpanarch1st	well, not to be lazy but would it be sensible to give you a pastebin of the whole custom.scss 
+2017-04-06 11:45:00	tpanarch1st	it's not **huge**
+2017-04-06 11:45:04	keveloper	okay i see it
+2017-04-06 11:45:08	tpanarch1st	ahhhh :)
+2017-04-06 11:45:13	keveloper	no chrome dev tools are all i need :P
+2017-04-06 11:45:17	keveloper	its there
+2017-04-06 11:45:19	tpanarch1st	ah sweet :-D
+2017-04-06 11:45:47	keveloper	oh
+2017-04-06 11:45:50	keveloper	pro-tip
+2017-04-06 11:45:53	tpanarch1st	sweet :)
+2017-04-06 11:45:54	keveloper	always use background-color
+2017-04-06 11:45:58	keveloper	for setting colors
+2017-04-06 11:46:02	tpanarch1st	how do you mean :)
+2017-04-06 11:46:06	keveloper	background support way more tha njust colors
+2017-04-06 11:46:08	tpanarch1st	even when it isn't needed?
+2017-04-06 11:46:14	keveloper	background: #123456; is hort hand for
+2017-04-06 11:46:22	keveloper	background-color: #123456;
+2017-04-06 11:46:32	tpanarch1st	oh i usually do
+2017-04-06 11:46:38	tpanarch1st	there's an odd one out there though!!
+2017-04-06 11:47:04	keveloper	well whats happening is you set background but gantry has css that set the actual background-color so your css isn't applying
+2017-04-06 11:47:31	keveloper	But even if you do change it I don't think its specific enough
+2017-04-06 11:47:31	keveloper	try ti tho
+2017-04-06 11:47:48	tpanarch1st	just updated that
+2017-04-06 11:47:50	tpanarch1st	let's see
+2017-04-06 11:48:00	tpanarch1st	nope :(
+2017-04-06 11:48:05	keveloper	okay
+2017-04-06 11:48:11	keveloper	so its crossed out now (booo)
+2017-04-06 11:48:19	keveloper	meaning its being overridden by something more speicifc
+2017-04-06 11:48:22	tpanarch1st	ah cac
+2017-04-06 11:48:30	tpanarch1st	would it be easier if you had my custom.scss to hand?
+2017-04-06 11:48:40	keveloper	nope :P
+2017-04-06 11:48:52	tpanarch1st	is #g-offcanvas a {
+2017-04-06 11:48:52	tpanarch1st		background-color: #a333c8;
+2017-04-06 11:48:52	tpanarch1st	}
+2017-04-06 11:48:54	tpanarch1st	relevant
+2017-04-06 11:49:03	keveloper	One of the gantry classes is overridding it
+2017-04-06 11:49:21	keveloper	with quite a honkin selector i must say
+2017-04-06 11:49:23	keveloper	#g-navigation .g-main-nav .g-toplevel > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active > .g-menu-item-container {}
+2017-04-06 11:49:36	tpanarch1st	oh right, that means, as i understand it, the structure of the css command in custom.scss is not calling it
+2017-04-06 11:49:48	keveloper	your selector matches fine
+2017-04-06 11:49:49	tpanarch1st	what the hell is not
+2017-04-06 11:49:51	tpanarch1st	:)
+2017-04-06 11:49:59	tpanarch1st	:not
+2017-04-06 11:49:59	keveloper	not means what it soudns like
+2017-04-06 11:50:05	keveloper	an li that does NOT have that class
+2017-04-06 11:50:07	tpanarch1st	bloody hell that is messy
+2017-04-06 11:50:13	keveloper	right
+2017-04-06 11:50:20	keveloper	so thats more specific than your selector
+2017-04-06 11:50:23	keveloper	there are two ways to fix this
+2017-04-06 11:50:28	keveloper	one is really easy but bad practice
+2017-04-06 11:50:34	keveloper	one is the "correct" way but is a little harder
+2017-04-06 11:50:40	tpanarch1st	ah reet :)
+2017-04-06 11:50:46	keveloper	1st option, throw !important on after the color
+2017-04-06 11:50:52	keveloper	color: #123456 !important;
+2017-04-06 11:51:00	keveloper	that will ignore specificity and just set it
+2017-04-06 11:51:17	keveloper	the "correct" way would be to use a more specific selector
+2017-04-06 11:51:18	tpanarch1st	does option 2 come into play if the hellish code had important already?
+2017-04-06 11:51:34	tpanarch1st	or can you do !!important
+2017-04-06 11:51:34	keveloper	option 2 is required if there was already important being used
+2017-04-06 11:51:37	keveloper	no lmao
+2017-04-06 11:51:38	tpanarch1st	ah sweet
+2017-04-06 11:51:43	tpanarch1st	sorry, that would be too easy :-p
+2017-04-06 11:51:48	keveloper	if important was already being used
+2017-04-06 11:51:52	tpanarch1st	shame 
+2017-04-06 11:51:53	tpanarch1st	:)
+2017-04-06 11:51:58	keveloper	you need to make a more specific selector that ALSO uses important
+2017-04-06 11:52:00	keveloper	lol
+2017-04-06 11:52:23	tpanarch1st	actually would the important in the more specific selector be necessary anyway
+2017-04-06 11:52:30	keveloper	no
+2017-04-06 11:52:35	tpanarch1st	sweet :)
+2017-04-06 11:52:40	keveloper	but some frameworks are bad and they use important in dumb places
+2017-04-06 11:52:41	tpanarch1st	maybe i'm somehow getting the hang of this
+2017-04-06 11:52:44	tpanarch1st	ahhh!
+2017-04-06 11:52:46	keveloper	important is generally bad practice to use
+2017-04-06 11:52:57	tpanarch1st	is gantry any good from what you've seen/are seeing
+2017-04-06 11:53:26	keveloper	but i do not have to mental capacity at the moment to think of a selector more specific than that nightmare gantry is using
+2017-04-06 11:53:29	keveloper	lol
+2017-04-06 11:53:39	keveloper	lemme see if i can figure something out
+2017-04-06 11:53:41	tpanarch1st	gut instinct is - normally, where something is expert level css/scss, they have a setting available in the GUI
+2017-04-06 11:53:49	tpanarch1st	but i can't for love nor money find it!
+2017-04-06 11:53:55	tpanarch1st	and i have asked them
+2017-04-06 11:54:00	tpanarch1st	but no response for a day now
+2017-04-06 11:55:05	tpanarch1st	they have this intermediary GUI to take us some way https://snag.gy/ZQvTkp.jpg
+2017-04-06 11:55:23	tpanarch1st	so it seems they try and make the really hellish stuff a fair bit easier in theory
+2017-04-06 11:55:47	tpanarch1st	but as to what an accent is or suchlike, well that's confusing
+2017-04-06 11:56:13	keveloper	holy shit lol this is impossible
+2017-04-06 11:56:15	keveloper	i tried section#g-navigation nav.g-main-nav > ul > li.g-menu-item.active > a
+2017-04-06 11:56:20	keveloper	but its not specific enough
+2017-04-06 11:56:26	keveloper	okay in weird circumstances like this
+2017-04-06 11:56:35	tpanarch1st	keveloper i'm just wondering if there's a way within the GUI
+2017-04-06 11:56:43	keveloper	especially where you are fighting with a frameowrk trying to override it
+2017-04-06 11:56:46	keveloper	!important is okay to use
+2017-04-06 11:56:49	tpanarch1st	fairs!
+2017-04-06 11:56:54	tpanarch1st	will it work in all browsers?
+2017-04-06 11:56:57	keveloper	yes
+2017-04-06 11:57:10	tpanarch1st	ah sweet :) why should it be normally avoided please
+2017-04-06 11:57:41	tpanarch1st	i guess because of a potential existing important
+2017-04-06 11:57:50	keveloper	It makes it harder to override
+2017-04-06 11:58:00	keveloper	also the 'c' in 'css' is 'cascading'
+2017-04-06 11:58:08	keveloper	and the !important destroys the cascading part of that
+2017-04-06 11:58:31	keveloper	it's like a last ditch effort hack to make something work generally
+2017-04-06 11:58:35	tpanarch1st	ahhh :) 
+2017-04-06 11:58:36	tpanarch1st	.g-main-nav { .g-menu-item.active a { background: #123456 !important; }
+2017-04-06 11:58:52	keveloper	its okay here because it'd be pretty hard to find a selector that is more specific than that ridiuclous one
+2017-04-06 11:59:03	keveloper	it says its coming from custom though
+2017-04-06 11:59:08	keveloper	do you have that in there somewhere
+2017-04-06 11:59:13	keveloper	#g-navigation .g-main-nav .g-toplevel > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active > .g-menu-item-container
+2017-04-06 11:59:13	keveloper	that one
+2017-04-06 11:59:24	tpanarch1st	my custom.scss is a total mess :)
+2017-04-06 11:59:28	tpanarch1st	i need to work out a way of tidying it
+2017-04-06 11:59:34	keveloper	well do a ctrl+f for that selector
+2017-04-06 11:59:38	keveloper	see if you ahve it
+2017-04-06 12:00:01	keveloper	if you do you can either A: delete it or B: just change the background-color defined there
+2017-04-06 12:00:16	keveloper	otherwise stick with the important fix
+2017-04-06 12:00:29	tpanarch1st	https://pastebin.com/7RjWDqzP
+2017-04-06 12:00:34	tpanarch1st	i will do that two
+2017-04-06 12:00:36	tpanarch1st	too*
+2017-04-06 12:00:58	keveloper	uh oh
+2017-04-06 12:01:03	keveloper	line 77 lol
+2017-04-06 12:01:09	tpanarch1st	reeet :-p
+2017-04-06 12:01:18	keveloper	change that #9ac0cd to whatever you want
+2017-04-06 12:01:32	keveloper	why is that selector so gross
+2017-04-06 12:01:58	tpanarch1st	its a mish mash of trying to get help to fix things :)
+2017-04-06 12:02:02	keveloper	ah okay
+2017-04-06 12:02:03	tpanarch1st	"/*added in for testing*/"
+2017-04-06 12:02:05	tpanarch1st	duhhh
+2017-04-06 12:02:09	keveloper	so yeah either delete that and use your new one
+2017-04-06 12:02:09	tpanarch1st	one should have deleted it haha
+2017-04-06 12:02:19	keveloper	or delete your new one and use that
+2017-04-06 12:02:29	keveloper	im not sure what all of the not classes are for there but
+2017-04-06 12:02:32	tpanarch1st	but then mine isn't working anyway i don't believe 
+2017-04-06 12:02:44	tpanarch1st	it would be nice to avoid the important
+2017-04-06 12:02:49	tpanarch1st	but i presume we have to use that?
+2017-04-06 12:02:50	keveloper	there were like two things overriding it
+2017-04-06 12:02:55	keveloper	i gtg to lunch
+2017-04-06 12:03:07	tpanarch1st	sweet keveloper so we need the important essentially :)
+2017-04-06 12:03:10	keveloper	try to find all of the .g-menu-item-container stuff setting background
+2017-04-06 12:03:11	tpanarch1st	and thanks so much!
+2017-04-06 12:03:17	keveloper	i'll be back in like 40
+2017-04-06 12:03:21	tpanarch1st	sweet man :)
+2017-04-06 12:03:24	tpanarch1st	thanks again!
+2017-04-06 12:20:47	tpanarch1st	ok, commented out the section you did not want in custom.scss and currently active is the following:
+2017-04-06 12:20:48	tpanarch1st	.g-main-nav {
+2017-04-06 12:20:48	tpanarch1st		.g-menu-item.active a {
+2017-04-06 12:20:49	tpanarch1st			background: #a333c8 !important;
+2017-04-06 12:20:49	tpanarch1st		}
+2017-04-06 12:20:49	tpanarch1st	}
+2017-04-06 12:21:03	tpanarch1st	still not playing i'm afraid :)
+2017-04-06 12:53:28	keveloper	hey
+2017-04-06 12:56:43	tpanarch1st	hey man :)
+2017-04-06 12:58:15	keveloper	is everything good
+2017-04-06 12:58:30	tpanarch1st	did you see the above? :)
+2017-04-06 12:58:39	tpanarch1st	still stuck i'm afraid
+2017-04-06 12:58:42	tpanarch1st	i played around
+2017-04-06 12:58:51	tpanarch1st	and then commented out the line you found in custom, used yours, changed the colour
+2017-04-06 12:58:54	tpanarch1st	no joy though :)
+2017-04-06 12:59:20	keveloper	its a new color
+2017-04-06 13:00:21	keveloper	its working
+2017-04-06 13:00:25	keveloper	what do you mean
+2017-04-06 13:05:11	tpanarch1st	oh right keveloper now im confused
+2017-04-06 13:05:18	keveloper	lol
+2017-04-06 13:05:22	tpanarch1st	im still getting sky blue background
+2017-04-06 13:05:40	tpanarch1st	https://snag.gy/uPdiKh.jpg
+2017-04-06 13:06:23	keveloper	uh
+2017-04-06 13:06:38	tpanarch1st	is it cross browser stuff?
+2017-04-06 13:06:44	keveloper	no
+2017-04-06 13:07:00	keveloper	http://www.gbgacademy.org.uk/training/
+2017-04-06 13:07:02	keveloper	i see pink here
+2017-04-06 13:08:54	tpanarch1st	now this is getting fun!
+2017-04-06 13:09:20	tpanarch1st	what i don't get is why it isn't doing that across the whole install
+2017-04-06 13:09:23	tpanarch1st	yes, your link has changed
+2017-04-06 13:09:30	tpanarch1st	but i thought this was global
+2017-04-06 13:09:37	keveloper	custom should be yeah
+2017-04-06 13:09:43	keveloper	the markup might be different idk ¯\_(ツ)_/¯
+2017-04-06 13:09:51	tpanarch1st	yeah this is really odd
+2017-04-06 13:09:57	tpanarch1st	im just goingt o check one thing
+2017-04-06 13:11:25	tpanarch1st	right, it's reading that from .topmenu
+2017-04-06 13:11:49	tpanarch1st	cos .topmenu that i wrote in was called, since we've got rid of the crazy rule 
+2017-04-06 13:12:12	tpanarch1st	so i presume from what you taught me, get rid of .topmenu
+2017-04-06 13:12:17	tpanarch1st	and allow the other rule to take over?
+2017-04-06 13:12:47	keveloper	i'm not sure it depepnds what .topmenu is doing
+2017-04-06 13:15:02	tpanarch1st	ok keveloper let's just clear that out for a sec :)
+2017-04-06 13:18:51	tpanarch1st	ok this is crazy
+2017-04-06 13:19:02	tpanarch1st	so i've got rid of the #topmenu by commenting it out in scss
+2017-04-06 13:19:11	tpanarch1st	and taking it out of the login page
+2017-04-06 13:19:16	tpanarch1st	template
+2017-04-06 13:19:33	tpanarch1st	the login page still has the right colour, however, when i log in, the sky blue is back
+2017-04-06 13:19:37	tpanarch1st	cache has been cleared
+2017-04-06 13:19:50	tpanarch1st	is there two similar but distinct situations here?
+2017-04-06 13:20:42	keveloper	idk i'd ahve to see it
+2017-04-06 13:21:17	tpanarch1st	i don't want to take you away from your work as you've given me a lot of time already but do you want a login?
+2017-04-06 13:21:41	tpanarch1st	then you can get to that page
+2017-04-06 13:21:54	tpanarch1st	or, alternatively, if you want me to do something and paste it
+2017-04-06 13:22:03	tpanarch1st	if a certain line is different, for example
+2017-04-06 13:22:45	tpanarch1st	in actual fact
+2017-04-06 13:22:54	tpanarch1st	what is being called on this one that is still sky blue is as follows:
+2017-04-06 13:22:55	tpanarch1st	#g-navigation .g-main-nav .g-toplevel > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active > .g-menu-item-container {
+2017-04-06 13:22:55	tpanarch1st	    color: #000;
+2017-04-06 13:22:55	tpanarch1st	    background-color: #9ac0cd;
+2017-04-06 13:23:22	tpanarch1st	on the purple one
+2017-04-06 13:23:24	tpanarch1st	-
+2017-04-06 13:23:24	tpanarch1st	-
+2017-04-06 13:23:26	tpanarch1st	#g-navigation .g-main-nav .g-toplevel > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active > .g-menu-item-container {
+2017-04-06 13:23:26	tpanarch1st	    color: #1f004d;
+2017-04-06 13:23:44	tpanarch1st	that's odd!
+2017-04-06 13:24:26	keveloper	oh weird
+2017-04-06 13:24:41	keveloper	hm
+2017-04-06 13:24:45	tpanarch1st	although i have not used background-color again by the look of it
+2017-04-06 13:24:48	keveloper	is that selector anywhere else in gantry
+2017-04-06 13:25:07	keveloper	besides the one in custom that you took out
+2017-04-06 13:25:14	tpanarch1st	not sure :(
+2017-04-06 13:25:25	keveloper	thats odd
+2017-04-06 13:25:36	tpanarch1st	it appears to call it the same way..
+2017-04-06 13:25:39	keveloper	if you inspect and go to the styles panel it should tell you what file the rule comes form
+2017-04-06 13:25:49	tpanarch1st	sure ok that makes sense
+2017-04-06 13:26:09	tpanarch1st	so our purple is http://www.gbgacademy.org.uk/training/templates/g5_hydrogen/custom/css-compiled/hydrogen_14.css?58e677fb
+2017-04-06 13:26:34	tpanarch1st	our blue is http://www.gbgacademy.org.uk/training/templates/g5_hydrogen/custom/css-compiled/custom_15.css?58e66310
+2017-04-06 13:26:40	tpanarch1st	soooooo
+2017-04-06 13:26:44	tpanarch1st	that tells us some interesting stuff
+2017-04-06 13:26:55	tpanarch1st	it means the purple is coming from gantry itself
+2017-04-06 13:27:02	tpanarch1st	and the blue is coming in from custom.css right?
+2017-04-06 13:27:08	keveloper	looks like it
+2017-04-06 13:27:15	tpanarch1st	bloody hell :(
+2017-04-06 13:27:24	tpanarch1st	so our rule is not taking effect i think
+2017-04-06 13:27:40	tpanarch1st	it's just that custom.scss is not getting in the way anymore
+2017-04-06 13:28:33	tpanarch1st	i know a bad workman always blames his tools but it does rather feel half the issue is where their built in GUI colour changer not explaining what things do properly
+2017-04-06 13:29:42	keveloper	idk this framework seems kinda bulky and messy
+2017-04-06 13:32:45	tpanarch1st	yep :)
+2017-04-06 13:52:02	tpanarch1st	it's crazy!
+2017-04-06 13:52:16	keveloper	what is crazy
+2017-04-06 13:52:33	tpanarch1st	trying to a change a simple value globally
+2017-04-06 13:52:44	keveloper	yeah its normally not this hard lol
+2017-04-06 13:52:59	tpanarch1st	not sure where to go now
+2017-04-06 13:54:50	keveloper	just use important
+2017-04-06 13:59:32	tpanarch1st	keveloper I am atm :) 
+2017-04-07 00:12:27	<--	tpanarch1st (~tpanarch1@unaffiliated/tpanarch1st) has quit (Ping timeout: 240 seconds)

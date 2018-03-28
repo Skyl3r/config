@@ -1,0 +1,48 @@
+2016-08-09 16:28:17	-->	keveloper (~frappucci@51.ip-192-99-58.net) has joined #oclceusmaxdev
+2016-08-09 16:28:17	--	Mode #oclceusmaxdev [+ns] by barjavel.freenode.net
+2016-08-09 16:28:17	--	Channel #oclceusmaxdev: 1 nick (1 op, 0 voices, 0 normals)
+2016-08-09 16:28:19	--	Channel created on Tue, 09 Aug 2016 16:28:18
+2016-08-09 16:28:34	-->	na_th_an (~na_th_an@172.ip-158-69-48.net) has joined #oclceusmaxdev
+2016-08-09 16:28:35	na_th_an	sup bro
+2016-08-09 16:28:37	@keveloper	sup
+2016-08-09 16:28:43	--	Mode #oclceusmaxdev [-s+tc] by ChanServ
+2016-08-09 16:29:12	@keveloper	k cool
+2016-08-09 16:29:14	--	Mode #oclceusmaxdev [+o na_th_an] by keveloper
+2016-08-09 16:29:54	@keveloper	we good
+2016-08-09 16:29:56	@na_th_an	yup
+2016-08-09 16:30:01	@na_th_an	if this build works I'm leaving
+2016-08-09 16:30:05	@na_th_an	go dui go
+2016-08-09 16:30:11	@keveloper	i probably should leave
+2016-08-09 16:30:11	@na_th_an	build -> commit -> run
+2016-08-09 16:30:12	@keveloper	but
+2016-08-09 16:30:13	@keveloper	i want to
+2016-08-09 16:30:16	@keveloper	i lost all motivation
+2016-08-09 16:30:17	@keveloper	ugh
+2016-08-09 16:30:41	@keveloper	also im pretty sure this is not a proper usage of the strategy pattern but thats not gonna stop us from calling it strategy
+2016-08-09 16:31:16	--	keveloper has changed topic for #oclceusmaxdev to "|| WELCOME TO OCLC EUS MAX DEV ~~ "Dev to the MAX" ||"
+2016-08-09 16:31:18	@na_th_an	it's not the "strategy design pattern"
+2016-08-09 16:31:25	@na_th_an	but it is an "activation strategy"
+2016-08-09 16:31:29	@keveloper	ah
+2016-08-09 16:31:43	@na_th_an	the first being an industry thing
+2016-08-09 16:31:48	@na_th_an	the 2nd being specific to ent act ui
+2016-08-09 16:32:49	@keveloper	ah
+2016-08-09 16:33:05	@keveloper	are we allowed to affiliate this channel with OCLC on a public server
+2016-08-09 16:33:13	@na_th_an	hmm
+2016-08-09 16:33:16	@na_th_an	good question
+2016-08-09 16:33:19	@na_th_an	idk
+2016-08-09 16:33:21	@keveloper	..
+2016-08-09 16:33:23	@keveloper	no one will find us
+2016-08-09 16:33:30	@na_th_an	there's the oclc slack
+2016-08-09 16:33:31	@keveloper	or know what oclc is if they see this
+2016-08-09 16:33:34	@keveloper	its irc
+2016-08-09 16:33:35	@na_th_an	and they aren't getting suied
+2016-08-09 16:33:37	@na_th_an	sued
+2016-08-09 16:33:40	@keveloper	lol
+2016-08-09 16:33:42	@keveloper	k we gsafe
+2016-08-09 16:33:53	@na_th_an	you know since zach updated the gradle version
+2016-08-09 16:33:57	@na_th_an	I haven't had my build get stuck
+2016-08-09 16:34:11	@keveloper	woot
+2016-08-09 16:34:13	@keveloper	ying jeez
+2016-08-09 16:34:32	@na_th_an	ying what
+2016-08-09 16:34:36	@keveloper	coughin
+2016-08-09 16:35:35	@keveloper	oclc eus max dev has been dropped

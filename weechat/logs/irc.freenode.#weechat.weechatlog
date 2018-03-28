@@ -27,3 +27,48 @@
 2015-11-23 17:17:02	Nicd-	there you will find new versions
 2015-11-23 17:17:24	frappuccino	thank you
 2015-11-23 17:17:49	<--	ixti (~ixti@83.165.9.36) has quit (Client Quit)
+2016-12-01 12:13:05	-->	keveloper (~frappucci@51.ip-192-99-58.net) has joined #weechat
+2016-12-01 12:13:05	--	Topic for #weechat is "https://weechat.org/ | Latest stable version: 1.6 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign source tarball packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2016-12-01 12:13:05	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 02 Oct 2016 05:04:01
+2016-12-01 12:13:05	--	Channel #weechat: 776 nicks (4 ops, 1 voice, 771 normals)
+2016-12-01 12:13:05	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: https://weechat.org/doc/
+2016-12-01 12:13:05	--	URL for #weechat: https://weechat.org/
+2016-12-01 12:13:07	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2016-12-01 12:13:24	keveloper	Does anybody know a way to have all open buffers listed sort of like browser tabs?
+2016-12-01 12:14:15	@nils_2	/script install buffers.pl
+2016-12-01 12:17:47	LordRyan	then /set weechat.bar.buffers.position top
+2016-12-01 12:23:08	<--	przemkovv-bis (~przemkovv@188.146.171.251.nat.umts.dynamic.t-mobile.pl) has quit (Ping timeout: 265 seconds)
+2016-12-01 12:23:37	keveloper	Thanks
+2016-12-01 12:23:55	<--	mingdao (~mingdao@unaffiliated/mingdao) has quit (Ping timeout: 250 seconds)
+2016-12-01 12:24:15	keveloper	Wow I love this, thanks so much
+2017-01-06 10:13:07	-->	keveloper (~frappucci@51.ip-192-99-58.net) has joined #weechat
+2017-01-06 10:13:07	--	Topic for #weechat is "https://weechat.org/ | Latest stable version: 1.6 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign source tarball packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2017-01-06 10:13:07	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 02 Oct 2016 05:04:01
+2017-01-06 10:13:08	--	Channel #weechat: 730 nicks (4 ops, 1 voice, 725 normals)
+2017-01-06 10:13:08	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: https://weechat.org/doc/
+2017-01-06 10:13:08	--	URL for #weechat: https://weechat.org/
+2017-01-06 10:13:09	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2017-01-06 10:13:21	keveloper	Is there a way to change the order of your open  buffers?
+2017-01-06 10:13:31	-->	dhruvasa1 (~dhruvasag@103.227.96.174) has joined #weechat
+2017-01-06 10:14:14	koike	keveloper: if you user /mouse enable, and use script buffers.pl you can drag the buffers to the order you want
+2017-01-06 10:14:34	keveloper	Cool it worked
+2017-01-06 10:14:35	keveloper	Thank you!!
+2017-01-06 10:14:46	keveloper	(You guys are always so quick and correct with your answers it is great)
+2017-01-06 10:15:36	keveloper	koike: Is there a way to disable the swipe left and right to change channels? I can't highlight text with mouse enabled
+2017-01-06 10:15:47	Desu	/buffer move /n/
+2017-01-06 10:15:58	koike	keveloper: you can hold shift to select texts
+2017-01-06 10:16:10	Desu	or /mouse toggle | the keybinding
+2017-01-06 10:16:37	keveloper	Is there a default for that
+2017-01-06 10:16:43	keveloper	(keybinding)
+2017-01-06 10:16:50	keveloper	koike: Holding shift doesn't seem to be working
+2017-01-06 10:17:23	-->	dondy (~dondy@x4e31dec3.dyn.telefonica.de) has joined #weechat
+2017-01-06 10:17:41	<--	dondy (~dondy@x4e31dec3.dyn.telefonica.de) has left #weechat
+2017-01-06 10:17:54	-->	Kryptron (~Kryptron@unaffiliated/kryptron) has joined #weechat
+2017-01-06 10:18:11	keveloper	Ah, holding alt works for me
+2017-01-06 10:21:04	-->	keveloper (~frappucci@51.ip-192-99-58.net) has joined #weechat
+2017-01-06 10:21:04	--	Topic for #weechat is "https://weechat.org/ | Latest stable version: 1.6 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign source tarball packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2017-01-06 10:21:04	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 02 Oct 2016 05:04:01
+2017-01-06 10:21:04	--	Channel #weechat: 732 nicks (4 ops, 1 voice, 727 normals)
+2017-01-06 10:21:04	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: https://weechat.org/doc/
+2017-01-06 10:21:04	--	URL for #weechat: https://weechat.org/
+2017-01-06 10:21:05	--	Channel created on Sun, 26 Nov 2006 01:42:51

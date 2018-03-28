@@ -1,0 +1,435 @@
+2017-09-12 13:04:36	minty-hime	PM'ing you.
+2017-09-12 13:04:44	keveloper	Hey, where do you live
+2017-09-12 13:04:59	minty-hime	I'm in Plantation, Florida although I'm very willing to relocate.
+2017-09-12 13:05:13	keveloper	Are you looking for entry/mid/senior
+2017-09-12 13:05:22	minty-hime	entry/mid.
+2017-09-12 13:05:51	keveloper	We are in columbus, oh
+2017-09-12 13:06:08	keveloper	Is that too far of a rellocation?
+2017-09-12 13:06:57	minty-hime	If you can cover relocation, there would be no trouble getting there.
+2017-09-12 13:07:46	keveloper	Well I know they'd want a local before paying for rellocation :P
+2017-09-12 13:07:50	keveloper	What java experience do you have
+2017-09-12 13:08:27	minty-hime	Mostly educational. I used it for a lot of classes. Also I tutored people privately in java along with being a t.a. for a few java classes.
+2017-09-12 13:08:46	minty-hime	I made a couple of Android applications using Java back in high school and college.
+2017-09-12 13:10:05	keveloper	Do you have a degree?
+2017-09-12 13:10:12	keveloper	You have a portfolio or resu,e?
+2017-09-12 13:10:34	keveloper	resume**
+2017-09-12 13:10:46	minty-hime	I have a degree, and you can see my portfolio here. http://mintytech.com/ 
+2017-09-12 13:11:43	keveloper	Do you work on side projects or are these school projects
+2017-09-12 13:11:45	keveloper	or a mix
+2017-09-12 13:11:55	minty-hime	The link to my resume on that is old and I need to update it. https://drive.google.com/open?id=0B2HUFVwMMadoblRkeVNLLU92M28
+2017-09-12 13:12:17	minty-hime	I work on side projects a lot. Tavern is a school project. The rest are side projects. I don't have the android apps listed on there.
+2017-09-12 13:13:29	keveloper	What backend languages have you used, node and php?
+2017-09-12 13:13:53	keveloper	and you know java but just not java for web apps
+2017-09-12 13:13:54	minty-hime	node and php, yes. I have been meaning to find an excuse to use elixir.
+2017-09-12 13:14:20	minty-hime	I dabbled with Ruby on Rails a couple of times. Enough to know how to read a RoR project and modify it at least.
+2017-09-12 13:15:50	keveloper	We use almost all java, maven/gradle, spring/spring-boot, groovy, jetty, tomcat
+2017-09-12 13:16:03	keveloper	What do you know about any of those? (obviously you can learn but just curious :P )
+2017-09-12 13:17:06	minty-hime	I've used java, i used gradle pre-packaged with Android Studio. I haven't used spring, groovy, jetty, or tomcat as a developer. I've been exposed to spring, groovy, and tomcat although I don't have a great deal of knowledge about them.
+2017-09-12 13:17:11	minty-hime	I learn fast though and can probably figure out their respective hello world equivalents in a day.
+2017-09-12 13:17:30	keveloper	If you're on IRC and do side projects I'm sure you can learn them :P
+2017-09-12 13:17:41	minty-hime	Definitely.
+2017-09-12 13:17:43	keveloper	how well do you know linux
+2017-09-12 13:18:34	minty-hime	I don't remember when I started using linux and windows is almost foreign to me at this point. I was a system administrator for a variety of linux distros for several years and used to tutor people on linux. Actually three of my students have gone on to become cloud administrators.
+2017-09-12 13:18:42	keveloper	Awesome
+2017-09-12 13:18:52	keveloper	what about git
+2017-09-12 13:19:22	minty-hime	I drove 5 miles in 95 degree weather to throw a book about git at my first programming teacher because he didn't cover source version control in his class and I find it abhorant.
+2017-09-12 13:19:27	minty-hime	biked*
+2017-09-12 13:19:58	keveloper	isn't college great :P
+2017-09-12 13:20:12	minty-hime	Also I administered gitlab for several years, and I implemented hook-based automatic deployment for nodejs at sociallygive because I got tired of manually deploying whenever I pushed to staging
+2017-09-12 13:20:24	keveloper	Pretty experienced with MVC? What about backend templating
+2017-09-12 13:20:36	minty-hime	What do you mean by backend templating. Like HTML templates?
+2017-09-12 13:20:53	keveloper	JSP/Soy, PHP counts I guess
+2017-09-12 13:21:10	minty-hime	Also I was the one to introduce Laravel to the guy who taught my web development because he was teaching the class CakePHP and only in the last two weeks of the semester.
+2017-09-12 13:21:13	keveloper	In MVC java apps, the html is rendered backend using a templating engine, generally jsp
+2017-09-12 13:22:15	keveloper	but if you have PHP experience that's close enough honestly, it's pretty similar
+2017-09-12 13:23:05	minty-hime	I also have experience with blade thanks to Laravel.
+2017-09-12 13:23:53	keveloper	Alright let me ask around :)
+2017-09-12 13:24:01	keveloper	Oh and the company: oclc.org
+2017-09-12 13:25:28	minty-hime	Awesome, thank you so much. I'm going to do a bit of research on your company now. Also I just updated my portfolio to link to my newest resume.
+2017-09-12 13:26:03	keveloper	We make library software for libraries around the world, the particular position I know of is in end user services, so it would be working in a team with managers/dev/qa/product analysts to implement new features and maintain existing applications for externally facing applications
+2017-09-12 13:27:13	keveloper	If you have any question let me know, I'm gonna talk to some people and see if I can get you an interview if that's cool with you :)
+2017-09-12 13:27:37	keveloper	Just a heads up: I know HR has been iffy about rellocating recently, but that was like 4 months ago so it might be different now
+2017-09-12 13:27:43	minty-hime	That sounds great, thank you. My only question right now is wondering where I most likely saw your product in action.
+2017-09-12 13:28:23	keveloper	lemme see if your university uses OCLC products :P 
+2017-09-12 13:29:51	keveloper	Yes they did :D
+2017-09-12 13:29:55	keveloper	do*
+2017-09-12 13:30:03	minty-hime	Also looks like that question I learned to finally ask is a powerful and useful one.
+2017-09-12 13:30:09	minty-hime	Yay mental toolboxes.
+2017-09-12 13:30:29	keveloper	:P I've been looking for people to refer because our local applicants have been bleh
+2017-09-12 13:30:42	keveloper	And I know most people that hang out in webdev are very talented and can learn
+2017-09-12 13:31:01	minty-hime	Well, you're talking to someone incredibly flexible. I learned how to use nuxt in less than a day and made a product with it in less than a week.
+2017-09-12 13:31:28	keveloper	Ah so nova just uses our database WorldCat, they don't use our front end applications
+2017-09-12 13:31:43	minty-hime	WorldCat was really nice to use. I remember it.
+2017-09-12 13:31:49	keveloper	That's us :D
+2017-09-12 13:32:00	keveloper	Here's Ohio State Universitys discovery application: https://osu.on.worldcat.org/discovery
+2017-09-12 13:32:02	minty-hime	Neat :D
+2017-09-12 13:32:05	keveloper	How to find books etc.
+2017-09-12 13:32:28	minty-hime	What do you guys use for your frontend stuff? Just jsp or are you using any of the frontend frameworks like react/angular/vue
+2017-09-12 13:32:30	keveloper	Discovery layer applications are for when a patron comes into the library and needs to search for a book and find how to get it
+2017-09-12 13:32:41	keveloper	Some angular, some other apps use react
+2017-09-12 13:32:50	keveloper	We still use a lot of jquery as this app started in 2011
+2017-09-12 13:33:02	keveloper	Newer features are moving to angular though
+2017-09-12 13:33:08	keveloper	(angular 1)
+2017-09-12 13:33:46	minty-hime	Right. I stopped using react for personal stuff due to the legal antics facebook has involved in it. I love vue. Angular is fun, its what I built SociallyGive's frontend in. 
+2017-09-12 13:34:21	keveloper	The app you are looking at is Java 1.8/Gradle/Groovy/Spring/Spring MVC/JSP/Soy/Angular/Require/JQuery
+2017-09-12 13:34:25	keveloper	those are the big ones I can think of currently
+2017-09-12 13:34:32	keveloper	some other random front end frameworks
+2017-09-12 13:35:04	keveloper	We use almost exclusively groovy now where we can
+2017-09-12 13:35:09	keveloper	(It's amazing)
+2017-09-12 13:35:17	keveloper	And yeah vue is awesome
+2017-09-12 13:35:38	minty-hime	Struck me as "great for large teams that need to split work up"
+2017-09-12 13:35:54	keveloper	We have 1 week dedicated to an independent project every once in a while where you can make anything you want as long as it has some business value so I wrote a application health dashboare in vue with a spring boot back end :)
+2017-09-12 13:36:13	minty-hime	Huh. Groovy can be used for frontend? I always thought it was just for scripting.
+2017-09-12 13:36:21	keveloper	No groovy is backend
+2017-09-12 13:36:32	keveloper	Groovy is awesome for scripting but we use it for a backend services actually 
+2017-09-12 13:36:36	keveloper	for our*
+2017-09-12 13:36:49	keveloper	I _love_ it
+2017-09-12 13:36:50	minty-hime	Oh! What you were saying made it sound like you somehow used it for frontend.
+2017-09-12 13:36:59	keveloper	Sorry I was just rambling about our stack lol
+2017-09-12 13:37:09	keveloper	It's pretty complex and ridiculous and has changed a lot in 6 years
+2017-09-12 13:37:09	minty-hime	Any plans on messing with kotlin? People on another channel keep telling me I need to try it at some point.
+2017-09-12 13:37:20	keveloper	I've personally used kotlin but in the company not currently
+2017-09-12 13:37:36	keveloper	na_th_an also uses kotlin if you've seen him around
+2017-09-12 13:37:38	keveloper	he works with me
+2017-09-12 13:37:47	keveloper	he's a regular in webdev
+2017-09-12 13:37:50	minty-hime	Oh, cool :o I'll have to give him a more personal hello at some point
+2017-09-12 13:37:57	minty-hime	I've talked to him in the lobby before I think
+2017-09-12 13:38:03	keveloper	I'll send him your stuff to see what he thinks :P
+2017-09-12 13:38:24	keveloper	But yeah mess around with java and spring (its pretty easy honestly) if you want and I can start talking to some people
+2017-09-12 13:38:39	keveloper	I was actually asked if I had any referals for this position last week and I said I'll look around so
+2017-09-12 13:38:42	keveloper	here i am looking :P
+2017-09-12 13:39:09	minty-hime	Sounds like I'm what you're looking for :D Any suggestions on what to make with java and spring?
+2017-09-12 13:39:35	keveloper	I dunno, I've made a bunch of random things
+2017-09-12 13:39:45	keveloper	Something with a database and using JPA is always fun
+2017-09-12 13:39:50	keveloper	Not super relevant to us though :P
+2017-09-12 13:40:03	keveloper	We mostly consume other backend services so our team barely ever uses SQL
+2017-09-12 13:40:22	minty-hime	Thats interesting. I've actually yet to deal with a scenario that doesn't involve SQL o-o
+2017-09-12 13:40:42	keveloper	we have 1 or 2 apps that use sql but besides that not at all :P
+2017-09-12 13:40:48	keveloper	it's pretty nice not having to deal with it :P
+2017-09-12 13:41:22	minty-hime	And now to do the eternal struggle and staring at a blank sheet of paper and trying to figure out the answer to "what do I make."
+2017-09-12 13:41:36	keveloper	So just to be blunt: I don't wanna get your hopes because of HR's recent aversion to rellocating; BUT with that said I really want to get you an interview because I know you would do well
+2017-09-12 13:41:40	keveloper	So I will try I promise <3
+2017-09-12 13:42:02	keveloper	get your hopes up***
+2017-09-12 13:42:41	minty-hime	Thanks you!
+2017-09-12 13:42:55	keveloper	You sure relocating to columbus would be fine? (I love the city btw)
+2017-09-12 13:43:01	keveloper	How do you feel about snow lol
+2017-09-12 13:44:05	minty-hime	I experienced it for the first time last year and fell in love with it.
+2017-09-12 13:44:38	minty-hime	I guess I'll do the classic TodoMVC similar to learn java and spring
+2017-09-12 13:46:29	keveloper	Honestly JSP is on it's way out so idk how much I'd bother but it is on it's way out
+2017-09-12 13:46:40	minty-hime	what are you guys looking at now?
+2017-09-12 13:47:02	keveloper	What we try to do now is a separated frontend in backend, backend is restful (still uses spring), frontend is angular or something
+2017-09-12 13:47:23	keveloper	We don't do a lot of full stack greenfield projects though, mostly microservices
+2017-09-12 13:47:55	keveloper	i.e. recently integrated with easybib to improve the experience around citing books and what not
+2017-09-12 13:48:07	minty-hime	so, you just do the classic backend/frontend split thing now and have the two talk to each other via restful API?
+2017-09-12 13:48:11	keveloper	so we made a spring-boot restful service to talk to easybib
+2017-09-12 13:48:30	keveloper	Not really, that's the dream lol
+2017-09-12 13:48:35	keveloper	If we made a brand new full stack app then yes
+2017-09-12 13:48:51	minty-hime	Ah. Also "fullstack greenfield project"? Greenfield is a new term to me.
+2017-09-12 13:48:53	keveloper	All of our full stack apps still use jsp
+2017-09-12 13:49:00	keveloper	greenfield just means brandnew
+2017-09-12 13:49:02	keveloper	all grass
+2017-09-12 13:49:04	keveloper	empty field lol
+2017-09-12 13:49:04	minty-hime	oh, ok
+2017-09-12 13:49:19	keveloper	no piles of sawed  down trees lmao
+2017-09-12 13:49:29	minty-hime	Right.
+2017-09-12 13:49:50	minty-hime	So all your legacy stuff is heavily integrated.
+2017-09-12 13:50:21	keveloper	Yeah we as a company have a _ridiculous_ number of applications (mostly internal) that all talk to each other
+2017-09-12 13:50:46	keveloper	makes for a very complex network of applications and pretty exciting environment honestly
+2017-09-12 13:51:03	keveloper	I've been here for 3 years and I still learn new things all the time
+2017-09-12 13:51:25	keveloper	As far as work life balance it is _very_ good
+2017-09-12 13:51:37	keveloper	Compared to any of my friends and anybody on irc i've talked to
+2017-09-12 13:52:04	keveloper	10 days vacation a year, 4 personal days on top of that, 15 sick days a year (those are separate reserved for being sick)
+2017-09-12 13:52:07	keveloper	benefits are solid
+2017-09-12 13:52:29	keveloper	Anyway i gotta get back to work lol XD
+2017-09-12 13:52:36	keveloper	I'll get back to you soon :)
+2017-09-12 13:52:44	minty-hime	Alright. I'm excited for this opportunity, thanks for taking the time to talk to me.
+2017-09-12 13:53:00	keveloper	You're welcome :D
+2017-09-12 13:54:51	keveloper	lol already have an update
+2017-09-12 13:54:56	keveloper	it's not the greatest of news though
+2017-09-12 13:55:08	keveloper	Somebody (also from florida) who recently got hired didn't get anything for rellocation
+2017-09-12 13:55:40	minty-hime	Well, I'm still interested in the interview. If we all end up liking each other I'm sure something can be worked out.
+2017-09-12 13:56:25	keveloper	Okay I was misinformed, he did get some, but they maintained until the 3rd interview that he would get paid for relocation
+2017-09-12 13:56:54	minty-hime	I'm not sure what you mean by that?
+2017-09-12 13:57:40	keveloper	THey told him he wouldn't get relocation until the 3rd interview when they said they would
+2017-09-12 13:57:52	minty-hime	Ah.
+2017-09-12 13:58:08	keveloper	Probably to see if you will still try to come without relocation, idk, I'm not HR :P
+2017-09-12 13:58:24	minty-hime	Who knows. HR is a weird eldricht magic.
+2017-09-12 13:58:33	keveloper	I know right
+2017-09-12 13:59:00	minty-hime	Probably 3 parts social engineering, 8 parts legalese, and 2 parts unlabelled bottles.
+2017-09-12 14:04:40	keveloper	BTW if you have spring java webdev questions hmu, I'm on here 24/7
+2017-09-12 14:04:52	minty-hime	Will do.
+2017-09-12 14:04:56	keveloper	Well... my client is running 24/7, I check it a few times a day
+2017-09-12 14:05:37	minty-hime	I understand completely. I run a znc bouncer just so I can be sure I can read backlog. I should probably implement some sort of highlight push notifier or something.
+2017-09-12 14:07:05	keveloper	I don't ahve that.. I just run weechat in a tmux session on a vps and mosh to it 
+2017-09-12 14:09:19	minty-hime	I used to do that.
+2017-09-12 14:09:32	minty-hime	It ended up eating all my server's resources (only 128 megs of ram to play with)
+2017-09-12 14:13:48	keveloper	Oh really, never had an issue
+2017-09-12 14:13:52	keveloper	I have 2gb ram I think
+2017-09-12 14:13:55	keveloper	maybe 1gb I don't remember
+2017-09-12 14:14:22	minty-hime	$15/yr for a buyvm server thats only 128 megs of ram and 50 gigs of space gives you a lot of fun challenges
+2017-09-12 14:14:45	minty-hime	Hows the nature up in that area?
+2017-09-12 14:15:09	keveloper	Not too different from florida honestly lol
+2017-09-12 14:15:13	keveloper	a little rockier
+2017-09-12 14:15:15	keveloper	less swampy
+2017-09-12 14:15:17	keveloper	humid
+2017-09-12 14:16:08	keveloper	About an hour away from the start of the appalachians
+2017-09-12 14:16:14	keveloper	But still pretty small
+2017-09-12 14:16:20	keveloper	Some cool state parks but nothing amazing
+2017-09-12 14:16:30	keveloper	I like to travel though so idk what your baseline is
+2017-09-12 14:18:01	keveloper	My vps is 2.4GHz vCore, 2gb ram, 10gb ssd, raid 10, 1tb monthly transfer for $3.50 a month
+2017-09-12 14:18:03	keveloper	decent deal I think
+2017-09-12 14:18:07	keveloper	2gb ram is plenty :)
+2017-09-12 14:18:23	keveloper	100mbps I think
+2017-09-12 14:19:49	minty-hime	Nice and nice.
+2017-09-12 14:20:07	minty-hime	I'm honestly planning on living out of a van in BLM land as soon as possible >>
+2017-09-13 13:11:35	keveloper	Hey you there?
+2017-09-13 13:13:46	minty-hime	Hello!
+2017-09-13 13:14:01	keveloper	Hey is your resume all up to date and ready to send to people?
+2017-09-13 13:15:01	minty-hime	https://drive.google.com/open?id=0B2HUFVwMMadoblRkeVNLLU92M28 is the one I usually send to people. If theres something you feel would be helpful to add, I have the time to add it.
+2017-09-13 13:15:18	minty-hime	Otherwise, thats my most up to date copy.
+2017-09-13 13:15:27	keveloper	The gap after technical skills is a little weird imo
+2017-09-13 13:15:37	keveloper	Also after Nova southeastern on the second page
+2017-09-13 13:16:44	minty-hime	This is the version I used to use. https://docs.google.com/document/d/1iI2zfaeDIEf1SYw0R9upg-txF3-esae52HNrnfaiQyQ/edit?usp=sharing
+2017-09-13 13:17:24	minty-hime	If the formatting on that looks better I can transfer the new info onto there
+2017-09-13 13:17:29	keveloper	That ones definitely more concise
+2017-09-13 13:18:16	minty-hime	Alright give me a few moments to transfer the new info onto there
+2017-09-13 13:19:01	keveloper	Okay sounds good
+2017-09-13 13:35:59	keveloper	you got a linked in?
+2017-09-13 13:43:01	minty-hime	https://docs.google.com/document/d/1iI2zfaeDIEf1SYw0R9upg-txF3-esae52HNrnfaiQyQ/edit?usp=sharing
+2017-09-13 13:43:09	minty-hime	https://www.linkedin.com/in/antonio-menteguiaga-73388328/
+2017-09-13 13:49:56	minty-hime	Did you get the links I sent you? My internet has been falling in and out.
+2017-09-13 13:50:10	keveloper	Yeah I got em sorry
+2017-09-13 13:52:04	keveloper	advice on existing
+2017-09-13 13:52:07	keveloper	- websites.
+2017-09-13 13:52:11	keveloper	Can you fix that?
+2017-09-13 13:52:46	minty-hime	Just did, thank you for pointing it out for me
+2017-09-13 13:53:16	minty-hime	Also got rid of that weird semicolon thing and just made it a new bullet
+2017-09-13 13:53:34	keveloper	Let me know when it's good to go :)
+2017-09-13 13:54:43	minty-hime	Looks as good as I'm going to get it
+2017-09-13 13:55:22	keveloper	Okay cool
+2017-09-13 14:31:41	keveloper	I've started the process with the hiring manager and hr :) I'll keep you updated
+2017-09-13 14:32:00	keveloper	Any chance to check out spring-boot or java webdev stuff yet?
+2017-09-13 14:32:37	minty-hime	I installed netbeans yesterday and opened the netbeans article on spring yesterday. Haven't done anything with it yet.
+2017-09-13 14:32:50	keveloper	I would _highly_ recommend using intelliJ
+2017-09-13 14:32:54	keveloper	netbeans is pretty out these days
+2017-09-13 14:33:01	minty-hime	Alright, I'll swap to intellij
+2017-09-13 14:33:24	keveloper	Also I'd recommend spring-boot, which is much easier in more modern than regular spring apps
+2017-09-13 14:33:27	minty-hime	Was installing netbeans since it seemed like it was still updating, and last time I used intellij it was a bit of a resource hog
+2017-09-13 14:33:49	keveloper	intelliJ is a bit of a resource hog definitely but it is _incredible_
+2017-09-13 14:33:59	keveloper	No other java ide I've found comes close to it's feature set
+2017-09-13 14:34:19	keveloper	(we also use intellij here)
+2017-09-13 14:36:26	minty-hime	I would imagine you do :p it is kinda the leading standard. Last time I used it was when I was testing out Android Studio
+2017-09-13 14:36:41	minty-hime	I wanted to try using it for some PHP or NodeJS stuff, and was like "bluh. Money. VIM it is."
+2017-09-13 14:37:04	keveloper	Oh yeah idk about phpstorm and all that
+2017-09-13 14:37:06	keveloper	webstorm is okay
+2017-09-13 14:37:20	keveloper	For almost everything else I use vim or atom
+2017-09-13 14:37:33	keveloper	java based stuff I use intelliJ
+2017-09-13 14:37:53	minty-hime	Java kinda *needs* an IDE. Every time I tried to do it with VIM I find myself hating something about it
+2017-09-13 14:38:15	keveloper	But yeah as far as android app dev though I think android studio is the best
+2017-09-13 14:38:24	keveloper	Yeah I can't iamgine trying to use vim as a java ide
+2017-09-13 14:38:32	keveloper	no matter how much gothalice says it could be decent -_- lol
+2017-09-13 14:39:08	minty-hime	Just wish the xml android thing didn't make my preferred devices start smelling like a bag of pennies left outside
+2017-09-13 14:39:22	keveloper	overheat?
+2017-09-13 14:39:30	minty-hime	yeah, and then max out my ram.
+2017-09-13 14:39:35	keveloper	oh jeez
+2017-09-13 14:39:37	minty-hime	I usually prefer laptops.
+2017-09-13 14:39:45	keveloper	I've never touched android development honestly lol
+2017-09-13 14:39:51	keveloper	I did a tiny bit of iOS in school but
+2017-09-13 14:39:53	minty-hime	Since web dev doesn't require that much power in my experience
+2017-09-13 14:39:53	keveloper	I'm all web
+2017-09-13 14:40:06	minty-hime	yeah, web strikes me as the most portable and the easiest to work with
+2017-09-13 14:40:10	keveloper	Yeah, our build gets our MBPs chuggin tho
+2017-09-13 14:40:23	keveloper	oh also all developers here get MBPs
+2017-09-13 14:40:39	keveloper	since we need support and linux dev machines isn't the most realistic thing and fuck windows
+2017-09-13 14:40:43	keveloper	im happy with it though ¯\_(ツ)_/¯
+2017-09-13 14:41:06	keveloper	so anyway I hope you are fine with OSX :P
+2017-09-13 14:41:56	minty-hime	I can live with it. Its at least linux-like enough.
+2017-09-13 14:42:04	minty-hime	brew?
+2017-09-13 14:42:43	keveloper	Yeap
+2017-09-13 14:42:55	keveloper	Yeah it's close enough to linux that I don't really care
+2017-09-13 14:43:07	minty-hime	People try to tell me "OSX is Linux"
+2017-09-13 14:43:13	minty-hime	I'm like "Uhhh."
+2017-09-13 14:43:16	keveloper	nooooo
+2017-09-13 14:43:28	keveloper	i mean it's _pretty_ closed to linux but
+2017-09-13 14:43:31	minty-hime	Darwin is so many steps away from GNU/Linux
+2017-09-13 14:43:39	minty-hime	its *way* closer to BSD.
+2017-09-13 14:43:42	keveloper	yeah but I mean relative to windows
+2017-09-13 14:43:53	keveloper	At least it's a unix based env
+2017-09-13 14:44:13	keveloper	at least I don't shoot myself while I'm trying to do a fucking dns lookup or smoething
+2017-09-13 14:44:17	keveloper	blehhh windows
+2017-09-13 14:44:23	minty-hime	Its definitely not Windows. Although secret thing not a lot of people know: Windows NT is Windows kernel reconfigured to be similar to Linux Kernel
+2017-09-13 14:44:40	keveloper	I've heard the bash for windows thing is pretty decent
+2017-09-13 14:44:47	minty-hime	Although their dedication to backwards compatibility makes that trivia super useless
+2017-09-13 14:45:26	keveloper	na_th_an spends a few minutes every week or two complaining about how his mac can't do something his linux laptop can do and he gets all triggered lol
+2017-09-13 14:45:29	keveloper	but besides that its nbd
+2017-09-13 14:45:46	minty-hime	Sounds like we'll get along >>
+2017-09-13 14:45:48	keveloper	lolll
+2017-09-13 14:46:07	keveloper	he has caps mapped to control so that causes some issues, esp. in chrome lol
+2017-09-13 14:46:28	keveloper	err.. control mapped to caps lock
+2017-09-13 14:46:38	minty-hime	So many people suggest doing that.
+2017-09-13 14:46:44	keveloper	he also uses dvorak so
+2017-09-13 14:46:50	minty-hime	x-x
+2017-09-13 14:46:55	keveloper	he's super underground man
+2017-09-13 14:46:57	minty-hime	I tried using colemak once
+2017-09-13 14:47:17	minty-hime	I went about two hours before my brain was like "If you keep trying to do this I'm gonna go ahead and shut off our hands."
+2017-09-13 14:47:22	keveloper	i tried dvorak once and gave up pretty quickly
+2017-09-13 18:39:50	minty-hime	Do you need a special version of IntelliJ to use Spring Boot? I had to go to start.spring.io and use the webapp because the community edition of IntelliJ IDEA doesn't come with spring initializer installed by default
+2017-09-13 18:40:57	minty-hime	Seems to be working so far, I just want to be sure i'm on the right path
+2017-09-13 18:58:34	keveloper	Sound like you're on the right path
+2017-09-13 18:59:00	keveloper	I used the community edition for a long time before I started using whatever the professional version is called
+2017-09-13 18:59:01	keveloper	ultimate?
+2017-09-13 18:59:23	keveloper	spring intitializer is the way to go though
+2017-09-13 19:07:27	minty-hime	Seems like it. I followed their simple hello world example and it isn't producing the expected results though. Hrm. Worried its something to do with my config at this point.
+2017-09-13 19:08:20	keveloper	Are you getting a 404?
+2017-09-13 19:08:36	minty-hime	Got it to work :D it was just a dumb out of package problem
+2017-09-13 19:08:40	keveloper	woo :D
+2017-09-13 19:09:23	keveloper	I made sure to let HR and hiring manager know despite your lack of java webdev experience that you _do_ have android experience and you will learn java web dev very quickly and eagerly :)
+2017-09-13 19:25:12	minty-hime	Welp, I just finished a basic Hello "Name" project
+2017-09-13 19:25:22	minty-hime	Trying to figure out how to properly use produces=mediatype now
+2017-09-13 19:35:08	minty-hime	And figured it out. This is a really clean way to write web applications.
+2017-09-13 19:35:16	keveloper	It is :)
+2017-09-13 19:35:42	keveloper	Now switch to groovy and 'ohh fahget abowt it'
+2017-09-13 19:35:56	keveloper	groovy/spring-boot is my favorite
+2017-09-13 19:36:00	keveloper	but yeah even just with java its awesome
+2017-09-13 19:40:46	minty-hime	haha. should I seriously try to redo this in groovy?
+2017-09-13 19:40:55	keveloper	Eh, not really
+2017-09-13 19:41:15	keveloper	Groovy is basically java with a bunch of functional language features
+2017-09-13 19:41:37	keveloper	java code will compile as groovy code
+2017-09-13 19:42:00	keveloper	just some awesome features around closure and functional features that make it beauitful to work in
+2017-09-13 19:42:12	keveloper	Gets rid of a lot of java's annoyances
+2017-09-14 13:56:27	keveloper	Ayy
+2017-09-14 13:59:14	keveloper	The team would like to talk to you :)
+2017-09-14 13:59:20	keveloper	Apply here to go forward: https://oclc.wd1.myworkdayjobs.com/en-US/OCLC_Careers/job/Corporate-Office---Dublin/Software-Engineer_R0000519
+2017-09-14 13:59:28	keveloper	If there's a referrer field you can put my name: Kevin Holland
+2017-09-14 13:59:40	keveloper	If not don't worry bou tit
+2017-09-14 19:32:27	minty-hime	Ah, yay :D
+2017-09-14 19:33:43	minty-hime	Sorry about the incredibly delayed response, I was afk pretty much all of today due to life events.
+2017-09-14 20:12:59	minty-hime	Sent in the app.
+2017-09-14 23:26:53	keveloper	Nbd
+2017-09-18 16:12:37	minty-hime	Just got off the phone with Liz, it went well. I have a phone call with the hiring manager tomorrow.
+2017-09-18 16:12:45	keveloper	Nice :D
+2017-09-18 16:12:48	keveloper	Liz is awesome
+2017-09-18 16:13:19	minty-hime	Yeah. She said you guys hire anyone recommended by you and nathan
+2017-09-18 16:13:32	keveloper	That's been the trend lol :P
+2017-09-18 16:14:11	keveloper	we have co-dependently become very good for our age at the company lol, so they tend to trust our referrals :P
+2017-09-18 16:15:52	minty-hime	Probably jumping the gun, but do you prefer homebaked goods or do you prefer alcohol?
+2017-09-19 15:59:56	keveloper	Sorry just saw this lol
+2017-09-19 16:00:09	keveloper	Idk depends on the goods I guess lol, alcohol is always nice though lol
+2017-09-28 13:11:21	minty-hime	Sorry about being silent on the last few days. OCLC stuff is going super well. We're just working out the finer details now :D
+2017-09-28 13:12:11	keveloper	What's that mean exactly lol
+2017-09-28 13:12:43	minty-hime	We're figuring out how I'm gonna survive up there until the first paycheck XP 
+2017-09-28 13:12:46	minty-hime	I got the offer.
+2017-09-28 13:12:55	keveloper	And you accepted?
+2017-09-28 13:13:01	minty-hime	Yup!
+2017-09-28 13:13:04	keveloper	WOOOO!
+2017-09-28 13:13:17	keveloper	(I already knew that but I was making sure I wasn't spoiling anything lol)
+2017-09-28 13:13:21	minty-hime	OCLC Is gonng give me relocation *assistance* so I need to work it out with the relocation company how 'm doing everything
+2017-09-28 13:13:41	keveloper	yeah, heard 10/9?
+2017-09-28 13:13:44	minty-hime	Yeah I had a feeling you did XP I have a thing about not getting excited about stuff that isn't confirmed.
+2017-09-28 13:13:53	minty-hime	Yeah, thats what we're aiming for.
+2017-09-28 13:14:01	keveloper	Awesome :D
+2017-09-28 13:14:12	keveloper	The team seems to really like you
+2017-09-28 13:14:16	keveloper	:P
+2017-09-28 13:14:19	minty-hime	Thats good. :D
+2017-09-28 13:14:48	keveloper	They liked that you were up front about your lack of java experience also
+2017-09-28 13:15:03	keveloper	but they said they have no worries about you learning
+2017-09-28 13:15:12	minty-hime	Can't improve if you don't know whats wrong.
+2017-09-28 13:15:21	keveloper	Dave seems impressed :D
+2017-09-28 13:15:31	minty-hime	:D
+2017-09-28 13:16:03	keveloper	He mentioned that you could speak very inteligently about vue and vuex and was impressed
+2017-09-28 13:16:19	keveloper	Sounds like you killed it :D
+2017-09-28 13:16:21	minty-hime	I'm glad he could get that out of my stumbling, lol.
+2017-09-28 13:16:51	keveloper	lol :P
+2017-09-28 13:17:04	minty-hime	He probably realized I speak about tech incredibly conversationally >_> I have a habit of trying to turn things into as much of a layman's interpretation as possible due to the fact that I used to be a TA
+2017-09-28 13:17:16	keveloper	No that's great
+2017-09-28 13:17:18	keveloper	I try to do the same
+2017-09-28 13:17:32	keveloper	Yeah I've _only_ heard great things :)
+2017-09-28 13:17:41	keveloper	Woooo I can't believe this worked out lol
+2017-09-28 13:17:41	minty-hime	c:
+2017-09-28 13:17:45	minty-hime	Same x-x
+2017-09-28 13:17:59	keveloper	"hey anybody hiring?" lol
+2017-09-28 13:18:10	minty-hime	Also been looking at the prices in that area
+2017-09-28 13:18:20	minty-hime	For $1605 I can get a 3 story apartment
+2017-09-28 13:18:22	keveloper	cost of living is pretty cheap
+2017-09-28 13:18:26	minty-hime	for $3k down here I can get a 2/2
+2017-09-28 13:18:28	keveloper	Yeah
+2017-09-28 13:18:31	keveloper	Cost of living is awesome here
+2017-09-28 13:18:40	keveloper	And the apartments are nice most of the time
+2017-09-28 13:18:41	minty-hime	food prices are exactly the same
+2017-09-28 13:19:06	keveloper	I'm living in a brand new renovated apartment near downtown, 2/2 1600sqft two stories for $1365/mo
+2017-09-28 13:19:22	minty-hime	Theres a place an hour long walk away from OCLC that looks appealing to me.
+2017-09-28 13:19:31	keveloper	What's it called?
+2017-09-28 13:19:54	minty-hime	I need to get into the habit of using bookmarks or something.
+2017-09-28 13:20:00	keveloper	:P
+2017-09-28 13:20:21	keveloper	I've lived here my whole life so let me know if you have questions about suburbs or areas or whatever
+2017-09-28 13:20:29	minty-hime	Perimiter Lakes Apartments
+2017-09-28 13:21:33	keveloper	No way me and my gf are looking there lol
+2017-09-28 13:21:40	minty-hime	Hah
+2017-09-28 13:21:52	keveloper	Yeah that place is right next to a ton of food and grocery stores
+2017-09-28 13:22:00	minty-hime	I'm really glad this opportunity came out of me asking that x-x I've been dying for a position like this for a long time now
+2017-09-28 13:22:03	keveloper	Probably less than an hour walk to work honestly
+2017-09-28 13:22:10	minty-hime	45 minutes according to maps
+2017-09-28 13:22:21	keveloper	Hmmm, that might be right idk
+2017-09-28 13:22:31	keveloper	biking would be like 15 min though I think
+2017-09-28 13:22:34	keveloper	It's very close
+2017-09-28 13:23:16	minty-hime	Has a 2.2 stars for some reason
+2017-09-28 13:23:17	keveloper	But yeah those apartments look nice, me and gf have driven through there twice to check em out from the outside, i like the community and it's really close to a park 
+2017-09-28 13:23:21	keveloper	really
+2017-09-28 13:23:32	keveloper	what site
+2017-09-28 13:24:31	minty-hime	https://www.google.com/search?client=ubuntu&channel=fs&q=perimeter+lakes+apartments&ie=utf-8&oe=utf-8#lrd=0x88389352c7886bcb:0xe2a4a88de2ca42e9,1,,
+2017-09-28 13:24:45	minty-hime	Although honestly the reviews are so long they look like hired slam posts
+2017-09-28 13:25:14	keveloper	"The accused me of subletting. I was letting a friend stay with me for 6 weeks. "
+2017-09-28 13:25:18	keveloper	lol
+2017-09-28 13:25:21	keveloper	uhhh that's subletting dude
+2017-09-28 13:28:17	minty-hime	lol
+2017-09-29 10:39:22	minty-hime	Hi, did you just text me about a location in Ohio?
+2017-09-29 10:39:29	keveloper	no
+2017-09-29 10:39:46	minty-hime	Alright. Landlord of a really cheap place has the same name as you then, lol.
+2017-09-29 10:40:06	keveloper	lol
+2017-09-29 10:40:08	keveloper	just kevin or
+2017-09-29 10:40:10	keveloper	kevin holland
+2017-09-29 10:40:14	minty-hime	Just Kevin
+2017-09-29 10:40:17	keveloper	oh okay lol
+2017-09-29 10:43:18	minty-hime	Also wow a lot of OCLC people hang out in webdev don't they o-o
+2017-09-29 10:43:21	minty-hime	or just on freenode
+2017-09-29 10:44:04	keveloper	we have a channel (just the young hip folks) and a few hang out else where on freenode
+2017-09-29 10:44:11	keveloper	there's like 12 i know of on freenode
+2017-09-29 10:45:23	minty-hime	ah
+2017-09-29 10:45:34	minty-hime	I have people PM'ing me with congrats and stuff XP
+2017-09-29 10:45:40	keveloper	was it _saracen
+2017-09-29 10:45:53	minty-hime	and abbyhaha
+2017-09-29 10:45:56	minty-hime	abbyaha*
+2017-09-29 10:46:03	keveloper	lol why abby wtf
+2017-09-29 10:46:10	keveloper	_saracen is on the team you got hired onto though
+2017-09-29 10:46:17	keveloper	which is also kinda of part of my and nathans team
+2017-09-29 10:46:27	keveloper	abby is in qa idk why she pmd you lol
+2017-09-29 10:47:22	keveloper	i told _saracen to say hi if he wanted and i guess abby also wanted to lol
+2017-09-29 10:47:32	minty-hime	Well, I have a tendency to try and be friends with QA since they do so much to help
+2017-09-29 10:48:03	keveloper	well yeah we are :D
+2017-09-29 10:48:26	minty-hime	You're on QA?
+2017-09-29 10:48:34	keveloper	no i mean we are friends with qa
+2017-09-29 10:48:38	minty-hime	Oh lol
+2017-09-29 10:48:53	keveloper	nathan _saracen and i are all devs
+2017-09-29 10:48:55	keveloper	abby is qa
+2017-09-29 10:48:59	 *	minty-hime nod
+2017-09-29 10:49:12	keveloper	the only people actually active in freenode support channels are nathan and i
+2017-09-29 10:49:20	keveloper	everybody else uses it for social stuff
+2017-10-04 17:52:22	minty-hime	eeeee
+2017-10-04 17:52:27	minty-hime	Its actually happening @-@
+2017-10-04 17:52:41	minty-hime	I wasn't saying much because I was still hashing everything out with relocation but its actually happening now.
+2017-10-04 20:39:12	keveloper	Woooooooo
+2017-10-04 20:39:14	keveloper	That's awesome
+2017-10-04 20:40:33	minty-hime	:D
+2017-10-05 09:54:08	keveloper	Start Monday ya?
+2017-10-05 11:29:03	minty-hime	Yup!
+2017-10-05 11:29:11	keveloper	woop
+2017-10-05 11:29:22	keveloper	Come on down to #discodevs :D
+2017-10-05 11:29:43	keveloper	(Our team name is discovery, the same team you'll be)
+2017-10-05 22:12:39	<--	minty-hime (~minty@2605:6400:2:fed5:22:623:78ec:1137) has quit (Ping timeout: 255 seconds)
+2017-10-05 22:13:53	-->	minty-hime (~minty@2605:6400:2:fed5:22:623:78ec:1137) is back on server
+2017-10-10 13:11:48	keveloper	Thank you :D
+2017-10-10 13:11:53	keveloper	glad to have you
+2017-10-10 13:12:07	minty-hime	You're welcome. I'm glad to be here.
+2017-10-10 13:45:32	minty-hime	I'm not sure who else I should send those thank yous out to >_> I wanna thank everyone that I can.
+2017-10-10 13:45:48	keveloper	Nathan also supported you
+2017-10-10 13:45:57	minty-hime	Alright.

@@ -1,0 +1,58 @@
+2017-07-31 15:46:45	keveloper	I deleted the background photo divs and just put it on body: http://i.imgur.com/az7Usy4.png
+2017-07-31 15:49:56	keveloper	That's probably the cleanest way to do what you want
+2017-07-31 15:50:10	keveloper	If you want the image to be darker (like it is currently) you can add this to the body tag style also
+2017-07-31 15:50:18	keveloper	box-shadow: inset 0 0 0 50vw rgba(0,0,0,.26);
+2017-07-31 15:57:25	theseb	so the old way didn't work for you?
+2017-07-31 15:57:29	theseb	i'm not crazy? ;)
+2017-07-31 15:57:35	theseb	i was wondering why i failed
+2017-07-31 16:04:00	keveloper	No I also got that to work but the markup was unnessarily complicated for what you were trying to do :P
+2017-07-31 16:04:05	keveloper	Was this from some blogger theme?
+2017-07-31 16:08:56	theseb	yes!
+2017-07-31 16:11:50	theseb	it worked! my old changes were'nt registering for some reason
+2017-07-31 16:12:16	keveloper	Woo \o/
+2017-07-31 16:12:18	theseb	amazing
+2017-07-31 16:12:39	theseb	the old way fixes the bg so it doesn't scroll...i like it
+2017-07-31 16:13:23	keveloper	Doesn't work on safari btw
+2017-07-31 16:13:32	theseb	oh no...weird
+2017-07-31 16:13:41	theseb	let me try ff
+2017-07-31 16:13:44	keveloper	FF works
+2017-07-31 16:14:03	keveloper	just add position: fixed; height: 100%; to .bg-photo-container or whatever
+2017-07-31 16:15:57	keveloper	Also the dark filter needs position: fixed; height: 100%; too
+2017-07-31 16:16:12	keveloper	I would highly recommend adding it to body if you can
+2017-07-31 16:16:15	keveloper	Would be much simpler
+2017-07-31 16:16:51	theseb	what css is the dark filter?
+2017-07-31 16:16:59	theseb	what is the affect of that?
+2017-07-31 16:17:32	keveloper	bg-photo-overlay
+2017-07-31 16:17:44	keveloper	Is just a div with background: rgba(0,0,0,.26);
+2017-07-31 16:17:48	keveloper	To make the background image darker
+2017-07-31 16:19:58	theseb	keveloper: how fix safari?
+2017-07-31 16:21:36	keveloper	Are you going the body route or the existing route
+2017-07-31 16:22:17	theseb	since it is easier to do it the old way of editing .bg-photo and it works i'm tempted to just leave it like that.....that is least amount of mods i need to do no?
+2017-07-31 16:22:43	keveloper	Yeah but the other way gets rid of 4 unnecessary divs :P
+2017-07-31 16:22:48	keveloper	That's fine though if you want to do it this way
+2017-07-31 16:22:52	keveloper	just add position: fixed; height: 100%; to .bg-photo-container
+2017-07-31 16:23:00	keveloper	and the same thing to .bg-photo-overlay
+2017-07-31 16:24:39	theseb	done
+2017-07-31 16:25:09	theseb	thank again for all the help..that was amazing
+2017-07-31 16:25:26	theseb	still sad safari doesn't work but at least FF and Chrome do
+2017-07-31 16:25:38	keveloper	looks good in all browsers
+2017-07-31 16:25:41	theseb	it must be so frustrating to be web dev and browsers don't all act the same
+2017-07-31 16:25:43	keveloper	Safari is good now
+2017-07-31 16:25:49	theseb	really!? yes!
+2017-07-31 16:26:02	keveloper	Yeah the fixed and 100% height fixed it
+2017-07-31 16:26:10	keveloper	It was because the parent container was smaller than the image
+2017-07-31 16:26:12	keveloper	But it's good now
+2017-07-31 16:26:22	keveloper	And yes it's annoying lol
+2017-07-31 16:27:28	keveloper	The more posts thing is kinda hard to see at the end
+2017-07-31 16:34:24	theseb	i agree
+2017-07-31 16:34:49	keveloper	I have a suggestion if you want lol
+2017-07-31 16:35:27	theseb	yes please
+2017-07-31 16:35:58	theseb	also the archive links from upper left link (3 horizontal lines) is hard to read and doesn't show all blog entry titles
+2017-07-31 16:36:56	keveloper	https://pastebin.com/j03D9M1G
+2017-07-31 16:37:05	keveloper	Replace those selectors in the css with what I have
+2017-07-31 16:37:23	keveloper	and it will look like this: http://imgur.com/a/5NJYO
+2017-07-31 16:38:51	keveloper	Seems easy to read for me (on chrome). Also making it show blog entry titles would be a blogger theme change that is beyond me (I've never used blogger)
+2017-07-31 16:48:19	theseb	ok..just a sec
+2017-07-31 17:52:04	theseb	all done and looks great!
+2017-07-31 17:52:17	theseb	best wishes to you...must go rest now ;)
+2017-07-31 17:52:20	<--	theseb (~user@96-91-58-241-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)

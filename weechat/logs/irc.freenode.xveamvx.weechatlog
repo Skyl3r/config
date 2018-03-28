@@ -1,0 +1,185 @@
+2017-04-10 14:17:29	keveloper	i actually left work early because of stomach issues so i can be on if you wanna play soon
+2017-04-10 14:17:29	--	[xveamvx] is away: Auto-away
+2017-04-10 14:41:51	xveamvx	Rip kk.
+2017-04-10 14:42:08	xveamvx	I might be better off if I do it tonight because my shit isnt plugged
+2017-04-10 14:42:14	xveamvx	Just got back from spring break
+2017-04-10 14:55:22	keveloper	whenever
+2017-04-10 14:55:26	keveloper	i'll probably be on tonight aslso
+2017-04-10 14:59:01	xveamvx	Kk
+2017-04-10 21:30:42	xveamvx	ayy
+2017-04-10 22:09:28	xveamvx	b
+2017-04-11 03:32:25	<--	xveamvx (uid157194@gateway/web/irccloud.com/x-pcihiezgumlhhpxu) has quit (Quit: Connection closed for inactivity)
+2017-04-11 13:41:07	-->	xveamvx (uid157194@gateway/web/irccloud.com/x-uhkyfgasddagzpec) is back on server
+2017-04-12 05:02:26	<--	xveamvx (uid157194@gateway/web/irccloud.com/x-uhkyfgasddagzpec) has quit (Quit: Connection closed for inactivity)
+2017-04-18 22:51:05	xveamvx	hey
+2017-04-19 14:44:22	xveamvx	you just leaked your whole name
+2017-04-19 14:44:31	xveamvx	with those g photos links
+2017-04-19 14:44:42	keveloper	i know
+2017-04-19 14:44:46	xveamvx	kk
+2017-04-19 14:44:52	xveamvx	just wanted to let you know
+2017-04-19 14:44:53	keveloper	i've refd my full name on irc a bunch
+2017-04-19 14:45:00	keveloper	its freenode im safe ¯\_(ツ)_/¯
+2017-04-19 14:45:02	xveamvx	oh lol
+2017-04-19 14:45:05	xveamvx	:P
+2017-04-19 14:45:33	keveloper	i link codepens and projects in other channels all the time and they have my full name its we
+2017-04-19 14:45:34	keveloper	w/e
+2017-04-19 14:45:43	xveamvx	kk
+2017-04-19 19:33:55	keveloper	asteria.duckdns.org
+2017-04-19 21:04:16	xveamvx	https://discord.gg/9GayY
+2017-04-19 21:06:20	keveloper	ls -l ~/.config/pianobar
+2017-04-19 21:06:58	xveamvx	total 0
+2017-04-19 21:06:58	xveamvx	lrwxrwxrwx 1 pi pi 30 Mar 16 17:57 config -> ../../Python-WiFi-Radio/config
+2017-04-19 21:07:40	keveloper	cd ~/.config/pianobar
+2017-04-19 21:08:27	keveloper	ln -s ../../Python-WiFi-Radio/config .
+2017-04-19 21:08:29	keveloper	ln -s ../../Python-WiFi-Radio/config .
+2017-04-19 21:09:17	keveloper	rm config
+2017-04-19 21:09:37	keveloper	cd
+2017-04-19 21:10:00	keveloper	ln -s Python-WiFi-Radio/config .config/pianobar
+2017-04-19 21:11:31	keveloper	nano .confg/pianobar/config
+2017-04-19 21:11:45	keveloper	nano .confg/pianobar
+2017-04-19 21:12:44	keveloper	ls .config/pianobar
+2017-04-19 21:13:09	keveloper	nano config
+2017-04-19 21:13:51	keveloper	https://github.com/adafruit/Python-WiFi-Radio/blob/master/config
+2017-04-19 21:16:12	keveloper	 sudo amixer cset numid=3 1
+2017-04-19 21:16:23	keveloper	pianobar
+2017-04-19 21:17:22	keveloper	wget https://raw.githubusercontent.com/adafruit/Python-WiFi-Radio/master/config
+2017-04-19 21:18:09	keveloper	pwd
+2017-04-19 21:18:11	keveloper	~
+2017-04-19 21:18:38	keveloper	cd .config/pianobar
+2017-04-19 21:19:05	keveloper	ls
+2017-04-19 21:20:12	keveloper	rm -r config
+2017-04-19 21:20:23	keveloper	nano config
+2017-04-19 21:20:27	keveloper	https://raw.githubusercontent.com/adafruit/Python-WiFi-Radio/master/config
+2017-04-19 21:22:32	keveloper	make
+2017-04-19 21:23:01	keveloper	~/piano
+2017-04-19 21:23:03	keveloper	~/pianobar
+2017-04-19 21:24:17	xveamvx	bluecamaro1970
+2017-04-19 21:25:29	keveloper	kevinholland94
+2017-04-19 21:27:43	keveloper	cd
+2017-04-19 21:29:44	xveamvx	https://puu.sh/vpV3X/d0d236a007.png
+2017-04-19 21:31:08	keveloper	cd Python-WiFi-Radio
+2017-04-19 21:31:08	keveloper	ln -s ../Adafruit-Raspberry-Pi-Python-Code/Adafruit_CharLCDPlate/*.py .
+2017-04-19 21:31:50	keveloper	cd
+2017-04-19 21:31:52	keveloper	ls
+2017-04-19 21:32:45	keveloper	ls ~
+2017-04-19 21:33:03	xveamvx	https://usercontent.irccloud-cdn.com/file/XDz1SoLj/
+2017-04-19 21:34:18	keveloper	cd ~/Python-WiFi-Radio
+2017-04-19 21:34:19	keveloper	ls
+2017-04-19 21:34:43	xveamvx	https://puu.sh/vpVk6/d7cc55093e.png
+2017-04-19 21:36:06	keveloper	cd ~/pianobar
+2017-04-19 21:36:07	keveloper	ls
+2017-04-19 21:36:30	xveamvx	ChangeLog  contrib  COPYING  INSTALL  Makefile  README.md  src
+2017-04-19 21:37:01	keveloper	make
+2017-04-19 21:37:13	xveamvx	https://puu.sh/vpVrK/192a4d9acb.png
+2017-04-19 21:45:31	keveloper	sudo apt-get update
+2017-04-19 21:46:57	keveloper	sudo apt-get install git i2c-tools python-pexpect python-smbus libavfilter-dev libavformat-dev libcurl4-gnutls-dev libgcrypt-dev libjson0-dev libao-dev
+2017-04-19 21:49:27	keveloper	cd ~/pianobar
+2017-04-19 21:49:28	keveloper	make
+2017-04-19 22:00:40	keveloper	git checkout e945578; make;
+2017-04-19 22:51:37	keveloper	sup
+2017-04-19 22:51:55	keveloper	does it work
+2017-04-19 22:53:06	xveamvx	I'm stuck on the last part
+2017-04-19 22:53:40	xveamvx	It's confusing
+2017-04-19 22:55:25	keveloper	oh so did my thing fix it
+2017-04-19 22:55:39	xveamvx	Yup
+2017-04-19 22:55:42	xveamvx	Listened to music
+2017-04-19 23:14:37	keveloper	dope
+2017-04-19 23:16:05	xveamvx	Cans you helps with the last part
+2017-04-20 06:12:25	<--	xveamvx (uid157194@gateway/web/irccloud.com/x-mqqspiqhxmzfjkfi) has quit (Quit: Connection closed for inactivity)
+2017-04-20 10:34:52	keveloper	sorry just saw this
+2017-04-20 10:34:52	--	xveamvx: No such nick/channel
+2017-04-21 15:58:14	xveamvx	reop me
+2017-04-21 15:58:35	xveamvx	pls
+2017-04-21 15:58:45	xveamvx	zekkin is being a complete douche
+2017-04-21 16:01:31	keveloper	sup m8
+2017-04-21 16:01:33	keveloper	why
+2017-04-21 16:01:35	keveloper	whats happening
+2017-04-21 16:01:41	xveamvx	he is being a douche
+2017-04-21 16:01:45	xveamvx	he gave it back to me
+2017-04-21 16:01:55	xveamvx	but I'm tempted to ban him by ip
+2017-04-21 16:02:24	xveamvx	he bitched at me for changing the topic
+2017-04-21 16:02:30	xveamvx	in my channel
+2017-05-17 12:39:00	keveloper	https://www.coinbase.com/join/591c78c8dd52620e23a07356
+2017-05-30 15:56:33	xveamvx	what did I miss lol
+2017-05-30 15:56:44	keveloper	in beyblades?
+2017-05-30 15:56:53	xveamvx	ya lol
+2017-05-30 15:56:58	keveloper	idk arij has been annoying all day
+2017-05-30 15:57:12	xveamvx	that's p normal
+2017-05-30 15:57:12	keveloper	i said something about my internet being 32mbps down and $50 a month or something
+2017-05-30 15:57:16	xveamvx	must have been worse
+2017-05-30 15:57:23	xveamvx	oh
+2017-05-30 15:57:26	keveloper	then he was like humble bragging about his free internet that is 1gbps
+2017-05-30 15:57:28	xveamvx	he told you about his gigabit shit
+2017-05-30 15:57:31	keveloper	and iw as like oh wow
+2017-05-30 15:57:41	keveloper	and zekkin made a joke about him humble bragging
+2017-05-30 15:57:45	keveloper	then arij got all pissy
+2017-05-30 15:58:02	xveamvx	zekkin is such a pos
+2017-05-30 15:58:06	keveloper	then more stuff about him feeling better about himself because he thinks he actually worked for his money lol
+2017-05-30 15:58:07	xveamvx	I truly hate him
+2017-05-30 15:58:10	keveloper	we called him lucky
+2017-05-30 15:58:12	keveloper	and he got mad
+2017-05-30 15:58:19	xveamvx	ya
+2017-05-30 15:58:24	xveamvx	that's p normal for him
+2017-05-30 15:58:34	keveloper	typical arij being sensitive idk
+2017-05-30 15:58:40	keveloper	then people not knowing how to deal with annoying people
+2017-05-30 15:58:44	keveloper	uh idk ignore it? jfc
+2017-05-30 15:58:47	keveloper	liek just tab out
+2017-05-30 15:58:51	xveamvx	kek
+2017-05-30 15:58:53	keveloper	come back in 10
+2017-05-30 15:58:55	keveloper	nobody cares
+2017-05-30 15:58:55	xveamvx	best meme
+2017-05-30 15:59:01	keveloper	zekkin makes some big thing about it
+2017-05-30 15:59:04	keveloper	abby acts like a mom
+2017-05-30 15:59:12	xveamvx	sounds baout right
+2017-05-30 15:59:13	keveloper	im like 'k how old are you guys ignore it and go work or something'
+2017-05-30 15:59:14	xveamvx	about*
+2017-05-30 15:59:36	keveloper	then me and cdsboy ahve a nice convo about cars as arij kinda yells in the background for a while
+2017-05-30 15:59:37	xveamvx	you wanna play some RL today?
+2017-05-30 15:59:41	keveloper	then zekkin gets mad
+2017-05-30 15:59:48	keveloper	idk if i'll be home all day
+2017-05-30 15:59:55	xveamvx	rip
+2017-05-30 15:59:55	keveloper	i think im with emily all day then just sleeping at her apt then going to work
+2017-05-30 15:59:58	keveloper	i know
+2017-05-30 16:00:04	keveloper	i haven't been playing very muich recentl2017-08-14 21:02:23	xveamvx	hi
+2017-08-14 21:08:55	keveloper	hi
+2017-08-14 21:09:03	xveamvx	wassup
+2017-08-15 02:33:13	<--	xveamvx (uid157194@gateway/web/irccloud.com/x-kenhqmugvkphhzsh) has quit (Quit: Connection closed for inactivity)
+2017-10-19 12:14:02	keveloper	hi
+2017-10-19 12:14:02	--	[xveamvx] is away: Auto-away
+2017-10-19 12:14:05	keveloper	com ebac
+2017-10-19 12:14:26	keveloper	hi
+2017-10-19 12:15:26	xveamvx	Wassup
+2017-10-19 12:15:34	keveloper	will you be on
+2017-10-19 12:15:36	keveloper	i think im leaving work
+2017-10-19 12:15:48	xveamvx	Why?
+2017-10-19 12:15:54	xveamvx	I have to go to school
+2017-10-19 12:15:59	keveloper	cause im tired and dont feel good lol
+2017-10-19 12:16:04	xveamvx	Rip
+2017-10-19 12:16:08	keveloper	when are you going to class
+2017-10-19 12:16:12	keveloper	rip i wanna play
+2017-10-19 12:16:18	xveamvx	In like 15 minutes
+2017-10-19 12:16:28	keveloper	when you get back
+2017-10-19 12:16:29	keveloper	rip no
+2017-10-19 12:16:43	xveamvx	Like 3 if I go soon
+2017-10-19 12:16:47	xveamvx	Go home
+2017-10-19 12:16:59	xveamvx	Take a nap wake up to my call on discord lol
+2017-10-19 14:31:49	<--	xveamvx (uid157194@gateway/web/irccloud.com/x-urmijwcvmhuzjiij) has quit (Quit: Connection closed for inactivity)
+2017-10-19 15:13:19	keveloper	vem
+2017-10-19 15:13:19	--	xveamvx: No such nick/channel
+2017-10-19 15:13:19	keveloper	mvem
+2017-10-19 15:13:20	keveloper	vme
+2017-10-19 15:13:20	keveloper	vme
+2017-10-19 15:13:21	--	xveamvx: No such nick/channel
+2017-10-19 15:13:23	--	xveamvx: No such nick/channel
+2017-10-19 15:13:25	--	xveamvx: No such nick/channel
+2017-10-19 15:30:16	-->	xveamvx (uid157194@gateway/web/irccloud.com/x-capkmkgqulgfzuja) is back on server
+2017-10-19 15:36:05	keveloper	hey
+2017-10-19 15:36:06	keveloper	yo
+2017-10-19 15:36:07	keveloper	you back
+2017-10-19 15:36:09	keveloper	get on
+2017-10-19 15:36:12	xveamvx	sup 
+2017-10-19 15:36:17	xveamvx	I'm studying
+2017-10-19 15:36:18	xveamvx	lol
+2017-10-19 15:36:23	xveamvx	discord?
+2017-10-19 15:36:44	xveamvx	echo I am bored `cal`
+2017-10-20 02:20:02	<--	xveamvx (uid157194@gateway/web/irccloud.com/x-capkmkgqulgfzuja) has quit (Quit: Connection closed for inactivity)
